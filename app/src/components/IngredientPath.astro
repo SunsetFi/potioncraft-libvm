@@ -1,0 +1,49 @@
+---
+import { svgPathBbox } from "svg-path-bbox";
+
+interface Props {
+  path: string;
+  size: number;
+  icon?: string;
+}
+
+const { path, size, icon } = Astro.props;
+
+let [x1, y1, x2, y2] = svgPathBbox(path);
+
+let potionBottleRadius = 0.74;
+// Smuge it out for the icon.
+if (icon) {
+  potionBottleRadius *= 3;
+}
+
+x1 -= potionBottleRadius;
+x2 += potionBottleRadius;
+y1 -= potionBottleRadius;
+y2 += potionBottleRadius;
+
+const width = x2 - x1;
+const height = y2 - y1;
+const scaleFactor = Math.max(width / size, height / size);
+---
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  viewBox={`${x1} ${y1} ${width} ${height}`}
+  transform="scale(1, -1)"
+>
+  <path d={path} stroke="red" stroke-width={2 * scaleFactor} fill="none"></path>
+  {
+    icon && (
+      <image
+        href={icon}
+        width={40 * scaleFactor}
+        height={40 * scaleFactor}
+        x={-20 * scaleFactor}
+        y={-20 * scaleFactor}
+      />
+    )
+  }
+</svg>

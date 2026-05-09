@@ -3,7 +3,7 @@ import { z } from "astro/zod";
 import { glob } from "astro/loaders";
 
 export const ingredientsCollection = defineCollection({
-  loader: glob({ pattern: "**/*.md", base: "./src/ingredients" }),
+  loader: glob({ pattern: "**/*.md", base: "./src/content/ingredients" }),
   schema: ({ image }) =>
     z.object({
       id: z.string(),

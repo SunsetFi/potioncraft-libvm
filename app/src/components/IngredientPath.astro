@@ -38,6 +38,7 @@ const scaleFactor = Math.max(width / size, height / size);
   {
     icon && (
       <image
+        transform="scale(1, -1)"
         href={icon}
         width={40 * scaleFactor}
         height={40 * scaleFactor}

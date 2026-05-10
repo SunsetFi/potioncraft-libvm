@@ -1,0 +1,56 @@
+---
+interface Props {
+  id?: string;
+  collapsed?: boolean;
+  title: string;
+}
+
+const { id, collapsed = true, title } = Astro.props;
+---
+
+<div class="expandable-content" id={id}>
+  <h3 class="expandable-title" data-collapsed={collapsed ? "true" : "false"}>
+    <span class="expandable-icon">{collapsed ? "▶" : "▼"}</span>
+    {title}
+  </h3>
+  <div class="expandable-body" style={collapsed ? "display: none;" : ""}>
+    <slot />
+  </div>
+</div>
+
+<script>
+  document
+    .querySelectorAll<HTMLElement>(".expandable-title")
+    .forEach((title) => {
+      title.addEventListener("click", () => {
+        const body = title.nextElementSibling as HTMLElement;
+        const icon = title.querySelector(".expandable-icon") as HTMLElement;
+        const isCollapsed = title.dataset.collapsed === "true";
+
+        if (isCollapsed) {
+          body.style.display = "";
+          icon.textContent = "▼";
+          title.dataset.collapsed = "false";
+        } else {
+          body.style.display = "none";
+          icon.textContent = "▶";
+          title.dataset.collapsed = "true";
+        }
+      });
+    });
+</script>
+
+<style>
+  .expandable-title {
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+  }
+
+  .expandable-icon {
+    font-size: 0.7em;
+    margin-left: -1.4em;
+  }
+</style>

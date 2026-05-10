@@ -5,11 +5,9 @@ import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 
 import { resolveEffectIcon } from "../../content/effects/resolve-effect-icon";
 import { getRecipesByEffect } from "../../content/recipes/recipes-by-effect";
-import EffectList from "../../components/EffectList.astro";
-import IngredientList from "../../components/IngredientList.astro";
-import { base } from "astro:config/client";
-import RecipeTagsList from "../../components/RecipeTagsList.astro";
+
 import RecipesTable from "../../components/RecipesTable.astro";
+import ExpandableContent from "../../components/ExpandableContent.astro";
 
 export async function getStaticPaths() {
   const effects = await getCollection("effects");
@@ -35,7 +33,10 @@ const [{ Content }, resolvedIcon, recipes] = await Promise.all([
     title: name,
     description: `The ${name} effect.`,
   }}
-  headings={[{ depth: 2, slug: "recipes", text: "Recipes" }]}
+  headings={[
+    { depth: 2, slug: "recipes", text: "Recipes" },
+    { depth: 2, slug: "effect-recipes", text: "Recipes" },
+  ]}
 >
   <div class="effect-layout">
     <aside class="effect-infobox">
@@ -55,8 +56,13 @@ const [{ Content }, resolvedIcon, recipes] = await Promise.all([
     <div class="effect-body">
       <Content />
       {effect.body != null ? <hr /> : null}
-      <h3>Recipes</h3>
-      <RecipesTable recipes={recipes} />
+      <ExpandableContent
+        id="effect-recipes"
+        title="Recipes using this Effect"
+        collapsed={true}
+      >
+        <RecipesTable recipes={recipes} />
+      </ExpandableContent>
     </div>
   </div>
 </StarlightPage>

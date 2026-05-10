@@ -8,6 +8,7 @@ import { resolveIngredientIcon } from "../../content/ingredients/resolve-ingredi
 import IngredientPath from "../../components/IngredientPath.astro";
 import { getRecipesByIngredient } from "../../content/recipes/recipes-by-ingredient";
 import RecipesTable from "../../components/RecipesTable.astro";
+import ExpandableContent from "../../components/ExpandableContent.astro";
 
 export async function getStaticPaths() {
   const ingredients = await getCollection("ingredients");
@@ -34,7 +35,11 @@ const [{ Content }, resolvedIcon, recipes] = await Promise.all([
     title: name,
     description: `The ${name} ingredient.`,
   }}
-  headings={[{ depth: 2, slug: "svg-path", text: "SVG Path" }]}
+  headings={[
+    { depth: 2, slug: "path", text: "Path" },
+    { depth: 2, slug: "svg-path", text: "SVG Path" },
+    { depth: 2, slug: "ingredient-recipes", text: "Recipes" },
+  ]}
 >
   <div class="ingredient-layout">
     <aside class="ingredient-infobox">
@@ -58,10 +63,16 @@ const [{ Content }, resolvedIcon, recipes] = await Promise.all([
       <div class="ingredient-path-preview">
         <IngredientPath path={path} size={200} icon={resolvedIcon?.src} />
       </div>
-      <h4 id="svg-path">SVG Path</h4>
-      <Code wrap code={path} />
-      <h3 id="recipes">Recipes</h3>
-      <RecipesTable recipes={recipes} />
+      <ExpandableContent id="svg-path" title="SVG Path" collapsed={true}>
+        <Code wrap code={path} />
+      </ExpandableContent>
+      <ExpandableContent
+        id="ingredient-recipes"
+        title="Recipes using this Ingredient"
+        collapsed={true}
+      >
+        <RecipesTable recipes={recipes} />
+      </ExpandableContent>
     </div>
   </div>
 </StarlightPage>

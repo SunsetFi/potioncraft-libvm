@@ -13,13 +13,6 @@
   "author": "SunsetFi",
   "license": "ISC",
   "packageManager": "pnpm@11.0.9",
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "^11.0.9",
-      "onFail": "download"
-    }
-  },
   "type": "module",
   "devDependencies": {
     "husky": "^9.1.7",

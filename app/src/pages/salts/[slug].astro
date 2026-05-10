@@ -53,11 +53,7 @@ const [{ Content }, resolvedIcon, recipes] = await Promise.all([
     <div class="salt-body">
       <Content />
       {salt.body != null ? <hr /> : null}
-      <ExpandableContent
-        id="salt-recipes"
-        title="Recipes using this Salt"
-        collapsed={true}
-      >
+      <ExpandableContent id="salt-recipes" title="Recipes using this Salt">
         <RecipesTable recipes={recipes} />
       </ExpandableContent>
     </div>

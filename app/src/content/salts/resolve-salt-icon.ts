@@ -1,8 +1,6 @@
 import { resolveSalt } from "./resolve-salt";
 
-const saltIconModules = import.meta.glob<{ default: ImageMetadata }>(
-  "./_/*/icon.png",
-);
+const saltIconModules = import.meta.glob<{ default: ImageMetadata }>("./_/*/icon.png");
 
 export async function resolveSaltIcon(id: string) {
   const salt = await resolveSalt(id);

@@ -61,7 +61,7 @@ const [{ Content }, resolvedIcon, recipes] = await Promise.all([
       {ingredient.body != null ? <hr /> : null}
       <h3 id="path">Path</h3>
       <div class="ingredient-path-preview">
-        <IngredientPath path={path} size={200} icon={resolvedIcon?.src} />
+        <IngredientPath size={200} ingredient={ingredient} />
       </div>
       <ExpandableContent id="svg-path" title="SVG Path" collapsed={true}>
         <Code wrap code={path} />

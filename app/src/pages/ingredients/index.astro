@@ -1,0 +1,58 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+import { resolveIngredients } from "../../content/ingredients/resolve-ingredient";
+import IngredientPath from "../../components/IngredientPath.astro";
+
+const ingredients = await resolveIngredients();
+---
+
+<StarlightPage
+  frontmatter={{
+    title: "Ingredients",
+    description: `A list of all ingredients.`,
+  }}
+>
+  <div class="ingredients-layout">
+    {
+      ingredients.map((ingredient) => (
+        <div class="ingredients-item">
+          <h5 class="ingredients-item-name">
+            <a href={`/ingredients/${ingredient.id}/`}>
+              {ingredient.data.name}
+            </a>
+          </h5>
+          <div class="ingredients-item-path">
+            <IngredientPath size={100} ingredient={ingredient} />
+          </div>
+        </div>
+      ))
+    }
+  </div>
+</StarlightPage>
+<style>
+  .ingredients-layout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .ingredients-item {
+    border: 1px solid var(--sl-color-hairline);
+    border-radius: 0.5rem;
+    padding: 18px;
+    margin: 4px;
+    width: 180px;
+    height: 200px;
+  }
+
+  .ingredients-item-name {
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+
+  .ingredients-item-path {
+    display: flex;
+    justify-content: center;
+  }
+</style>

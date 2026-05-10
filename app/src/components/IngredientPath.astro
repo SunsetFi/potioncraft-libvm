@@ -1,13 +1,17 @@
 ---
+import type { CollectionEntry } from "astro:content";
 import { svgPathBbox } from "svg-path-bbox";
+import { resolveIngredientIcon } from "../content/ingredients/resolve-ingredient-icon";
 
 interface Props {
-  path: string;
+  ingredient: CollectionEntry<"ingredients">;
   size: number;
   icon?: string;
 }
 
-const { path, size, icon } = Astro.props;
+const { ingredient, size } = Astro.props;
+const { path } = ingredient.data;
+const icon = await resolveIngredientIcon(ingredient.id);
 
 let [x1, y1, x2, y2] = svgPathBbox(path);
 
@@ -39,7 +43,7 @@ const scaleFactor = Math.max(width / size, height / size);
     icon && (
       <image
         transform="scale(1, -1)"
-        href={icon}
+        href={icon.src}
         width={40 * scaleFactor}
         height={40 * scaleFactor}
         x={-20 * scaleFactor}

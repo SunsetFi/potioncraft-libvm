@@ -1,0 +1,25 @@
+---
+name: tn5sJBFraFexrWeztbwqbuF6NmabPqz3Wtcv7XDYe55
+datastring: AXic7VlNj9owEP0vORMrtvNBOG4PaNUeULvtperBImY3aoipY1jQav97DRyqLBqvx8myrdQLCGLPsz2e5_ecp6gSRnTS3FbRLCrm8ht_zPnHr4syn_Nf87v9Z3YTTaKNMrVqb2zDU7tHYaQ-_t0oc2vkuotm358ic9hI-1BUVayVEccecScaYxuevmZRt23tj3st6tZ24TybRDupO9swmtHnSS9E3d5rWdWyPfb_8-OEv3gQrVHrLz9rbU4B67ZaSL08Np5RIOhGbXXcqWZ3DlnVnRHt0j4pgA6dqXW8FNum0qrt9Uj-inHTBBoHPPKMMMfYvdJW4FETwvOhsJSH4KZDYbOg2XKg04MUJt4pbeTekUp2rfWhCSneZ4WS6VBYcLqvFeFci52809vVqpHeRRjGBV4TSSFMaLMwYKuARJEQCmUZwuhXjidKgt32YSgQg_2Lc7lOXq6DAlH8uCjQaT0qylgl6aJAClEgfiZOph1vI_-HeX8YHgDDoJoBK4CRshxNwjj1BwTjKE5o0fylQ4hQmmKJh0LLIU28UV19HKbtsD9JiIP99Jk9xLGXQWN-Dsu84lIyxR4SlOTohKOzjS2QAsv1ISaKgyZqVBhKh5s1lkAeG8ZNCcNKLLd_Gd0Su_xtCu0xx5qtlepZqRTPEAUJcDQvcdGojCRYng5wDwxLDZxA5OfvigLs7Cg5gObqooMAD_0SloLM7rrLwUrINzmTOClBkrmIm54Dx8yPNkmKdRWMBOzwHK_F0SeNFS7YOsLbigK0Lv4XSWnIhc7w-z1QDDtPyAKtU9-iBChI3RdRs_JcALQcdK46qjGEwUCZ4CjNDFIJjoSh9R_B6xdrraFOV90UliPAVwt-vDim10rJFEtyeH1PQT-HOPgD73U_1Sv5QR_sUBpvIelvGQNeEoFb1xu17FfYj-ffvBYu_A..
+base: water
+effects:
+  Charm: 1
+  Libido: 1
+  Fire: 1
+  Healing: 1
+  Fragrance: 1
+ingredients:
+  PhantomSkirt: 3
+  GraveTruffle: 1
+  LifeCrystal: 1
+salts:
+  sun: 16
+  moon: 4
+  life: 0.41624242142956974
+cost: 1230.7561406025725
+stress: 3.3166247903554
+tags:
+  - full-grind
+  - hot
+hash: tn5sJBFraFexrWeztbwqbuF6NmabPqz3Wtcv7XDYe55
+---

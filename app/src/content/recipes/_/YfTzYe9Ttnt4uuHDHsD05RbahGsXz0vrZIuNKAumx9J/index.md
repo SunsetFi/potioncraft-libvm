@@ -1,0 +1,19 @@
+---
+name: YfTzYe9Ttnt4uuHDHsD05RbahGsXz0vrZIuNKAumx9J
+datastring: AXic3Vg9b9swEP0vmu0DvySKHtugaIYCWYIWKDrIFuEKcCSDYtwGQf57mXSoNTzBlKVKiDabPN69x7t3JJ-TsvBFa_1tmWwS8e1Obz9W-3vbbJ34fOO3X-_dp2SVHBtfNfWHMPFt3q_CW_f696Hxt94-tMnm-3Pin442DBZlua7qvbNlZWsfZv378Wb8pdjbrXXuKQztXVWXd9btXmduGKlVcrKuDb6SDX9ZLXZNlqYTrCoyyc4_DXy0vnLrXfF4KF0YWiVl1fqi3oUhockAo5-28OtT47z93THhebQXRVmsE02aT8BYahBcHL0mjlLi2Dy6ddscTn8DOYufhDyzYRc5YoQ2ENEkyEyRV6lB-4WD54oYsoI0SeJZNE3BEUpB6EhQCvz8d56wwPTQZNQAmjiqoJ607VTdWDxJWMu9PHGU2zB-RWIAT0LE8yTjy1sQQ-JzDbkZj1UNBTW_t7wRS9cEnyu0Kgpek4qP3pBGkjFim4uvtzyUxgT1ZmS8LoVQolU1lAHSpevCD2367Is_1QTtQFY9YFQ-H5hZ-eKGxIDN50hs5wWTkxkARiwykweCYTNm8uhg5BRHt7nA8EWCUTns7hAL6-JnF_RURalcov6pbhu-5HiQURbfYyXpAUfaFCkTik122_KFuxm7meGugEh77_1ShDoe8UVgbh1T0ToWrnRmoWDglbxPyKa49I5xKuPRYN4PErbUgtFkkPD1yWv8Q5cQJGL7Es_ww2nP-5LuXkN_vPwBNvPg3Q..
+base: water
+effects:
+  Mana: 1
+  Hallucinations: 1
+  Inspiration: 1
+ingredients:
+  Mageberry: 27
+salts: {}
+cost: 2052
+stress: 27
+tags:
+  - lowlander
+  - dull
+  - hot
+hash: YfTzYe9Ttnt4uuHDHsD05RbahGsXz0vrZIuNKAumx9J
+---

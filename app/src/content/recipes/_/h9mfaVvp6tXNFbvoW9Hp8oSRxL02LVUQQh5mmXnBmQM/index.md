@@ -1,0 +1,18 @@
+---
+name: h9mfaVvp6tXNFbvoW9Hp8oSRxL02LVUQQh5mmXnBmQM
+datastring: AXicvZU9b8IwEIb_i-fklNiJYzOyRKgL6tdSdbCwBVZDTB1DqRD_vYZKpQxX4aJ2i3N3fpz39V12RKugBhMmmoxI05pH9sbZzcNU8pa9tvfbWzomGVm5YF0_jonHPGe7w8vOhUkwy4GMnnYkvK9MDCmtc9vPvdHW9CFmnRbH0ulC9cEt716sP0Tn3vZ6avzskDwqM7Ixfoio-LzPvjYdgvX5TK077WMoI9oOQfWzGCqgYUjRyq19Prhu83mOU02dTGmAcaRoYVTIN84Hsz0r4dB859BLOTSRU0qoJAK6youobCOSlSorKDAXsU9ogItkqSIH8xHj1FAmYyiwKhFDOXD6V45gl_3ajaVMtprWIFIt4CD4LzyQyT1ennfFRb6BwBoJxRQgsKOhDQsFJsEPmDpV6QrK9PkjIFU0CTQdwyB1yqGQf_7d1BQfb6h7FKrzQfq8_wA-43y2
+base: oil
+effects:
+  Light: 1
+  Enlargement: 3
+ingredients:
+  PhantomSkirt: 5
+salts: {}
+cost: 720
+stress: 5
+tags:
+  - lowlander
+  - dull
+  - hot
+hash: h9mfaVvp6tXNFbvoW9Hp8oSRxL02LVUQQh5mmXnBmQM
+---

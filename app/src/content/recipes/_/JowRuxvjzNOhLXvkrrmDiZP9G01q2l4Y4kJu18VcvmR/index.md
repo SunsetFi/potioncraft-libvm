@@ -1,0 +1,24 @@
+---
+name: JowRuxvjzNOhLXvkrrmDiZP9G01q2l4Y4kJu18VcvmR
+datastring: AXicxVhNT9wwEP0vObOj-CNOzJHLCvWCWtpL1UNEAkTdTajjXagQ_73OVqIFaaLnOBKnVTZ23tjzZubNPGdN7eux9ZdNdp6V2_abejTq09cra7bq1_b66bO8yM6yh8F3Q38RFp7WPda-ddPfu8Ff-nY_ZuffnzP_-6ENL-um2XT9nWubru19WPXv4bT56r7u_bD_8rNz09s71_XNVetupsXn4uXs9UOj79zmpj7sGjf0YWXTjb7ub8Krgow-y46tG4NVbzc9DAe3GYfd8S_265r8__0VaQjHkBQMzn1b-81xcL59emdablJMEyRKAEYqEorB4c-jKa-YTat5bfqQG3w9EWYz1rtp9eknGHboT1vrrg-MEUUOGS3IcieFsaTGsEoyRbTDC44jPI6iJP7mJA1GEs3ZhrtJLOCw1UuglIIuz5JKJoTN1-J-TmUZ8a2tq4_ttTvc3u7adeIIpLYQPBk4AqXHnbLx3K4qwLRpWVoIaQvB6EQYicFILu9AMKEaSDB2KpkCJClHypMhkwZTkrCL4rrEgkFTwWVg7kyCCu5Mc_dtYoNOSt5HMydKzvO6woCCZ5KxTIFh5WS5uIgoYDG5Hs7Pc8VdcP5juZWT4mTjnCvYTWAwC0hGkE5KTnlQSEixoXwBsfbD8EZCmBULu8oN5IeSqgXh987yCgwJwWcHvCxLyB9sTZqjJMuVGXolllhQMNikkgSyeAXBgJwmsGAFcYYVyzJ0G8n0Nhh_DCmuLuNYYCUryKafS2HqO6TaZCghsXRkSZTxUwuOtbPlJ6mLDXdSQPmBpTqaH7DALbnyA8IoRBmrNaYZ1bJw_9Bxj5bv22RoGzgkCrcfW3cEv2UOJzq2QuFZAsPFIw9TxCtIw29Cu2hQtlDF3Rs4UiosBKR5r4JJySKaWPB9HXhxRmFJKXFQqDBtpJO8E2AQRalXEC3Cgm2qoDJ-LluQTpcEBTbGDD1fld7cgi2Kih9si8QJm3iry-EjgaI0zTRllpiG3bXgZ0sxHdqPlz_u-ylH
+base: water
+effects:
+  Charm: 1
+  Libido: 1
+  Fire: 1
+  Fragrance: 1
+  AcidProtection: 1
+  Rejuvenation: 1
+ingredients:
+  PhantomSkirt: 5
+  GraveTruffle: 2
+salts:
+  sun: 22
+  moon: 7
+  life: 0.014997300939203047
+cost: 1606.3285966531648
+stress: 5.385164807134504
+tags:
+  - hot
+hash: JowRuxvjzNOhLXvkrrmDiZP9G01q2l4Y4kJu18VcvmR
+---

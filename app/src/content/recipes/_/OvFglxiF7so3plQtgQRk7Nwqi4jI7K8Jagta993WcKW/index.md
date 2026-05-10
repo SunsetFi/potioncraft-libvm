@@ -1,0 +1,18 @@
+---
+name: OvFglxiF7so3plQtgQRk7Nwqi4jI7K8Jagta993WcKW
+datastring: AXic5ZZNb4MwDIb_S85gkQTS0OO-pE7TVKnSLtMOEUk7KgZVSLuPqv99aXdYezBSEK0m7QbYzvPa2Jgt0cqp1riJJmNyO7dTs7yxqbx-_CqWdzN-_zQjEVk1rmzqK-93cHtXztj946pxE2feWjJ-3hL3uTLeqLSOy3phjS5N7bzX780h-KGcm8qoubcsbFnrqbHF3nFMI7IxtvUgf72L_uCBCQjKhj-Uixw5tHWljQu1rrT1pojosnWqLryJ5jBKj6LYUdSrUS7eNNaZj5MYJiHjSMyqWdu4barNj_gjEOQSUYdxKAhMWkdCwFhgPgmMgjEJZOEYKXtwOFbqjnSyHhyGFaGDE_56enF4Hw4NxmQYBm1qAekZPg595jiDJHgkGWQY6MLqU8hDxfPTRhpMfHjl_5XyszRMj36RIlw8H1w8NvzDKqeQho8UAxG6oDJ0Ci9YIAYydOExSMIXOAWKbWP8f2SELZWuRSSwqmIcDsnpaL7svgFu8cpi
+base: water
+effects:
+  Healing: 2
+  Strength: 1
+ingredients:
+  Lifeleaf: 11
+salts: {}
+cost: 264
+stress: 11
+tags:
+  - lowlander
+  - dull
+  - hot
+hash: OvFglxiF7so3plQtgQRk7Nwqi4jI7K8Jagta993WcKW
+---

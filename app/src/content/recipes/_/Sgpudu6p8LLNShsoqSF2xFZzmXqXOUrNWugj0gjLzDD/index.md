@@ -1,0 +1,24 @@
+---
+name: Sgpudu6p8LLNShsoqSF2xFZzmXqXOUrNWugj0gjLzDD
+datastring: AXic7VdNj9owEP0vORPLH_nkuBe06gXtbnuperCIdzcqxNQxLKvV_vc6VGpB6LlxgnLiAgR75k3Gb55nPqJKWtkqe19F8yhfqG_iLRNfvi7LbCF-LZ4OD_wumkVbbWvd3LmNx31v0irT_b3W9t6qTRvNv39E9n2r3KKsqrhuXoyqatVYt-vfw9F4-SobqzePP2vTrb6YuqmWyqy6zXM2i_bKtA7M_f6c_XXa2trEK7lbV8YtzaKqbq1sVm4pBRZdGEZb2QUet3LdYR2_nLNdcwSWdeMiZwkNBqUkGw3Ly2BYxkiSAKtXJW2818aqA8wPHxIoFxwFqmy81W3duXAGB5eXWfTuPk_2bPXOxK1e7_9w4SSFvZ2y7Og16-OVhyeIgQThyAktAjEoKSZBQYd9XRSRTwMzzcnwZBIYNkXSBMkQBbCqCJIXqMRhcIKIVARGV6LQxuiIIKjgb0pyU5KbkgyECZcRl-YiVBGczQAcylGb6DkbKD5XBhIUke3aSBTRzdNAkqzMQ6U-hc2ulww5soJA2bke9EVKKcodRGI0vOdPCAqudyudomHF93roau6NOmi-Yejy6w2LFOd_8-HCyL16Mrvn57W6mA8pydPRoxcPZ5kgeF4Lv0RHNTycMApHR-A4Lvq0L2dF0U9QUsJKRNBwHFyvpChHD_qQOD69TCjC9dy24WXOCM0HAOXQyAeV82BpdlBiSPryZMBbFWwIVJYjxfHQihfIyEsKVH_4Dp2gRgbcadxDO09dbbQ-LawBzEhIAkmIcpKcXYU9dYOFqhNsSMdotudsLtzG6cWQ2pclPz5_A63hM_M.
+base: water
+effects:
+  MagicalVision: 1
+  Dexterity: 1
+  Strength: 1
+  StoneSkin: 1
+  Swiftness: 1
+ingredients:
+  PhantomSkirt: 1
+  GraveTruffle: 1
+salts:
+  sun: 8
+  moon: 1
+  life: 1.6391484257330522
+cost: 403.9725440479089
+stress: 1.4142135623730951
+tags:
+  - highlander
+  - hot
+hash: Sgpudu6p8LLNShsoqSF2xFZzmXqXOUrNWugj0gjLzDD
+---

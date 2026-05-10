@@ -1,0 +1,19 @@
+---
+name: rCXIYTvgcuo2Kz9UppTkzLY0pgWFzdOZY9hJ94JuR5B
+datastring: AXic1VdNT-MwEP0vPrcjfyfucRchuHFBi4Q4pI3pRgpx5bjdXSH-Oy57gKw0KGOg0h4Te_w8M-_NjB9Z26Rm9OmyZSsmb66q9fdue-3DOsqLs7T-cR3P2YLtQurC8C1vfNn3q0k-Hn_3IV0m_zCy1e0jS392Pi82bbvshm30beeHlHe9frwYn_f7-_t1H8JDXtvGbmivfNwct644KLFgBx_HjMZW4mnxSafW_9Gp1eefigV1TF1cbpp938a8tGBtN6Zm2OQlBc4gRruwj8sx9Ie_t3i10SDf2vBZQFYBtxaB-umbtDyEmPzviVEFBjPBkQweWgzHgKGHToCSRBwBUpNxJEjhqEACqi_gFwfNSzhWYV5j99eg3-LIWTgaaozLOMEmVJ6HIwArCBiMFCAkgvOxdAhMH--o12LMwF2uwVG5biZRmhdZWSApB7qip1AApxaJow6_IofC0WuCmjo9T1KOLql_fJ5X41yBojS1Qgi8QnwoG1xjtfakfVnkCkiVQgW1KlFCTW3LuaDTtZ1xqA7JEmlzqMlcKgAhE5ZPEzoXR1BbWjaxZByN-3NS2hugtxlTMilYavpyB6SLi4MjT241GIwnaE_nJXOloQvf4hw-bXWUQH5LWJB0_WnyqJefLHSeKLAFc4_CdI7yRAH6ksAvVxU8ER2en_eGTE0GynPcNEN3T88r5qE6
+base: water
+effects:
+  Mana: 3
+  AntiMagic: 1
+ingredients:
+  Fluffbloom: 12
+salts:
+  life: 0.003720778502240247
+cost: 600.0046137653428
+stress: 12
+tags:
+  - lowlander
+  - immortal
+  - hot
+hash: rCXIYTvgcuo2Kz9UppTkzLY0pgWFzdOZY9hJ94JuR5B
+---

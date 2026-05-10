@@ -1,0 +1,19 @@
+---
+name: xrPfrKPDEx9cQcjJbMrCOIz5ZDJEQeF3pKyA4HJ3nmW
+datastring: AXiczVhNb8IwDP0vOZcobZJ-HdEkhHZB07bLtENFIlaJtV0aPibEf19gB-ghlTfTbr3ROH22n_0ScyCqsEWr7VyRnCQz_cx3Mb9_WmTxjH_MHvcP0ZQEpKltWVdTZ3i225WVPr1d13Zu9XtL8pcDsZ-NdmuFUpOyWhmtSl1ZZ3X5cd57Z4pVXS1002jjVlemrNRCm-XJOGdUsIRdPzwgW21ah07y8BjcCiaRw3xXCDHEh8NhvE25Lw2tLc1kWWzWyrilgKiytUW1dEsho7FnU1NvzKSt19tvXy421_sjGiUgIGeIwQFGE-OiCSkMJ6MJCoaBUBJcyjgQJMVlTGYj9HEP5RxZWDSSICBGM58YgIAk5TCgjDJfRNj0-gLwO8Op9HEC0wcYibi2Fc5JoNoNpLzMpwd9mc1Q3U1huhvSFEVgCMZBwkhYqcRevUJyKH1N1xPzIH3qux30lRJKw137gGAEluKY_12O3DmB8r6bpLGdpzGK4ZP0w4AEVpWAQjxq5wDLE5Yigb1iCliKkLeaFHb9G-ZE_HmFS2939u0ZdToDykQKy7sbNX4eMcfVHr_hZf0XIiZxU5MENug_qWh34OAGBtfDMCTclEh5DDyDUOyx7vgzPhkRKk2RO4GhYyJyoE4yIB8SVV4CSjzzyiyQeAnFwQWUAP-88Unomy7sZFsbq_dd0e3Yvx6_AHvbLno
+base: wine
+effects:
+  Libido: 2
+  Rage: 1
+ingredients:
+  DragonPepper: 18
+salts:
+  life: 3.896720793214225
+cost: 2035.231933783585
+stress: 18
+tags:
+  - lowlander
+  - immortal
+  - cold
+hash: xrPfrKPDEx9cQcjJbMrCOIz5ZDJEQeF3pKyA4HJ3nmW
+---

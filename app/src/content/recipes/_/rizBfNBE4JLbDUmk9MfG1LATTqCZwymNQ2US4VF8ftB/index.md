@@ -1,0 +1,18 @@
+---
+name: rizBfNBE4JLbDUmk9MfG1LATTqCZwymNQ2US4VF8ftB
+datastring: AXic3VhNb4JAEP0ve5YJuwvyceyHqTcvpk2aHlA2lsSCWVbbxvjfu9pDpckQZwVrepSd4THPx5sZtizPTFYrM85ZysTTJJrdFoupqmZaPNyZ2eNUj9iArSpTVOWNDTzEvWdG6f3lZWXGRr3VLH3eMvO5UvYwy3OvKBda5YUqjY36-XFIvt8obS-ocqR0aY8XuijzidLzfXTqQzBgNqK2eCzlu0Fn940j5Ma1KbQ3z9bLXFf7xLyoTVbO7ZE4ThFHKa8qM96m0kZ9NBLio3j_JAgJSe8YAQgiRkDG8IHKlbgABkcwztUS70ujdIlKIiVDukT7R4Cwd4HyjqTTIUKj6g7l2Y84ydIM0H91Va21V1fLzfdznOMJmLOhEDjrHYL8aR1nm5BwsKH-GRqSGSJDxOQG46Cli2BgZHXnp4I8VPj_3O9sFyMbnkOXQQfGFquQ0gFHOABxl4I4nTbA_OMapYRNi22cOFDCHYYi8AMH7ukT3i9lnFoR3fpsEr1RgKS3I5vkUJFMyEASBHU6liBDsuYCCDAtYDgRSGxbb91GqRtFDP7QAYdTV-sQkr6-PkSc7gJC4K8nunw1vV6cKDHUgnEcbIzpVMlhYyU-DUZAQhUYj3GxtBmhuJJ-kTgxiw1wre8U3SN8ulIsDvnTG3B6PRIiqkfw4Lfxv-y-AJiEJHw=
+base: water
+effects:
+  Healing: 1
+  Shrinking: 1
+ingredients:
+  EvergreenFern: 13
+salts: {}
+cost: 566.8000000000002
+stress: 13
+tags:
+  - lowlander
+  - dull
+  - hot
+hash: rizBfNBE4JLbDUmk9MfG1LATTqCZwymNQ2US4VF8ftB
+---

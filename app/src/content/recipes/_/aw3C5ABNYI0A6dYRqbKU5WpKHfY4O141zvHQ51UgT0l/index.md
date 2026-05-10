@@ -1,0 +1,19 @@
+---
+name: aw3C5ABNYI0A6dYRqbKU5WpKHfY4O141zvHQ51UgT0l
+datastring: AXic7VhNTwIxEP0vPcOkH7t0l5scTEyM8aAn42FDG9i47JJuQQ3xv1v1IJhMwyyyEpUbtNM3H2_mTdgwU_iitf7CsDEbTa6ySmXF7fncLRbNWS0fLp9mbMCWjS-behIuvt97LLx1bz9Xjb_wdtGy8d2G-eelDYeFMcOynjlrSlv7cOvzy7vxzXxVG-tu5mXrKxvOZ66szbV107frYz5ga-vaAMfG4mXwN58V_T7b-tINp8WqMi4cDZgJ5kU9DUdSQ64Qq7kt_HDdOG-fdmxEBiIhIynIUyJQAhwzieGMqPGkkGf90gd3X4PA6rFsVm7YNtX6w5OtAGDbff6T7ktQWCp_q_sSkhTx__cB_Vfk1ID-K7I7SwQGhI1_CVwfafqD4phQHvx0onS-_TkakBaYoPa-rXCQVG0Hvu293JN4mqzBHATGIhwogw5aL7FyxPKWYUaRgDTWfbHtJcN4GIuIvuWlkObkbTLVCBVi4wSLB2ecoKJwSKm8DiaKDqOwlsNhZE6HoQYT9vyM3KQc7R28Mjtp3g8mDBA6A7BoIjkb0RkwwqKJMYAKI3fj37c2mpo0hQ_q3jcc8cWZ0_8_oednY_MS68pYiyUdRENgTI4BKUxpYkB0vRWdNtcOwt4NqEuJUI3-bpxDYe5fXgGq2QiE
+base: water
+effects:
+  Mana: 2
+  AntiMagic: 1
+ingredients:
+  ThunderThistle: 18
+salts:
+  life: 0.12689933604002096
+cost: 1260.1573551766896
+stress: 18
+tags:
+  - lowlander
+  - immortal
+  - hot
+hash: aw3C5ABNYI0A6dYRqbKU5WpKHfY4O141zvHQ51UgT0l
+---

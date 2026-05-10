@@ -1,0 +1,19 @@
+---
+name: oocYEmYrsLt4VgmekPE1ucUkAfVIybuP7vxh3Ak6Acf
+datastring: AXic7ZrLattAFIbfRev4oLnoYu_qRSBQSjddlS5USziismSkiZsS_O6dpNBahZZ_TmbaCdHGYGv0zdE_5zZjPSR1ZaqpMTd1skny7buyU2X14fp2PByGN7388vZ-n1wlx8G0Q7-1A5_Gfa1MMz7-3A3mxjSHKdl8fEjMt2NjL1Z1vWr7_djUbdMbO-rXl6ebt8Nw-NzZD3tpP7Z9_b4Zd48jN-J85ZkymXZc7aq7rh6H3o6s28lU_c5eEiVlFwNvm8qsTsNomns77NSMk31eO-ryFk05xi6p8P4kx-FuXE1Dd_rB-GlhejmxohwyUCrSrmxJCmIrZ10LSjGzNRXCkW0VWbs-qSAlHaex4mgvS57SGnPfNRXa1cjUfc1liTkUCY3Z7SfG0_8TX5o0qEdBWebJITQWdzafScb6Fo5OJKgsXadJ50GITJNT4Uk_SLxs7r_gU5WeYn6hLJSFEiHlL3WMCuc0KEhgfY4g7ZyNBEmQrThsGJ67p1GFwqVzgbPVClWcIQq6morBLlBNGIYLcIs06-RRw7FuxYri3H0JtBv9bWliiJ-QyynBLQNLFY06uWAEJx5BnBBCvZxjOCw5A65gZ-GogoZQSLZk1E68BIVkM8JTwX7ISbchaxC4pedl25B-iIoiGWdDsCpBDWcojvthXJanszbkz-yU1a5gbN5qouxZd-C7o-AYHg4Nd4cvEs3J4AqGR7WQ8J6NU-o5QRnTucFCWSj_nuI9umKreTFk-ICbCw4b3ioGrUwhG6_o4JHIwjj2Cyr5wuazX4_ZLzbqw6aUkActUagiIsuFYVWJ4Ezhuezg799l5PpOiAbfblOzP_2gl1rcN6kpraUXuVLUXUpytjKjMjt_On8HTYgYdw
+base: water
+effects:
+  Explosion: 2
+  Rage: 1
+  Fear: 1
+ingredients:
+  Boombloom: 35
+salts: {}
+cost: 3961.9999999999977
+stress: 35
+tags:
+  - lowlander
+  - dull
+  - hot
+hash: oocYEmYrsLt4VgmekPE1ucUkAfVIybuP7vxh3Ak6Acf
+---

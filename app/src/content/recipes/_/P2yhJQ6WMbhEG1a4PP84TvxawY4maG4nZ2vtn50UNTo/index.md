@@ -1,0 +1,17 @@
+---
+name: P2yhJQ6WMbhEG1a4PP84TvxawY4maG4nZ2vtn50UNTo
+datastring: AXic7VU9b4MwEP0vnsECmwBmZGgUdYmqtkvVwY2txBIBajtfivLfa1KpIcNVcp1sZQPfu_fu3fk4IsEtN9LOBKpQMZWvdJfTx5c5y6f0c_q8fyI1ilDfWdW1tQs8x-24lXr43HR2ZuXaoOrtiOyhl-6QCxGrdqmlULK1LurycgY_8I9G1sqsN3blTpdatWIu9WIIrhJcsCJCW6mNI0RVeop-EjuVcd8ZNUhxwD2q4gTTCB0GWEbHkVbpeME3jdDnUKGM5e3CHaVA7pXkNt522sr9VTxJMSUjDBlh-m6jY9M12-8yLyCnBqAJ9IblRTJ6oGL-WXxZbjgwFBc5MDCBtVAK3QxwEgkmvvoTnGSA_tu55K45vY9JruG-JqWYebuEJ95bIcUJJA2icZA_LJ9J6UmT4bTwbnmCiS8PwaW_aRn1Ng2a3188A6cGnuCc-dNQ5klDMYM8C90mJdS-wMRZDhUZqhj6q95uL6UUl1Bbg9XfzW9oe91tlYYmhq50YN6ymFwlfj99AXVBme4.
+base: water
+effects: {}
+ingredients:
+  FableBismuth: 15
+salts:
+  life: 0.00027099147068834176
+cost: 21576.00033602943
+stress: 15
+tags:
+  - lowlander
+  - immortal
+  - hot
+hash: P2yhJQ6WMbhEG1a4PP84TvxawY4maG4nZ2vtn50UNTo
+---

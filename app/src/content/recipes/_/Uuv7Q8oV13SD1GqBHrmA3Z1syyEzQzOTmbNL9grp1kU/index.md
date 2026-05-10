@@ -1,0 +1,20 @@
+---
+name: Uuv7Q8oV13SD1GqBHrmA3Z1syyEzQzOTmbNL9grp1kU
+datastring: AXic1VZdS-wwEP0ved4O-WjSdN9UEAQREXwSH3K3YS3uNiWN64r43531wnX3wpTGFcG3tjNnzsnkTJpX1rjkBp8uGjZn5vTKrpR1t-cPcb0OJ518vNwu2Yz1IbWhO8XEj7xnl3zcfV6FdJH8emDzu1eWXnqPQdc0Rdsto29a3yXM-nz5AN-4tvsTns9cj7FlbLvm2sfFLnUuZmzj44BU-Pw2-1dySG0sFu5p1UQMzVjTDsl1CwwpDUYTqD48xWIIq81fGZ8gIaGq9kB8D_Sj6rUEa3PVc7Dy-8VzqDW1gB_tSWVBUT158C4VmxCT3x66IJsFG28ySTQNGeOpsmkUBRldjsznqb_Ck7seBZQymgYHtCy_34ycnraREwYsZa_jpHCqLNXJGuS-AeW0HSvBUvtMHjESeO4I1iBstrgSBKWN4ikPHTiNR5AepGgkqC-wiNwz5fB4mEhjoNoXp6bsqAZqnkasg-oEQYQ3hqIPQ7u7FiBoizU5lMLWSsjaGF1pjr_lFyxSYVekkIpLI6yuajNFroGaauVxQyeoy8LvKjs2UkbmmkP8_yu4f3sHy2xYhg==
+base: water
+effects:
+  Mana: 1
+  Invisibility: 2
+  Swiftness: 2
+ingredients:
+  RainbowCap: 9
+salts:
+  life: 1.898424573798713
+cost: 1571.9540464715108
+stress: 9
+tags:
+  - lowlander
+  - immortal
+  - lukewarm
+hash: Uuv7Q8oV13SD1GqBHrmA3Z1syyEzQzOTmbNL9grp1kU
+---

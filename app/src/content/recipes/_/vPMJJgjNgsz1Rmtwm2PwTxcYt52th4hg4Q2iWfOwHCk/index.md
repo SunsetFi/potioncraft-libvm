@@ -1,0 +1,19 @@
+---
+name: vPMJJgjNgsz1Rmtwm2PwTxcYt52th4hg4Q2iWfOwHCk
+datastring: AXiczVfLbtswEPwXne0FX-LDt6ZAgABBURToqeiBtQhHqC0ZFOOkCPLvZdJDrMMKXioK6ptMLoeznN0hn6rGJz-EdNNUm0pffbF7af3367t4OPSfOvH79nFXrapjn9q-u8oTX-c9-BTiy9_7Pt2kcBiqzY-nKv05hjzom2bddrsYmjZ0Kc96-3gN_ubb7lf_8Nkf89gutl3zNcTty9QNA23MqjqFOGS4asOfV--xLEeWHFIb11t_v29iHlpVTTsk323zkFDAsI0c-_u4Hvr96d823oIkOH0Wwy5DMqCw_d0Fn9anPqbwOIqpwUg6JXCWjGMLUge2JuNwOp-sFSwIw-EMGJ2QBqmIQBqwCBxG0XWgATtRHEYCc0QYCYaeNQ6CKjcOaPFPpo0qg1zclq63nAWM0KyOV-tFlhUCk-B_uaxaoO0zcAWCMg4c1sDQ1s_wqpqSrsW2h1c8P7cYcSGOJsJY0KoARglqJUKNwKCZVsDpzUiBpDYJC9yWpICKU4_t8jIcAYyKI8HSj1SAonq5GFfPZTgcONViOShHxsndlmpKDAydjwS0qaPCnsjBVOIkVtsTQFiZzuq1fBkbY5gAZ_rNMjZmtDv_0d1H1oAZyYT5CKwlzmNj6ddLYQGNmiCwyCEbji07UVAaGFYeU-5Pz1R-VlCtoqAPkX2i0I8cHYebAhxNfSMJkPxjfAL1V1Q3YqEnhZR04Qs2vlpeKHz0ZfjhBLgBV9A6HUZ6JgH6cyATsGQC-dawiJtLVUDAgii4jWg6Ul2kVTUutp_PfwFJ3fh7
+base: water
+effects:
+  Strength: 1
+  PoisonProtection: 2
+ingredients:
+  RainbowCap: 17
+salts:
+  life: 0.09278488332260713
+cost: 2964.9150532553213
+stress: 17
+tags:
+  - lowlander
+  - immortal
+  - hot
+hash: vPMJJgjNgsz1Rmtwm2PwTxcYt52th4hg4Q2iWfOwHCk
+---

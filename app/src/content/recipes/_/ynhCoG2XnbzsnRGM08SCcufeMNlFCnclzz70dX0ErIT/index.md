@@ -1,0 +1,18 @@
+---
+name: ynhCoG2XnbzsnRGM08SCcufeMNlFCnclzz70dX0ErIT
+datastring: AXicvVbBbsIwDP2XnFsrSZOW9simadw4DG3StEMhEavEWpQGtgnx7wtM2sYkR00reqS2eS_PL3YORJW2bLWdKVIQ_jTPljfVeqGbpeH3t3b5uDB3JCLbxlZNPXWJ57z30mpz-rxp7Mzqt5YUzwdiP7faBUul4qpeG60qXVuX9fvjXPygjWnMdKdcaG2qWs21WZ0yCwppOonIXpvWoZGCHaOff21tZeJVudso40IRUVVry3rlQkxCypGqV13aeN8Yqz8uayDPkJJtszNx22z23-R_ayjkoTAUsuRPCe8Gk6QIzBBleRLMPU8R7oN4CHaF07FEhPsmdWWBogjg-RVEoQxzloe-Mxd2WQZwCRREwgX1Tg5nQDHi6H2VQMWobvSwT_PwZkGCWc0zCDhm6iFHziQ2-Tz0Bd4yj1Ay3NUUgnE4UEzb0XVKQGBn9ug0wZCw68Ahw8aQT1rMTviWZFn45Rbhukm8hRi3BKi8wkDo0_X0clN2bDrFajyPickITf_3_ugKw2QwDutzHGxe4zA0HEZAaHMEyGvspz52zHvMao7PLR9QFioTp_h7YYhOIhtjBbwcvwCbkmNS
+base: water
+effects:
+  Fire: 1
+  Enlargement: 1
+ingredients:
+  TerrorBud: 13
+salts: {}
+cost: 426.4000000000001
+stress: 13
+tags:
+  - lowlander
+  - dull
+  - hot
+hash: ynhCoG2XnbzsnRGM08SCcufeMNlFCnclzz70dX0ErIT
+---

@@ -1,0 +1,19 @@
+---
+name: 2kzSPRUQpxytKHWW6BcbcSJA2EKIA8ZDCDVaz8eAbNg
+datastring: AXic7VfPa8IwFP5feraP5mdTb_MwEMbYwZ3GDsEEW1YTSaNziP_74gabHgYJtDrEY5OXL9_73pe-ZJcp6WWn_VRl44xPHkVLhHy-r91yae8MfnvYLrJRtrK-sWYSAr_i3qXX7jDcWj_1etll45dd5j9WOkxKpfLGLJxWjTY-RP1-fC2e1WujtJvVTedbHeYXrjHqSbv5IXxc7EfXDYWGgep84_K5XLfKWRMiVVgizTxM4RIqchRZa-nzjXVeb0PcRrsu1DaAHa9BAhCNQidQsURwCgWLxOapvBlUYpiy_02zBHSs78quXd7ZdvO94w_R4oQonJ0mBiKulCYGGueo_w5-U_im8DDnGKX-pQmwskfdgBS0P7i4zofCrjhdqrLHvOOICmAslScBzKPACSR3Jwxx0OLUszG2YkCruOJBmXpr4dCnx_q8PgKlONayZaqkqIy3QoWSzwMCXg0nxfmU5SCSDxkD0qejLpg756m5CxAi0Ymhh10iPXp66Y_KjgItkztidfbHW3jQ4FSeodpFctujgOMefEXoDa_7TyYkfn0.
+base: water
+effects:
+  Mana: 2
+  Inspiration: 1
+ingredients:
+  ThunderThistle: 21
+salts:
+  life: 0.12814884775568952
+cost: 1470.1589045712171
+stress: 21
+tags:
+  - lowlander
+  - immortal
+  - hot
+hash: 2kzSPRUQpxytKHWW6BcbcSJA2EKIA8ZDCDVaz8eAbNg
+---

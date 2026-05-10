@@ -1,0 +1,21 @@
+---
+name: IP8Fqw8cHkctArUy6M3qdO4Or9fUMM8SE7pbjFh4N1Q
+datastring: AXicvVhNb9swDP0vPieEZEn-yG09DCgwDAWGnYYdjNhIjCZ2IKtZh6L_fXJ3aHxgQFqyj4llP5Lie3zSW1JXrhoa91gnuyR7-F6cVFH9_Hq053P_pUufv70ekk1y6V3bdw9-4ce6P5Vr7Pj3qXePrjkPye7XW-L-Xhr_sKrrbdsdbFO3Tef8qs8fHy8_HavO9ecfz60dnx5s29VPjd2Pi3cCpH7fxPqWMNE-Jm8-NLjWbvfVy6m2fedX1u3gqm7vHykDapNcGzv4cvkIbl46NpXbXnvrmtfJKxmYmzdoMClkTBTFxshAMjHSGZkokIYJoyfJUwtWMFEMmswKbSQ1pNHixWEE5Nw2moEybfClcin5KGwMzaX2Eh0kiA1vuB2kBLsgBXBLohcvejrRrVA9jUZ2NFx2sKM4cHmbz2CUZo-yObxlc2oFjBwENi_XEH8BKaYc8bQsBYyKl_7Fbof-dP2f4GflpoNABbgOEoSAkgDBJ7sAjZUrHoiCHGM2W3-JG2IMrb1Q-0TCkaCJMFjRaDASqOlgdSamo2g43thj3YxtaIlS7F7fFEyUbBZKuYw3AZWTXGTKFyxuXQxayXsjj03aZY4JvpCCyLMCUm7QesYMlVCuqmejyyEOsjxMAKj5YzWjDjOqngXhSBAr4dB2B2-1QH7kuSH0IO5y7h6d2HziS41C5yMuNUGObTpQUaeD0pzY5hT9F7g5IqaSEW8euD46TLPySfb3js1cK4HGFciigl_6gtbemCijZ66FZIIYLhhuwDiBYzYk_6oTP4STNliTGMwPi13eQCbS3JNaWSFktLsl39olKUXJn2ezrPMKNxbR9iqiat6JtwxjYka0WFngSZtoFwNdtiLCBF0ZUS8Nps36-_0fEri8Lw..
+base: water
+effects:
+  Hallucinations: 1
+  Inspiration: 1
+  Fear: 1
+  FrostProtection: 1
+ingredients:
+  PhantomSkirt: 14
+salts:
+  life: 0.0049076734355981005
+cost: 2016.0060855150602
+stress: 14
+tags:
+  - lowlander
+  - immortal
+  - hot
+hash: IP8Fqw8cHkctArUy6M3qdO4Or9fUMM8SE7pbjFh4N1Q
+---

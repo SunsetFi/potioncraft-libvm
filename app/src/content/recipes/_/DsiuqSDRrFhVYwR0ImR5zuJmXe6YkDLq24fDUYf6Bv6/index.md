@@ -1,0 +1,20 @@
+---
+name: DsiuqSDRrFhVYwR0ImR5zuJmXe6YkDLq24fDUYf6Bv6
+datastring: AXictVffS8MwEP5f8rwd-dk0e1QRfRNBFMSHbA2zMNuRxqmI_7tRQTfhyq6le-uSu-9y-e67yzurfPJdSJcVWzB5d2WXp_X6JrTLKC_O0vL2Jp6zGdu2qW6bk7zxe9-LTyF-_b1p02UKTx1b3L-z9LYNedFX1bxu1jFUdWhS3vX38W187etm2b6c-m1eW8e6qa5CXH1tXXAoSj1juxC7DMcW4mP267ZLdZyv_POminlpxqq6S75Z5SWpwJaI1bZ9jvOu3ex-QvkzMnsGfM9gXPTOGXL4ogDpEKvH4NN818YUXg-jBzqOAkVEkQVoScZxUBZUIDS0nrSBwaiCwXAo6TgchCXjoHzEcXTmPhFHccRgHImtcfu_STAkdhHj3KJXhefdWqDyqAA7SVakpocvLFBp48Dtm8gjy0AJalWLzCUEaFSeuMTyNNLtJKTkAkvcKLdWYm57WkABnEp2CUaS2eIAuyG0IQvgdNFUUFCbmj7EOe48OTisEeJ542oAjqDi5D5oBlQzVTQ4ODqMBU7tnS6r4IDjOCqOKEFh4tTH0WkkAp0XxrktJ1GecoDySAtUYmsw9AIyoKmztIViAOEktYDEvwHv2ArC0oaSNLcG7HGADpKg6KFpsPTBydBxFGjqeTQoes8SgI4VuPYKOkUzd6jnyZMtxlGUBrn_YM-wvhxo7E77RJGuBwJ9wPbwGu31fTioBvYBTaCbhy4fPj4Bs6nNlA..
+base: water
+effects:
+  Strength: 1
+  Slowness: 1
+  LightningProtection: 2
+ingredients:
+  RainbowCap: 14
+salts:
+  life: 1.6045219337391712
+cost: 1233.9896071978367
+stress: 14
+tags:
+  - lowlander
+  - immortal
+  - hot
+hash: DsiuqSDRrFhVYwR0ImR5zuJmXe6YkDLq24fDUYf6Bv6
+---

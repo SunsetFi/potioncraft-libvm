@@ -1,0 +1,18 @@
+---
+name: e6OlgmznvsIUXR8NUh3JKA6roqEAlfFFfyUllv2NY4c
+datastring: AXicvZVNb8IwDIb_S86t1aTpBz2yL7HDhMS0y7RD1AQW1LUoDdU2xH9fYNKAg5ESth1b--1jv5bdDZHCil7ZiSQVuZmbqVpeG15ePXzWy9tZev80IxFZdVZ37djl7dM63exeNp2dWPXWk-p5Q-zHSrmQkDLW7cIoqVVrXdbhYS-9M2JQj2Y9nzfKRRdGt3KqTL1LrhIoOI_IoEzvcKSi2-jnw73VJq7FupHGhSIidW9FW7sQTYEWRyp2pFp1axP3XTN8F3MQsQThXNhAzgIa4MBHSAOvSth46IxV7yeaEVBEgXM4MMwnDMOBcm8Ohbz05FBguTdn57YnJ4HMv58EUt9-nCQN4DBsqDiHYRac4_hjaBaCwTw4Mx6M82d7efHFYv_9YdzynOGrd1E5FCkF3-fCf58zfDkxTgFl0B3EisM4WcC5dbPw3bMUMn_bUv_zxKAMOU-5r20MOPbHOccp_M865sAvX3UexPG3LTkdz8v2Cz5NNbU=
+base: oil
+effects:
+  Poison: 2
+  Lightning: 1
+ingredients:
+  GraveTruffle: 6
+salts: {}
+cost: 756
+stress: 6
+tags:
+  - lowlander
+  - dull
+  - lukewarm
+hash: e6OlgmznvsIUXR8NUh3JKA6roqEAlfFFfyUllv2NY4c
+---

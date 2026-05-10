@@ -1,0 +1,18 @@
+---
+name: vBadjGBDlY1053dLODhGchgQvo5gGNKW6M6VfAr5gDR
+datastring: AXic3VjLbsIwEPwXn4nlRwJJjn2gcuOCWqnqIWCLRqIxcgxthfj3mvZQUmlR1iS06jHxboadTGZ32RFVuKLWbqJITsTDdDS_LpczbeZW3N24-f3MjsmArI0rTXXlAz_jXgun7eH2yriJ0y81yR93xL2vtT8slIrKamm1KnXlfNT3xWfy7VZbf0NXY20rf7y0ZaWm2i4O0Tmj8YD4iNrjkZzvB509Nx0BD65daaNFsVkpaw6JqqxdUS38kThOEUcpz7pw0dZYp98aCelRPGsFIWnWO0ZMBRIjRmMwiuVKXACDAxjnaon3pVG8RCWSkiFeov0j0KR3gfKOpNMhQqPqDuXZjzjR0ozBt7o2GxvVZrX9-h3neALkbCAEzHqHIL9ax9kmJAJsqH-GhmiG0BApusEEaOkiGBBZ3fmpQA8V7J_7ne9iaMML6DLgwHjCKqQMwBEBQDykII6njUL-8RelBE2LpzgJoIQHDEWUxQHc4ye8H8poWxHe-nwSvlFQiW9HPimgIpmhgSQV2OlYUpmgNRfTGNIChDOiEtrWT26j2I0ipWwYgMOxq3VCs37-fcA7gBDwpwkuXk2fFy3lBdovjAONMJ2qOGmsw-1gBM2w4uIpLBT4S2ZNz-D7p_0HQ0p8pQ==
+base: water
+effects:
+  Healing: 1
+  FireProtection: 2
+ingredients:
+  EvergreenFern: 12
+salts: {}
+cost: 523.2000000000002
+stress: 12
+tags:
+  - lowlander
+  - dull
+  - hot
+hash: vBadjGBDlY1053dLODhGchgQvo5gGNKW6M6VfAr5gDR
+---

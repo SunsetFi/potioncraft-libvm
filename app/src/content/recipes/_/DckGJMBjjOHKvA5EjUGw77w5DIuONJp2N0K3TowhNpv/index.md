@@ -1,0 +1,19 @@
+---
+name: DckGJMBjjOHKvA5EjUGw77w5DIuONJp2N0K3TowhNpv
+datastring: AXic1VhNi9swEP0vOieDJMtfObaldG97WbZQenBikxpSO9jatGXZ_15lC93k8ERmbEObW2KP3sybp3lSnlVd-Wps_F2tNsp-vs-379v9Q9NvB_vpg98-Pgwf1Uode9_23bvw4ut7PyrfDOefD72_8833UW2-PCv_69iEh1Vdr9tuPzR123Q-vPX25TX48Ry8q47hyX5ou_o-fDu_uNGUmWylTs0wBjC1MS-rv4uOvh3Wu-rpUA_h0UrV7eirbhceJSDi2D8N67E_nP4k8RZgLwL0RcCEvJ0rQBYTFjWosilrsum1JaUg6FtT-fWpH3zz8yokJcftiSHUFQTiCNGDa9GwlCmU5qha-aLzZ6ntEmpy5QKZ5kikUzK1OX-wZGRRKkiV1lF2SbSdiRO9ACdJyR-2xhHsOeIkIZMuQEky_8j9bxeMNMwQbPO_X9cEfRRQH9CENFnkD5jgsCFQUASo4JuXo5Rtq-fBx5dMQhmSzG2Wb2-zfIPqQSiGEsOFCYdKLoy-rv9GGMeFScmW88_FEnpWpOOEVBLxOS3oeIG8I3L-JHgngDLJyOXc5Cyl_OSChtlTxpDjb35DGrEQU76kIra_hyMPl-wcCi7KNXvQhmokuwEOzRgQ3zoCEMouApTyT20pFQKPypG0YxcsuMNjFfGpKyhhm0d2JbobdQqHz6QRrcvLj-RQp9kNTSiXzB3Lnjshhn_ZMvjsFQNa4D5filhCFceSF1y_CF7jY0Boq0SBBP_hGEHfDWVsC3WS2SQrScadRMpzK1lifIlgs0uaLlOXoOc2DFsuUor_9okZkqTp7jq5ry-_AZck2sE.
+base: water
+effects:
+  MagicalVision: 2
+  FireProtection: 2
+ingredients:
+  Watercap: 23
+salts:
+  life: 0.01376498618436568
+cost: 1214.417068582868
+stress: 23
+tags:
+  - lowlander
+  - immortal
+  - hot
+hash: DckGJMBjjOHKvA5EjUGw77w5DIuONJp2N0K3TowhNpv
+---

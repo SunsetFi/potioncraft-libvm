@@ -1,0 +1,18 @@
+---
+name: kGtQBu0cPGzyILrHJk6EUSlaGp4aC0QqMaoncuEf7Ck
+datastring: AXic7ZbBboMwDIbfJWeIAoFQOPYwVO2Cpm2XaYeIRCgSIyyk7aqq7760k1btYKSAukPFEWznc34b7CMS3PJB2o1ABcpK-Ur3jD6-VDkr6Wf5_PUUr1GAem2V7tbO8eK3V508v2213Vj5MaDi7YjsoZfOxoUIVdcYKZTsrPO6PlxiH3TTHCpu-KBbZ22M6kQlTX12LghmCQvQTprB8VARnYLfgwerTFjzbSuMMwVIqMHyrnamGIjo9daEDrP7SeQaEBFy95CZdYhW9DYHp6m3KhHDUFPAwmC28gZRDMXAnNuolFH_z4BiqGRg9gTnE8oxhZN4Y1wP-mOgkAUzgsmgeo71AJnQBPcl24JZMAvmP0YBxZn3YHajDdqmZs5mAo3muSsXJMzsfCEhRv7vKfbeRQkYMvMCcQ5Vf-bBCfu7_byfvgFikGBj
+base: wine
+effects:
+  Swiftness: 1
+ingredients:
+  FoggyParasol: 9
+salts:
+  life: 0.042896243763029515
+cost: 799.253191342266
+stress: 9
+tags:
+  - lowlander
+  - immortal
+  - cold
+hash: kGtQBu0cPGzyILrHJk6EUSlaGp4aC0QqMaoncuEf7Ck
+---

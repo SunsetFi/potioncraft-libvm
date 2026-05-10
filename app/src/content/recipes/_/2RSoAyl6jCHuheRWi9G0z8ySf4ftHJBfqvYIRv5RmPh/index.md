@@ -1,0 +1,17 @@
+---
+name: 2RSoAyl6jCHuheRWi9G0z8ySf4ftHJBfqvYIRv5RmPh
+datastring: AXic7VY9b4MwEP0vnoMF5iOEsa2qZssSpVLVwWCLWqI2MhfaKuK_16RSC0MrWzjK0tH43fnu3fMzJ8Qo0I7DlqECkcfdurwV9Z6rUpOHOygPe32PVqhVIJS8McAz7o0C1-PnRsEW-GuHiqcTgo-Wm03KWCBkrTkTXIJB_SzOwYcxuKKt2am1kGxnViOwCHEWZcPqO1EHQgcVPTZMK2nQTHRAZWW24gmqVUcddKrpvw7rue5MqSbbNIBMAhbUlyS5n0RR7CWPFVlkg9MJ8IVTCHqlgb9P6YqmISlOXBmOcOx4yDzCCwkLJhJ6kkiY-m7Kiv4Qp4mfBkhqp6rMcdzETq3e6XOuzdlQfm8mwevryGF-t_6YorM1xNhSH_5vt5VzuTOVu1JAsN30ycxFXau3pdZOrnjjPOeFT8CVDf0_yeWT-PSL2DyduavizI9UMjwPn_rHp4k.
+base: water
+effects:
+  Invisibility: 3
+ingredients:
+  Watercap: 19
+salts: {}
+cost: 1003.1999999999996
+stress: 19
+tags:
+  - lowlander
+  - dull
+  - hot
+hash: 2RSoAyl6jCHuheRWi9G0z8ySf4ftHJBfqvYIRv5RmPh
+---

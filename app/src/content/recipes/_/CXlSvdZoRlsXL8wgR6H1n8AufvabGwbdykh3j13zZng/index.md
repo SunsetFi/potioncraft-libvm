@@ -1,0 +1,19 @@
+---
+name: CXlSvdZoRlsXL8wgR6H1n8AufvabGwbdykh3j13zZng
+datastring: AXic7ZhNT-MwEIb_i8-tFX-kSXoEtLvcuCCQVntIa6tEKnHlmGoR4r_jgrSAtBMxLkY2Crdij-fxzDszSR6Ial07aHeuyJLw64tqddptLrVZWf7rzK2uLu0PMiM74zrTn_iNz_tMtz38c2vcudO3A1n-fiDufqf9UqvUvOs3VqtO987vev3xbPrTGLXS1t77pY3tenWh7fqwc1lQUS1mZK_t4H2RJXuc_Tt1cJ2dr9u7rbJ-aUZUN7i2X_slSWvAJg5JaqeyGJyFjHAqr6FMwdnlNa0FYHWjWzffG-v033c2gooSMNmZOzsfzHb_Av9qwyh_66b4gBtJJUR2VJRiCI_XURLaxBBfpFPrKIUiqubtX4UWuOBUSqguYIU3kPRGFM4kUuHepMG68TGpkW4OfRHrpqSsKAE_cLCjTIoPSmAkMQ3-JozROBPq2NtwX7_42whaxinP-tjbSEjNIyqjIka3_YTLVAyfGk4Xid4mIDVeaFGGtpBQjMb4Q5IhoUebL8fnIdFvojStEPxFSM9d8FTwA8QjaJUMPq9Cwl8mU7sCP-RKGqWPBtEHRL-gyZRuiQ9-k1Lfx8-tZJo-9JI8oU_o_2_0-EfOdNjxQzYZdvBlP3l2VtICP58Sgefw548c2HMuVvwDfTrs2RZr5uwZD1aGf_9Ohp1nzM7wH2uTYc-6VnNmz1jvE_s0m6a4T-wT-zdlz3mu5hz3iX38M9A7gz-PT7tLnKI.
+base: oil
+effects:
+  Shrinking: 1
+  FireProtection: 1
+ingredients:
+  Goodberry: 57
+salts:
+  life: 0.006771705963824313
+cost: 1048.8083969153945
+stress: 57
+tags:
+  - lowlander
+  - immortal
+  - lukewarm
+hash: CXlSvdZoRlsXL8wgR6H1n8AufvabGwbdykh3j13zZng
+---

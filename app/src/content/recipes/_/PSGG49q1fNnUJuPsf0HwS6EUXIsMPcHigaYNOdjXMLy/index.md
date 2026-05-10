@@ -1,0 +1,22 @@
+---
+name: PSGG49q1fNnUJuPsf0HwS6EUXIsMPcHigaYNOdjXMLy
+datastring: AXicvZY7b8IwEMe_i-fE8iMPkpEFoS6or6XqYBELrEJMbfMS4rvXSQdguMhpKEuiJPe_3935fPEJVcIJK920QiXKJ_Kd7zP-9DYrsgn_nrwentkYRWijndL12Bu2dnvhpGler7SbOrm2qPw4IXfcSP9RVFVstBONIrZi5bxheyvRWuvaPy2MULXX5CxCO2msN0QlPUc3LlS9MLJSsm70l4eWP1uK2un1y5cyrvWn6momzbwxLingdKO3JrZ6tft1ebGJUKWsE_XcW1FypbBOmXgutqvKtHFfzFJMadERPJC_3V6nTwvIBQzO8SiFqgarOOZsNDRcnvbmEkwKSBXMZdCCdnGzZCg274_lOCE5oFpK4eKdNk4ebjQUJ1AXBDUswbwIwlCoAQIxIckQnEJ1D6SQNAiTPAbDH4NhUNPcGTNoMgZj6FAMD-pncH_-5w7PMAHTg0MFJ2dw4UMqzzA44-85SfyQ6102iovB85hlf_gN0BQqfcdqQaDQ1RqF7ZN8cFcEYbLHYNJHDBeGoQ7vagLovNQx9_sfdRI4NOnijbaq6XAvOXhAhI7-2rdIjHR6pRwT1npmHBchiRZgaYLiGfkzwef5Bw96CwY.
+base: water
+effects:
+  Frost: 2
+  Lightning: 3
+ingredients:
+  PhantomSkirt: 1
+salts:
+  moon: 1
+  sun: 6
+  life: 2.091380156693156
+cost: 239.29331139429954
+stress: 1
+tags:
+  - highlander
+  - lowlander
+  - full-grind
+  - lukewarm
+hash: PSGG49q1fNnUJuPsf0HwS6EUXIsMPcHigaYNOdjXMLy
+---

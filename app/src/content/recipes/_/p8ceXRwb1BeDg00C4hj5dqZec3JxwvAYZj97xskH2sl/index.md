@@ -1,0 +1,20 @@
+---
+name: p8ceXRwb1BeDg00C4hj5dqZec3JxwvAYZj97xskH2sl
+datastring: AXiczVhNb9swDP0vOieEPv2R47oW6A5DgAC7DDsYsda6S-1AVoNtRf_7lO6weACFkGjdHhOJfhbf4xPNR9E2sRl9vG7FSlx-D2t_9zHY6uLz7-3d1cZ8-rIRC7EfYjf0H9K-521Dtzv-uRvidfT3o1h9fRTx196npaZtl11_E3zb-T6mXf9-PIeub5s-DvebH104rt6Erm_XPmyPm1cSynIhDj6MCU2s1NPi3T-3tq_z4Grex46xC8tt87BrQ1paiLYbY9Nv01IJlTkJ0idBt76Jy8MQov_5X4jCQnI4piTiaAfKIjH74SEsx2F3-JulkyCQmpwEbaFWxLerQGNZQF9OAaZTDEVNKD0LJKmgJqO4gsyoSjqoiUkz4BwZqEJzgMEk4WgyjAVqITioMNVktAYSS0FG1AbzIbR4oGYop8ZqB4NJIeTTSLDU0xig86kNGEyfmQpVZPcocBlkclCQcVJhk-1QgqPfCQo0mdSUOHrmlATFkI8zHI4YQIpOkkXN6pWu9pzEWBpj5ImDU5BrM7VjHC1LhgkYupa1xu-2nJYxK8wdSb2kteeAHBko3Ttzt-J5TrCuM8O-pPuLmnrFuZxwKCHfNRb07J9HWU4412VNL_0UROYkXX0cM7NYezK_6ZcM6zL4R2Cu0DnWVTAcRdKPJMFglOT6UgzoLerETvucs45goOSQIsl9pZp-Yb3pCEM7MGRV2WkD8mIHYFRfwfApi9f57PmvoSKnX3GaeKWm7dJ5YxrHGQWggycMp4CCPhSz9AmKBYl1NLmZQ40lIYNDn22U6Agl4-5TH_n29Ae7MJFc
+base: oil
+effects:
+  Explosion: 1
+  Light: 1
+  FrostProtection: 2
+  Stench: 3
+ingredients:
+  PhantomSkirt: 13
+salts: {}
+cost: 1872
+stress: 13
+tags:
+  - lowlander
+  - dull
+  - hot
+hash: p8ceXRwb1BeDg00C4hj5dqZec3JxwvAYZj97xskH2sl
+---

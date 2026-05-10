@@ -1,0 +1,20 @@
+---
+name: z89dFDW25Q4sMjJ6PQ2E61C8UR7tn4KNPNfYwuMXXIY
+datastring: AXicvVbBbsIwDP2XnCFq09ACxw2hcZiExNAmTTsEEkG00iA3sE0T_77ADsAmZxgNbm1jv1c_20_5ZFp5VRs_0KzLxNOwmNza2di4CYi7np88jqHPGmzpvHXVTQjcxb0pb2D7uXR-4M2iZt3nT-Y_liYcKq2btpqB0dZUPkTtX3bJDwZAgVXhZAa20kMD021gN22wtYE6EIXnTeNkwB58KF2PQlhpfoEmPJfiTOCRt9Xr_aqeg3OLk3-39haaU7UqNYSjBtO29qqahqM0_ExxkJUcZM2N8s21A2_ej3NynkkyU8GLlErEZYbwLN0KmrUr198q7XNCPW0izY-UE2kyQaTJeH7drl97loImGbnDrfwMHkkd2YS3LqNSwpMEG56_kPsWzMSU5b81lAyIaywkb2MDji5FyrMcyYk4EJfYwka2D_WSGBGZJ8UnOsaTYuMZIRJYTowow1SIEWEqxIhaZK9LOhfatwxFjjkGKi_uGO1LVZCjyJEWhKnCdiuyJm1q2ZInxZllX_cShYHGLgYd8uSL45vOqarTzSnYLbm9gqf0XZZcnOHrdHOSvCAr18INLeqC9Hp-OPTL5gsRjiyy
+base: water
+effects:
+  Necromancy: 3
+ingredients:
+  Terraria: 2
+  DryadsSaddle: 2
+  StinkMushroom: 6
+  Firebell: 2
+salts:
+  life: 0.00027083333332546256
+cost: 184.8003358333333
+stress: 6.928203230275509
+tags:
+  - immortal
+  - hot
+hash: z89dFDW25Q4sMjJ6PQ2E61C8UR7tn4KNPNfYwuMXXIY
+---

@@ -1,0 +1,21 @@
+---
+name: o6pixEWzzFGDgUUSOQsDy8c06hiNIornmmHUdB3clfz
+datastring: AXic7VpNb-IwEP0vPhMLJ04gHPdL6h5WSEh7qXqwiLd1N8TINqjdqv99HXpoc5iKOAlDSk8o4PHLm7HfjMc8kUI4YaW7KsiCfP9jlvL-m-Hzr7_-re9_rJKfv1dkQrbaKV198eMOw7Qq6y9L7a6c3FiyuH4i7nEr_U-iKCKjnajHR1aUzg88fCyI3VX-4dYIVXkTls0mZC-N9QP90_OkMYWqbo0slKxq-9eHA_ryTlROb1Z_lXGHCVVVLKVZ14MXDJh0q3cmsrrcv0xZKOtEtfa_pDRlMWBknTLRWuzKwuiqYZXQBLC5k8JFe22cfGhYMMZTxt8YxUcBMTrL83ccdZyvW_Ob0mnaFTWBZhgWluOwjacosNDa-IioDCeyDGcdsznOOoaEbWDY9ho8YliGtIGglDswLM6SYjiKjOPjDCfFXxAqjlKEcIXS5ID1YtYH1fY7By7Dj0ZNQ6T4vaPLcKjdXZyGSGI2Ukmch5SLnSOb4USW40QWh2zcPttxmgfAbrTuKsZxd9hTHXt6gIWS5NmTDcnuoyWLE9lTFVA9kAWP_J-h7U8YERYUo_ME8hDUuG2-6duuLdhT9pFkUIoaJwy0MEfJJuYfyWlgw26UTkuginKUMBw6TvQLk55m38wgwe0XBizUe4Vh4PUUDMMC2GTt900IDHRZgIsS0yToyhPsj595jzDgJrmXTscFoYLKPXB_BYkt0pUnDluk7YPTnkT6d8QFcUXaO5-oZ4fKaZqBkiZdtNVW1bDe6MGLbkxnXhMefcGS05wfy2vafK-b5_9C4gP2
+base: oil
+effects:
+  AntiMagic: 2
+ingredients:
+  PhantomSkirt: 1
+salts:
+  sun: 52
+  moon: 13
+cost: 350.0200000000001
+stress: 1
+tags:
+  - highlander
+  - lowlander
+  - full-grind
+  - gyroscopic
+  - hot
+hash: o6pixEWzzFGDgUUSOQsDy8c06hiNIornmmHUdB3clfz
+---

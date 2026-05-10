@@ -1,0 +1,18 @@
+---
+name: MwzTKrxu4DAfjwtOwLr4W8601JA96T055fRuzcMBdZC
+datastring: AXic7VXLTsMwEPwXnxPLsfOgOVJAKkKoUiUuiIMVu8VViCPbDZSq_45bDk0PG8mCqkglt2R3dmZ3x_EGCe64lW4iUIlu52YqlzcmvRo_flbLuxm7f5qhCLXaKd1c-7x92jt30uw-19pNnHyzqHzeILdupQ9yIWLVLIwUSjbOZx1e9uAHNZdjs7aO1z64MKoRU2mqXW5JcJYVEeqksZ4Plck2-tN1kwuuSTADZ2qdMnHFV7UwPhQhoXyJpvIh0kPQHuJVchd32jj5cZSfYVoAkFavTGx13X1LP2ASXIwAYRBNgglE88MZ5aexMz3NRlk6Ir2HASzg6AmmkLKB0afA6MNtNCAshzYBCUsxzcKtR6AzAfef5OHdgEcPovGQcBYWukwPgZY55Jn0rG7-Z7lkFtjKNNzKZ-3kF3-XDGfHV-jL9gu64Vqi
+base: water
+effects:
+  Fragrance: 1
+ingredients:
+  LifeCrystal: 16
+salts:
+  life: 0.21760000000000002
+cost: 4307.469823999999
+stress: 16
+tags:
+  - lowlander
+  - immortal
+  - lukewarm
+hash: MwzTKrxu4DAfjwtOwLr4W8601JA96T055fRuzcMBdZC
+---

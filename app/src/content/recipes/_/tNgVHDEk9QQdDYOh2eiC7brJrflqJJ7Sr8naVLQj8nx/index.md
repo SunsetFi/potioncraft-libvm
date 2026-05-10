@@ -1,0 +1,19 @@
+---
+name: tNgVHDEk9QQdDYOh2eiC7brJrflqJJ7Sr8naVLQj8nx
+datastring: AXicrVY9T8MwEP0vnhsrtvM9slSIpeJrQQxWYxWLEBfbLUWI_865DNDhgt2QIVHiu_fu7p3P-SC99NIpf9mTjtRLdS_eKnF1t2qrpXhd3h6u-QVZkK3x2owXYHi0M3oIHwfjL716caR7-CD-fatgSfZ9pseNVb1Wowern5ej6-pJjt683DxrG1Y3Vo_9Stl1MO5yWjdl-_takL2yDrhJxz4XJyzWeBmiypwcAtTx0RG3G4-4Uo8QWMUnEM6Ok80NSzQIgvPaZmu5G3prgkOvnZfjGpZKmk_lEkXLOAaB8-YUdYrmbapzaDGneNr0KueUYU7xPVcm07a0LWaLiyFMZjubFpVpirbGdtDW7GzmzLD_3pQ_Nr_9OS3PibRIbwfGKMNCfVLSZ3tjvTqc-BQ0XX-BbzKMRtA2vfKcciwdOAOyrXE6lBF8DiDTgrzDPV0dXk_ihhAAOGsismScNul9HWQTcxu7PoOXNhgtmiDMdVTH_5Kk-ksSxr8l4SIVmsHkiurWHNt9UTQ5VDaCBsywYkbSFGUUTTFrgMHhFpMNzLn085rltJz_24S18dT_iTgN9vHzC-ojaMo.
+base: oil
+effects:
+  Healing: 1
+  AcidProtection: 3
+ingredients:
+  PhantomSkirt: 2
+salts:
+  sun: 11
+cost: 411.47999999999985
+stress: 2
+tags:
+  - lowlander
+  - solar
+  - hot
+hash: tNgVHDEk9QQdDYOh2eiC7brJrflqJJ7Sr8naVLQj8nx
+---

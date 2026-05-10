@@ -6,7 +6,6 @@ export const effectsCollection = defineCollection({
   loader: glob({ pattern: "**/*.md", base: "./src/content/effects" }),
   schema: ({ image }) =>
     z.object({
-      id: z.string(),
       name: z.string(),
       basePrice: z.number(),
       potionColor: z.string(),

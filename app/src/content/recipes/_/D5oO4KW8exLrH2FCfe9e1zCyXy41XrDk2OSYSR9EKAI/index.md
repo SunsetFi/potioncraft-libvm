@@ -1,0 +1,20 @@
+---
+name: D5oO4KW8exLrH2FCfe9e1zCyXy41XrDk2OSYSR9EKAI
+datastring: AXic1VdLa-MwEP4vOieDHrYi5dYeCoW2FJaelj2YWCRmEyvIatql9L9X6R5aL4zIKHVhb3GkmW-e34xeWNvEZnDxumVLpi_vzFaZ5uFqE3Y7f9HL3zfPazZjex8731-mi-_3nprowvHvrY_X0e0Gtvz5wuKfvUuHTdvOu34dXNu5PqZbHx_vwrd-GH5sgve7dLYOXd_eu7A6Xl2KGTu4MCSo9Pt19hUqOYhqCq2LSZRWNaJ2iF2Yr5rHbRvS0Yy13RCbfpWOpAGNSW1cE-cHH6J7HskYkIoOxKGeIJRYznFDhIIF5vHeP4b54LeHv2Z8CClQ-pMM_6qU1ZaeMgs1Fn7UfgEWMR9LcgVCT1GklSE7zAsc5qAE4nGmNJIUPbKipgOBwBggU4KTVKDlmCU587FOzuTDyoIwVfTEk1ESnWEsgqJIWGDunJcNYenZqHBmxbq7BoVF9hz7_wuV9JGhJCgswhnaIuZEAf_MJPLEFsH4FIORQEfhoLG6xGAESFOAQ91FUsvoEnckGcfYAhx02uE4usQfSccZkZ48bQLZKVbskvFDXuD4eIE7FcgUAFUlA9WS94EUBfqssCC-kfczlbSgvyDS0oQ5nAkSHcfgGURx0gjGOvBbWyPRFHmXEVBjbIgD6fF-PfFozsTd0G0X-PsVo0s9po-T6PL4mqC_7jLGZTJo6JzDgdxN9b-L5q_XNx8_B58.
+base: water
+effects:
+  Healing: 2
+  WildGrowth: 1
+  PoisonProtection: 2
+ingredients:
+  MossShroom: 16
+salts:
+  life: 0.0036696321081424992
+cost: 838.4045503438139
+stress: 16
+tags:
+  - lowlander
+  - immortal
+  - lukewarm
+hash: D5oO4KW8exLrH2FCfe9e1zCyXy41XrDk2OSYSR9EKAI
+---

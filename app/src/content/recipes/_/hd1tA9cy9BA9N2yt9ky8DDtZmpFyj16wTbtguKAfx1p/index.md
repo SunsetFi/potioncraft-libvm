@@ -1,0 +1,20 @@
+---
+name: hd1tA9cy9BA9N2yt9ky8DDtZmpFyj16wTbtguKAfx1p
+datastring: AXicvVbBbsIwDP2XnqnVJG0auI3DJqRp2mE7TTtEJEC00qA0VEyIf19g0tZekAOF3trYz679np19oqSXjfYzlUwSPn0RFRPy_XHl1mv7UNOv590yGSUb642tp8HwZGdNdfxYWT_zet0kk4994r83OhxJpVJTL51WRtc-WP2_nFyfnGz1m9suFpUOp0tnavWq3fxoPMmgFIfRH1bjjUvnclspZ-tgrEzjZT0PRySDccdwY7cubWzV_oZstWtCugGv79PxuDJNThkuzwLyjuFKS5-21nm966ZJui4UMlwNKORFJDaD4v41oAWQW0W9Fmw4KJbTcfcp71_okoAYLmqZ00h2CShwzC1AxDJXAEVBs95cwCCXKNw8GpcNOG76vTgzbhjENo0Brmd5T8QYZN6T17mW8eiccYII0onlGQUcHwgQHruAsgt2AWGxUQYcPGjaXbCKcKy7QM7IBvZXIY7PAgdNo6FDATlOLLHypmExIbUSf5kQsdwMv4nLJtzvaBmvL04Pn4cfQ8ugiQ..
+base: oil
+effects:
+  Poison: 1
+  Explosion: 1
+  Light: 1
+  Lightning: 1
+ingredients:
+  GraveTruffle: 10
+salts: {}
+cost: 1260
+stress: 10
+tags:
+  - lowlander
+  - dull
+  - hot
+hash: hd1tA9cy9BA9N2yt9ky8DDtZmpFyj16wTbtguKAfx1p
+---

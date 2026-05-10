@@ -1,0 +1,20 @@
+---
+name: STYNPyBEcOgpv6Nxjoyvf1TaaWSrbXa9Z1uUmpldSPh
+datastring: AXic7ZtLj5swEMe_i88BYV55HPuStocqUqReqh6s4O6yJTgyTtR2td-9TnpoOAwKEGaIl1NE8PjH3zPMGGNeWCaMqKR5yNiKffyh1_L5g44X77_82T5_2kSfv27YjO2VyVX5zrY7N1N5cfqzUObByF3FVt9emPm9l_aUyDJPKyNO7b1KFMY2PP-sWHUo7cGjFnlpTXg6n7Gj1JVtaI9eZ7Uu8vJRyyyX5cn-_8GZvn4SpVG7zc9cm3OHeZmtpd6eGq840OleHbRXqeL4r8ssr4wot_ZM4ic8BIwqk2tvKw5FplVZs4r8CLB5ksJ4R6WN_FWzCIMLg_AqCPfny2XDIF03zq21BX6Q9KVGUA_DYmMatTXf4mGh2HCRymk8y2nimC9o4hhKagNj2-ffO8ZyohsIKrcDY2lCitNkZJoxTmlK_Bui0mSKLlqhMjngfDG9hdT2dw48Bb-amnRJxU2PLcNR-w9x0iUlpneaEhddpou9PZvSeDam8SyN2LB9tYv9ZQfsTqm-yTjsj8V67LkBFiqSoxfbpbrfrVgaz2JNoG4gFnzkf1OubRwhMJ02rWUuIuj6oCVTS7o0uVw0BZdz7UAG0OLJCDhuYbA4EQ6nZjKknhBJT4LEwfLP0q04QOOkbuWDAOn-cUwOWrjFboU1WhrF4mDFAVZcY5UfrLjG4swd04MVB1h1ASsfYOVRrDjA8o9relyb72DpmerPuDmu1QXX4s21_DZxxh3XrnFci4OJM3Emzsg5oR9CnKa3gP23nXR6lRxB8kb-HUWHT1NugaXZfk5DjYg2bRGpJYpjGrVEtw_NnkeiT67uRiv4KcLIt4G3390Z-2lav9bvr38Ba10amw..
+base: oil
+effects: {}
+ingredients:
+  PhantomSkirt: 1
+salts:
+  sun: 50
+  moon: 11
+  life: 0.05831033442617457
+cost: 348.40230481468853
+stress: 1
+tags:
+  - highlander
+  - lowlander
+  - full-grind
+  - hot
+hash: STYNPyBEcOgpv6Nxjoyvf1TaaWSrbXa9Z1uUmpldSPh
+---

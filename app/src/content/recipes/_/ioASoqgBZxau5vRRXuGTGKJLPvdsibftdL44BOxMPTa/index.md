@@ -1,0 +1,21 @@
+---
+name: ioASoqgBZxau5vRRXuGTGKJLPvdsibftdL44BOxMPTa
+datastring: AXic7VjBTsMwDP2XnDerSdq02XEcJsQFIeCCOJQ1QpVGO9rAQIh_JwMJEJIjucFICHbrEtuxYz-_-Ek0ta9H5w8bsRDlyp3rndFHZ8fWrPTt6vThRC3FTGx73_bdMmx83bdrO7f_d9P7Q-9uRrG4eBL-cevCWt0087a7HlzTus6HXR8fr7Inddtd9buDehvWroe2a47dsN5vXWRgZT4T924YgzWxkM-zd7Wjb4f5ur7bNENYmommHX3drcOSLEEaRGrb3w3zsd_cvx3lQ0hBSTcEtqLa0bgMbkj9iJUfc-ff0F7GgP63A7n9PjspSPM7VIK0f9d5jniqTPKoxdpWktrCYNWCl1iuoCJ3QwlZwRKXnI6tuoAKiybqQGAOWNNMc0CzxCVTPGo1Fu5EtTyxxdI0SatBD4unXKUBjVyMQWJYglsyUGG8E89tljBldGhRBUiOdgSFpZNxHcSwIorAREG_MwWKpWkYFFsiZynBksExsDsWuCmwFEoLS0UvYKNAY5kZY_48ZKBkKRKDpm6aWkOn8bkNnZ2Ol_SnvdZ47UWK3LCwMWNt9ulHB5K9N-Qs5WI2Oqffu8omlJnCpzORhyIP-6e_chXQDx-QkY5FUwZfE8hEDiW961RMUE9PpsigIhInE25-Ar3DgptGptH2ljYoyCaMGUMysDwYNMpRolPcinxJ8usj4vL5BVIGnzA.
+base: wine
+effects:
+  Swiftness: 2
+  MagicalVision: 1
+  Fragrance: 1
+  Strength: 2
+ingredients:
+  RainbowCap: 32
+salts:
+  life: 0.013137120203205642
+cost: 5580.81629002905
+stress: 32
+tags:
+  - lowlander
+  - immortal
+  - cold
+hash: ioASoqgBZxau5vRRXuGTGKJLPvdsibftdL44BOxMPTa
+---

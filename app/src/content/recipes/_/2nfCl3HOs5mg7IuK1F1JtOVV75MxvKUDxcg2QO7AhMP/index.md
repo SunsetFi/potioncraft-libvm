@@ -1,0 +1,36 @@
+---
+name: 2nfCl3HOs5mg7IuK1F1JtOVV75MxvKUDxcg2QO7AhMP
+datastring: AXiczVrfb9MwEP5f-sysxD9iZ4-AgEkgTRpoSIiHtPHWiJBUbjpAaP87V3ig7rbsPrcLPG61z77z3Xff3eXnrK6Gau2Hs3p2OpMfz-38RXP9wffzIN-8HOaXH8Kr2bPZqh-avntOC3-v-1YNPmz_3fbD2eC_rmenn37Ohh8rTz9WdX3SdNfB143vBlr194_fmy-3m-dt33-l365D09XnPiy2S0_z22dsMe-r7rr137yv74jJRJmXgKjLZlgs323Wy_DYpdZDE04W1aatQ9_RyrpZD1W38Nszze7CVb8JJ-u-vflz4I0PazIgLdvdkwupWMJlKUq5s3Lpq-Hkpg-D_74rPN_dY4QtIBt09eGPwpPCNI4yoMp7W1jHZKIo4GNkyXo2K8oSfjWleS4hlANlK6ElEmA-hD4839yNL_gtM6FRQ-TCSaaRlQJlW2EsS3YuNHztgndtJ0yJmzFSlbVHC1XwdLUiR0L9YtOulptwsfTt1X0IrLi46RyqkxEZAu-vmuDnvm3vuaXJ1FEigrRgaatyQmXcXUueTxGWoZAphTUIvj-cuzNhLQIvD6cKUoOHr1KJTKPOsxd4yc7Dc28t8hKO2ZxrAAqzEjYAuSAT_CTEIN5VNYtDHcXiU12GK4cVazLmA0zMz9gcUaPIooVJcM7cgseQJ-FqG5w6FRrCHy7pn1DSGLwqCSH1UWoajVYd9NTuH4TpY2QkMt2IwrwkTvwDjn0VJ1omz8kRenIxNN2XA5-cMAoJIv6RvAhOyWYSr99UCh6hoZDSEcji8OEdY3nOTd4EW8oJCyeIgoggSKqr0FTJGJUZrv6qgDOXhf2RyBt4CFz_2Dg5jlG4DM2iKg6OJ349Q5qgJYsSCCs98IJWWIeyKiV4r2OEQ-B9lBwUiscSqR6B3U1jAc3N6WNum9IaYdaMCT2ULEbBQypb65iRq4WDc2EZ142P3fO871eHkQWhYXykLIT21KwoJ0wokgocmPaqmIUkX3HbwUkgDQltH4Xe96HGl2Y2w_My7vRNSy1VTC2fuOuTy3iywyO_UOX0trnyra_uVjtI2fS67-s5ve2PdD1NAWO1jPPJKGOVKGPTwvBasVk8aeFRbcesIwVeNzPnBoQ0ePul_Bd9vCPwACsylEzr2D7c_A6fgheqkrz52AE-Oo-GfTCPBw0p-Xyi4f-BxiHHKhwcRrBtwOHK2cJfhU0z3NvA4tH7PB60clsbTNkuIg3c9gxvnp3UIy54smmhhKse7phkjwSz2Ne2aTF1rh_5XoYZNKWw-Dhc85yLCClMYbOEN9UO7xa6lI9KUIK6R-K5RS9OYRRcX6g4C494CK1UT9OxZtIz3j2zOBOzvMDEDYYpevE6_s6I6RKOmymKBJ5keAbWMZtN-d5rRPiUzWW4WbHXt5mID_0ftEpashc-ts1SZtAoONAWGF_BwungDGspPSUQLHapbm4_3_4CwGvHaQ
+base: water
+effects:
+  Frost: 2
+  Invisibility: 3
+  Levitation: 1
+  Fear: 1
+  Light: 2
+  Necromancy: 1
+  Rejuvenation: 1
+ingredients:
+  Waterbloom: 7
+  Tangleweed: 3
+  WitchMushroom: 4
+  Windbloom: 4
+  TerrorBud: 3
+  SulphurShelf: 2
+  Firebell: 4
+  MadMushroom: 7
+  StinkMushroom: 5
+  Terraria: 6
+  Poopshroom: 1
+  Lifeleaf: 5
+  Goodberry: 1
+  Icefruit: 1
+salts:
+  life: 0.014289255111096986
+cost: 966.8177186763378
+stress: 16.0312195418814
+tags:
+  - immortal
+  - hot
+hash: 2nfCl3HOs5mg7IuK1F1JtOVV75MxvKUDxcg2QO7AhMP
+---

@@ -1,0 +1,18 @@
+---
+name: GShq8AfiLmKYS04JJVWU4iwNhOIqEfqchAlkASiv9EA
+datastring: AXic7dk9a8MwEAbg_6I5FpY_5WzNUAiU0qGdSgcRHY6oIwXp4qSE_PcqKbQudLBLl5Qbbb26RxIaDvvItEIVAJeazVm1uJddLtXT7dpvNu7GZq93h5bN2NahcXYRg5fcXiH48-vO4RJhE9j8-cjwbQtxUGmdGNt60AYsxtTXw2Xyo7JtB3sAHcdab6x-AL86R-fpafZZJqDxyUrtOu2djUltAiq7ikM5r4tBcOt2Pgmu6z-0HnyIa43FhnNKXmaDOb0zOgmqw8sSlLFxB3klB4k_2sVPUFOnBBFEEEEEEUQQQQRdA8SrNB_VoYqUi2EzuQaFSe88wmHYoYrvHaqUo4rXXDb1xOI5r8So4hkvJ5aOe_2rvjmebz3ufDNeyKkLlbwcd8A5L5tmYvFMcFlc230miCCC_hEkCSKIIIIIIogggggiiCCCfv-zVWRcFFO_hgheiNPL6R0HuU0-
+base: water
+effects:
+  Slowness: 3
+ingredients:
+  Tangleweed: 68
+salts:
+  void: 65
+cost: 9156.120000000015
+stress: 68
+tags:
+  - lowlander
+  - desolate
+  - hot
+hash: GShq8AfiLmKYS04JJVWU4iwNhOIqEfqchAlkASiv9EA
+---

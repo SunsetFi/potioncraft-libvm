@@ -1,0 +1,19 @@
+---
+name: kstBvd0heqYbFCW9pIEHdNtBgDAegB0wSBkQERDV0iR
+datastring: AXic7ZbPT8MgFMf_F84rKdD1x45qjLvtsszEeGCDTJIKDbxNzbL_XVoPttEYuvXglp4ayvd9oF_63uOABAfuJMwFmiH6uMjWt2q7lGZt6cMdrFdLe48mqDKgjL7xwkb3xkHa-nVpYA7y1aHZ0wHBRyX9JBciUnprpVBSg1d9D5rgVR284ZWf2VqlxcKPauEsxoRNj5MRNIKuDdSCOFA22vBdKazRXimUA643firNcNYSvkgO0d5YkO9etpfW-RT0rHYIxUkrojI7GzlT7r9293tIjFnPRdjQFpxxIFkWZGXR20kWdkZ5x_ALc2-EXD0EM5IE_ciU4iLtWztIEDrpJN_lgf-o0L3LShrEjUO4pLuTNHTLtOjJJv_ndx4mJ3IWZBUhuAio7qTbaIa6auTDNIqfHGuA17f3yPGyRjUP78NON9FcaRfc_si024GD-SQOXCDFcZ6fskIeluoZTk77AEaPz8dP8eN2qw
+base: water
+effects:
+  Mana: 1
+  Luck: 3
+ingredients:
+  Watercap: 27
+salts:
+  sun: 4
+cost: 1487.3399999999992
+stress: 27
+tags:
+  - lowlander
+  - solar
+  - hot
+hash: kstBvd0heqYbFCW9pIEHdNtBgDAegB0wSBkQERDV0iR
+---

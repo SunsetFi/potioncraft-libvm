@@ -1,0 +1,19 @@
+---
+name: bZnFtmktAZPnlhjvAOv6MAW8Jr9aBqdyFUiqdPUNZ1j
+datastring: AXic3VhNi9swEP0vPq8H68uSc9yW0r0FytJC6UGJRdY0sYKsTVuW_e8dp9BGCw0z4O6hp5B49KI8vfdmlKeq99lPId_11aqSn9Z282bY3Ye4SfL927z5eJ_eVTfVMeYhjrdYeK775nNI88f7mO9yOEzV6vNTlX8cAz70fV8P4y6Ffghjxqo_b86L1w9-zPHw4euQ5qe7NIz9OqTtXLxqoFHt881CYP8vkLgAmvKQ6q1_3PcpjljZD1P24xYfaQPaXFQ-BJ_rU0w5fMe6U0gTniqCXa6xYBwJXIASTGwBjrbxFpxkYmswHQnbgeNyooFGiSrqaMiShCyh5XL9T0T79x1aPq0tCLPYJqHTmmYKsFwuJVjiKQmuABRoGrbQoBUT3EGriIcnNN9vNOlqUB0bm2ZlCY7LdwsNLYIEGG68SYndiwguLk_9GB9TPcX96Zfuf6M35Zoiy6-Cs0lxeikj0tjFPOMKTkFD-_1tqXoaNtEoEjp-xLe0fSM2lxMJmuoUzd23wDOigQtX6p4kZwnSva7mDHT8xk-TheKHBY5mtH6lQHFlYcDSmoriZ7MsW8XVPsu1IVqFOmgVXZPGCXE-RE642EuOMbYjthDUJneOsdS40NDwGysx5tArXBsKel9law45Ea-bQ8JCw3WdAUVNIs3HJp8cOy0Qe7nrPN0bKBh-K-1o86xoQXIFbMqLwVWKuQJ-QfGiwYb7pmJL_qVKEm8-0HE5EWU2XpsVZRHepNGlQf_aF6pOMfv5P7J68vt55fllVR3i-Qt3yQ_jhDThFe7L808YwYBB
+base: water
+effects:
+  Mana: 1
+  Fragrance: 3
+ingredients:
+  PhantomSkirt: 12
+salts:
+  moon: 1
+cost: 942.89
+stress: 12
+tags:
+  - lowlander
+  - lunar
+  - hot
+hash: bZnFtmktAZPnlhjvAOv6MAW8Jr9aBqdyFUiqdPUNZ1j
+---

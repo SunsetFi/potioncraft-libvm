@@ -1,0 +1,19 @@
+---
+name: YoWVocF7Sr64rUZJyZMYfHH1ML4UVGmME8Y7ExVucOX
+datastring: AXicxVfLbtswEPwXnu2F-NDLxzZpkByCACl6KXoQLDpV4EoGRTttg_x7mfRQK8AQXrqGdZPI1XBnH7N8Fm3jm9H661YsxOXK3dnHC2eqj7e_l4-f7vXNl3sxE5vBd0P_Iex72_bUeOteP68Hf-3tj1Esvj4L_2tjw2LTtvOuf3C27Wzvw65_L2_GV67Z2c9uu1qtbVh9cF3f3lm3fN28yEjnKtt_zEzsrBsDvFjIl9n_gznNfwuFDjz6zs2XzXbdurA0E203-qZfhiWtqK72rNSe1Xfb-PlucN7-nNhUJGtgcqQHeS3ZHgQ-NdMBqcggm82wdfNxWO_-nn_PiGo-uyUZxO7RwdbgOMhrRRUKW8QDUiWTXUUlH0dhohCOpgoFMYaTKbY_hUzAUVx_JCGmMYwkhbjGMCZn44R847qTpaRBRobrTzAxCTgaGUVwUngzKHcwji5S_EFGGEem8Jbx41OjijtZCzzZjyOVWON2FNEUzRe8UPMJOGjmiOFItkNqGuwzDzcK1V6EqEnbPpgoVHwQKOgqPyIqHC_BJX4yR2o2gpPzPaqpQE0V9ZOCasT2GcreUMmdJypS_MZr-I3XUJ4yt-RcIQmBT9ARNkxkBIni8GUeBTQGI7kyHxkQYYmVdKLmWpoEGdL8maPAfSV2BWHnSo7vdzEcjQbwI-k1OYobzg44B8eyEE7cuHazpMsAf3jOU6qKC6NIs3Xr3VXg4OSHTRwnZcnn2kwnt4P0JQFEckFMUMuEgCquWMoSq9gZ5F4ZnPuRWa-YZti3lz_vcPaE
+base: water
+effects:
+  Poison: 1
+  Light: 1
+  Rage: 3
+ingredients:
+  GraveTruffle: 12
+salts: {}
+cost: 1512
+stress: 12
+tags:
+  - lowlander
+  - dull
+  - hot
+hash: YoWVocF7Sr64rUZJyZMYfHH1ML4UVGmME8Y7ExVucOX
+---

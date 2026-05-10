@@ -1,0 +1,25 @@
+---
+name: S0tplpG3TA06JgFXliZSxz7z7XUzHVS58fXq429ZVKf
+datastring: AXic7VhNi9swEP0vPieDPi07t-6hsLAsC6Wn0oOJTWLWsYKshC1L_nuVFNrdwIRRJoUt9BQcj_RmRjNvnvxatE1spi7et8WiKO8eq0FXzdfP67DZ-E-jen54WRWzYutj78e7ZHiy8_1w_HPw8T52m6lYfHst4o9tl141bTsPPjZH-_nUDDEZnn4Wxcb7MT2tQtOPaY22YlbsuzAly2IhD7N3e_TjKnRt343HDf48nOCf1s0Y_ebLcx_iacN-bJ-6sDwaLySy6RT7MF82u6ENJzfaforNuEyvHNTImnXXxPneh9i9vFtRQq2ugFEmE0fWUDtkzdbvwnzyw_5Xin7biLcbKLAlyTkJWN5IOBIqS8IxIMv8bDtbZXonz7JgKNkGw4IRUFLCSWY8FFURUBRgxXapQg226EJbT7u3XY2mkNXUApzTXNc0xjeX2kLn9mwFrCIyICypJ5ilKoS-3eFkk9RZyLKuaTzAg1Gax-3kaAgwGlAeJBd0jdUmydFEd6QZBNIyWbEk8RWGQu9vrDzIO6CKBGeINKGxcySlR6djMCQkDTp3cqo0BdhVJl1-VhI9sXGvgE1jgl1FLn9uCqj-ytTDJBmdIPJVqrgBLxlM4OCwyoFkD3i01rH-YPGnBqcIGBZY40TT5N5_lI-JokrQV3SDAYN1Az5AHWsQJRVHEZ6CKY8EWErX3OIqItFhgGe-whNPLAtJm-YpD8zjouLUrICSn44oTyTzXmupdzLB1L2CrCZYl6yk7GgfX9LMzb1lltnfa85c046AkiJgNntJ-fCiQF4jVNB6w8Mp2ZJKivwPjAYsW9ugbHEpQ1hWyahVfrD_LKrGzghHtVDzGCIV8eH74Sesqsu4
+base: oil
+effects:
+  Light: 1
+  FrostProtection: 1
+  Fire: 1
+  FireProtection: 1
+  LightningProtection: 1
+  AcidProtection: 1
+  PoisonProtection: 1
+ingredients:
+  PhantomSkirt: 4
+salts:
+  moon: 1
+  sun: 17
+  life: 0.004683761442294753
+cost: 888.7058078641885
+stress: 4
+tags:
+  - lowlander
+  - hot
+hash: S0tplpG3TA06JgFXliZSxz7z7XUzHVS58fXq429ZVKf
+---

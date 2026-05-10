@@ -1,0 +1,19 @@
+---
+name: 26XIjw6tlPtNLcPiPBjhNbar2C2mKlMjwCD53cd53dF
+datastring: AXiczVVNa8MwDP0vPicicT6c9LiNsR4GvZQNxg5JbTJDFhfHLSul_31uB2szUKi2UnZMpOf3LD1LWyYrV_XKTSWbMP48E_WtbubK1JY_3Ln6aW7vWcCWxmnT3fjEQ57R7f5na9zUqfeeTV62zG2WyocqKUPdNVZJrTrns44fB-hj1ahaWbvxocbqTs6UXewzJxEIngZsrWzvudgk3gXfp_ZO23BRrVppfShgUveu6hY-lEGcIKA3VblwbaxTHwNICmV2AuEnkL-oL0pMyNKsbNibdv115lFJDFwQxccQY-JRmggyrLAYjYfQWRJOvkx-8UbEZAulEUTU-vACopJaIQ4p1u4RdZDlRHECUv4f6gp5SX6aCSIcp0lAFGSavCDzxFBgLhnpeILVDXUWlFjzRp4etdBDxJkkqHtxlhQbI3idBZR0wxeXn-h0wwuIqRMwQfswOhGoKy8bQs7j8SsNa8SI4XOqSThEv9g1guqRH5BzLU-l8Svtela86jRP8Fk2YgcxxLzuPgFioHr0
+base: oil
+effects:
+  Lightning: 1
+  Light: 1
+  FrostProtection: 3
+ingredients:
+  Mageberry: 7
+salts: {}
+cost: 532
+stress: 7
+tags:
+  - lowlander
+  - dull
+  - hot
+hash: 26XIjw6tlPtNLcPiPBjhNbar2C2mKlMjwCD53cd53dF
+---

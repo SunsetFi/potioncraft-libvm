@@ -1,0 +1,22 @@
+---
+name: tZcc1OVTARNd6vw59kb3gD3NlIFHXPurMW10DcwRL1d
+datastring: AXiczVjBbqMwEP0XzsnINsZAbu2hUqWq2stqD6s90GClqARHxs12VeXfd9IeGioNGkNa5Zjgmed5PL_x8JrUVah6G27rZJWY6_uiTYvq582j327dVaee7l42ySLZudC47hoXvq37WwXrj3-3LtwGu-2T1e_XJPzbWXxY1fWy6Tbe1o3tAq76-PEW_OsY_NA6t8VnG9909Q_r18elK3lYXFAaAaXJYlJh8Bk2dJ4sPHb60Pjlunpua-86XFk3fai6NT5SGspskeyt7_HNIxknUY-2Csu988G-DGJSkOok5BRo5579snft_n23H2lP4yXonAEjIZ-DIkCXDBQBppgJw0LRsygTkBYsGIoyWgElqDRSACqDkiKNBkohjwaiSJt-upDJgS4uwH9Y7EkJRexBVSC_gD8jzNl9bqTuFESsbDI0mLMXHpPlpvH2wbbtaBKmV0qOv0hQUytm7fVykjDt0rBIM5S_0HpE_1CRctRg5rVLkbKqGZyTKY2M02JGmv8YaUpHkoatTE_AEbE4EjKKttF6ZDxONgFHz3ynQrH2Nu92Ill3IOz_ZTQDCgR1eGgcNUU5sTAa0vjLVgbklYZ8OTktghHeFFByo4CKobNNUEHBqoc-2Fxv5_gUPT2MiYD0AlpsZgpOGas2rDpe1IrkgGRNo2PMEoEequDLB1gBMlbomp5eWDVqbIHfWaIBHSuXz9NCdI0FmihzqktnAR3jGQWVtNsyXSPnfA1As81ndVw8cpxeiJMZNZrxYFAT-vDn8B8E9aLL
+base: water
+effects:
+  Frost: 3
+  Hallucinations: 1
+  Inspiration: 1
+  Invisibility: 2
+  Mana: 1
+ingredients:
+  Waterbloom: 8
+  Windbloom: 6
+  Firebell: 4
+salts: {}
+cost: 626.4
+stress: 10.770329614269007
+tags:
+  - dull
+  - hot
+hash: tZcc1OVTARNd6vw59kb3gD3NlIFHXPurMW10DcwRL1d
+---

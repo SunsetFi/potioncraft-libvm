@@ -1,0 +1,19 @@
+---
+name: 1SpcIBrqZi9dME1RBd5D8qoshSI3ucGvKOfzfdYcrTc
+datastring: AXic7VbBTsMwDP2XnFurzZK26xEQsNsOTCAhDtmSjUilmdKsAk37d7IhwYbkaukY4kBvre08-9l-6ZpI4USj3EiSktCHcT691IuJMlNLb6_c9H5ir0lElsZpU194x52f0dX2Y2XcyKmXhpSPa-LelsqbhJSxrhdWSa1q572-XnahN1a06s6u5vNKeevC6lqOlZ1tncsEckYj0irbeDhSppvo8-DGaRvPxKqS1psiInXjRD3zpjRBQpZmZePGVO1HJkhEchQIAxaKwhGQ0ygKpmcALEeCnpVwcWusU6-H_BTAh0jMiQ1OKE_2nxTr91lY-j_0rx3qN34QPNLMzzQWhc10Blk4DmDTiaEUvp4eG5oUoRsK-f5S06NUD0JRKPA0FMV3FJMOvJiEhsOgqna2gcTy97kUoflz4Dx4UCgFipHb1ZBfZ6qzhBQrvGtysRK6fguAY7uIdXJweO_Rn-Iq7SE96A2MJZ8Dw9aoS3tQwcJwOLCsBw7HSMCbwYJhUkB_KHCYISZyXeVkoSpBv5XztHkHCR3X8w..
+base: oil
+effects:
+  Poison: 1
+  WildGrowth: 1
+  Slipperiness: 3
+ingredients:
+  GraveTruffle: 12
+salts: {}
+cost: 753.5999999999999
+stress: 12
+tags:
+  - lowlander
+  - dull
+  - hot
+hash: 1SpcIBrqZi9dME1RBd5D8qoshSI3ucGvKOfzfdYcrTc
+---

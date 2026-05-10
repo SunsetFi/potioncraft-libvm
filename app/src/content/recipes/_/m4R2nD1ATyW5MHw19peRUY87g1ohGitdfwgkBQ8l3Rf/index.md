@@ -1,0 +1,18 @@
+---
+name: m4R2nD1ATyW5MHw19peRUY87g1ohGitdfwgkBQ8l3Rf
+datastring: AXic3ZZNS8NAEIb_S87NkP1IsulRReytIEVBPKTN0gbbbNlsq1L6351W0ORgmYHowWO7sw-bd975OERVGcrWhkkVjSP5OM3n1_VyZt3cy7ubMH-Y-dtoFG1dqF1zhYHnuNcyWH_6e-3CJNhNG42fDlF431o8LKsqrpult1Vtm4BR3z_Ol6ersgluc_9S-9Pp0tdNNbV-cQoeJ5Co7DgaCPZ_QaIDakPt40W5W1feNRhZ1W0omwUe6RR02olc2TLEe-eDfcO4vfUtZhVh3Ts5pIYEF6AEky3A0B6egZFMtoa0ILENGK4mGmiSqF4cjSxJZAkZV-tfMe3PL8z5smYg0sEeCYXWtKKAnKulhJyYJcE1gAJNYwsNWjHhBjJFTJ7Q_HqjWVeDKthsWilLMFy9M0hoLUhAym1vUuL0IsJFN-tbt_Nx69b7T99_0ZP-nV4vvwhni2L0UIVIUxf7GddwChLa92d919PYxEKRUPBbfEZ7N7K5mkjQ1ErR3HcLzBENLkzf9yQ7S5Dmbz2XQsEf_DRbKH6zwNWMNq8UKK4tUshpQ0Xxe7Psj4qLc5Zbhlgq1EWrNzVpmhD3Q9SEyx5ujSHOpgS467FET9DaUI7ayuPz8QNvBrm4
+base: water
+effects:
+  Mana: 1
+  Shrinking: 1
+ingredients:
+  PhantomSkirt: 10
+salts: {}
+cost: 720
+stress: 10
+tags:
+  - lowlander
+  - dull
+  - hot
+hash: m4R2nD1ATyW5MHw19peRUY87g1ohGitdfwgkBQ8l3Rf
+---

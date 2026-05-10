@@ -1,0 +1,19 @@
+---
+name: DeemFbPE5DyJaJyQNZSsgnkRRNbUf2qyEdm0pY5ZQfx
+datastring: AXiczZdNb9swDIb_i88JYX1azm3FsKHAVgwIeip20CItNuZYgSynLYr89yndoTFQtXQ0DDs6fqk3ksiH9FNhdNCDDdemWBXy6kZ1TOnbT43f7dyHnv768rAtFsXehdb1V1H4rLvXwfrTz50L18HuhmJ191SEx72NL7Uxy7bfemta24eoenl4Dv7oH7UZ1lHW2fh269vefLN-cxKvyHHxdxYqQZLqbLEhtH650WNnvOuj2rRD0P3GnpRcLYqD9UPcYnw8C9q70S8H1x3--L9opvGSo4yIBFIlnBqrw_LgfLAPk5gYws9CCM5opglRIOa7iLjvmUYUOE34II-6qhE2UVbl2XCOsmF1ng3F7IZFWcLmvQr57H50bf91HBrv3O61Gqn4jOXWY7dvRr9ubPfzlcVq9v_-N8UVKqm5AMbyaCAkykkCzzSqcVuioLKMCHCBww7wFN6wIMURmwPN81G4KyJAUieXmY5MIQq_Ak7msz9922mOyZQPMkFKgukyUGbCn0vUbnJ7DMXAn005gbuc8sJsepeVqkSWqJyeDiY95k8GcWiZPYIAS93aWxzgMgcEsbNiEjfiRlzYgP_NrIskAwWR1QgYCByfVdoodcZi2g0vYBATuDTLY4PAuMSOm5rY3voMmYx5uKKpLmAQ0FTRpH3kfAiUySadJnfWOC1A4QaiOKekPlyw_a4-fj_-BnidFQ4.
+base: water
+effects:
+  Necromancy: 3
+ingredients:
+  DryadsSaddle: 4
+  GoblinMushroom: 3
+  SulphurShelf: 3
+salts:
+  life: 0.03717941062878351
+cost: 400.84610246917975
+stress: 5.830951894845301
+tags:
+  - immortal
+  - hot
+hash: DeemFbPE5DyJaJyQNZSsgnkRRNbUf2qyEdm0pY5ZQfx
+---

@@ -1,0 +1,19 @@
+---
+name: EdPEWMmT26vFKANd9cnzT8Duwa5fmMAMgzna6bmJ6VA
+datastring: AXiczVfLasMwEPwXne1Flmz5cWsohUApvfRUehCxSE39CLKSpoT8e2X3kPqwJhvS0JOJpdWsdmdm4wMrtdO9ccuSFUwtnrJaZvrl4d02TXfXio_H_ZoFbNO5qmsXfuO471M7Y4fXdeeWzjQ9K14PzH1tjF_UZRlW7dqasjKt87tOP8bge2t0szBmWFrbqi2fjV0NOwsOKY8DtjO292isiI7BFU6Nrn4iB8VT5NTeVTZc6W1dWr8UsLLqnW5XZozCLrfptjbsu3r3k8gpJuK_IviflgNPPMbu-m60C3eddWY_CVCAXRQHEZAoIkwKIrsZW-YyF5KYeTwpkDgLJgIsNQxFQpSQYTJIEzJLIRNkimTk1BK83xjMRD_in9oJnXIJJOQmSYipTfICU0j9UBgBKdakGQlxuoYkCDKDfAzmTBgMh_wSqdIdIaILwjsPtaWeOenVJeHnNpbHLVUhIaeWXQGnlz3yQGT5eYbnF4wWjgXNACm6ACPg2PSdMRSs6TiOt32qhWN0nfujldNlobBRec2pJ6ZlPhNGYhzAzQRDmSsaebjKqc2d61mYsGcYzfnc1LWd08PnSdjreogcHz6HbTuaiq5a_30Sq2kV347fKghTDw..
+base: water
+effects:
+  Mana: 1
+  Hallucinations: 3
+ingredients:
+  DreamBeet: 9
+salts:
+  sun: 1
+  life: 0.2249726051105822
+cost: 747.0989660303371
+stress: 9
+tags:
+  - lowlander
+  - hot
+hash: EdPEWMmT26vFKANd9cnzT8Duwa5fmMAMgzna6bmJ6VA
+---

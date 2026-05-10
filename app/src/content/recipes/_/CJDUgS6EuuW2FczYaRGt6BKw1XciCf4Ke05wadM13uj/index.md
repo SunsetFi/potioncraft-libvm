@@ -1,0 +1,17 @@
+---
+name: CJDUgS6EuuW2FczYaRGt6BKw1XciCf4Ke05wadM13uj
+datastring: AXicvVXJbsIwEP0Xn8ModuzEybGbRA8VElIvVQ9W7IIpJMhx6YL49xouhcNUGlR6TGbevDert8yaaAYXx5Y17PYlTNziJkh9_fDVLu6mxf3jlGVs3Uffd1fJ7-D2bqIL-9_LPo6jWw2sedqy-Ll2yWisHfluFpz1rovJ6-fjAJ7MTRf71fTVh711FnxnJy60e-cmB5HrjG1cGBIha_gu-6PAlwjKkaBD9GHUmrelDcmUMeuHaLo2mYoS8voIJY5Qc2fiaNOH6D5OMAq4RCA4kQBFpOFQCTJNCaIk8iRlFZmnAI6Ju0gHMfFJB1ZXXDyHklqkAlRB50nqNJFIg8AgOFENijpd8pzp0lBx8rLQ6yahwBYMp8npZRP4IqNLWYLGErrIPcTVV6CpU6xAYZB_vrsKH3P8Htb0FvOUMrXHNUjsSfhtZsnvSAX5ObvBsWuN8ZQg6TdSgsDE_ZLPaQmed9__lPAd
+base: water
+effects:
+  Hallucinations: 1
+ingredients:
+  PhantomSkirt: 6
+salts: {}
+cost: 864
+stress: 6
+tags:
+  - lowlander
+  - dull
+  - hot
+hash: CJDUgS6EuuW2FczYaRGt6BKw1XciCf4Ke05wadM13uj
+---

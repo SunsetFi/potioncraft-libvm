@@ -1,0 +1,20 @@
+---
+name: Oi3s6zFmN8YmcA4MhnnuqUvgfpftIO8XxyNjfCNS7Jr
+datastring: AXic7Vg9b9swEP0vnO2D-CGJ8pYMDQIERZdORQfVIhyhtmRQjJsgyH8vkw6JCzwiJ0tOh442eXx3794dj3oUTR3qwYXrRqxEcfnZbrWtv3669btdf9Gpnzf3G7EQ-z60fXcZN77s-1UH55__3vbhOrjdIFbfHkV42Lu4WDfNsu023jWt60Lc9frjxfiq75sfzvuHuLTxbdd8cX79vHOVUZEXC3FwfohoYiWfFhOcKic_MaOyLGc4VVUKnDqE1i_X9d228XFpIZp2CHW3jkuqJA2Mbl0dlofeB3d_ZCLJWmCy7-_8cui3hz--v9pk9NYkex_KHBSV0586h0BUgQSSSKVhp1JTPoPzWqIqxM5HgaCIE6IyBVAVBjJkUJVAIEWmAkDz8PT_1HPrL6eM3dQ08eWXU8GWn4bNM4VTmRE48kxAMh8BBNOaKFyLUnSSwDKUw-lvkUS_JzPhPYxxJHItQTtK70nDXTWiqis2RZFWvjgtzdHIVMlXRTmLJzpDowX2RFOGMpYgv0ITSaoQLAI6LWa-4GJnG9Hec37M-bFKPzjmEVen5Uv7n4p5RJpL_liCcT4g4jEh858xM4XMl9uYiBUpfqOUZBBN6OGWk3pbc2oqlvjOG1Ls-SB2PFQKKGB13FjVe2DiyMB9EGdUaj6MRhMwhtE5H0aiqsUwbM4UvrRTFzBk4JwDscHT3vRuIM4NGQlIT74Kkef4001VsHHii5VbeNIS6jRQRFL9_TXn-9NvBxZqrA..
+base: water
+effects:
+  Healing: 1
+  WildGrowth: 2
+  FireProtection: 1
+ingredients:
+  Goodberry: 26
+salts:
+  life: 0.007349706512094115
+cost: 936.009113636075
+stress: 26
+tags:
+  - lowlander
+  - immortal
+  - hot
+hash: Oi3s6zFmN8YmcA4MhnnuqUvgfpftIO8XxyNjfCNS7Jr
+---

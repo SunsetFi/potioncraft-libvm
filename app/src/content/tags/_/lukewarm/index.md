@@ -6,5 +6,5 @@ Lukewarm recipes disallow whirlpool teleportation, but still allow whirlpool mov
 
 ### Other Whirlpool Tags
 
-- [Cold](../cold)
-- [Hot](../hot)
+- [Cold](./cold)
+- [Hot](./hot)

@@ -6,10 +6,10 @@ Imortal recipes only use life salt.
 
 ### Other Salt Tags
 
-- [Desolate](./desolate)
-- [Dull](./dull)
-- [Rich](./rich)
-- [Gyroscopic](./gyroscopic)
-- [Solar](./Solar)
-- [Lunar](./Lunar)
-- [Scholarly](./scholarly)
+- [Desolate](../desolate)
+- [Dull](../dull)
+- [Rich](../rich)
+- [Gyroscopic](../gyroscopic)
+- [Solar](../solar)
+- [Lunar](../lunar)
+- [Scholarly](../scholarly)

@@ -8,6 +8,7 @@ import { getRecipesByEffect } from "../../content/recipes/recipes-by-effect";
 import EffectList from "../../components/EffectList.astro";
 import IngredientList from "../../components/IngredientList.astro";
 import { base } from "astro:config/client";
+import RecipeTagsList from "../../components/RecipeTagsList.astro";
 
 export async function getStaticPaths() {
   const effects = await getCollection("effects");
@@ -54,9 +55,9 @@ const [{ Content }, resolvedIcon, recipes] = await Promise.all([
       <Content />
     </div>
 
-    <div class="effect-recipes">
-      <h3 id="recipes">Recipes</h3>
-      <table>
+    <div id="effect-recipes">
+      <h3>Recipes</h3>
+      <table class="effect-recipes-table">
         <thead>
           <tr>
             <th>Effects</th>
@@ -73,7 +74,7 @@ const [{ Content }, resolvedIcon, recipes] = await Promise.all([
                   <EffectList effects={effects} />
                 </td>
                 <td>
-                  {tags.map((tag) => <span>{tag}</span>) ?? <span>None</span>}
+                  <RecipeTagsList tags={tags} limit={3} />
                 </td>
                 <td>
                   <IngredientList ingredients={ingredients} />
@@ -111,6 +112,10 @@ const [{ Content }, resolvedIcon, recipes] = await Promise.all([
     display: flex;
     justify-content: center;
     margin-bottom: 1rem;
+  }
+
+  .effect-recipes-table {
+    overflow: visible;
   }
 
   dt {

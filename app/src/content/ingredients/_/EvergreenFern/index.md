@@ -1,0 +1,9 @@
+---
+name: Evergreen Fern
+basePrice: 21.6
+groundColor: "#879E55"
+path: M0,0 C 3.7924993,1.66499925 10.4524994,-2.68250084 6.65999937,-6.660001 C 3.771294,-9.689619 -0.6745002,-5.146532 2.77499914,-2.77500081 C 4.254999,-1.75750089 6.57053661,-3.615646 5.17999935,-5.180001 C 4.43999958,-6.012501 3.05249929,-4.625001 4.069999,-4.07000065
+grindStartPercent: 0.137
+---
+
+Evergreen fern can grow forever. In folk traditions, it is considered a symbol of youth.

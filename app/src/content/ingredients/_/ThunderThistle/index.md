@@ -1,0 +1,9 @@
+---
+name: Thunder Thistle
+basePrice: 17.5
+groundColor: "#9E5875"
+path: M0,0 C 0.0001,0 3.69989944,2.95999932 3.69999933,2.95999932 C 3.70009923,2.95999932 -0.00010080466,2.95999932 -8.046627E-07,2.95999932 C 9.91953348E-05,2.95999932 3.700099,5.919999 3.699999,5.919999
+grindStartPercent: 0.36
+---
+
+Lightning crackles around this flower during storms.

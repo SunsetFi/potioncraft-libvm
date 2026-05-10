@@ -1,0 +1,41 @@
+---
+interface Props {
+  tags: string[];
+  count?: boolean;
+  limit?: number;
+}
+
+// TODO: Get icons for these!
+const { tags, limit, count } = Astro.props;
+
+const resolved = tags.slice(0, limit ?? Infinity);
+const limitReached = limit !== undefined && tags.length > limit;
+---
+
+<ul class="recipe-tags-list">
+  {
+    resolved.map((tag) => (
+      <li>
+        <a class="recipe-tags-list-item" href={`/tags/${tag}`}>
+          {tag}
+        </a>
+      </li>
+    ))
+  }
+  {limitReached && <li>+{tags.length - resolved.length} more</li>}
+</ul>
+<style>
+  .recipe-tags-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .recipe-tags-list-item {
+    white-space: nowrap;
+    flex: 1 0 auto;
+  }
+</style>

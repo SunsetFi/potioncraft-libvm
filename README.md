@@ -8,24 +8,24 @@ The prototype is available [here](https://sunsetfi.github.io/potioncraft-libvm).
 
 ### Now
 
-- [ ]: Compute and add missing tags for ingredient types (organic, crystaline, ...)
-- [ ]: Compute ingredient directions.
+- [ ] Compute and add missing tags for ingredient types (organic, crystaline, ...)
+- [ ] Compute ingredient directions.
   How does the game do this?
-  - [ ]: Index pages for ingredients based on type and direction.
-- [ ]: Tags and tag recipes for ingredient type tags (organic, crystaline, ...)
-- [ ]: Auto-generate and save images for effects to indicate their position on the map.
+  - [ ] Index pages for ingredients based on type and direction.
+- [ ] Tags and tag recipes for ingredient type tags (organic, crystaline, ...)
+- [ ] Auto-generate and save images for effects to indicate their position on the map.
   Auto-generate a large image of the local area, with a minimap in the corner
-- [ ]: Copyright notice for PotionCraft assets
-- [ ]: Link to Alchemist's Tome
+- [ ] Copyright notice for PotionCraft assets
+- [ ] Link to Alchemist's Tome
 
 ### Later
 
-- [ ]: Customer request pages.
-  - [ ]: Auto-link customer requests to recipes based on effect tiers.
-- [ ]: Wiki-style pages for brewing techniques?
-- [ ]: Move name generation into tome sync code and out of build time.
-- [ ]: Make icons for tags
-- [ ]: Synchronization system for Alchemist's Tome.  Weekly sync?
+- [ ] Customer request pages.
+  - [ ] Auto-link customer requests to recipes based on effect tiers.
+- [ ] Wiki-style pages for brewing techniques?
+- [ ] Move name generation into tome sync code and out of build time.
+- [ ] Make icons for tags
+- [ ] Synchronization system for Alchemist's Tome.  Weekly sync?
 
 ## Using this Repository
 

@@ -3,10 +3,7 @@ import { getCollection, render } from "astro:content";
 import { Image } from "astro:assets";
 import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 
-// import placeholder from "../../assets/placeholder.png";
-
-import { resolveIcon } from "./resolve-icon";
-
+import { resolveIngredientIcon } from "../../content/ingredients/resolve-ingredient-icon";
 import IngredientPath from "../../components/IngredientPath.astro";
 
 export async function getStaticPaths() {
@@ -18,10 +15,12 @@ export async function getStaticPaths() {
 }
 
 const { ingredient } = Astro.props;
-const { Content } = await render(ingredient);
 const { name, basePrice, path, icon } = ingredient.data;
 
-const resolvedIcon = icon ?? (await resolveIcon(ingredient.id));
+const [{ Content }, resolvedIcon] = await Promise.all([
+  render(ingredient),
+  resolveIngredientIcon(ingredient.id),
+]);
 ---
 
 <StarlightPage

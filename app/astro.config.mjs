@@ -2,6 +2,7 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 import { getIngredientSidebarItems } from "./config/sidebar/ingredients";
+import { getEffectSidebarItems } from "./config/sidebar/effects";
 
 // https://astro.build/config
 export default defineConfig({
@@ -22,6 +23,10 @@ export default defineConfig({
             // Each item here is one entry in the navigation menu.
             { label: "Example Guide", slug: "guides/example" },
           ],
+        },
+        {
+          label: "Effects",
+          items: getEffectSidebarItems(),
         },
         {
           label: "Ingredients",

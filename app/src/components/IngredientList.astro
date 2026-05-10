@@ -1,0 +1,64 @@
+---
+import { Image } from "astro:assets";
+import { resolveIngredientIcon } from "../content/ingredients/resolve-ingredient-icon";
+
+interface Props {
+  ingredients: Record<string, number>;
+  count?: boolean;
+  limit?: number;
+}
+
+const { ingredients, limit, count } = Astro.props;
+
+const ingredientIcons = Object.fromEntries(
+  await Promise.all(
+    Object.keys(ingredients).map(async (id) => {
+      const ingredient = await resolveIngredientIcon(id);
+      return [id, ingredient];
+    }),
+  ),
+);
+
+const resolved = Object.entries(ingredients).slice(0, limit ?? Infinity);
+const limitReached =
+  limit !== undefined && Object.entries(ingredients).length > limit;
+---
+
+<ul class="ingredient-list">
+  {
+    resolved.map(([id, amount]) => (
+      <li>
+        <span class="ingredient-list-item">
+          <a href={`/ingredients/${id}`}>
+            <Image src={ingredientIcons[id]} alt={id} width={32} height={32} />
+          </a>
+          {count && `x${amount}`}
+        </span>
+      </li>
+    ))
+  }
+  {
+    limitReached && (
+      <li>
+        <span>
+          +{Object.entries(ingredients).length - resolved.length} more
+        </span>
+      </li>
+    )
+  }
+</ul>
+<style>
+  .ingredient-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .ingredient-list-item {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+</style>

@@ -1,0 +1,126 @@
+---
+import { getCollection, render } from "astro:content";
+import { Image } from "astro:assets";
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+
+import { resolveEffectIcon } from "../../content/effects/resolve-effect-icon";
+import { getRecipesByEffect } from "../../content/recipes/recipes-by-effect";
+import EffectList from "../../components/EffectList.astro";
+import IngredientList from "../../components/IngredientList.astro";
+
+export async function getStaticPaths() {
+  const effects = await getCollection("effects");
+  return effects.map((i) => ({
+    params: { slug: i.id },
+    props: { effect: i },
+  }));
+}
+
+const { effect } = Astro.props;
+const { id, name, basePrice } = effect.data;
+
+const [{ Content }, resolvedIcon, recipes] = await Promise.all([
+  render(effect),
+  resolveEffectIcon(id),
+  getRecipesByEffect(id),
+]);
+---
+
+<StarlightPage
+  frontmatter={{
+    title: name,
+    description: `The ${name} effect.`,
+  }}
+>
+  <div class="effect-layout">
+    <aside class="effect-infobox">
+      {
+        resolvedIcon && (
+          <div class="icon-wrapper">
+            <Image src={resolvedIcon} alt={name} width={64} />
+          </div>
+        )
+      }
+      <dl>
+        <dt>Base Price</dt>
+        <dd>{basePrice}</dd>
+      </dl>
+    </aside>
+
+    <div class="effect-body">
+      <Content />
+    </div>
+
+    <div class="effect-recipes">
+      <h3>Recipes</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Effects</th>
+            <th>Tags</th>
+            <th>Ingredients</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            recipes.map(({ id, data: { effects, tags, ingredients } }) => (
+              <tr>
+                <td>
+                  <EffectList effects={effects} />
+                </td>
+                <td>
+                  {tags.map((tag) => <span>{tag}</span>) ?? <span>None</span>}
+                </td>
+                <td>
+                  <IngredientList ingredients={ingredients} />
+                </td>
+                <td>
+                  <a href={`/recipes/${id}`}>View</a>
+                </td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+  </div>
+</StarlightPage>
+
+<style>
+  .effect-layout {
+    /* display: grid; */
+    /* grid-template-columns: 200px 1fr; */
+    /* gap: var(--sl-content-pad-x); */
+    min-height: 200px;
+  }
+
+  .effect-infobox {
+    float: right;
+    width: 200px;
+    border: 1px solid var(--sl-color-hairline);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    height: fit-content;
+  }
+
+  .icon-wrapper {
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  dt {
+    font-size: var(--sl-text-xs);
+    color: var(--sl-color-gray-3);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  dd {
+    font-weight: 600;
+    margin: 0 0 0.75rem 0;
+  }
+</style>

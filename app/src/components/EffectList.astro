@@ -1,0 +1,45 @@
+---
+import { Image } from "astro:assets";
+import { resolveEffectIcon } from "../content/effects/resolve-effect-icon";
+
+interface Props {
+  effects: Record<string, number>;
+}
+
+const { effects } = Astro.props;
+
+const effectIcons = Object.fromEntries(
+  await Promise.all(
+    Object.keys(effects).map(async (id) => {
+      const icon = await resolveEffectIcon(id);
+      return [id, icon];
+    }),
+  ),
+);
+---
+
+<ul class="effect-list">
+  {
+    Object.entries(effects).map(([id, strength]) =>
+      Array.from({ length: strength }, () => (
+        <a href={`/effects/${id}`}>
+          <Image
+            class="recipe-effect-icon"
+            src={effectIcons[id]}
+            alt={id}
+            width={32}
+            height={32}
+          />
+        </a>
+      )),
+    )
+  }
+</ul>
+<style>
+  .effect-list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 0.25rem;
+  }
+</style>

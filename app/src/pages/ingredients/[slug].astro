@@ -1,11 +1,11 @@
 ---
 import { getCollection, render } from "astro:content";
 import { Image } from "astro:assets";
+import { Code } from "astro:components";
 import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 
 import { resolveIngredientIcon } from "../../content/ingredients/resolve-ingredient-icon";
 import IngredientPath from "../../components/IngredientPath.astro";
-import { Code } from "astro:components";
 
 export async function getStaticPaths() {
   const ingredients = await getCollection("ingredients");
@@ -13,7 +13,6 @@ export async function getStaticPaths() {
     params: { slug: ingredient.id },
     props: { ingredient: ingredient },
   }));
-  console.log(JSON.stringify(items, null, 2));
   return items;
 }
 
@@ -46,16 +45,16 @@ const [{ Content }, resolvedIcon] = await Promise.all([
       <dl>
         <dt>Base Price</dt>
         <dd>{basePrice}</dd>
-        <dt>Path</dt>
-        <dd>
-          <IngredientPath path={path} size={200} icon={resolvedIcon?.src} />
-        </dd>
       </dl>
     </aside>
 
     <div class="ingredient-body">
       <Content />
       <div>
+        <h3 id="path">Path</h3>
+        <div class="ingredient-path-preview">
+          <IngredientPath path={path} size={200} icon={resolvedIcon?.src} />
+        </div>
         <h4 id="svg-path">SVG Path</h4>
         <Code wrap code={path} />
       </div>
@@ -65,16 +64,15 @@ const [{ Content }, resolvedIcon] = await Promise.all([
 
 <style>
   .ingredient-layout {
-    /* display: grid; */
-    /* grid-template-columns: 200px 1fr; */
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     gap: var(--sl-content-pad-x);
     max-width: 100%;
   }
 
   .ingredient-infobox {
-    width: 200px;
+    width: 250px;
+    flex: 0 0 auto;
     border: 1px solid var(--sl-color-hairline);
     border-radius: 0.5rem;
     padding: 1rem;
@@ -92,6 +90,11 @@ const [{ Content }, resolvedIcon] = await Promise.all([
     display: flex;
     justify-content: center;
     margin-bottom: 1rem;
+  }
+
+  .ingredient-path-preview {
+    display: flex;
+    justify-content: center;
   }
 
   dt {

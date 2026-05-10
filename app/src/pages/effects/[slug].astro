@@ -19,7 +19,6 @@ export async function getStaticPaths() {
 
 const { effect } = Astro.props;
 const { id } = effect;
-console.log("Rendering effect id:", id);
 const { name, basePrice } = effect.data;
 
 const [{ Content }, resolvedIcon, recipes] = await Promise.all([
@@ -93,15 +92,13 @@ const [{ Content }, resolvedIcon, recipes] = await Promise.all([
 
 <style>
   .effect-layout {
-    /* display: grid; */
-    /* grid-template-columns: 200px 1fr; */
-    /* gap: var(--sl-content-pad-x); */
     min-height: 200px;
   }
 
   .effect-infobox {
     float: right;
     width: 200px;
+    margin-left: var(--sl-content-pad-x);
     border: 1px solid var(--sl-color-hairline);
     border-radius: 0.5rem;
     padding: 1rem;

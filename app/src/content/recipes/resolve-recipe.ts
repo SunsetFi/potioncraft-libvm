@@ -19,6 +19,5 @@ export async function resolveRecipes() {
     recipeCache = getCollection("recipes");
   }
   const recipes = await recipeCache;
-  console.log(`Resolved ${recipes.length} recipes`);
   return recipes;
 }

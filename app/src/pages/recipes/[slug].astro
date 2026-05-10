@@ -5,10 +5,14 @@ import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 import EffectList from "../../components/EffectList.astro";
 import IngredientList from "../../components/IngredientList.astro";
 import { resolveRecipePreview } from "../../content/recipes/resolve-recipe-preview";
+import {
+  getPrimaryIngredientTag,
+  getPrimarySaltTag,
+} from "../../content/tags/primary-tag";
+import { resolveTag } from "../../content/tags/resolve-tag";
 
 export async function getStaticPaths() {
   const recipes = await getCollection("recipes");
-  console.log("Loaded", recipes.length, "recipes");
   return recipes.map((i) => ({
     params: { slug: i.id },
     props: { recipe: i },
@@ -21,12 +25,34 @@ const [{ Content }, preview] = await Promise.all([
   render(recipe),
   resolveRecipePreview(id),
 ]);
-const { name, cost, datastring, effects, ingredients, tags } = recipe.data;
+const { name, cost, effects, ingredients, tags } = recipe.data;
+
+const primaryIngredientTag = getPrimaryIngredientTag(tags);
+const primarySaltTag = getPrimarySaltTag(tags);
+
+const [primaryIngredientTagData, primarySaltTagData] = await Promise.all([
+  primaryIngredientTag ? resolveTag(primaryIngredientTag) : null,
+  primarySaltTag ? resolveTag(primarySaltTag) : null,
+]);
+
+let titleDescriptor: string = "";
+
+if (primaryIngredientTagData) {
+  if (primarySaltTagData) {
+    titleDescriptor = `${primarySaltTagData.data.name} ${primaryIngredientTagData.data.name}`;
+  } else {
+    titleDescriptor = primaryIngredientTagData.data.name;
+  }
+} else if (primarySaltTagData) {
+  titleDescriptor = primarySaltTagData.data.name;
+} else {
+  titleDescriptor = "Unknown";
+}
 ---
 
 <StarlightPage
   frontmatter={{
-    title: name,
+    title: `${titleDescriptor} Recipe`,
     description: `The ${name} recipe.`,
   }}
 >

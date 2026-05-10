@@ -5,8 +5,6 @@ import { SingleBar } from "cli-progress";
 
 const dir = resolve(process.cwd(), "./_");
 
-console.log("Populating images from", dir);
-
 const processDatastringsBar = new SingleBar({});
 
 const dirs = readdirSync(dir, { withFileTypes: true });
@@ -15,8 +13,6 @@ for (const target of dirs) {
   const markdown = resolve(dir, target.name, "index.md");
   const contents = readFileSync(markdown, "utf-8");
   const parsed = matter(contents);
-
-  // console.log(`Processing ${target.name}...`);
 
   const { datastring } = parsed.data as { datastring: string };
   if (!datastring) {

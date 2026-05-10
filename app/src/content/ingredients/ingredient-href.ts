@@ -1,5 +1,5 @@
 import { base } from "astro:config/client";
 
-export function ingredientHref(ingredientId: string) {
+export function getIngredientHref(ingredientId: string) {
   return `${base}/ingredients/${ingredientId.toLowerCase()}`;
 }

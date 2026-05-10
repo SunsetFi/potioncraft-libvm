@@ -6,6 +6,8 @@ import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 
 import { resolveIngredientIcon } from "../../content/ingredients/resolve-ingredient-icon";
 import IngredientPath from "../../components/IngredientPath.astro";
+import { getRecipesByIngredient } from "../../content/recipes/recipes-by-ingredient";
+import RecipesTable from "../../components/RecipesTable.astro";
 
 export async function getStaticPaths() {
   const ingredients = await getCollection("ingredients");
@@ -20,9 +22,10 @@ const { ingredient } = Astro.props;
 const { id } = ingredient;
 const { name, basePrice, path } = ingredient.data;
 
-const [{ Content }, resolvedIcon] = await Promise.all([
+const [{ Content }, resolvedIcon, recipes] = await Promise.all([
   render(ingredient),
   resolveIngredientIcon(id),
+  getRecipesByIngredient(id),
 ]);
 ---
 
@@ -50,14 +53,14 @@ const [{ Content }, resolvedIcon] = await Promise.all([
 
     <div class="ingredient-body">
       <Content />
-      <div>
-        <h3 id="path">Path</h3>
-        <div class="ingredient-path-preview">
-          <IngredientPath path={path} size={200} icon={resolvedIcon?.src} />
-        </div>
-        <h4 id="svg-path">SVG Path</h4>
-        <Code wrap code={path} />
+      <h3 id="path">Path</h3>
+      <div class="ingredient-path-preview">
+        <IngredientPath path={path} size={200} icon={resolvedIcon?.src} />
       </div>
+      <h4 id="svg-path">SVG Path</h4>
+      <Code wrap code={path} />
+      <h3 id="recipes">Recipes</h3>
+      <RecipesTable recipes={recipes} />
     </div>
   </div>
 </StarlightPage>

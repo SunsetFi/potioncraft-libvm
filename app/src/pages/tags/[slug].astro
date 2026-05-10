@@ -1,62 +1,44 @@
 ---
 import { getCollection, render } from "astro:content";
-import { Image } from "astro:assets";
 import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
-
-import { resolveEffectIcon } from "../../content/effects/resolve-effect-icon";
-import { getRecipesByEffect } from "../../content/recipes/recipes-by-effect";
-import EffectList from "../../components/EffectList.astro";
-import IngredientList from "../../components/IngredientList.astro";
-import { base } from "astro:config/client";
-import RecipeTagsList from "../../components/RecipeTagsList.astro";
+import { getRecipesByTag } from "../../content/recipes/recipes-by-tag";
 import RecipesTable from "../../components/RecipesTable.astro";
 
 export async function getStaticPaths() {
-  const effects = await getCollection("effects");
-  return effects.map((effect) => ({
+  const tags = await getCollection("tags");
+  return tags.map((effect) => ({
     params: { slug: effect.id },
-    props: { effect: effect },
+    props: { tag: effect },
   }));
 }
 
-const { effect } = Astro.props;
-const { id } = effect;
-const { name, basePrice } = effect.data;
+const { tag } = Astro.props;
+const { id } = tag;
+const { name } = tag.data;
 
-const [{ Content }, resolvedIcon, recipes] = await Promise.all([
-  render(effect),
-  resolveEffectIcon(id),
-  getRecipesByEffect(id),
+const [{ Content }, recipes] = await Promise.all([
+  render(tag),
+  getRecipesByTag(id),
 ]);
 ---
 
 <StarlightPage
   frontmatter={{
     title: name,
-    description: `The ${name} effect.`,
+    description: name,
   }}
   headings={[{ depth: 2, slug: "recipes", text: "Recipes" }]}
 >
-  <div class="effect-layout">
+  <div class="tag-layout">
     <aside class="effect-infobox">
-      {
-        resolvedIcon && (
-          <div class="icon-wrapper">
-            <Image src={resolvedIcon} alt={name} width={64} />
-          </div>
-        )
-      }
-      <dl>
-        <dt>Base Price</dt>
-        <dd>{basePrice}</dd>
-      </dl>
+      <!-- TODO: Icon -->
     </aside>
 
-    <div class="effect-body">
+    <div class="tag-body">
       <Content />
     </div>
 
-    <div id="effect-recipes">
+    <div id="tag-recipes">
       <h3>Recipes</h3>
       <RecipesTable recipes={recipes} />
     </div>
@@ -64,7 +46,7 @@ const [{ Content }, resolvedIcon, recipes] = await Promise.all([
 </StarlightPage>
 
 <style>
-  .effect-layout {
+  .tag-layout {
     min-height: 200px;
   }
 

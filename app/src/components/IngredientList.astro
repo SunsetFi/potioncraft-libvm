@@ -2,7 +2,7 @@
 import { Image } from "astro:assets";
 import { resolveIngredientIcon } from "../content/ingredients/resolve-ingredient-icon";
 import { resolveIngredient } from "../content/ingredients/resolve-ingredient";
-import { ingredientHref } from "../content/ingredients/ingredient-href";
+import { getIngredientHref } from "../content/ingredients/ingredient-href";
 
 interface Props {
   ingredients: Record<string, number>;
@@ -38,7 +38,7 @@ const limitReached =
     resolved.map(([id, amount]) => (
       <li>
         <span class="ingredient-list-item">
-          <a href={ingredientHref(id)}>
+          <a href={getIngredientHref(id)}>
             {ingredientData[id]?.icon ? (
               <Image
                 class="recipe-effect-icon"

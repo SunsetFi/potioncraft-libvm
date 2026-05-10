@@ -1,15 +1,10 @@
 import { getCollection, type CollectionEntry } from "astro:content";
 import { getEffectIdFromSlug } from "./collection";
 
-let effectCache: Promise<CollectionEntry<"effects">[]> | undefined;
-
 export async function resolveEffect(
   id: string,
 ): Promise<CollectionEntry<"effects"> | null> {
-  if (!effectCache) {
-    effectCache = getCollection("effects");
-  }
-  const effects = await effectCache;
+  const effects = await resolveEffects();
 
   id = id.toLowerCase();
 
@@ -19,6 +14,7 @@ export async function resolveEffect(
   return effect ?? null;
 }
 
+let effectCache: Promise<CollectionEntry<"effects">[]> | undefined;
 export async function resolveEffects() {
   if (!effectCache) {
     effectCache = getCollection("effects");

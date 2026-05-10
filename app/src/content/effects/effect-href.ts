@@ -1,5 +1,5 @@
 import { base } from "astro:config/client";
 
-export function effectHref(effectId: string) {
+export function getEffectHref(effectId: string) {
   return `${base}/effects/${effectId.toLowerCase()}`;
 }

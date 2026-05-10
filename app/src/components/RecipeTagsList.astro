@@ -1,12 +1,14 @@
 ---
+import { getTagHref } from "../content/tags/tag-href";
+
 interface Props {
   tags: string[];
-  count?: boolean;
   limit?: number;
 }
 
 // TODO: Get icons for these!
-const { tags, limit, count } = Astro.props;
+
+const { tags, limit } = Astro.props;
 
 const resolved = tags.slice(0, limit ?? Infinity);
 const limitReached = limit !== undefined && tags.length > limit;
@@ -16,7 +18,7 @@ const limitReached = limit !== undefined && tags.length > limit;
   {
     resolved.map((tag) => (
       <li>
-        <a class="recipe-tags-list-item" href={`/tags/${tag}`}>
+        <a class="recipe-tags-list-item" href={getTagHref(tag)}>
           {tag}
         </a>
       </li>

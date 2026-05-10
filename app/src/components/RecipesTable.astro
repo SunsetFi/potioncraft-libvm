@@ -1,0 +1,49 @@
+---
+import type { CollectionEntry } from "astro:content";
+import EffectList from "./EffectList.astro";
+import RecipeTagsList from "./RecipeTagsList.astro";
+import IngredientList from "./IngredientList.astro";
+import { getRecipeHref } from "../content/recipes/recipe-href";
+
+interface Props {
+  recipes: CollectionEntry<"recipes">[];
+}
+
+const { recipes } = Astro.props;
+---
+
+<table class="recipes-table">
+  <thead>
+    <tr>
+      <th>Effects</th>
+      <th>Tags</th>
+      <th>Ingredients</th>
+      <th>Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    {
+      recipes.map(({ id, data: { effects, tags, ingredients } }) => (
+        <tr>
+          <td>
+            <EffectList effects={effects} />
+          </td>
+          <td>
+            <RecipeTagsList tags={tags} limit={3} />
+          </td>
+          <td>
+            <IngredientList ingredients={ingredients} />
+          </td>
+          <td>
+            <a href={getRecipeHref(id)}>View</a>
+          </td>
+        </tr>
+      ))
+    }
+  </tbody>
+  <style>
+    .recipes-table {
+      overflow: visible;
+    }
+  </style>
+</table>

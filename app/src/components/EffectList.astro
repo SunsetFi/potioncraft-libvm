@@ -1,7 +1,7 @@
 ---
 import { Image } from "astro:assets";
 import { resolveEffectIcon } from "../content/effects/resolve-effect-icon";
-import { effectHref } from "../content/effects/effect-href";
+import { getEffectHref } from "../content/effects/effect-href";
 import { resolveEffect } from "../content/effects/resolve-effect";
 
 interface Props {
@@ -27,7 +27,7 @@ const effectData = Object.fromEntries(
   {
     Object.entries(effects).map(([id, strength]) =>
       Array.from({ length: strength }, () => (
-        <a href={effectHref(id)}>
+        <a href={getEffectHref(id)}>
           {effectData[id]?.icon ? (
             <Image
               class="recipe-effect-icon"

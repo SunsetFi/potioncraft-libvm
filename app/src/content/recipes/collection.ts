@@ -3,8 +3,13 @@ import { z } from "astro/zod";
 import { glob } from "astro/loaders";
 
 export const recipesCollection = defineCollection({
-  loader: glob({ pattern: "**/*.md", base: "./src/content/recipes/_/" }),
-  schema: () =>
+  loader: glob({
+    pattern: "**/*.md",
+    base: "./src/content/recipes/_/",
+    generateId: ({ entry }) =>
+      entry.replace(/\/index\.md$/, "").replace(/\.md$/, ""),
+  }),
+  schema: ({ image }) =>
     z.object({
       name: z.string(),
       datastring: z.string(),
@@ -13,5 +18,6 @@ export const recipesCollection = defineCollection({
       ingredients: z.record(z.string(), z.number()),
       cost: z.number(),
       tags: z.array(z.string()),
+      preview: image().optional(),
     }),
 });

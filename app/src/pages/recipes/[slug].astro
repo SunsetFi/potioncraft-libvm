@@ -10,6 +10,7 @@ import {
   getPrimarySaltTag,
 } from "../../content/tags/primary-tag";
 import { resolveTag } from "../../content/tags/resolve-tag";
+import RecipeTagsList from "../../components/RecipeTagsList.astro";
 
 export async function getStaticPaths() {
   const recipes = await getCollection("recipes");
@@ -68,7 +69,7 @@ if (primaryIngredientTagData) {
       </dl>
       <dt>Tags</dt>
       <dd>
-        {tags.map((tag) => <span>{tag}</span>) ?? <span>None</span>}
+        <RecipeTagsList tags={tags} />
       </dd>
       <dt>Ingredients</dt>
       <dd>

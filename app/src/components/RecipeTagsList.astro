@@ -12,6 +12,10 @@ const { tags, limit } = Astro.props;
 
 const resolved = tags.slice(0, limit ?? Infinity);
 const limitReached = limit !== undefined && tags.length > limit;
+
+function capitalizeFirstLetter(str: string) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
 ---
 
 <ul class="recipe-tags-list">
@@ -19,7 +23,7 @@ const limitReached = limit !== undefined && tags.length > limit;
     resolved.map((tag) => (
       <li>
         <a class="recipe-tags-list-item" href={getTagHref(tag)}>
-          {tag}
+          {capitalizeFirstLetter(tag)}
         </a>
       </li>
     ))

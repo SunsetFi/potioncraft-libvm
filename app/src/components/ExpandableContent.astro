@@ -1,4 +1,5 @@
 ---
+import { Icon } from "@astrojs/starlight/components";
 interface Props {
   id?: string;
   collapsed?: boolean;
@@ -10,7 +11,14 @@ const { id, collapsed = true, title } = Astro.props;
 
 <div class="expandable-content" id={id}>
   <h3 class="expandable-title" data-collapsed={collapsed ? "true" : "false"}>
-    <span class="expandable-icon">{collapsed ? "▶" : "▼"}</span>
+    <span class="expandable-icon">
+      <span class="icon-collapsed" style={collapsed ? "" : "display: none;"}>
+        <Icon name="right-caret" label="expand" size="2rem" />
+      </span>
+      <span class="icon-expanded" style={collapsed ? "display: none;" : ""}>
+        <Icon name="down-caret" label="collapse" size="2rem" />
+      </span>
+    </span>
     {title}
   </h3>
   <div class="expandable-body" style={collapsed ? "display: none;" : ""}>
@@ -27,13 +35,22 @@ const { id, collapsed = true, title } = Astro.props;
         const icon = title.querySelector(".expandable-icon") as HTMLElement;
         const isCollapsed = title.dataset.collapsed === "true";
 
+        const iconCollapsed = icon.querySelector(
+          ".icon-collapsed",
+        ) as HTMLElement;
+        const iconExpanded = icon.querySelector(
+          ".icon-expanded",
+        ) as HTMLElement;
+
         if (isCollapsed) {
           body.style.display = "";
-          icon.textContent = "▼";
+          iconCollapsed.style.display = "none";
+          iconExpanded.style.display = "";
           title.dataset.collapsed = "false";
         } else {
           body.style.display = "none";
-          icon.textContent = "▶";
+          iconCollapsed.style.display = "";
+          iconExpanded.style.display = "none";
           title.dataset.collapsed = "true";
         }
       });
@@ -51,6 +68,5 @@ const { id, collapsed = true, title } = Astro.props;
 
   .expandable-icon {
     font-size: 0.7em;
-    margin-left: -1.4em;
   }
 </style>

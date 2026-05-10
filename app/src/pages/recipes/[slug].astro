@@ -4,9 +4,11 @@ import { Image } from "astro:assets";
 import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 import EffectList from "../../components/EffectList.astro";
 import IngredientList from "../../components/IngredientList.astro";
+import { resolveRecipePreview } from "../../content/recipes/resolve-recipe-preview";
 
 export async function getStaticPaths() {
   const recipes = await getCollection("recipes");
+  console.log("Loaded", recipes.length, "recipes");
   return recipes.map((i) => ({
     params: { slug: i.id },
     props: { recipe: i },
@@ -14,7 +16,11 @@ export async function getStaticPaths() {
 }
 
 const { recipe } = Astro.props;
-const { Content } = await render(recipe);
+const { id } = recipe;
+const [{ Content }, preview] = await Promise.all([
+  render(recipe),
+  resolveRecipePreview(id),
+]);
 const { name, cost, datastring, effects, ingredients, tags } = recipe.data;
 ---
 
@@ -43,13 +49,17 @@ const { name, cost, datastring, effects, ingredients, tags } = recipe.data;
         <IngredientList ingredients={ingredients} count />
       </dd>
     </aside>
-    <Image
-      class="recipe-preview"
-      src={`http://localhost:8080/api/plotter-preview.png?data=${datastring}`}
-      alt={name}
-      width={400}
-      height={400}
-    />
+    {
+      preview && (
+        <Image
+          class="recipe-preview"
+          src={preview}
+          alt={name}
+          width={400}
+          height={400}
+        />
+      )
+    }
     <div class="recipe-body">
       <Content />
     </div>

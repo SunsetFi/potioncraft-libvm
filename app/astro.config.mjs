@@ -1,13 +1,15 @@
 // @ts-check
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
+
+import { site, base } from "./config/site";
 import { getIngredientSidebarItems } from "./config/sidebar/ingredients";
 import { getEffectSidebarItems } from "./config/sidebar/effects";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://sunsetfi.github.io",
-  base: "/potioncraft-libvm",
+  site,
+  base,
   integrations: [
     starlight({
       title: "PotionCraft Library",
@@ -19,13 +21,6 @@ export default defineConfig({
         },
       ],
       sidebar: [
-        {
-          label: "Guides",
-          items: [
-            // Each item here is one entry in the navigation menu.
-            { label: "Example Guide", slug: "guides/example" },
-          ],
-        },
         {
           label: "Effects",
           items: getEffectSidebarItems(),

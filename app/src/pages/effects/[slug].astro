@@ -7,6 +7,7 @@ import { resolveEffectIcon } from "../../content/effects/resolve-effect-icon";
 import { getRecipesByEffect } from "../../content/recipes/recipes-by-effect";
 import EffectList from "../../components/EffectList.astro";
 import IngredientList from "../../components/IngredientList.astro";
+import { base } from "astro:config/client";
 
 export async function getStaticPaths() {
   const effects = await getCollection("effects");
@@ -77,7 +78,7 @@ const [{ Content }, resolvedIcon, recipes] = await Promise.all([
                   <IngredientList ingredients={ingredients} />
                 </td>
                 <td>
-                  <a href={`/recipes/${id}`}>View</a>
+                  <a href={`${base}/recipes/${id}`}>View</a>
                 </td>
               </tr>
             ))

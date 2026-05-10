@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v6
         with:
           lfs: true
-      - uses: pnpm/action-setup@v4
+      - uses: pnpm/action-setup@v6
       - name: Use Node.js
         uses: actions/setup-node@v6
         with:
@@ -25,7 +25,7 @@ jobs:
 
       - name: Upload Libvm
         id: deployment
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           name: libvm-build
           path: app/dist

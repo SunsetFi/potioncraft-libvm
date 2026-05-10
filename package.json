@@ -5,14 +5,21 @@
   "private": true,
   "scripts": {
     "prepare": "husky",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "dev": "pnpm --filter app dev"
   },
   "keywords": [
     "PotionCraft"
   ],
   "author": "SunsetFi",
   "license": "ISC",
-  "packageManager": "pnpm@11.0.9",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.0.9",
+      "onFail": "download"
+    }
+  },
   "type": "module",
   "devDependencies": {
     "husky": "^9.1.7",

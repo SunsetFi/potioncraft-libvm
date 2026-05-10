@@ -35,6 +35,8 @@ This repository uses [Git Large File Storage](https://git-lfs.com/) to store som
 
 Note that this repository has a small budget for GitHub LFS.  If you experence the warning `This repository exceeded its LFS budget`, then you need to wait until the next billing cycle for the budget to reset.  This usually will happen on the first of the month.
 
+You may still be able to clone this repo by disabling git-lfs on your system.  However, the recipe preview images will not download, and will instead contain text markers of the actual file.  You still, however, will be able to run most of the site, and any pull requests made should still function without issue.
+
 ## Running Libvm locally
 
 1. `pnpm install --frozen-lockfile`

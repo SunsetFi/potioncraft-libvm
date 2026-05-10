@@ -15,7 +15,8 @@ The prototype is available [here](https://sunsetfi.github.io/potioncraft-libvm).
 - [ ]: Tags and tag recipes for ingredient type tags (organic, crystaline, ...)
 - [ ]: Auto-generate and save images for effects to indicate their position on the map.
   Auto-generate a large image of the local area, with a minimap in the corner
-
+- [ ]: Copyright notice for PotionCraft assets
+- [ ]: Link to Alchemist's Tome
 
 ### Later
 
@@ -24,6 +25,7 @@ The prototype is available [here](https://sunsetfi.github.io/potioncraft-libvm).
 - [ ]: Wiki-style pages for brewing techniques?
 - [ ]: Move name generation into tome sync code and out of build time.
 - [ ]: Make icons for tags
+- [ ]: Synchronization system for Alchemist's Tome.  Weekly sync?
 
 ## Using this Repository
 

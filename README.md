@@ -33,6 +33,8 @@ This repository uses [Git Large File Storage](https://git-lfs.com/) to store som
 2. Install Git LFS based on your OS
 3. Run `git lfs install` in your terminal.
 
+Note that this repository has a small budget for GitHub LFS.  If you experence the warning `This repository exceeded its LFS budget`, then you need to wait until the next billing cycle for the budget to reset.  This usually will happen on the first of the month.
+
 ## Running Libvm locally
 
 1. `pnpm install --frozen-lockfile`

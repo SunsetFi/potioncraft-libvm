@@ -5,21 +5,25 @@ import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 
 import { resolveIngredientIcon } from "../../content/ingredients/resolve-ingredient-icon";
 import IngredientPath from "../../components/IngredientPath.astro";
+import { Code } from "astro:components";
 
 export async function getStaticPaths() {
   const ingredients = await getCollection("ingredients");
-  return ingredients.map((i) => ({
-    params: { slug: i.id },
-    props: { ingredient: i },
+  const items = ingredients.map((ingredient) => ({
+    params: { slug: ingredient.id },
+    props: { ingredient: ingredient },
   }));
+  console.log(JSON.stringify(items, null, 2));
+  return items;
 }
 
 const { ingredient } = Astro.props;
+const { id } = ingredient;
 const { name, basePrice, path } = ingredient.data;
 
 const [{ Content }, resolvedIcon] = await Promise.all([
   render(ingredient),
-  resolveIngredientIcon(ingredient.id),
+  resolveIngredientIcon(id),
 ]);
 ---
 
@@ -28,6 +32,7 @@ const [{ Content }, resolvedIcon] = await Promise.all([
     title: name,
     description: `The ${name} ingredient.`,
   }}
+  headings={[{ depth: 2, slug: "svg-path", text: "SVG Path" }]}
 >
   <div class="ingredient-layout">
     <aside class="ingredient-infobox">
@@ -50,22 +55,35 @@ const [{ Content }, resolvedIcon] = await Promise.all([
 
     <div class="ingredient-body">
       <Content />
+      <div>
+        <h4 id="svg-path">SVG Path</h4>
+        <Code wrap code={path} />
+      </div>
     </div>
   </div>
 </StarlightPage>
 
 <style>
   .ingredient-layout {
-    display: grid;
-    grid-template-columns: 200px 1fr;
+    /* display: grid; */
+    /* grid-template-columns: 200px 1fr; */
+    display: flex;
+    flex-direction: row;
     gap: var(--sl-content-pad-x);
+    max-width: 100%;
   }
 
   .ingredient-infobox {
+    width: 200px;
     border: 1px solid var(--sl-color-hairline);
     border-radius: 0.5rem;
     padding: 1rem;
     height: fit-content;
+  }
+
+  .ingredient-body {
+    flex: 1 1 auto;
+    min-width: 0;
   }
 
   .icon-wrapper {

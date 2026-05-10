@@ -10,8 +10,7 @@ export async function resolveEffectIcon(id: string) {
     return effect.data.icon;
   }
 
-  const key = `./_/${capitalizeFirstLetter(id)}/icon.png`;
-  const mod = effectIconModules[key];
+  const mod = findEffectIconModule(id);
   if (!mod) {
     console.warn(`No icon found for effect ${id}`);
     return null;
@@ -21,6 +20,14 @@ export async function resolveEffectIcon(id: string) {
   return icon;
 }
 
-function capitalizeFirstLetter(str: string) {
-  return str.charAt(0).toUpperCase() + str.slice(1);
+// Could cache these lookups.
+const idFromIconPathRegex = /^\.\/_\/([^/]+)\/icon.png?$/;
+function findEffectIconModule(id: string) {
+  for (const [key, value] of Object.entries(effectIconModules)) {
+    const [, iconId] = idFromIconPathRegex.exec(key) || [];
+    if (iconId.toLowerCase() === id.toLowerCase()) {
+      return value;
+    }
+  }
+  return null;
 }

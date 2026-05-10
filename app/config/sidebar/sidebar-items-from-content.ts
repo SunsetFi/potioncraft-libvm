@@ -4,9 +4,13 @@ import matter from "gray-matter";
 import { compareSidebarItems, type SidebarItem } from "./sidebar-item";
 
 export function getSidebarItemsFromContent(path: string): SidebarItem[] {
-  const dir = resolve(`./src/content/${path}`);
+  let dir = resolve(`./src/content/${path}`);
   if (!existsSync(dir)) {
     return [];
+  }
+
+  if (existsSync(resolve(dir, "_"))) {
+    dir = resolve(dir, "_");
   }
 
   let items: SidebarItem[] = [];

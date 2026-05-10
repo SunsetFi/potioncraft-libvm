@@ -13,6 +13,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "PotionCraft Library",
+      customCss: ["./src/styles.css"],
       social: [
         {
           icon: "github",

@@ -11,9 +11,10 @@ export async function resolveEffect(
   }
   const effects = await effectCache;
 
+  id = id.toLowerCase();
+
   const effect = effects.find(
-    (effect) =>
-      getEffectIdFromSlug(effect.id).toLowerCase() === id.toLowerCase(),
+    (effect) => getEffectIdFromSlug(effect.id).toLowerCase() === id,
   );
   return effect ?? null;
 }

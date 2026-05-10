@@ -1,5 +1,4 @@
 ---
-id: ArcaneCrystal
 name: Arcane Crystal
 basePrice: 117.8
 groundColor: "#BD69B6"

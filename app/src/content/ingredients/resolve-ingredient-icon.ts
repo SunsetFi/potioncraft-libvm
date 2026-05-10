@@ -1,7 +1,7 @@
 import { resolveIngredient } from "./resolve-ingredient";
 
 const ingredientIconModules = import.meta.glob<{ default: ImageMetadata }>(
-  "./*/icon.png",
+  "./_/*/icon.png",
 );
 
 export async function resolveIngredientIcon(id: string) {
@@ -10,8 +10,7 @@ export async function resolveIngredientIcon(id: string) {
     return ingredient.data.icon;
   }
 
-  const key = `./${id}/icon.png`;
-  const mod = ingredientIconModules[key];
+  const mod = findIngredientIconModule(id);
   if (!mod) {
     console.warn(`No icon found for ingredient ${id}`);
     return null;
@@ -19,4 +18,16 @@ export async function resolveIngredientIcon(id: string) {
 
   const { default: icon } = await mod();
   return icon;
+}
+
+// Could cache these lookups.
+const idFromIconPathRegex = /^\.\/_\/([^/]+)\/icon.png?$/;
+function findIngredientIconModule(id: string) {
+  for (const [key, value] of Object.entries(ingredientIconModules)) {
+    const [, iconId] = idFromIconPathRegex.exec(key) || [];
+    if (iconId.toLowerCase() === id.toLowerCase()) {
+      return value;
+    }
+  }
+  return null;
 }

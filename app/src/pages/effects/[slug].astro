@@ -31,6 +31,7 @@ const [{ Content }, resolvedIcon, recipes] = await Promise.all([
     title: name,
     description: `The ${name} effect.`,
   }}
+  headings={[{ depth: 2, slug: "recipes", text: "Recipes" }]}
 >
   <div class="effect-layout">
     <aside class="effect-infobox">
@@ -52,7 +53,7 @@ const [{ Content }, resolvedIcon, recipes] = await Promise.all([
     </div>
 
     <div class="effect-recipes">
-      <h3>Recipes</h3>
+      <h3 id="recipes">Recipes</h3>
       <table>
         <thead>
           <tr>

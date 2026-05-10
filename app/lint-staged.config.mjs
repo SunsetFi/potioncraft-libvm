@@ -1,9 +1,11 @@
-import { lintStagedWorkspaceCommand } from "../workspace-utils.mjs";
+import { lintStagedWorkspaceRunner } from "../workspace-utils.mjs";
+
+const run = lintStagedWorkspaceRunner("@potioncraft-libvm/app");
 
 export default {
   "src/**/*.ts,astro.config.mjs": [
-    lintStagedWorkspaceCommand("@potioncraft-libvm/app", "format"),
-    lintStagedWorkspaceCommand("@potioncraft-libvm/app", "lint"),
+    run("format"),
+    run("lint"),
     () => "pnpm run --filter @potioncraft-libvm/app check",
   ],
 };

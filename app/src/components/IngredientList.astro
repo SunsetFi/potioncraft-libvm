@@ -31,7 +31,16 @@ const limitReached =
       <li>
         <span class="ingredient-list-item">
           <a href={`${base}/ingredients/${id}`}>
-            <Image src={ingredientIcons[id]} alt={id} width={32} height={32} />
+            {ingredientIcons[id] ? (
+              <Image
+                src={ingredientIcons[id]}
+                alt={id}
+                width={32}
+                height={32}
+              />
+            ) : (
+              <span>{id}</span>
+            )}
           </a>
           {count && `x${amount}`}
         </span>

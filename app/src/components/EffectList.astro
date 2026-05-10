@@ -22,17 +22,41 @@ const effectIcons = Object.fromEntries(
 <ul class="effect-list">
   {
     Object.entries(effects).map(([id, strength]) =>
-      Array.from({ length: strength }, () => (
-        <a href={`${base}/effects/${id}`}>
-          <Image
-            class="recipe-effect-icon"
-            src={effectIcons[id]}
-            alt={id}
-            width={32}
-            height={32}
-          />
-        </a>
-      )),
+      Array.from({ length: strength }, () => {
+        if (effectIcons[id]) {
+          return (
+            <a href={`${base}/effects/${id}`}>
+              <Image
+                class="recipe-effect-icon"
+                src={effectIcons[id]}
+                alt={id}
+                width={32}
+                height={32}
+              />
+            </a>
+          );
+        } else {
+          return (
+            <a href={`${base}/effects/${id}`}>
+              <div
+                class="recipe-effect-icon"
+                style={{
+                  width: "32px",
+                  height: "32px",
+                  backgroundColor: "#ccc",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  fontSize: "12px",
+                  color: "#333",
+                }}
+              >
+                {id}
+              </div>
+            </a>
+          );
+        }
+      }),
     )
   }
 </ul>

@@ -1,10 +1,10 @@
 import { resolveIngredient } from "./resolve-ingredient";
 
-const ingredientIconModules = import.meta.glob<{ default: ImageMetadata }>("./*/icon.png");
+const ingredientIconModules = import.meta.glob<{ default: ImageMetadata }>(
+  "./*/icon.png",
+);
 
 export async function resolveIngredientIcon(id: string) {
-  id = id.toLowerCase();
-
   const ingredient = await resolveIngredient(id);
   if (ingredient?.data.icon) {
     return ingredient.data.icon;

@@ -10,8 +10,6 @@ export async function resolveIngredient(
   }
   const ingredients = await ingredientCache;
 
-  id = id.toLowerCase();
-
   const ingredient = ingredients.find((i) => i.id === id);
   return ingredient ?? null;
 }

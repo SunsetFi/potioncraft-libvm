@@ -2,8 +2,6 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 
-import { getIngredientSidebarItems } from "./config/sidebar/ingredients";
-import { getEffectSidebarItems } from "./config/sidebar/effects";
 import { getTagSidebarItems } from "./config/sidebar/tags";
 
 // https://astro.build/config
@@ -24,16 +22,17 @@ export default defineConfig({
       ],
       sidebar: [
         {
-          label: "Tags",
-          items: getTagSidebarItems(),
-        },
-        {
           label: "Effects",
-          items: getEffectSidebarItems(),
+          link: "/effects",
         },
         {
           label: "Ingredients",
-          items: getIngredientSidebarItems(),
+          link: "/ingredients",
+        },
+        {
+          label: "Tags",
+          items: getTagSidebarItems(),
+          collapsed: true,
         },
       ],
       customCss: ["./src/styles.css"],

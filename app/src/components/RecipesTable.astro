@@ -4,22 +4,42 @@ import EffectList from "./EffectList.astro";
 import RecipeTagsList from "./RecipeTagsList.astro";
 import IngredientList from "./IngredientList.astro";
 import { getRecipeHref } from "../content/recipes/recipe-href";
+import { resolveEffects } from "../content/effects/resolve-effect";
 import { resolveTags } from "../content/tags/resolve-tag";
+import { resolveIngredients } from "../content/ingredients/resolve-ingredient";
 
 interface Props {
   recipes: CollectionEntry<"recipes">[];
 }
 
 const { recipes } = Astro.props;
-const allTags = await resolveTags();
+const [allTags, allIngredients, allEffects] = await Promise.all([
+  resolveTags(),
+  resolveIngredients(),
+  resolveEffects(),
+]);
 ---
 
 <div class="recipes-table-container">
   <div class="recipes-table-filters">
-    <label for="tag-filter">Filter by tag:</label>
+    <label for="tag-filter">Tag:</label>
     <select id="tag-filter">
       <option value="">All</option>
-      {allTags.map((t) => <option value={t.id}>{t.data.name}</option>)}
+      {allTags.map((tag) => <option value={tag.id}>{tag.data.name}</option>)}
+    </select>
+    <label for="ingredient-filter">Ingredient:</label>
+    <select id="ingredient-filter">
+      <option value="">All</option>
+      {
+        allIngredients.map((ing) => (
+          <option value={ing.id}>{ing.data.name}</option>
+        ))
+      }
+    </select>
+    <label for="effect-filter">Effect:</label>
+    <select id="effect-filter">
+      <option value="">All</option>
+      {allEffects.map((eff) => <option value={eff.id}>{eff.data.name}</option>)}
     </select>
   </div>
   <table class="recipes-table">
@@ -34,7 +54,15 @@ const allTags = await resolveTags();
     <tbody>
       {
         recipes.map(({ id, data: { effects, tags, ingredients } }) => (
-          <tr data-tags={tags.join(" ")}>
+          <tr
+            data-tags={tags.join(" ")}
+            data-ingredients={Object.keys(ingredients)
+              .map((x) => x.toLowerCase())
+              .join(" ")}
+            data-effects={Object.keys(effects)
+              .map((x) => x.toLowerCase())
+              .join(" ")}
+          >
             <td>
               <EffectList effects={effects} />
             </td>
@@ -55,16 +83,31 @@ const allTags = await resolveTags();
 </div>
 
 <script>
-  const sel = document.getElementById("tag-filter") as HTMLSelectElement;
-  sel.addEventListener("change", () => {
+  const tagSel = document.getElementById("tag-filter") as HTMLSelectElement;
+  const ingSel = document.getElementById(
+    "ingredient-filter",
+  ) as HTMLSelectElement;
+  const effSel = document.getElementById("effect-filter") as HTMLSelectElement;
+
+  function applyFilters() {
     document
       .querySelectorAll<HTMLTableRowElement>(".recipes-table tbody tr")
       .forEach((row) => {
-        const match =
-          !sel.value || row.dataset.tags?.split(" ").includes(sel.value);
-        row.style.display = match ? "" : "none";
+        const matchTag =
+          !tagSel.value || row.dataset.tags?.split(" ").includes(tagSel.value);
+        const matchIng =
+          !ingSel.value ||
+          row.dataset.ingredients?.split(" ").includes(ingSel.value);
+        const matchEff =
+          !effSel.value ||
+          row.dataset.effects?.split(" ").includes(effSel.value);
+        row.style.display = matchTag && matchIng && matchEff ? "" : "none";
       });
-  });
+  }
+
+  tagSel.addEventListener("change", applyFilters);
+  ingSel.addEventListener("change", applyFilters);
+  effSel.addEventListener("change", applyFilters);
 </script>
 
 <style>
@@ -73,10 +116,9 @@ const allTags = await resolveTags();
   }
 
   .recipes-table-filters {
+    display: flex;
+    align-items: baseline;
+    gap: 0.9rem;
     margin-bottom: 0.75rem;
-  }
-
-  #tag-filter {
-    margin-left: 4px;
   }
 </style>

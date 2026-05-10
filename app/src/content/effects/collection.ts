@@ -3,7 +3,10 @@ import { z } from "astro/zod";
 import { glob } from "astro/loaders";
 
 export const effectsCollection = defineCollection({
-  loader: glob({ pattern: "**/*.md", base: "./src/content/effects/_/" }),
+  loader: glob({
+    pattern: "**/*.md",
+    base: "./src/content/effects/_/",
+  }),
   schema: ({ image }) =>
     z.object({
       name: z.string(),

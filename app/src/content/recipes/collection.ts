@@ -1,13 +1,13 @@
 import { defineCollection } from "astro:content";
 import { z } from "astro/zod";
 import { glob } from "astro/loaders";
+import { generateIdPreserveCase } from "../generate-id";
 
 export const recipesCollection = defineCollection({
   loader: glob({
     pattern: "**/*.md",
     base: "./src/content/recipes/_/",
-    generateId: ({ entry }) =>
-      entry.replace(/\/index\.md$/, "").replace(/\.md$/, ""),
+    generateId: generateIdPreserveCase,
   }),
   schema: ({ image }) =>
     z.object({

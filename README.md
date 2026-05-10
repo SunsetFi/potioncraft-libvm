@@ -44,5 +44,77 @@ You may still be able to clone this repo by disabling git-lfs on your system.  H
 
 The website should now be running on [http://localhost:4321/potioncraft-libvm](http://localhost:4321/potioncraft-libvm).
 
-## Synchronizing with the Alchemist's Tome
+## Development
+
+This project uses the [Astro](https://astro.build/) static site framework, using the [Starlight](https://starlight.astro.build/) documentation system as a basis.
+
+Anything can be extended, but there are a few crucial points:
+
+### Defining Recipes
+
+Create a folder under app/src/content/recipes/_ for your recipe.  Inside it, create two files:
+
+index.md
+```
+---
+name: [Your recipe name]
+datastring: [The data query part of your Potionous plotter link (everything after ?data= ) ]
+base: [Potion base]
+effects:
+  [Your Effect]: [Effect Strength]
+  [Your Effect]: [Effect Strength]
+ingredients:
+  [Your Ingredient]: [Ingredient Count]
+  [Your Ingredient]: [Ingredient Count]
+salts:
+  [Your salt]: [Grains count]
+  [Your salt]: [Grains count]
+cost: [Total cost]
+stress: [Ingredient stress]
+tags:
+  - [Challenge tag]
+  - [Challenge tag]
+---
+
+Your description here.  It may use Markdown
+```
+
+Effects, ingredients, salts, and tags MUST match their corresponding folder names under /app/src/content/\*/_\*/index.md
+
+#### Auto-generating recipes from a datastring
+
+TBD
+
+### Adding custom wiki pages
+
+Pages added to `app/src/content/docs/**` will be available as wiki pages:
+
+my-doc.mdx
+```
+---
+title: [Your page title]
+description: [Your page description]
+---
+
+Your markdown content here
+```
+
+### Adding content to generated pages
+
+The pages for the following topics are auto-generated:
+- effects
+- ingredients
+- recipes
+- salts
+- tags (challenge tags)
+
+To add content to any of them, find the corresponding markdown file under /app/src/content/\*/_/\*/index.md
+
+If you want to add content that applies to all auto-generated pages, you can find the pages under /app/src/pages/*/:
+- `index.astro - Auto-generated page for the top-level collection.
+- `[slug].astro` - Auto-generated page for individual items
+
+### Synchronizing with the Alchemist's Tome
+
+TBD
 

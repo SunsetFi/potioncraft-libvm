@@ -6,7 +6,7 @@ interface Props {
   title: string;
 }
 
-const { id, collapsed = true, title } = Astro.props;
+const { id, collapsed = false, title } = Astro.props;
 ---
 
 <div class="expandable-content" id={id}>

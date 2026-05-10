@@ -6,6 +6,8 @@ import { getEffectSidebarItems } from "./config/sidebar/effects";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://sunsetfi.github.io",
+  base: "/potioncraft-libvm",
   integrations: [
     starlight({
       title: "PotionCraft Library",

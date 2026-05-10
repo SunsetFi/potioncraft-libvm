@@ -10,5 +10,5 @@ Wasteful recipes are a subset of [Extreme](./extreme) recipes.
 
 - [Cracked](./cracked)
 - [Extreme](./extreme)
-- [Full Grind](./fullgrind)
+- [Full Grind](./full-grind)
 - [Wasteless](./wasteless)

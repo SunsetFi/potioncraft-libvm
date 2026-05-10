@@ -7,6 +7,6 @@ Wasteful recipes can only contain ingredients ground through means other than th
 ### Other Grinding Tags
 
 - [Extreme](./extreme)
-- [Full Grind](./fullgrind)
+- [Full Grind](./full-grind)
 - [Wasteful](./wasteful)
 - [Wasteless](./wasteless)

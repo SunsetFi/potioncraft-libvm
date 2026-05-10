@@ -8,5 +8,5 @@ Wasteless recipes must fully stir the path before using the bellows.
 
 - [Cracked](./cracked)
 - [Extreme](./extreme)
-- [Full Grind](./fullgrind)
+- [Full Grind](./full-grind)
 - [Wasteful](./wasteful)

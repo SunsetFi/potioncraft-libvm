@@ -7,6 +7,6 @@ Extreme recipes can only contain ingredients that are either not ground or fully
 ### Other Grinding Tags
 
 - [Cracked](./cracked)
-- [Full Grind](./fullgrind)
+- [Full Grind](./full-grind)
 - [Wasteful](./wasteful)
 - [Wasteless](./wasteless)

@@ -4,46 +4,79 @@ import EffectList from "./EffectList.astro";
 import RecipeTagsList from "./RecipeTagsList.astro";
 import IngredientList from "./IngredientList.astro";
 import { getRecipeHref } from "../content/recipes/recipe-href";
+import { resolveTags } from "../content/tags/resolve-tag";
 
 interface Props {
   recipes: CollectionEntry<"recipes">[];
 }
 
 const { recipes } = Astro.props;
+const allTags = await resolveTags();
 ---
 
-<table class="recipes-table">
-  <thead>
-    <tr>
-      <th>Effects</th>
-      <th>Tags</th>
-      <th>Ingredients</th>
-      <th>Link</th>
-    </tr>
-  </thead>
-  <tbody>
-    {
-      recipes.map(({ id, data: { effects, tags, ingredients } }) => (
-        <tr>
-          <td>
-            <EffectList effects={effects} />
-          </td>
-          <td>
-            <RecipeTagsList tags={tags} limit={3} />
-          </td>
-          <td>
-            <IngredientList ingredients={ingredients} />
-          </td>
-          <td>
-            <a href={getRecipeHref(id)}>View</a>
-          </td>
-        </tr>
-      ))
-    }
-  </tbody>
-  <style>
-    .recipes-table {
-      overflow: visible;
-    }
-  </style>
-</table>
+<div class="recipes-table-container">
+  <div class="recipes-table-filters">
+    <label for="tag-filter">Filter by tag:</label>
+    <select id="tag-filter">
+      <option value="">All</option>
+      {allTags.map((t) => <option value={t.id}>{t.data.name}</option>)}
+    </select>
+  </div>
+  <table class="recipes-table">
+    <thead>
+      <tr>
+        <th>Effects</th>
+        <th>Tags</th>
+        <th>Ingredients</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      {
+        recipes.map(({ id, data: { effects, tags, ingredients } }) => (
+          <tr data-tags={tags.join(" ")}>
+            <td>
+              <EffectList effects={effects} />
+            </td>
+            <td>
+              <RecipeTagsList tags={tags} limit={3} />
+            </td>
+            <td>
+              <IngredientList ingredients={ingredients} />
+            </td>
+            <td>
+              <a href={getRecipeHref(id)}>View</a>
+            </td>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+</div>
+
+<script>
+  const sel = document.getElementById("tag-filter") as HTMLSelectElement;
+  sel.addEventListener("change", () => {
+    document
+      .querySelectorAll<HTMLTableRowElement>(".recipes-table tbody tr")
+      .forEach((row) => {
+        const match =
+          !sel.value || row.dataset.tags?.split(" ").includes(sel.value);
+        row.style.display = match ? "" : "none";
+      });
+  });
+</script>
+
+<style>
+  .recipes-table {
+    overflow: visible;
+  }
+
+  .recipes-table-filters {
+    margin-bottom: 0.75rem;
+  }
+
+  #tag-filter {
+    margin-left: 4px;
+  }
+</style>

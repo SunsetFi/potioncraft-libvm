@@ -54,9 +54,7 @@ const [{ Content }, resolvedIcon, recipes] = await Promise.all([
 
     <div class="effect-body">
       <Content />
-    </div>
-
-    <div id="effect-recipes">
+      {effect.body != null ? <hr /> : null}
       <h3>Recipes</h3>
       <RecipesTable recipes={recipes} />
     </div>

@@ -53,6 +53,7 @@ const [{ Content }, resolvedIcon, recipes] = await Promise.all([
 
     <div class="ingredient-body">
       <Content />
+      {ingredient.body != null ? <hr /> : null}
       <h3 id="path">Path</h3>
       <div class="ingredient-path-preview">
         <IngredientPath path={path} size={200} icon={resolvedIcon?.src} />

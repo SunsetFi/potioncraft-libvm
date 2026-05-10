@@ -33,11 +33,10 @@ const [{ Content }, recipes] = await Promise.all([
     <aside class="effect-infobox">
       <!-- TODO: Icon -->
     </aside>
-
     <div class="tag-body">
       <Content />
     </div>
-
+    {tag.body != null ? <hr /> : null}
     <div id="tag-recipes">
       <h3>Recipes</h3>
       <RecipesTable recipes={recipes} />

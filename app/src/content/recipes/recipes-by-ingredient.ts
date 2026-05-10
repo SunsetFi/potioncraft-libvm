@@ -7,7 +7,5 @@ export async function getRecipesByIngredient(
 ): Promise<CollectionEntry<"recipes">[]> {
   ingredient = ingredient.toLowerCase();
   const recipes = await resolveRecipes();
-  return recipes.filter((recipe) =>
-    includesIngredient(recipe.data.ingredients, ingredient),
-  );
+  return recipes.filter((recipe) => includesIngredient(recipe.data.ingredients, ingredient));
 }

@@ -30,9 +30,7 @@ export function getSidebarItemsFromContent(path: string): SidebarItem[] {
     }
 
     const { data } = matter.read(indexPath);
-    let pathTerminal = file.isDirectory()
-      ? file.name
-      : file.name.replace(/\.md$/, "");
+    let pathTerminal = file.isDirectory() ? file.name : file.name.replace(/\.md$/, "");
     pathTerminal = pathTerminal.toLowerCase();
     items.push({
       label: data.name ?? file.name,

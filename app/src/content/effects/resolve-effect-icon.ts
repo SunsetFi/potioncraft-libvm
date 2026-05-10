@@ -1,8 +1,6 @@
 import { resolveEffect } from "./resolve-effect";
 
-const effectIconModules = import.meta.glob<{ default: ImageMetadata }>(
-  "./_/*/icon.png",
-);
+const effectIconModules = import.meta.glob<{ default: ImageMetadata }>("./_/*/icon.png");
 
 export async function resolveEffectIcon(id: string) {
   const effect = await resolveEffect(id);

@@ -1,16 +1,12 @@
 import { getCollection, type CollectionEntry } from "astro:content";
 import { getEffectIdFromSlug } from "./collection";
 
-export async function resolveEffect(
-  id: string,
-): Promise<CollectionEntry<"effects"> | null> {
+export async function resolveEffect(id: string): Promise<CollectionEntry<"effects"> | null> {
   const effects = await resolveEffects();
 
   id = id.toLowerCase();
 
-  const effect = effects.find(
-    (effect) => getEffectIdFromSlug(effect.id).toLowerCase() === id,
-  );
+  const effect = effects.find((effect) => getEffectIdFromSlug(effect.id).toLowerCase() === id);
   return effect ?? null;
 }
 

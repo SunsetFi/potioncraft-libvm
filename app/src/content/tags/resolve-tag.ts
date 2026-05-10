@@ -1,8 +1,6 @@
 import { getCollection, type CollectionEntry } from "astro:content";
 
-export async function resolveTag(
-  id: string,
-): Promise<CollectionEntry<"tags"> | null> {
+export async function resolveTag(id: string): Promise<CollectionEntry<"tags"> | null> {
   const tags = await resolveTags();
 
   const tag = tags.find((i) => i.id === id);

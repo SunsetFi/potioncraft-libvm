@@ -1,8 +1,6 @@
 import { getCollection, type CollectionEntry } from "astro:content";
 
-export async function resolveRecipe(
-  id: string,
-): Promise<CollectionEntry<"recipes"> | null> {
+export async function resolveRecipe(id: string): Promise<CollectionEntry<"recipes"> | null> {
   const recipes = await resolveRecipes();
 
   const recipe = recipes.find((i) => i.id === id);

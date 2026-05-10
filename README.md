@@ -1,6 +1,8 @@
 # PotionCraft Libvm
 
-An experimental open-source wiki and record of Recipes
+An experimental open-source wiki and record of Recipes.
+
+The prototype is available [here](https://sunsetfi.github.io/potioncraft-libvm).
 
 ## Using this Repository
 
@@ -16,3 +18,6 @@ This repository uses [Git Large File Storage](https://git-lfs.com/) to store som
 1. `pnpm dev`
 
 The website should now be running on [http://localhost:4321/potioncraft-libvm](http://localhost:4321/potioncraft-libvm).
+
+## Synchronizing with the Alchemist's Tome
+

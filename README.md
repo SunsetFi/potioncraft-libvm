@@ -18,9 +18,11 @@ The prototype is available [here](https://sunsetfi.github.io/potioncraft-libvm).
 
 
 ### Later
-- [ ]: Customer request pages
+
+- [ ]: Customer request pages.
   - [ ]: Auto-link customer requests to recipes based on effect tiers.
 - [ ]: Wiki-style pages for brewing techniques?
+- [ ]: Move name generation into tome sync code and out of build time.
 
 ## Using this Repository
 

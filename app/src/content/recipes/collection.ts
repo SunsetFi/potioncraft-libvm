@@ -15,6 +15,7 @@ export const recipesCollection = defineCollection({
       datastring: z.string(),
       base: z.union([z.literal("water"), z.literal("wine"), z.literal("oil")]),
       effects: z.record(z.string(), z.number()),
+      salts: z.record(z.string(), z.number()),
       ingredients: z.record(z.string(), z.number()),
       cost: z.number(),
       tags: z.array(z.string()),

@@ -3,40 +3,40 @@ import { getCollection, render } from "astro:content";
 import { Image } from "astro:assets";
 import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 
-import { resolveEffectIcon } from "../../content/effects/resolve-effect-icon";
-import { getRecipesByEffect } from "../../content/recipes/recipes-by-effect";
+import { resolveSaltIcon } from "../../content/salts/resolve-salt-icon";
+import { getRecipesBySalt } from "../../content/recipes/recipes-by-salt";
 
 import RecipesTable from "../../components/RecipesTable.astro";
 import ExpandableContent from "../../components/ExpandableContent.astro";
 
 export async function getStaticPaths() {
-  const effects = await getCollection("effects");
-  return effects.map((effect) => ({
+  const salts = await getCollection("salts");
+  return salts.map((effect) => ({
     params: { slug: effect.id },
-    props: { effect: effect },
+    props: { salt: effect },
   }));
 }
 
-const { effect } = Astro.props;
-const { id } = effect;
-const { name, basePrice } = effect.data;
+const { salt } = Astro.props;
+const { id } = salt;
+const { name, pricePerGrain } = salt.data;
 
 const [{ Content }, resolvedIcon, recipes] = await Promise.all([
-  render(effect),
-  resolveEffectIcon(id),
-  getRecipesByEffect(id),
+  render(salt),
+  resolveSaltIcon(id),
+  getRecipesBySalt(id),
 ]);
 ---
 
 <StarlightPage
   frontmatter={{
     title: name,
-    description: `The ${name} effect.`,
+    description: name,
   }}
-  headings={[{ depth: 2, slug: "effect-recipes", text: "Recipes" }]}
+  headings={[{ depth: 2, slug: "salt-recipies", text: "Recipes" }]}
 >
-  <div class="effect-layout">
-    <aside class="effect-infobox">
+  <div class="salt-layout">
+    <aside class="salt-infobox">
       {
         resolvedIcon && (
           <div class="icon-wrapper">
@@ -45,17 +45,17 @@ const [{ Content }, resolvedIcon, recipes] = await Promise.all([
         )
       }
       <dl>
-        <dt>Base Price</dt>
-        <dd>{basePrice}</dd>
+        <dt>Price Per Grain</dt>
+        <dd>{pricePerGrain}</dd>
       </dl>
     </aside>
 
-    <div class="effect-body">
+    <div class="salt-body">
       <Content />
-      {effect.body != null ? <hr /> : null}
+      {salt.body != null ? <hr /> : null}
       <ExpandableContent
-        id="effect-recipes"
-        title="Recipes using this Effect"
+        id="salt-recipes"
+        title="Recipes using this Salt"
         collapsed={true}
       >
         <RecipesTable recipes={recipes} />
@@ -65,11 +65,11 @@ const [{ Content }, resolvedIcon, recipes] = await Promise.all([
 </StarlightPage>
 
 <style>
-  .effect-layout {
+  .salt-layout {
     min-height: 200px;
   }
 
-  .effect-infobox {
+  .salt-infobox {
     float: right;
     width: 200px;
     margin-left: var(--sl-content-pad-x);

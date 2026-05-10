@@ -20,9 +20,7 @@ for (const target of dirs) {
     continue;
   }
 
-  const img = await fetch(
-    `http://localhost:8080/api/plotter-preview.png?data=${datastring}`,
-  );
+  const img = await fetch(`http://localhost:8080/api/plotter-preview.png?data=${datastring}`);
   if (img.status !== 200) {
     console.error(`Failed to fetch image for ${target.name}`);
     continue;

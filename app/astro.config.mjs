@@ -22,6 +22,11 @@ export default defineConfig({
       ],
       sidebar: [
         {
+          label: "Tags",
+          items: getTagSidebarItems(),
+          collapsed: true,
+        },
+        {
           label: "Effects",
           link: "/effects",
         },
@@ -30,9 +35,8 @@ export default defineConfig({
           link: "/ingredients",
         },
         {
-          label: "Tags",
-          items: getTagSidebarItems(),
-          collapsed: true,
+          label: "Salts",
+          link: "/salts",
         },
       ],
       customCss: ["./src/styles.css"],

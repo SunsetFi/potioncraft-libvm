@@ -61,7 +61,7 @@ if (primaryIngredientTagData) {
     <aside class="recipe-infobox">
       <dl>
         <dt>Cost</dt>
-        <dd>{cost}</dd>
+        <dd><span title={String(cost)}>{Math.ceil(cost)}</span></dd>
         <dt>Effects</dt>
         <dd>
           <EffectList effects={effects} />
@@ -82,8 +82,8 @@ if (primaryIngredientTagData) {
           class="recipe-preview"
           src={preview}
           alt={name}
-          width={400}
-          height={400}
+          width={600}
+          height={600}
         />
       )
     }
@@ -95,12 +95,12 @@ if (primaryIngredientTagData) {
 
 <style>
   .recipe-layout {
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    gap: var(--sl-content-pad-x);
+    min-height: 200px;
   }
 
   .recipe-infobox {
+    float: right;
+    width: 200px;
     border: 1px solid var(--sl-color-hairline);
     border-radius: 0.5rem;
     padding: 1rem;

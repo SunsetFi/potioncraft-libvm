@@ -14,7 +14,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "PotionCraft Library",
-      customCss: ["./src/styles.css"],
+
       social: [
         {
           icon: "github",
@@ -36,6 +36,10 @@ export default defineConfig({
           items: getIngredientSidebarItems(),
         },
       ],
+      customCss: ["./src/styles.css"],
+      expressiveCode: {
+        themes: ["github-light", "github-dark"],
+      },
     }),
   ],
 });

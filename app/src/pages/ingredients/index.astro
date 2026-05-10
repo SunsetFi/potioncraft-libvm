@@ -2,6 +2,7 @@
 import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 import { resolveIngredients } from "../../content/ingredients/resolve-ingredient";
 import IngredientPath from "../../components/IngredientPath.astro";
+import { getIngredientHref } from "../../content/ingredients/ingredient-href";
 
 const ingredients = await resolveIngredients();
 ---
@@ -15,16 +16,12 @@ const ingredients = await resolveIngredients();
   <div class="ingredients-layout">
     {
       ingredients.map((ingredient) => (
-        <div class="ingredients-item">
-          <h5 class="ingredients-item-name">
-            <a href={`/ingredients/${ingredient.id}/`}>
-              {ingredient.data.name}
-            </a>
-          </h5>
+        <a class="ingredients-item" href={getIngredientHref(ingredient.id)}>
+          <h5 class="ingredients-item-name">{ingredient.data.name}</h5>
           <div class="ingredients-item-path">
             <IngredientPath size={100} ingredient={ingredient} />
           </div>
-        </div>
+        </a>
       ))
     }
   </div>
@@ -44,6 +41,9 @@ const ingredients = await resolveIngredients();
     margin: 4px;
     width: 180px;
     height: 200px;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
   }
 
   .ingredients-item-name {

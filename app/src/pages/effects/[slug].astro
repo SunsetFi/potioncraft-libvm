@@ -11,14 +11,16 @@ import { base } from "astro:config/client";
 
 export async function getStaticPaths() {
   const effects = await getCollection("effects");
-  return effects.map((i) => ({
-    params: { slug: i.id },
-    props: { effect: i },
+  return effects.map((effect) => ({
+    params: { slug: effect.id },
+    props: { effect: effect },
   }));
 }
 
 const { effect } = Astro.props;
-const { id, name, basePrice } = effect.data;
+const { id } = effect;
+console.log("Rendering effect id:", id);
+const { name, basePrice } = effect.data;
 
 const [{ Content }, resolvedIcon, recipes] = await Promise.all([
   render(effect),

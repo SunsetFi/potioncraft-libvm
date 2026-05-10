@@ -26,9 +26,13 @@ export function getSidebarItemsFromContent(path: string): SidebarItem[] {
     }
 
     const { data } = matter.read(indexPath);
+    let pathTerminal = file.isDirectory()
+      ? file.name
+      : file.name.replace(/\.md$/, "");
+    pathTerminal = pathTerminal.toLowerCase();
     items.push({
       label: data.name ?? file.name,
-      link: `/${path}/${file.isDirectory() ? file.name : file.name.replace(/\.md$/, "")}`,
+      link: `/${path}/${pathTerminal}`,
     });
   }
 

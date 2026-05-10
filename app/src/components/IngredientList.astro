@@ -1,7 +1,8 @@
 ---
 import { Image } from "astro:assets";
 import { resolveIngredientIcon } from "../content/ingredients/resolve-ingredient-icon";
-import { base } from "astro:config/client";
+import { resolveIngredient } from "../content/ingredients/resolve-ingredient";
+import { ingredientHref } from "../content/ingredients/ingredient-href";
 
 interface Props {
   ingredients: Record<string, number>;
@@ -11,11 +12,18 @@ interface Props {
 
 const { ingredients, limit, count } = Astro.props;
 
-const ingredientIcons = Object.fromEntries(
+// Technically only need to check the resolved ones, but this is done at build time so meh.
+const ingredientData = Object.fromEntries(
   await Promise.all(
     Object.keys(ingredients).map(async (id) => {
-      const ingredient = await resolveIngredientIcon(id);
-      return [id, ingredient];
+      const [ingredient, icon] = await Promise.all([
+        resolveIngredient(id),
+        resolveIngredientIcon(id),
+      ]);
+      if (!ingredient) {
+        return [id, null];
+      }
+      return [id, { ingredient, icon }];
     }),
   ),
 );
@@ -30,16 +38,31 @@ const limitReached =
     resolved.map(([id, amount]) => (
       <li>
         <span class="ingredient-list-item">
-          <a href={`${base}/ingredients/${id}`}>
-            {ingredientIcons[id] ? (
+          <a href={ingredientHref(id)}>
+            {ingredientData[id]?.icon ? (
               <Image
-                src={ingredientIcons[id]}
-                alt={id}
+                class="recipe-effect-icon"
+                src={ingredientData[id].icon}
+                alt={ingredientData[id].ingredient.data.name}
                 width={32}
                 height={32}
               />
             ) : (
-              <span>{id}</span>
+              <div
+                class="recipe-effect-icon"
+                style={{
+                  width: "32px",
+                  height: "32px",
+                  backgroundColor: "#ccc",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  fontSize: "12px",
+                  color: "#333",
+                }}
+              >
+                {ingredientData[id]?.ingredient.data.name ?? id}
+              </div>
             )}
           </a>
           {count && `x${amount}`}

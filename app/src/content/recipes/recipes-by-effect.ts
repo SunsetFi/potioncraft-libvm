@@ -1,5 +1,6 @@
 import type { CollectionEntry } from "astro:content";
 import { resolveRecipes } from "./resolve-recipe";
+import { includesEffect } from "../effects/includes-effect";
 
 export async function getRecipesByEffect(
   effectId: string,
@@ -9,20 +10,4 @@ export async function getRecipesByEffect(
   return recipes.filter((recipe) =>
     includesEffect(recipe.data.effects, effectId),
   );
-}
-
-function includesEffect(
-  recipes: Record<string, number>,
-  recipeId: string,
-): boolean {
-  for (const [key, value] of Object.entries(recipes)) {
-    if (value <= 0) {
-      continue;
-    }
-
-    if (key === recipeId) {
-      return true;
-    }
-  }
-  return false;
 }

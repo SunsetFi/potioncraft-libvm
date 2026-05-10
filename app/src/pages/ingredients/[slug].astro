@@ -15,7 +15,7 @@ export async function getStaticPaths() {
 }
 
 const { ingredient } = Astro.props;
-const { name, basePrice, path, icon } = ingredient.data;
+const { name, basePrice, path } = ingredient.data;
 
 const [{ Content }, resolvedIcon] = await Promise.all([
   render(ingredient),

@@ -2,9 +2,7 @@ import { getCollection, type CollectionEntry } from "astro:content";
 
 let effectCache: Promise<CollectionEntry<"effects">[]> | undefined;
 
-export async function resolveEffect(
-  id: string,
-): Promise<CollectionEntry<"effects"> | null> {
+export async function resolveEffect(id: string): Promise<CollectionEntry<"effects"> | null> {
   if (!effectCache) {
     effectCache = getCollection("effects");
   }

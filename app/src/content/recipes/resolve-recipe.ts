@@ -2,9 +2,7 @@ import { getCollection, type CollectionEntry } from "astro:content";
 
 let recipeCache: Promise<CollectionEntry<"recipes">[]> | undefined;
 
-export async function resolveRecipe(
-  id: string,
-): Promise<CollectionEntry<"recipes"> | null> {
+export async function resolveRecipe(id: string): Promise<CollectionEntry<"recipes"> | null> {
   if (!recipeCache) {
     recipeCache = getCollection("recipes");
   }

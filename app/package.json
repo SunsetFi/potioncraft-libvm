@@ -1,13 +1,16 @@
 {
-  "name": "",
-  "type": "module",
+  "name": "@potioncraft-libvm/app",
   "version": "0.0.1",
+  "type": "module",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "format": "oxfmt .",
+    "lint": "oxlint .",
+    "check": "astro check"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.39.2",
@@ -15,5 +18,11 @@
     "gray-matter": "^4.0.3",
     "sharp": "^0.34.5",
     "svg-path-bbox": "^2.1.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.9",
+    "oxfmt": "catalog:",
+    "oxlint": "catalog:",
+    "typescript": "^6.0.3"
   }
 }

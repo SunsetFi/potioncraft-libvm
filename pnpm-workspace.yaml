@@ -3,3 +3,7 @@ packages:
 allowBuilds:
   esbuild: false
   sharp: false
+
+catalog:
+  oxfmt: ^0.48.0
+  oxlint: ^1.63.0

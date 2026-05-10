@@ -1,9 +1,12 @@
 {
-  "name": "potioncraft-libvm",
+  "name": "@potioncraft-libvm/workspace",
   "version": "1.0.0",
   "description": "Workspace for PotionCraft Libvm",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "prepare": "husky",
+    "lint-staged": "lint-staged"
+  },
   "keywords": [
     "PotionCraft"
   ],
@@ -16,5 +19,9 @@
       "onFail": "download"
     }
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^17.0.3"
+  }
 }

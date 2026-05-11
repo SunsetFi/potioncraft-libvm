@@ -46,6 +46,7 @@ const limitReached =
                 alt={ingredientData[id].ingredient.data.name}
                 width={32}
                 height={32}
+                title={ingredientData[id].ingredient.data.name}
               />
             ) : (
               <div
@@ -60,6 +61,7 @@ const limitReached =
                   fontSize: "12px",
                   color: "#333",
                 }}
+                title={ingredientData[id]?.ingredient.data.name}
               >
                 {ingredientData[id]?.ingredient.data.name ?? id}
               </div>

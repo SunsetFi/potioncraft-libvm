@@ -111,6 +111,10 @@ const [allTags, allIngredients, allEffects] = await Promise.all([
 </script>
 
 <style>
+  .recipes-table-container {
+    container-type: inline-size;
+  }
+
   .recipes-table {
     overflow: visible;
   }
@@ -120,5 +124,14 @@ const [allTags, allIngredients, allEffects] = await Promise.all([
     align-items: baseline;
     gap: 0.9rem;
     margin-bottom: 0.75rem;
+  }
+
+  @container (max-width: 40rem) {
+    .recipes-table-filters {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      align-items: center;
+      gap: 0.4rem 0.75rem;
+    }
   }
 </style>

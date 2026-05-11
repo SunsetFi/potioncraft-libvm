@@ -2,7 +2,7 @@
 name: Immortal
 ---
 
-Imortal recipes only use life salt.
+Immortal recipes only use life salt.
 
 ### Other Salt Tags
 

@@ -9,7 +9,7 @@
     --sl-text-xs: 1.1rem;
     --sl-text-sm: 1.15rem;
     --sl-text-base: 1.25rem;
-    --sl-text-lg: 1.45rem;
+    --sl-text-lg: 1.30rem;
     --sl-text-2xl: 1.45rem;
     --sl-text-3xl: 1.6rem;
     --sl-text-4xl: 2.1875rem;
@@ -117,16 +117,25 @@
 
   .site-title {
     font-family: var(--font-edu-sa-beginner);
-    font-size: 2rem;
+    font-size: var(--sl-text-4xl);
+  }
+
+  @media (max-width: 600px) {
+    .site-title {
+      font-size: 1.8rem;
+    }
   }
 
   [data-theme="light"] .site-title {
     color: #eecfa0;
-    font-size: var(--sl-text-4xl);
   }
 
   [data-theme="light"] .main-pane {
     color: var(--sl-color-text);
+  }
+
+  .content-panel {
+    padding: 1.1rem var(--sl-content-pad-x);
   }
 
   .main-pane h1 {

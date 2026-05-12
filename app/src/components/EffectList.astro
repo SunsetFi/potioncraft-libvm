@@ -5,6 +5,7 @@ import { getEffectHref } from "../content/effects/effect-href";
 import { resolveEffect } from "../content/effects/resolve-effect";
 
 interface Props {
+  class?: string;
   effects: Record<string, number>;
 }
 
@@ -23,7 +24,7 @@ const effectData = Object.fromEntries(
 );
 ---
 
-<ul class="effect-list">
+<ul class={`effect-list ${Astro.props.class ?? ""}`}>
   {
     Object.entries(effects).map(([id, strength]) =>
       Array.from({ length: strength }, () => (

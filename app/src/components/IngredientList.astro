@@ -5,6 +5,7 @@ import { resolveIngredient } from "../content/ingredients/resolve-ingredient";
 import { getIngredientHref } from "../content/ingredients/ingredient-href";
 
 interface Props {
+  class?: string;
   ingredients: Record<string, number>;
   count?: boolean;
   limit?: number;
@@ -33,7 +34,7 @@ const limitReached =
   limit !== undefined && Object.entries(ingredients).length > limit;
 ---
 
-<ul class="ingredient-list">
+<ul class={`ingredient-list ${Astro.props.class ?? ""}`}>
   {
     resolved.map(([id, amount]) => (
       <li>

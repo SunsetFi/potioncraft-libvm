@@ -28,7 +28,6 @@
 .attr-page-infobox dd {
   text-align: center;
   font-weight: 600;
-  margin: 0;
   padding: 0;
 }
 
@@ -41,12 +40,14 @@
   .attr-page-infobox {
     float: unset;
     align-self: center;
-    width: 100%;
     margin-left: unset;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
   }
 
   .attr-page-infobox .icon {
-    float: left;
     margin: unset;
   }
 }

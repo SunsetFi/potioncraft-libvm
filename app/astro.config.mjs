@@ -1,5 +1,5 @@
 // @ts-check
-import { defineConfig } from "astro/config";
+import { defineConfig, fontProviders } from "astro/config";
 import starlight from "@astrojs/starlight";
 
 import { getTagSidebarItems } from "./config/sidebar/tags";
@@ -12,7 +12,6 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "PotionCraft Library",
-
       social: [
         {
           icon: "github",
@@ -39,10 +38,31 @@ export default defineConfig({
           link: "/salts",
         },
       ],
-      customCss: ["./src/styles.css"],
+      customCss: ["./src/styles/root.css", "./src/styles/attr-page.css"],
+      components: {
+        Head: "./src/components/Head.astro",
+      },
       expressiveCode: {
         themes: ["github-light", "github-dark"],
       },
     }),
+  ],
+
+  fonts: [
+    {
+      provider: fontProviders.google(),
+      name: "Caveat",
+      cssVariable: "--font-caveat",
+    },
+    {
+      provider: fontProviders.google(),
+      name: "Edu SA Beginner",
+      cssVariable: "--font-edu-sa-beginner",
+    },
+    {
+      provider: fontProviders.google(),
+      name: "Sofia",
+      cssVariable: "--font-sofia",
+    },
   ],
 });

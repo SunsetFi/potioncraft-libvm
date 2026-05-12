@@ -31,16 +31,17 @@ const [{ Content }, recipes] = await Promise.all([
   headings={[{ depth: 2, slug: "tag-recipes", text: "Recipes" }]}
 >
   <div class="tag-layout">
+    <!-- TODO: Icon 
     <aside class="effect-infobox">
-      <!-- TODO: Icon -->
     </aside>
+    -->
     <div class="tag-body">
       <Content />
     </div>
-    {tag.body != null ? <hr /> : null}
+    <!-- {tag.body != null ? <hr /> : null} -->
     <ExpandableContent
       id="tag-recipes"
-      title="Recipes using this Tag"
+      title="Recipes using this tag"
       collapsed={true}
     >
       <RecipesTable recipes={recipes} />

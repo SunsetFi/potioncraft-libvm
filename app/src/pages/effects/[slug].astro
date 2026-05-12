@@ -35,13 +35,11 @@ const [{ Content }, resolvedIcon, recipes] = await Promise.all([
   }}
   headings={[{ depth: 2, slug: "effect-recipes", text: "Recipes" }]}
 >
-  <div class="effect-layout">
-    <aside class="effect-infobox">
+  <div class="attr-page-layout">
+    <aside class="attr-page-infobox">
       {
         resolvedIcon && (
-          <div class="icon-wrapper">
-            <Image src={resolvedIcon} alt={name} width={64} />
-          </div>
+          <Image class="icon" src={resolvedIcon} alt={name} width={64} />
         )
       }
       <dl>
@@ -50,51 +48,12 @@ const [{ Content }, resolvedIcon, recipes] = await Promise.all([
       </dl>
     </aside>
 
-    <div class="effect-body">
+    <div class="attr-page-body">
       <Content />
       {effect.body != null ? <hr /> : null}
-      <ExpandableContent id="effect-recipes" title="Recipes using this Effect">
+      <ExpandableContent id="effect-recipes" title="Recipes using this effect">
         <RecipesTable recipes={recipes} />
       </ExpandableContent>
     </div>
   </div>
 </StarlightPage>
-
-<style>
-  .effect-layout {
-    min-height: 200px;
-  }
-
-  .effect-infobox {
-    float: right;
-    width: 200px;
-    margin-left: var(--sl-content-pad-x);
-    border: 1px solid var(--sl-color-hairline);
-    border-radius: 0.5rem;
-    padding: 1rem;
-    height: fit-content;
-  }
-
-  .icon-wrapper {
-    border-radius: 0.25rem;
-    padding: 0.5rem;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1rem;
-  }
-
-  dt {
-    text-align: center;
-    font-size: var(--sl-text-xs);
-    color: var(--sl-color-gray-3);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-  }
-
-  dd {
-    text-align: center;
-    font-weight: 600;
-    margin: 0;
-    padding: 0;
-  }
-</style>

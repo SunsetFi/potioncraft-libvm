@@ -34,12 +34,18 @@ const ingredients = await resolveIngredients();
     gap: 8px;
   }
 
+  @media (max-width: 600px) {
+    .ingredients-layout {
+      justify-content: center;
+    }
+  }
+
   .ingredients-item {
     border: 1px solid var(--sl-color-hairline);
     border-radius: 0.5rem;
     padding: 18px;
     margin: 4px;
-    width: 180px;
+    width: 170px;
     height: 200px;
     cursor: pointer;
     text-decoration: none;

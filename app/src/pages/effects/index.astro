@@ -41,6 +41,12 @@ const effectIcons = await Promise.all(
     gap: 8px;
   }
 
+  @media (max-width: 600px) {
+    .effects-layout {
+      justify-content: center;
+    }
+  }
+
   .effects-item {
     border: 1px solid var(--sl-color-hairline);
     border-radius: 0.5rem;

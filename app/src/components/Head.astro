@@ -1,0 +1,11 @@
+---
+import Default from "@astrojs/starlight/components/Head.astro";
+import { Font } from "astro:assets";
+---
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<Font cssVariable="--font-edu-sa-beginner" />
+<Font cssVariable="--font-caveat" />
+<Font cssVariable="--font-sofia" />
+<Default {...Astro.props} />

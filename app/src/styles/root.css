@@ -1,0 +1,203 @@
+@layer starlight, mine;
+
+@layer mine {
+  :root {
+    --sl-content-width: 60rem;
+    --sl-sidebar-width: 14rem;
+    --sl-font: var(--font-edu-sa-beginner);
+    --sl-text-2xs: 0.8125rem;
+    --sl-text-xs: 1.1rem;
+    --sl-text-sm: 1.15rem;
+    --sl-text-base: 1.25rem;
+    --sl-text-lg: 1.45rem;
+    --sl-text-2xl: 1.45rem;
+    --sl-text-3xl: 1.6rem;
+    --sl-text-4xl: 2.1875rem;
+    --sl-text-5xl: 2.8rem;
+    --sl-text-6xl: 3rem;
+  }
+
+  [data-theme="dark"] {
+    --sl-color-hairline: #474747;
+  }
+
+  [data-theme="light"] {
+
+    /*
+      Adapted from https://potionous.app
+
+      palette: {
+        background: {
+          default: "#9C6547",
+          paper: "#D6B789",
+        },
+        text: {
+          primary: "rgba(0, 0, 0, 0.87)",
+          secondary: "rgba(0, 0, 0, 0.87)",
+        },
+        prominant: {
+          main: "#90B77B",
+        },
+        border: {
+          main: "#5B2D10",
+        },
+        primary: {
+          main: "#523207",
+          contrastText: "#FFFFFF",
+        },
+        secondary: {
+          main: "#1D4806",
+        },
+        error: {
+          main: "rgb(180, 76, 50)", //"#a51919",
+        },
+        action: {
+          disabledBackground: "rgba(255, 255, 255, 0.40)",
+          disabled: "rgba(255, 255, 255, 0.40)",
+        },
+      },
+    */
+
+    /*
+    Scale is inverted.
+    Starlight explicitly uses --sl-color-white for header text, not --sl-color-text.
+    This appears to be because the entire theme is built around dark mode.
+    */
+    --sl-color-white:  #141414;
+    --sl-color-gray-1: #2C1200;
+    --sl-color-gray-2: #3D1A06;
+    --sl-color-gray-3: #5B2D10;
+    --sl-color-gray-4: #906840;
+    --sl-color-gray-5: #B08858;
+    --sl-color-gray-6: #C8A878;
+    --sl-color-gray-7: #E8D8B8;
+    --sl-color-black:  #D6B789;
+
+    --sl-color-accent-high: #1D4806; /* secondary.main */
+    --sl-color-accent:      #90B77B; /* prominent.main */
+    --sl-color-accent-low:  #C8DFB8;
+
+    --sl-color-text:         rgba(0, 0, 0, 0.87);
+    --sl-color-text-accent:  #064748; /* Links */
+    --sl-color-text-invert:  #FFFFFF;
+
+    /* ---  Surface backgrounds  --- */
+    --sl-color-bg:             #D6B789; /* background.paper — main content */
+    --sl-color-bg-nav:         #9C6547; /* background.default — header */
+    --sl-color-bg-sidebar:     #9C6547; /* background.default — sidebar */
+    --sl-color-bg-inline-code: #B08858; /* slightly darker than paper */
+    --sl-color-bg-accent:      #1D4806; /* dark green for accent chips */
+
+    /* ---  Borders / hairlines  --- */
+    --sl-color-hairline-light: #B08858;
+    --sl-color-hairline:       #5B2D10; /* border.main */
+    --sl-color-hairline-shade: #523207; /* primary.main */
+
+    /* ---  Semantic status colors  --- */
+    --sl-color-red:        rgb(180, 76, 50);   /* error.main */
+    --sl-color-red-high:   rgb(110, 35, 15);
+    --sl-color-red-low:    rgba(180, 76, 50, 0.18);
+
+    /* Shift green/orange hues slightly warm to harmonise with the palette */
+    --sl-hue-green:  95;
+    --sl-hue-orange: 32;
+
+    /* ---  Overlay / backdrop  --- */
+    --sl-color-backdrop-overlay: rgba(92, 45, 16, 0.66);
+
+    /* ---  Shadows (warm-tinted)  --- */
+    --sl-shadow-sm:
+      0px 1px 1px rgba(82, 50, 7, 0.08),
+      0px 2px 1px rgba(82, 50, 7, 0.08);
+    --sl-shadow-md:
+      0px 8px 4px rgba(82, 50, 7, 0.04),
+      0px 5px 2px rgba(82, 50, 7, 0.04),
+      0px 3px 2px rgba(82, 50, 7, 0.07),
+      0px 1px 1px rgba(82, 50, 7, 0.08);
+    --sl-shadow-lg:
+      0px 25px 7px rgba(82, 50, 7, 0.02),
+      0px 16px 6px rgba(82, 50, 7, 0.06),
+      0px 9px  5px rgba(82, 50, 7, 0.12),
+      0px 4px  4px rgba(82, 50, 7, 0.18),
+      0px 4px  2px rgba(82, 50, 7, 0.08);
+  }
+
+  .site-title {
+    font-family: var(--font-edu-sa-beginner);
+    font-size: 2rem;
+  }
+
+  [data-theme="light"] .site-title {
+    color: #eecfa0;
+    font-size: var(--sl-text-4xl);
+  }
+
+  [data-theme="light"] .main-pane {
+    color: var(--sl-color-text);
+  }
+
+
+  .main-pane h1 {
+    font-family: var(--font-caveat);
+    margin-top: 0.4rem;
+  }
+
+  [data-theme="light"] .main-pane h1 {
+    color: var(--sl-color-gray-3);
+  }
+
+  [data-theme="light"] .main-pane h2 {
+    color: var(--sl-color-gray-3);
+  }
+
+  .main-pane h3 {
+    margin-top: 1.6rem;
+  }
+
+  [data-theme="light"] .main-pane h3 {
+    color: var(--sl-color-gray-3);
+  }
+
+  .main-pane h4 {
+    --sl-font: var(--font-caveat);
+  }
+
+  [data-theme="light"] .main-pane h4 {
+    color: var(--sl-color-gray-3);
+  }
+
+  .main-pane h3 {
+    font-family: var(--font-sofia);
+  }
+
+  .main-pane .sl-markdown-content {
+    font-size: var(--sl-text-base);
+  }
+
+  [data-theme="light"] .main-pane h5 {
+    color: var(--sl-color-gray-3);
+  }
+
+  .main-pane h6 {
+    --sl-font: var(--font-sofia);
+  }
+
+  [data-theme="light"] .main-pane h6 {
+    color: var(--sl-color-gray-3);
+  }
+
+
+  [data-theme="light"] .right-sidebar h2 {
+    color: var(--sl-color-gray-3);
+  }
+
+
+  [data-theme="light"] .header {
+    --sl-color-text:  #FFFFFF;
+    --sl-color-text-accent:  #FFFFFF;
+  }
+
+  [data-theme="light"] .header label {
+    color: var(--sl-color-text);
+  }
+}

@@ -41,13 +41,11 @@ const [{ Content }, resolvedIcon, recipes] = await Promise.all([
     { depth: 2, slug: "ingredient-recipes", text: "Recipes" },
   ]}
 >
-  <div class="ingredient-layout">
-    <aside class="ingredient-infobox">
+  <div class="attr-page-layout">
+    <aside class="attr-page-infobox">
       {
         resolvedIcon && (
-          <div class="icon-wrapper">
-            <Image src={resolvedIcon} alt={name} width={64} />
-          </div>
+          <Image class="icon" src={resolvedIcon} alt={name} width={64} />
         )
       }
       <dl>
@@ -56,10 +54,9 @@ const [{ Content }, resolvedIcon, recipes] = await Promise.all([
       </dl>
     </aside>
 
-    <div class="ingredient-body">
+    <div class="attr-page-body">
       <Content />
-      {ingredient.body != null ? <hr /> : null}
-      <h3 id="path">Path</h3>
+      <h3 id="path">Ingredient Path</h3>
       <div class="ingredient-path-preview">
         <IngredientPath size={200} ingredient={ingredient} />
       </div>
@@ -68,7 +65,7 @@ const [{ Content }, resolvedIcon, recipes] = await Promise.all([
       </ExpandableContent>
       <ExpandableContent
         id="ingredient-recipes"
-        title="Recipes using this Ingredient"
+        title="Recipes using this ingredient"
       >
         <RecipesTable recipes={recipes} />
       </ExpandableContent>
@@ -77,52 +74,13 @@ const [{ Content }, resolvedIcon, recipes] = await Promise.all([
 </StarlightPage>
 
 <style>
-  .ingredient-layout {
-    display: flex;
-    flex-direction: row-reverse;
-    gap: var(--sl-content-pad-x);
-    max-width: 100%;
-  }
-
-  .ingredient-infobox {
-    width: 250px;
-    flex: 0 0 auto;
-    border: 1px solid var(--sl-color-hairline);
-    border-radius: 0.5rem;
-    padding: 1rem;
-    height: fit-content;
-  }
-
-  .ingredient-body {
-    flex: 1 1 auto;
-    min-width: 0;
-  }
-
-  .icon-wrapper {
-    border-radius: 0.25rem;
-    padding: 0.5rem;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1rem;
-  }
-
   .ingredient-path-preview {
     display: flex;
-    justify-content: center;
   }
 
-  dt {
-    text-align: center;
-    font-size: var(--sl-text-xs);
-    color: var(--sl-color-gray-3);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-  }
-
-  dd {
-    text-align: center;
-    font-weight: 600;
-    margin: 0;
-    padding: 0;
+  @media (max-width: 600px) {
+    .ingredient-path-preview {
+      justify-content: center;
+    }
   }
 </style>

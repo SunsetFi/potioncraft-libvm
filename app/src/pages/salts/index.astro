@@ -41,6 +41,12 @@ const saltIcons = await Promise.all(
     gap: 8px;
   }
 
+  @media (max-width: 600px) {
+    .salts-layout {
+      justify-content: center;
+    }
+  }
+
   .salts-item {
     border: 1px solid var(--sl-color-hairline);
     border-radius: 0.5rem;

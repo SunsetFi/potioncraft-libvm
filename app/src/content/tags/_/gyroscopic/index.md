@@ -4,7 +4,7 @@ name: Gyroscopic
 
 Gyroscopic recipes use only sun and moon salts.
 
-### Other Salt Tags
+## Other Salt Tags
 
 - [Desolate](./desolate)
 - [Dull](./dull)

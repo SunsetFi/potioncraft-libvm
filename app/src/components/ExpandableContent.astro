@@ -10,7 +10,7 @@ const { id, collapsed = false, title } = Astro.props;
 ---
 
 <div class="expandable-content" id={id}>
-  <h3 class="expandable-title" data-collapsed={collapsed ? "true" : "false"}>
+  <h2 class="expandable-title" data-collapsed={collapsed ? "true" : "false"}>
     {title}
     <span class="expandable-icon">
       <span class="icon-collapsed" style={collapsed ? "" : "display: none;"}>
@@ -20,7 +20,7 @@ const { id, collapsed = false, title } = Astro.props;
         <Icon name="down-caret" label="collapse" size="2rem" />
       </span>
     </span>
-  </h3>
+  </h2>
   <div class="expandable-body" style={collapsed ? "display: none;" : ""}>
     <slot />
   </div>

@@ -12,7 +12,7 @@
     --sl-text-lg: 1.30rem;
     --sl-text-2xl: 1.45rem;
     --sl-text-3xl: 1.84rem;
-    --sl-text-4xl: 2.1875rem;
+    --sl-text-4xl: 2rem;
     --sl-text-5xl: 2.8rem;
     --sl-text-6xl: 3rem;
   }
@@ -151,8 +151,14 @@
     color: var(--sl-color-gray-3);
   }
 
+  .main-pane h2 {
+    margin-top: 1.6rem;
+    font-family: var(--font-caveat);
+  }
+
   .main-pane h3 {
     margin-top: 1.6rem;
+    font-family: var(--font-caveat);
   }
 
   [data-theme="light"] .main-pane h3 {
@@ -167,10 +173,7 @@
     color: var(--sl-color-gray-3);
   }
 
-  .main-pane h3 {
-    font-family: var(--font-caveat);
-    /* font-size: var(--sl-text-4xl); */
-  }
+  
 
   .main-pane .sl-markdown-content {
     font-size: var(--sl-text-base);

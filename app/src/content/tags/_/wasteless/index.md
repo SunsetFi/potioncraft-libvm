@@ -4,7 +4,7 @@ name: Wasteless
 
 Wasteless recipes must fully stir the path before using the bellows.
 
-### Other Grinding Tags
+## Other Grinding Tags
 
 - [Cracked](./cracked)
 - [Extreme](./extreme)

@@ -4,7 +4,7 @@ name: Rich
 
 Rich recipes do use salts.
 
-### Other Salt Tags
+## Other Salt Tags
 
 - [Desolate](./desolate)
 - [Dull](./dull)

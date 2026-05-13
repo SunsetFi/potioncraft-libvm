@@ -4,7 +4,7 @@ name: Solar
 
 Solar recipes use only sun salts.
 
-### Other Salt Tags
+## Other Salt Tags
 
 - [Desolate](./desolate)
 - [Dull](./dull)

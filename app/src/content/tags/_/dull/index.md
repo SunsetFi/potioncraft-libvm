@@ -4,7 +4,7 @@ name: Dull
 
 Dull recipes do not use any salts.
 
-### Other Salt Tags
+## Other Salt Tags
 
 - [Rich](./rich)
 - [Desolate](./desolate)

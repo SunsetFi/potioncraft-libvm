@@ -18,7 +18,7 @@ const { tag } = Astro.props;
 const { id } = tag;
 const { name } = tag.data;
 
-const [{ Content }, recipes] = await Promise.all([
+const [{ Content, headings }, recipes] = await Promise.all([
   render(tag),
   getRecipesByTag(id),
 ]);
@@ -29,7 +29,7 @@ const [{ Content }, recipes] = await Promise.all([
     title: name,
     description: name,
   }}
-  headings={[{ depth: 2, slug: "tag-recipes", text: "Recipes" }]}
+  headings={[...headings, { depth: 2, slug: "tag-recipes", text: "Recipes" }]}
 >
   <div class="tag-layout">
     <!-- TODO: Icon 

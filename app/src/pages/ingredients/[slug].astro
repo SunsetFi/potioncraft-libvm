@@ -24,7 +24,7 @@ const { ingredient } = Astro.props;
 const { id } = ingredient;
 const { name, basePrice, path } = ingredient.data;
 
-const [{ Content }, resolvedIcon, recipes] = await Promise.all([
+const [{ Content, headings }, resolvedIcon, recipes] = await Promise.all([
   render(ingredient),
   resolveIngredientIcon(id),
   getRecipesByIngredient(id),
@@ -37,6 +37,7 @@ const [{ Content }, resolvedIcon, recipes] = await Promise.all([
     description: `The ${name} ingredient.`,
   }}
   headings={[
+    ...headings,
     { depth: 2, slug: "path", text: "Path" },
     { depth: 2, slug: "svg-path", text: "SVG Path" },
     { depth: 2, slug: "ingredient-recipes", text: "Recipes" },

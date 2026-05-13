@@ -4,13 +4,13 @@ name: Highlander
 
 A recipe that includes at most one of every ingredient.
 
-### Derived Tags
+## Derived Tags
 
 - [Drylander](./drylander)
 - [Wastelander](./wastelander)
 - [Alchelander](./alchelander)
 - [Masterlander](./masterlander)
 
-### Related Tags
+## Related Tags
 
 - [Lowlander](./lowlander)

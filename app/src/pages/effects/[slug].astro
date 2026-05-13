@@ -24,7 +24,7 @@ const { effect } = Astro.props;
 const { id } = effect;
 const { name, basePrice } = effect.data;
 
-const [{ Content }, resolvedIcon, recipes] = await Promise.all([
+const [{ Content, headings }, resolvedIcon, recipes] = await Promise.all([
   render(effect),
   resolveEffectIcon(id),
   getRecipesByEffect(id),
@@ -44,6 +44,7 @@ const ingredientCountOptimal = sortRecipes(
     description: `The ${name} effect.`,
   }}
   headings={[
+    ...headings,
     { depth: 2, slug: "effect-recipes-cost", text: "Cost Optimal Recipes" },
     {
       depth: 2,

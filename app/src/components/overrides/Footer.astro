@@ -1,0 +1,25 @@
+---
+import Default from "@astrojs/starlight/components/Footer.astro";
+---
+
+<Default {...Astro.props} />
+<div class="footer-content">
+  <span class="copyright-notice"
+    >Images may be subject to copyright of their respective holders.</span
+  >
+  <span class="copyright-notice"
+    >Effect and ingredient images copyright © Niceplay Games.</span
+  >
+</div>
+<style>
+  .footer-content {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .copyright-notice {
+    font-size: 0.8em;
+  }
+</style>

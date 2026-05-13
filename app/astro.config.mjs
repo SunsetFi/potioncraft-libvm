@@ -40,7 +40,8 @@ export default defineConfig({
       ],
       customCss: ["./src/styles/root.css", "./src/styles/attr-page.css"],
       components: {
-        Head: "./src/components/Head.astro",
+        Head: "./src/components/overrides/Head.astro",
+        Footer: "./src/components/overrides/Footer.astro",
       },
       expressiveCode: {
         themes: ["github-light", "github-dark"],

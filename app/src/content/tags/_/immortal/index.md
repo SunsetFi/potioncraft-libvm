@@ -4,7 +4,7 @@ name: Immortal
 
 Immortal recipes only use life salt.
 
-### Other Salt Tags
+## Other Salt Tags
 
 - [Desolate](./desolate)
 - [Dull](./dull)

@@ -22,7 +22,7 @@ const { salt } = Astro.props;
 const { id } = salt;
 const { name, pricePerGrain } = salt.data;
 
-const [{ Content }, resolvedIcon, recipes] = await Promise.all([
+const [{ Content, headings }, resolvedIcon, recipes] = await Promise.all([
   render(salt),
   resolveSaltIcon(id),
   getRecipesBySalt(id),
@@ -34,7 +34,7 @@ const [{ Content }, resolvedIcon, recipes] = await Promise.all([
     title: name,
     description: name,
   }}
-  headings={[{ depth: 2, slug: "salt-recipes", text: "Recipes" }]}
+  headings={[...headings, { depth: 2, slug: "salt-recipes", text: "Recipes" }]}
 >
   <div class="attr-page-layout">
     <aside class="attr-page-infobox">

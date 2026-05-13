@@ -23,7 +23,7 @@ export async function getStaticPaths() {
 
 const { recipe } = Astro.props;
 const { id } = recipe;
-const [{ Content }, preview] = await Promise.all([
+const [{ Content, headings }, preview] = await Promise.all([
   render(recipe),
   resolveRecipePreview(id),
 ]);
@@ -57,6 +57,7 @@ if (primaryIngredientTagData) {
     title: `${titleDescriptor} Recipe`,
     description: `The ${name} recipe.`,
   }}
+  headings={headings}
 >
   <div class="attr-page-layout">
     <aside class="attr-page-infobox">

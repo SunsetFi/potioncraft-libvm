@@ -1,8 +1,8 @@
 {
   "name": "@potioncraft-libvm/app",
   "version": "0.0.1",
-  "type": "module",
   "license": "ISC",
+  "type": "module",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",

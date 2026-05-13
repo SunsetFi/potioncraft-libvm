@@ -2,10 +2,7 @@ import type { RecipeEntry } from "./types/RecipeEntry";
 
 export type RecipesSortCriteria = "cost" | "ingredient-count";
 
-export function sortRecipes(
-  recipes: RecipeEntry[],
-  by: RecipesSortCriteria,
-): RecipeEntry[] {
+export function sortRecipes(recipes: RecipeEntry[], by: RecipesSortCriteria): RecipeEntry[] {
   recipes = recipes.toSorted((a, b) => {
     const av = getSortCriteria(a, by);
     const bv = getSortCriteria(b, by);
@@ -37,9 +34,6 @@ function getSortCriteria(recipe: RecipeEntry, by: RecipesSortCriteria): number {
     case "cost":
       return recipe.data.cost;
     case "ingredient-count":
-      return Object.values(recipe.data.ingredients).reduce(
-        (sum, value) => sum + value,
-        0,
-      );
+      return Object.values(recipe.data.ingredients).reduce((sum, value) => sum + value, 0);
   }
 }

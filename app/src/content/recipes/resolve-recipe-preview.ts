@@ -1,9 +1,7 @@
 import { resolveRecipe } from "./resolve-recipe";
 import type { RecipeId } from "./types/RecipeId";
 
-const ingredientIconModules = import.meta.glob<{ default: ImageMetadata }>(
-  "./_/*/preview.png",
-);
+const ingredientIconModules = import.meta.glob<{ default: ImageMetadata }>("./_/*/preview.png");
 
 export async function resolveRecipePreview(id: RecipeId) {
   const recipe = await resolveRecipe(id);

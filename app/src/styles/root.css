@@ -7,9 +7,9 @@
     --sl-font: var(--font-edu-sa-beginner);
     --sl-text-2xs: 0.8125rem;
     --sl-text-xs: 0.8rem;
-    --sl-text-sm: 1.0rem;
+    --sl-text-sm: 1rem;
     --sl-text-base: 1.18rem;
-    --sl-text-lg: 1.30rem;
+    --sl-text-lg: 1.3rem;
     --sl-text-2xl: 1.45rem;
     --sl-text-3xl: 1.84rem;
     --sl-text-4xl: 2rem;
@@ -172,8 +172,6 @@
   [data-theme="light"] .main-pane h4 {
     color: var(--sl-color-gray-3);
   }
-
-  
 
   .main-pane .sl-markdown-content {
     font-size: var(--sl-text-base);

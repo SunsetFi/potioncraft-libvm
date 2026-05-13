@@ -1,5 +1,7 @@
 packages:
   - app
+  - tome-sync
+  
 allowBuilds:
   esbuild: false
   sharp: false

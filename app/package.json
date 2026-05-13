@@ -2,6 +2,7 @@
   "name": "@potioncraft-libvm/app",
   "version": "0.0.1",
   "type": "module",
+  "license": "ISC",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -20,7 +21,6 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.9",
-    "@types/cli-progress": "^3.11.6",
     "gray-matter": "^4.0.3",
     "oxfmt": "catalog:",
     "oxlint": "catalog:",

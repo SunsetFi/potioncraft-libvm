@@ -7,8 +7,8 @@ requiredPotions:
   - Sleep: 3
   - Slowness: 3
 produces:
- type: reagent
- id: nigredo
+  type: reagent
+  id: nigredo
 ---
 
-Nigredo is the first recipe unlocked for the [Alchemy Machine](/alchemy-machine).  It is used in the production of [Albido](/reagents/albedo) and [Void Salts](/salts/void).
+Nigredo is the first recipe unlocked for the [Alchemy Machine](/alchemy-machine). It is used in the production of [Albido](/reagents/albedo) and [Void Salts](/salts/void).

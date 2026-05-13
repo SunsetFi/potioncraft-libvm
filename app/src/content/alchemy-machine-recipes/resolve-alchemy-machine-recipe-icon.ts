@@ -1,13 +1,9 @@
 import { resolveAlchemyMachineRecipe } from "./resolve-alchemy-machine-recipe";
 import type { AlchemyMachineRecipeId } from "./types/AlchemyMachineRecipeId";
 
-const reagentIconModules = import.meta.glob<{ default: ImageMetadata }>(
-  "./_/*/icon.png",
-);
+const reagentIconModules = import.meta.glob<{ default: ImageMetadata }>("./_/*/icon.png");
 
-export async function resolveAlchemyMachineRecipeIcon(
-  id: AlchemyMachineRecipeId,
-) {
+export async function resolveAlchemyMachineRecipeIcon(id: AlchemyMachineRecipeId) {
   const effect = await resolveAlchemyMachineRecipe(id);
   if (effect?.data.icon) {
     return effect.data.icon;

@@ -12,9 +12,7 @@ export async function getRecipesByEffect(
   return filterRecipes(recipes, { effects: { [effectId]: tier ?? 1 } });
 }
 
-export async function getRecipesByEffects(
-  effects: EffectTierRecord,
-): Promise<RecipeEntry[]> {
+export async function getRecipesByEffects(effects: EffectTierRecord): Promise<RecipeEntry[]> {
   const recipes = await resolveRecipes();
   return filterRecipes(recipes, { effects });
 }

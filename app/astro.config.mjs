@@ -92,11 +92,7 @@ export default defineConfig({
 function remarkRebaseLinks(base) {
   return () => (tree) => {
     visit(tree, "link", (node) => {
-      if (
-        node.url.startsWith("/") &&
-        !node.url.startsWith("//") &&
-        !node.url.startsWith(base)
-      ) {
+      if (node.url.startsWith("/") && !node.url.startsWith("//") && !node.url.startsWith(base)) {
         node.url = base + node.url;
       }
     });

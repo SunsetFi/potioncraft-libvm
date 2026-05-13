@@ -1,0 +1,134 @@
+---
+import { render } from "astro:content";
+import { Image } from "astro:assets";
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+
+import { sortRecipes } from "../../content/recipes/sort-recipes";
+import { getRecipesByEffects } from "../../content/recipes/recipes-by-effect";
+import { resolveAlchemyMachineRecipeIcon } from "../../content/alchemy-machine-recipes/resolve-alchemy-machine-recipe-icon";
+import RecipesTable from "../../components/RecipesTable.astro";
+import ExpandableContent from "../../components/ExpandableContent.astro";
+import EffectList from "../../components/EffectList.astro";
+import { resolveAlchemyMachineRecipes } from "../../content/alchemy-machine-recipes/resolve-alchemy-machine-recipe";
+
+export async function getStaticPaths() {
+  const recipes = await resolveAlchemyMachineRecipes();
+  return recipes.map((recipe) => ({
+    params: { slug: recipe.id },
+    props: { recipe },
+  }));
+}
+
+const { recipe } = Astro.props;
+const { id } = recipe;
+const { name, requiredPotions } = recipe.data;
+
+const [{ Content, headings }, resolvedIcon, requiredRecipes] =
+  await Promise.all([
+    render(recipe),
+    resolveAlchemyMachineRecipeIcon(id),
+    Promise.all(
+      requiredPotions.map((effects) =>
+        getRecipesByEffects(effects).then((recipes) => ({ effects, recipes })),
+      ),
+    ),
+  ]);
+
+const recipesCostOptimal = requiredRecipes.map(({ effects, recipes }) => ({
+  effects,
+  recipes: sortRecipes(recipes, "cost"),
+}));
+
+const recipesIngredientOptimal = requiredRecipes.map(
+  ({ effects, recipes }) => ({
+    effects,
+    recipes: sortRecipes(recipes, "ingredient-count"),
+  }),
+);
+---
+
+<StarlightPage
+  frontmatter={{
+    title: name,
+    description: `The ${name} reagent.`,
+  }}
+  headings={[
+    ...headings,
+    { depth: 2, slug: "reagent-recipes-cost", text: "Cost Optimal Recipes" },
+    {
+      depth: 2,
+      slug: "reagent-recipes-ingredient",
+      text: "Ingredient Optimal Recipes",
+    },
+  ]}
+>
+  <div class="attr-page-layout">
+    <aside class="attr-page-infobox">
+      {
+        resolvedIcon && (
+          <Image class="icon" src={resolvedIcon} alt={name} width={64} />
+        )
+      }
+    </aside>
+
+    <div class="attr-page-body">
+      <Content />
+      <h2>Requirements</h2>
+      <ul>
+        {
+          requiredPotions.map((effects) => (
+            <li>
+              <EffectList effects={effects} />
+            </li>
+          ))
+        }
+      </ul>
+      <ExpandableContent
+        id="reagent-recipes-cost"
+        title="Cost Optimal Recipes"
+        collapsed
+      >
+        {
+          recipesCostOptimal.map(({ effects, recipes }) => (
+            <ExpandableContent collapsed>
+              <span slot="title">
+                <EffectList effects={effects} link={false} />
+              </span>
+              {recipe ? (
+                <RecipesTable recipes={recipes} allowSorting={false} />
+              ) : (
+                <p>No recipes found for this combination of effects.</p>
+              )}
+            </ExpandableContent>
+          ))
+        }
+      </ExpandableContent>
+      <ExpandableContent
+        id="reagent-recipes-ingredient"
+        title="Ingredient Optimal Recipes"
+        collapsed
+      >
+        {
+          recipesIngredientOptimal.map(({ effects, recipes }) => (
+            <ExpandableContent collapsed>
+              <span slot="title">
+                <EffectList effects={effects} link={false} />
+              </span>
+              {recipe ? (
+                <RecipesTable recipes={recipes} allowSorting={false} />
+              ) : (
+                <p>No recipes found for this combination of effects.</p>
+              )}
+            </ExpandableContent>
+          ))
+        }
+      </ExpandableContent>
+    </div>
+  </div>
+</StarlightPage>
+
+<style>
+  .recipe-header {
+    display: inline-block;
+  }
+</style>

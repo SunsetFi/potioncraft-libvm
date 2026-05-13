@@ -1,0 +1,5 @@
+@layer libvm {
+  .main-pane detail {
+    display: block;
+  }
+}

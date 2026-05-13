@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig, fontProviders } from "astro/config";
 import starlight from "@astrojs/starlight";
+import { visit } from "unist-util-visit";
 
 import { getTagSidebarItems } from "./config/sidebar/tags";
 
@@ -8,6 +9,10 @@ import { getTagSidebarItems } from "./config/sidebar/tags";
 export default defineConfig({
   site: "https://sunsetfi.github.io",
   base: "/potioncraft-libvm",
+
+  markdown: {
+    remarkPlugins: [remarkRebaseLinks("/potioncraft-libvm")],
+  },
 
   integrations: [
     starlight({
@@ -20,6 +25,17 @@ export default defineConfig({
         },
       ],
       sidebar: [
+        {
+          label: "Alchemy Machine",
+          items: [
+            {
+              label: "Overview",
+              link: "/alchemy-machine",
+            },
+            { label: "Reagents", link: "/reagents" },
+            { label: "Recipes", link: "/alchemy-machine-recipes" },
+          ],
+        },
         {
           label: "Tags",
           items: getTagSidebarItems(),
@@ -38,7 +54,12 @@ export default defineConfig({
           link: "/salts",
         },
       ],
-      customCss: ["./src/styles/root.css", "./src/styles/attr-page.css"],
+      customCss: [
+        "./src/styles/layers.css",
+        "./src/styles/root.css",
+        "./src/styles/attr-page.css",
+        "./src/styles/detail.css",
+      ],
       components: {
         Head: "./src/components/overrides/Head.astro",
         Footer: "./src/components/overrides/Footer.astro",
@@ -67,3 +88,17 @@ export default defineConfig({
     },
   ],
 });
+
+function remarkRebaseLinks(base) {
+  return () => (tree) => {
+    visit(tree, "link", (node) => {
+      if (
+        node.url.startsWith("/") &&
+        !node.url.startsWith("//") &&
+        !node.url.startsWith(base)
+      ) {
+        node.url = base + node.url;
+      }
+    });
+  };
+}

@@ -1,6 +1,5 @@
-@layer starlight, mine;
 
-@layer mine {
+@layer libvm {
   :root {
     --sl-content-width: 60rem;
     --sl-sidebar-width: 14rem;

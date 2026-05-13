@@ -34,7 +34,10 @@ const [{ Content, headings }, resolvedIcon, recipes] = await Promise.all([
     title: name,
     description: name,
   }}
-  headings={[...headings, { depth: 2, slug: "salt-recipes", text: "Recipes" }]}
+  headings={[
+    ...headings,
+    { depth: 2, slug: "salt-recipes", text: "Recipes using this salt" },
+  ]}
 >
   <div class="attr-page-layout">
     <aside class="attr-page-infobox">

@@ -7,12 +7,15 @@ import type { EffectTierRecord } from "../content/effects/types/EffectTierRecord
 import { recordKeys } from "../utils/record-keys";
 import { recordEntries } from "../utils/record-entries";
 
+import LinkSwitch from "./LinkSwitch.astro";
+
 interface Props {
   class?: string;
   effects: EffectTierRecord;
+  link?: boolean;
 }
 
-const { effects } = Astro.props;
+const { effects, link = true } = Astro.props;
 
 const effectData = Object.fromEntries(
   await Promise.all(
@@ -27,11 +30,11 @@ const effectData = Object.fromEntries(
 );
 ---
 
-<ul class={`effect-list ${Astro.props.class ?? ""}`}>
+<ul class={`effect-list not-content ${Astro.props.class ?? ""}`}>
   {
     recordEntries(effects).map(([id, strength]) =>
       Array.from({ length: strength }, () => (
-        <a href={getEffectHref(id)}>
+        <LinkSwitch link={link} href={getEffectHref(id)}>
           {effectData[id]?.icon ? (
             <Image
               class="recipe-effect-icon"
@@ -59,7 +62,7 @@ const effectData = Object.fromEntries(
               {effectData[id]?.effect.data.name ?? id}
             </div>
           )}
-        </a>
+        </LinkSwitch>
       )),
     )
   }

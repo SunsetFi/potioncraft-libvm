@@ -1,13 +1,15 @@
-import { getCollection, type CollectionEntry } from "astro:content";
+import { getCollection } from "astro:content";
+import type { TagId } from "./types/TagId";
+import type { TagEntry } from "./types/TagEntry";
 
-export async function resolveTag(id: string): Promise<CollectionEntry<"tags"> | null> {
+export async function resolveTag(id: TagId): Promise<TagEntry | null> {
   const tags = await resolveTags();
 
   const tag = tags.find((i) => i.id === id);
   return tag ?? null;
 }
 
-let tagCache: Promise<CollectionEntry<"tags">[]> | undefined;
+let tagCache: Promise<TagEntry[]> | undefined;
 export async function resolveTags() {
   if (!tagCache) {
     tagCache = getCollection("tags");

@@ -1,20 +1,21 @@
-import { getCollection, type CollectionEntry } from "astro:content";
-import { getIngredientIdFromSlug } from "./collection";
+import { getCollection } from "astro:content";
+import type { IngredientEntry } from "./types/IngredientEntry";
+import type { IngredientId } from "./types/IngredientId";
 
 export async function resolveIngredient(
-  id: string,
-): Promise<CollectionEntry<"ingredients"> | null> {
+  id: IngredientId,
+): Promise<IngredientEntry | null> {
   const ingredients = await resolveIngredients();
 
-  id = id.toLowerCase();
+  const idLower = id.toLowerCase();
 
   const ingredient = ingredients.find(
-    (ingredient) => getIngredientIdFromSlug(ingredient.id).toLowerCase() === id,
+    (ingredient) => ingredient.id.toLowerCase() === idLower,
   );
   return ingredient ?? null;
 }
 
-let ingredientCache: Promise<CollectionEntry<"ingredients">[]> | undefined;
+let ingredientCache: Promise<IngredientEntry[]> | undefined;
 export async function resolveIngredients() {
   if (!ingredientCache) {
     ingredientCache = getCollection("ingredients");

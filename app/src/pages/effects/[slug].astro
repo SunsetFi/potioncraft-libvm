@@ -1,5 +1,5 @@
 ---
-import { getCollection, render } from "astro:content";
+import { render } from "astro:content";
 import { sortRecipes } from "../../content/recipes/sort-recipes";
 import { Image } from "astro:assets";
 import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
@@ -10,9 +10,10 @@ import { getRecipesByEffect } from "../../content/recipes/recipes-by-effect";
 import RecipesTable from "../../components/RecipesTable.astro";
 import ExpandableContent from "../../components/ExpandableContent.astro";
 import { filterRecipes } from "../../content/recipes/filter-recipes";
+import { resolveEffects } from "../../content/effects/resolve-effect";
 
 export async function getStaticPaths() {
-  const effects = await getCollection("effects");
+  const effects = await resolveEffects();
   return effects.map((effect) => ({
     params: { slug: effect.id },
     props: { effect: effect },
@@ -43,11 +44,11 @@ const ingredientCountOptimal = sortRecipes(
     description: `The ${name} effect.`,
   }}
   headings={[
-    { depth: 2, slug: "effect-recipes-cost", text: "Cost Optimal" },
+    { depth: 2, slug: "effect-recipes-cost", text: "Cost Optimal Recipes" },
     {
       depth: 2,
       slug: "effect-recipes-ingredient",
-      text: "Ingredient Optimanl",
+      text: "Ingredient Optimal Recipes",
     },
     { depth: 2, slug: "effect-recipes-all", text: "All Recipes" },
   ]}

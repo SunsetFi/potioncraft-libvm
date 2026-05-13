@@ -16,16 +16,3 @@ export const ingredientsCollection = defineCollection({
       icon: image().optional(),
     }),
 });
-
-export function getIngredientIdFromSlug(slug: string) {
-  let id = slug;
-  if (id.startsWith("/ingredients/")) {
-    id = id.slice("/ingredients/".length);
-  }
-
-  if (id.endsWith(".md")) {
-    id = id.slice(0, -".md".length);
-  }
-
-  return id;
-}

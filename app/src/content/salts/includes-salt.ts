@@ -1,12 +1,16 @@
-export function includesSalt(salts: Record<string, number>, saltId: string): boolean {
-  saltId = saltId.toLowerCase();
+import { recordEntries } from "../../utils/record-entries";
+import type { SaltCountRecord } from "./types/SaltCountRecord";
+import type { SaltId } from "./types/SaltId";
 
-  for (const [key, value] of Object.entries(salts)) {
+export function includesSalt(salts: SaltCountRecord, saltId: SaltId): boolean {
+  const lowerId = saltId.toLowerCase();
+
+  for (const [key, value] of recordEntries(salts)) {
     if (value <= 0) {
       continue;
     }
 
-    if (key.toLowerCase() === saltId) {
+    if (key.toLowerCase() === lowerId) {
       return true;
     }
   }

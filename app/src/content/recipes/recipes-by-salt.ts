@@ -1,9 +1,9 @@
-import type { CollectionEntry } from "astro:content";
 import { resolveRecipes } from "./resolve-recipe";
-import { includesSalt } from "../salts/includes-salt";
+import type { RecipeEntry } from "./types/RecipeEntry";
+import type { SaltId } from "../salts/types/SaltId";
+import { filterRecipes } from "./filter-recipes";
 
-export async function getRecipesBySalt(saltId: string): Promise<CollectionEntry<"recipes">[]> {
-  saltId = saltId.toLowerCase();
+export async function getRecipesBySalt(saltId: SaltId): Promise<RecipeEntry[]> {
   const recipes = await resolveRecipes();
-  return recipes.filter((recipe) => includesSalt(recipe.data?.salts, saltId));
+  return filterRecipes(recipes, { salts: [saltId] });
 }

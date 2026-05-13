@@ -1,8 +1,11 @@
 import { resolveSalt } from "./resolve-salt";
+import type { SaltId } from "./types/SaltId";
 
-const saltIconModules = import.meta.glob<{ default: ImageMetadata }>("./_/*/icon.png");
+const saltIconModules = import.meta.glob<{ default: ImageMetadata }>(
+  "./_/*/icon.png",
+);
 
-export async function resolveSaltIcon(id: string) {
+export async function resolveSaltIcon(id: SaltId) {
   const salt = await resolveSalt(id);
   if (salt?.data.icon) {
     return salt.data.icon;
@@ -20,7 +23,7 @@ export async function resolveSaltIcon(id: string) {
 
 // Could cache these lookups.
 const idFromIconPathRegex = /^\.\/_\/([^/]+)\/icon.png?$/;
-function findSaltIconModule(id: string) {
+function findSaltIconModule(id: SaltId) {
   for (const [key, value] of Object.entries(saltIconModules)) {
     const [, iconId] = idFromIconPathRegex.exec(key) || [];
     if (iconId.toLowerCase() === id.toLowerCase()) {

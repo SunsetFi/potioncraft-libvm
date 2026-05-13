@@ -1,15 +1,18 @@
+import type { IngredientCountRecord } from "./types/IngredientCountRecord";
+import type { IngredientId } from "./types/IngredientId";
+
 export function includesIngredient(
-  ingredients: Record<string, number>,
-  ingredientId: string,
+  ingredients: IngredientCountRecord,
+  ingredientId: IngredientId,
 ): boolean {
-  ingredientId = ingredientId.toLowerCase();
+  const lowerId = ingredientId.toLowerCase();
 
   for (const [key, value] of Object.entries(ingredients)) {
     if (value <= 0) {
       continue;
     }
 
-    if (key.toLowerCase() === ingredientId) {
+    if (key.toLowerCase() === lowerId) {
       return true;
     }
   }

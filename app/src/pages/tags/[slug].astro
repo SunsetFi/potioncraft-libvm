@@ -1,12 +1,13 @@
 ---
-import { getCollection, render } from "astro:content";
+import { render } from "astro:content";
 import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 import { getRecipesByTag } from "../../content/recipes/recipes-by-tag";
 import RecipesTable from "../../components/RecipesTable.astro";
 import ExpandableContent from "../../components/ExpandableContent.astro";
+import { resolveTags } from "../../content/tags/resolve-tag";
 
 export async function getStaticPaths() {
-  const tags = await getCollection("tags");
+  const tags = await resolveTags();
   return tags.map((effect) => ({
     params: { slug: effect.id },
     props: { tag: effect },
@@ -38,11 +39,7 @@ const [{ Content }, recipes] = await Promise.all([
     <div class="tag-body">
       <Content />
     </div>
-    <ExpandableContent
-      id="tag-recipes"
-      title="Recipes using this tag"
-      collapsed={true}
-    >
+    <ExpandableContent id="tag-recipes" title="Recipes using this tag">
       <RecipesTable recipes={recipes} />
     </ExpandableContent>
   </div>

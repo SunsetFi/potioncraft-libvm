@@ -1,8 +1,11 @@
 import { resolveEffect } from "./resolve-effect";
+import type { EffectId } from "./types/EffectId";
 
-const effectIconModules = import.meta.glob<{ default: ImageMetadata }>("./_/*/icon.png");
+const effectIconModules = import.meta.glob<{ default: ImageMetadata }>(
+  "./_/*/icon.png",
+);
 
-export async function resolveEffectIcon(id: string) {
+export async function resolveEffectIcon(id: EffectId) {
   const effect = await resolveEffect(id);
   if (effect?.data.icon) {
     return effect.data.icon;
@@ -20,7 +23,7 @@ export async function resolveEffectIcon(id: string) {
 
 // Could cache these lookups.
 const idFromIconPathRegex = /^\.\/_\/([^/]+)\/icon.png?$/;
-function findEffectIconModule(id: string) {
+function findEffectIconModule(id: EffectId) {
   for (const [key, value] of Object.entries(effectIconModules)) {
     const [, iconId] = idFromIconPathRegex.exec(key) || [];
     if (iconId.toLowerCase() === id.toLowerCase()) {

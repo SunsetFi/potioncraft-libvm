@@ -1,9 +1,9 @@
-import type { CollectionEntry } from "astro:content";
+import type { TagId } from "../tags/types/TagId";
+import { filterRecipes } from "./filter-recipes";
 import { resolveRecipes } from "./resolve-recipe";
-import { includesTag } from "../tags/includes-tag";
+import type { RecipeEntry } from "./types/RecipeEntry";
 
-export async function getRecipesByTag(tag: string): Promise<CollectionEntry<"recipes">[]> {
-  tag = tag.toLowerCase();
+export async function getRecipesByTag(tag: TagId): Promise<RecipeEntry[]> {
   const recipes = await resolveRecipes();
-  return recipes.filter((recipe) => includesTag(recipe.data.tags, tag));
+  return filterRecipes(recipes, { includeTags: [tag] });
 }

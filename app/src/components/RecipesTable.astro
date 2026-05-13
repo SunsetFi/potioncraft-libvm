@@ -1,5 +1,4 @@
 ---
-import type { CollectionEntry } from "astro:content";
 import EffectList from "./EffectList.astro";
 import RecipeTagsList from "./RecipeTagsList.astro";
 import IngredientList from "./IngredientList.astro";
@@ -8,9 +7,10 @@ import { resolveEffects } from "../content/effects/resolve-effect";
 import { resolveTags } from "../content/tags/resolve-tag";
 import { resolveIngredients } from "../content/ingredients/resolve-ingredient";
 import SaltsList from "./SaltsList.astro";
+import type { RecipeEntry } from "../content/recipes/types/RecipeEntry";
 
 interface Props {
-  recipes: CollectionEntry<"recipes">[];
+  recipes: RecipeEntry[];
   allowSorting?: boolean;
 }
 
@@ -54,6 +54,7 @@ const [allTags, allIngredients, allEffects] = await Promise.all([
       )
     }
   </div>
+  <span data-output="filter-status"></span>
   <table class="recipes-table">
     <thead>
       <tr>
@@ -134,7 +135,9 @@ const [allTags, allIngredients, allEffects] = await Promise.all([
       );
 
       function applyFilters() {
-        tbody.querySelectorAll<HTMLTableRowElement>("tr").forEach((row) => {
+        let matchedCount = 0;
+        const rows = tbody.querySelectorAll<HTMLTableRowElement>("tr");
+        rows.forEach((row) => {
           const matchTag =
             !tagSel?.value ||
             row.dataset.tags?.split(" ").includes(tagSel.value);
@@ -154,9 +157,21 @@ const [allTags, allIngredients, allEffects] = await Promise.all([
               matchSalts = Number(row.dataset.saltCount) === 0;
               break;
           }
-          row.style.display =
-            matchTag && matchIng && matchEff && matchSalts ? "" : "none";
+
+          const matched = matchTag && matchIng && matchEff && matchSalts;
+          row.style.display = matched ? "" : "none";
+
+          if (matched) {
+            matchedCount++;
+          }
         });
+
+        const statusEl = container.querySelector<HTMLElement>(
+          '[data-output="filter-status"]',
+        );
+        if (statusEl) {
+          statusEl.textContent = `Showing ${matchedCount} of ${rows.length} recipes`;
+        }
       }
 
       tagSel?.addEventListener("change", applyFilters);
@@ -178,6 +193,8 @@ const [allTags, allIngredients, allEffects] = await Promise.all([
         });
         rows.forEach((r) => tbody.appendChild(r));
       });
+
+      applyFilters();
     });
 </script>
 

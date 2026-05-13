@@ -1,5 +1,5 @@
 ---
-import { getCollection, render } from "astro:content";
+import { render } from "astro:content";
 import { Image } from "astro:assets";
 import { Code } from "astro:components";
 import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
@@ -9,9 +9,10 @@ import IngredientPath from "../../components/IngredientPath.astro";
 import { getRecipesByIngredient } from "../../content/recipes/recipes-by-ingredient";
 import RecipesTable from "../../components/RecipesTable.astro";
 import ExpandableContent from "../../components/ExpandableContent.astro";
+import { resolveIngredients } from "../../content/ingredients/resolve-ingredient";
 
 export async function getStaticPaths() {
-  const ingredients = await getCollection("ingredients");
+  const ingredients = await resolveIngredients();
   const items = ingredients.map((ingredient) => ({
     params: { slug: ingredient.id },
     props: { ingredient: ingredient },

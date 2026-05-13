@@ -1,16 +1,17 @@
-import { getCollection, type CollectionEntry } from "astro:content";
-import { getEffectIdFromSlug } from "./collection";
+import { getCollection } from "astro:content";
+import type { EffectId } from "./types/EffectId";
+import type { EffectEntry } from "./types/EffectEntry";
 
-export async function resolveEffect(id: string): Promise<CollectionEntry<"effects"> | null> {
+export async function resolveEffect(id: EffectId): Promise<EffectEntry | null> {
   const effects = await resolveEffects();
 
-  id = id.toLowerCase();
+  const lowerId = id.toLowerCase();
 
-  const effect = effects.find((effect) => getEffectIdFromSlug(effect.id).toLowerCase() === id);
+  const effect = effects.find((effect) => effect.id.toLowerCase() === lowerId);
   return effect ?? null;
 }
 
-let effectCache: Promise<CollectionEntry<"effects">[]> | undefined;
+let effectCache: Promise<EffectEntry[]> | undefined;
 export async function resolveEffects() {
   if (!effectCache) {
     effectCache = getCollection("effects");

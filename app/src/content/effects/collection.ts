@@ -15,16 +15,3 @@ export const effectsCollection = defineCollection({
       icon: image().optional(),
     }),
 });
-
-export function getEffectIdFromSlug(slug: string) {
-  let id = slug;
-  if (id.startsWith("/effects/")) {
-    id = id.slice("/effects/".length);
-  }
-
-  if (id.endsWith(".md")) {
-    id = id.slice(0, -".md".length);
-  }
-
-  return id;
-}

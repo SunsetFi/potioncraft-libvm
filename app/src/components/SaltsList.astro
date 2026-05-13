@@ -3,19 +3,22 @@ import { Image } from "astro:assets";
 import { resolveSalt } from "../content/salts/resolve-salt";
 import { getSaltHref } from "../content/salts/salt-href";
 import { resolveSaltIcon } from "../content/salts/resolve-salt-icon";
+import type { SaltCountRecord } from "../content/salts/types/SaltCountRecord";
+import { recordKeys } from "../utils/record-keys";
+import { recordEntries } from "../utils/record-entries";
 
 interface Props {
   class?: string;
-  salts: Record<string, number>;
+  salts: SaltCountRecord;
 }
 
 const { salts, class: className } = Astro.props;
 
-const resolved = Object.entries(salts).filter((x) => x[1] > 0);
+const resolved = recordEntries(salts).filter((x) => x[1] > 0);
 
 const saltData = Object.fromEntries(
   await Promise.all(
-    Object.keys(Astro.props.salts).map(async (id) => {
+    recordKeys(Astro.props.salts).map(async (id) => {
       const [salt, icon] = await Promise.all([
         resolveSalt(id),
         resolveSaltIcon(id),

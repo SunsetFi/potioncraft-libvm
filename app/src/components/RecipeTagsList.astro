@@ -1,8 +1,9 @@
 ---
 import { getTagHref } from "../content/tags/tag-href";
+import type { ItemTags } from "../content/tags/types/ItemTags";
 
 interface Props {
-  tags: string[];
+  tags: ItemTags;
   limit?: number;
 }
 

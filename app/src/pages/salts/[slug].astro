@@ -1,5 +1,5 @@
 ---
-import { getCollection, render } from "astro:content";
+import { render } from "astro:content";
 import { Image } from "astro:assets";
 import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 
@@ -8,9 +8,10 @@ import { getRecipesBySalt } from "../../content/recipes/recipes-by-salt";
 
 import RecipesTable from "../../components/RecipesTable.astro";
 import ExpandableContent from "../../components/ExpandableContent.astro";
+import { resolveSalts } from "../../content/salts/resolve-salt";
 
 export async function getStaticPaths() {
-  const salts = await getCollection("salts");
+  const salts = await resolveSalts();
   return salts.map((effect) => ({
     params: { slug: effect.id },
     props: { salt: effect },

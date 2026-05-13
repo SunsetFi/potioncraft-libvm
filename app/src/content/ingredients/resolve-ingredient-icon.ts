@@ -1,8 +1,11 @@
 import { resolveIngredient } from "./resolve-ingredient";
+import type { IngredientId } from "./types/IngredientId";
 
-const ingredientIconModules = import.meta.glob<{ default: ImageMetadata }>("./_/*/icon.png");
+const ingredientIconModules = import.meta.glob<{ default: ImageMetadata }>(
+  "./_/*/icon.png",
+);
 
-export async function resolveIngredientIcon(id: string) {
+export async function resolveIngredientIcon(id: IngredientId) {
   const ingredient = await resolveIngredient(id);
   if (ingredient?.data.icon) {
     return ingredient.data.icon;
@@ -20,7 +23,7 @@ export async function resolveIngredientIcon(id: string) {
 
 // Could cache these lookups.
 const idFromIconPathRegex = /^\.\/_\/([^/]+)\/icon.png?$/;
-function findIngredientIconModule(id: string) {
+function findIngredientIconModule(id: IngredientId) {
   for (const [key, value] of Object.entries(ingredientIconModules)) {
     const [, iconId] = idFromIconPathRegex.exec(key) || [];
     if (iconId.toLowerCase() === id.toLowerCase()) {

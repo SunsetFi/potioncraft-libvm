@@ -1,10 +1,10 @@
 ---
-import type { CollectionEntry } from "astro:content";
 import { svgPathBbox } from "svg-path-bbox";
 import { resolveIngredientIcon } from "../content/ingredients/resolve-ingredient-icon";
+import type { IngredientEntry } from "../content/ingredients/types/IngredientEntry";
 
 interface Props {
-  ingredient: CollectionEntry<"ingredients">;
+  ingredient: IngredientEntry;
   size: number;
   icon?: string;
 }

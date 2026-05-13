@@ -1,4 +1,7 @@
-export function includesTag(tags: string[], tag: string) {
-  tag = tag.toLowerCase();
-  return tags.map((t) => t.toLowerCase()).includes(tag);
+import type { ItemTags } from "./types/ItemTags";
+import type { TagId } from "./types/TagId";
+
+export function includesTag(tags: ItemTags, tag: TagId) {
+  const lowerTag = tag.toLowerCase();
+  return tags.some((t) => t.toLowerCase() === lowerTag);
 }

@@ -1,0 +1,89 @@
+---
+import { Image } from "astro:assets";
+import { resolveSalt } from "../content/salts/resolve-salt";
+import { getSaltHref } from "../content/salts/salt-href";
+import { resolveSaltIcon } from "../content/salts/resolve-salt-icon";
+
+interface Props {
+  class?: string;
+  salts: Record<string, number>;
+}
+
+const { salts, class: className } = Astro.props;
+
+const resolved = Object.entries(salts).filter((x) => x[1] > 0);
+
+const saltData = Object.fromEntries(
+  await Promise.all(
+    Object.keys(Astro.props.salts).map(async (id) => {
+      const [salt, icon] = await Promise.all([
+        resolveSalt(id),
+        resolveSaltIcon(id),
+      ]);
+      if (!salt) {
+        return [id, null];
+      }
+      return [id, { salt, icon }];
+    }),
+  ),
+);
+---
+
+<ul class={`salt-list ${className}`}>
+  {
+    resolved.map(([id, amount]) => (
+      <li>
+        <span class="salt-list-item">
+          <a href={getSaltHref(id)}>
+            {saltData[id]?.icon ? (
+              <Image
+                class="salt-icon"
+                src={saltData[id]?.icon}
+                alt={saltData[id]?.salt.data.name}
+                width={32}
+                height={32}
+                title={saltData[id]?.salt.data.name}
+              />
+            ) : (
+              <div
+                class="salt-icon"
+                style={{
+                  width: "32px",
+                  height: "32px",
+                  backgroundColor: "#ccc",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  fontSize: "12px",
+                  color: "#333",
+                }}
+                title={id}
+              >
+                {id}
+              </div>
+            )}
+          </a>
+          <span class="salt-amount" title={String(amount)}>
+            {Math.ceil(amount)}
+          </span>
+        </span>
+      </li>
+    ))
+  }
+</ul>
+<style>
+  .salt-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .salt-list-item {
+    text-wrap: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+</style>

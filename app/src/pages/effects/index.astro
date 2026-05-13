@@ -4,6 +4,8 @@ import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 import { resolveEffects } from "../../content/effects/resolve-effect";
 import { resolveEffectIcon } from "../../content/effects/resolve-effect-icon";
 import { getEffectHref } from "../../content/effects/effect-href";
+import ItemList from "../../components/ItemList/ItemList.astro";
+import ItemListItem from "../../components/ItemList/ItemListItem.astro";
 
 const effects = await resolveEffects();
 
@@ -18,20 +20,17 @@ const effectIcons = await Promise.all(
     description: `A list of all effects.`,
   }}
 >
-  <div class="effects-layout">
+  <ItemList itemHeight="150px">
     {
       effects.map((effect, i) => (
-        <a class="effects-item" href={getEffectHref(effect.id)}>
-          <h5 class="effects-item-name">{effect.data.name}</h5>
-          {effectIcons[i] && (
-            <div class="effects-item-icon">
-              <Image src={effectIcons[i]} alt={effect.data.name} width={64} />
-            </div>
-          )}
-        </a>
+        <ItemListItem
+          title={effect.data.name}
+          href={getEffectHref(effect.id)}
+          icon={effectIcons[i]}
+        />
       ))
     }
-  </div>
+  </ItemList>
 </StarlightPage>
 <style>
   .effects-layout {
@@ -47,27 +46,8 @@ const effectIcons = await Promise.all(
     }
   }
 
-  .effects-item {
-    border: 1px solid var(--sl-color-hairline);
-    border-radius: 0.5rem;
-    padding: 18px;
-    margin: 4px;
-    width: 140px;
-    height: 160px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    cursor: pointer;
-    text-decoration: none;
-    color: inherit;
-  }
-
-  .effects-item-name {
-    text-align: center;
-    margin-bottom: 0.5rem;
-  }
-
   .effects-item-icon {
     margin-top: auto;
+    margin-bottom: auto;
   }
 </style>

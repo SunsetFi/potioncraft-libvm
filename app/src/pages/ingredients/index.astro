@@ -3,6 +3,8 @@ import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 import { resolveIngredients } from "../../content/ingredients/resolve-ingredient";
 import IngredientPath from "../../components/IngredientPath.astro";
 import { getIngredientHref } from "../../content/ingredients/ingredient-href";
+import ItemListItem from "../../components/ItemList/ItemListItem.astro";
+import ItemList from "../../components/ItemList/ItemList.astro";
 
 const ingredients = await resolveIngredients();
 ---
@@ -13,50 +15,22 @@ const ingredients = await resolveIngredients();
     description: `A list of all ingredients.`,
   }}
 >
-  <div class="ingredients-layout">
+  <ItemList>
     {
       ingredients.map((ingredient) => (
-        <a class="ingredients-item" href={getIngredientHref(ingredient.id)}>
-          <h5 class="ingredients-item-name">{ingredient.data.name}</h5>
+        <ItemListItem
+          title={ingredient.data.name}
+          href={getIngredientHref(ingredient.id)}
+        >
           <div class="ingredients-item-path">
             <IngredientPath size={100} ingredient={ingredient} />
           </div>
-        </a>
+        </ItemListItem>
       ))
     }
-  </div>
+  </ItemList>
 </StarlightPage>
 <style>
-  .ingredients-layout {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-
-  @media (max-width: 600px) {
-    .ingredients-layout {
-      justify-content: center;
-    }
-  }
-
-  .ingredients-item {
-    border: 1px solid var(--sl-color-hairline);
-    border-radius: 0.5rem;
-    padding: 18px;
-    margin: 4px;
-    width: 170px;
-    height: 200px;
-    cursor: pointer;
-    text-decoration: none;
-    color: inherit;
-  }
-
-  .ingredients-item-name {
-    text-align: center;
-    margin-bottom: 0.5rem;
-  }
-
   .ingredients-item-path {
     display: flex;
     justify-content: center;

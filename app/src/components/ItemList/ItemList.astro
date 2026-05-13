@@ -1,0 +1,33 @@
+---
+interface Props {
+  class?: string;
+  itemHeight?: number | string;
+}
+
+const { class: className = "", itemHeight = 200 } = Astro.props;
+---
+
+<div
+  class={`item-icon-list-layout ${className}`}
+  style={itemHeight
+    ? `--item-height: ${typeof itemHeight === "number" ? `${itemHeight}px` : itemHeight};`
+    : ""}
+>
+  <slot />
+</div>
+<style>
+  .item-icon-list-layout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  @media (max-width: 600px) {
+    .item-icon-list-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: center;
+    }
+  }
+</style>

@@ -11,7 +11,7 @@ interface Props {
   limit?: number;
 }
 
-const { ingredients, limit, count } = Astro.props;
+const { ingredients, limit, count, class: className } = Astro.props;
 
 // Technically only need to check the resolved ones, but this is done at build time so meh.
 const ingredientData = Object.fromEntries(
@@ -34,7 +34,7 @@ const limitReached =
   limit !== undefined && Object.entries(ingredients).length > limit;
 ---
 
-<ul class={`ingredient-list ${Astro.props.class ?? ""}`}>
+<ul class={`ingredient-list ${className ?? ""}`}>
   {
     resolved.map(([id, amount]) => (
       <li>

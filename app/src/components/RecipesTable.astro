@@ -7,6 +7,7 @@ import { getRecipeHref } from "../content/recipes/recipe-href";
 import { resolveEffects } from "../content/effects/resolve-effect";
 import { resolveTags } from "../content/tags/resolve-tag";
 import { resolveIngredients } from "../content/ingredients/resolve-ingredient";
+import SaltsList from "./SaltsList.astro";
 
 interface Props {
   recipes: CollectionEntry<"recipes">[];
@@ -39,6 +40,11 @@ const [allTags, allIngredients, allEffects] = await Promise.all([
         ))
       }
     </select>
+    <select aria-label="Filter Salt Usage" data-filter="salt-usage">
+      <option value="">Any Salts</option>
+      <option value="low-salts">Low Salts</option>
+      <option value="no-salts">No Salts</option>
+    </select>
     {
       allowSorting && (
         <select aria-label="Sort By" data-filter="sort">
@@ -61,39 +67,44 @@ const [allTags, allIngredients, allEffects] = await Promise.all([
     </thead>
     <tbody>
       {
-        recipes.map(({ id, data: { effects, tags, ingredients, cost } }) => (
-          <tr
-            data-tags={tags.join(" ")}
-            data-ingredients={Object.keys(ingredients)
-              .map((x) => x.toLowerCase())
-              .join(" ")}
-            data-effects={Object.keys(effects)
-              .map((x) => x.toLowerCase())
-              .join(" ")}
-            data-cost={cost}
-            data-ingredient-count={Object.values(ingredients).reduce(
-              (a, b) => a + b,
-              0,
-            )}
-          >
-            <td>
-              <EffectList effects={effects} />
-            </td>
-            <td>
-              <RecipeTagsList tags={tags} limit={3} />
-            </td>
-            <td>
-              <IngredientList ingredients={ingredients} count={true} />
-            </td>
-            <td />
-            <td>
-              <span title={String(cost)}>{cost.toFixed(2)}</span>
-            </td>
-            <td>
-              <a href={getRecipeHref(id)}>View</a>
-            </td>
-          </tr>
-        ))
+        recipes.map(
+          ({ id, data: { effects, tags, ingredients, salts, cost } }) => (
+            <tr
+              data-tags={tags.join(" ")}
+              data-ingredients={Object.keys(ingredients)
+                .map((x) => x.toLowerCase())
+                .join(" ")}
+              data-effects={Object.keys(effects)
+                .map((x) => x.toLowerCase())
+                .join(" ")}
+              data-cost={cost}
+              data-ingredient-count={Object.values(ingredients).reduce(
+                (a, b) => a + b,
+                0,
+              )}
+              data-salt-count={Object.values(salts).reduce((a, b) => a + b, 0)}
+            >
+              <td>
+                <EffectList effects={effects} />
+              </td>
+              <td>
+                <RecipeTagsList tags={tags} limit={3} />
+              </td>
+              <td>
+                <IngredientList ingredients={ingredients} count={true} />
+              </td>
+              <td>
+                <SaltsList salts={salts} />
+              </td>
+              <td>
+                <span title={String(cost)}>{cost.toFixed(2)}</span>
+              </td>
+              <td>
+                <a href={getRecipeHref(id)}>View</a>
+              </td>
+            </tr>
+          ),
+        )
       }
     </tbody>
   </table>
@@ -115,6 +126,9 @@ const [allTags, allIngredients, allEffects] = await Promise.all([
       const effSel = container.querySelector<HTMLSelectElement>(
         '[data-filter="effect"]',
       );
+      const saltSel = container.querySelector<HTMLSelectElement>(
+        '[data-filter="salt-usage"]',
+      );
       const sortSel = container.querySelector<HTMLSelectElement>(
         '[data-filter="sort"]',
       );
@@ -130,13 +144,25 @@ const [allTags, allIngredients, allEffects] = await Promise.all([
           const matchEff =
             !effSel?.value ||
             row.dataset.effects?.split(" ").includes(effSel.value);
-          row.style.display = matchTag && matchIng && matchEff ? "" : "none";
+
+          let matchSalts = true;
+          switch (saltSel?.value) {
+            case "low-salts":
+              matchSalts = Number(row.dataset.saltCount) <= 500;
+              break;
+            case "no-salts":
+              matchSalts = Number(row.dataset.saltCount) === 0;
+              break;
+          }
+          row.style.display =
+            matchTag && matchIng && matchEff && matchSalts ? "" : "none";
         });
       }
 
       tagSel?.addEventListener("change", applyFilters);
       ingSel?.addEventListener("change", applyFilters);
       effSel?.addEventListener("change", applyFilters);
+      saltSel?.addEventListener("change", applyFilters);
 
       sortSel?.addEventListener("change", () => {
         const primaryKey =

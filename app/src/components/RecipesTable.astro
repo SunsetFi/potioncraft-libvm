@@ -10,9 +10,10 @@ import { resolveIngredients } from "../content/ingredients/resolve-ingredient";
 
 interface Props {
   recipes: CollectionEntry<"recipes">[];
+  allowSorting?: boolean;
 }
 
-const { recipes } = Astro.props;
+const { recipes, allowSorting = true } = Astro.props;
 const [allTags, allIngredients, allEffects] = await Promise.all([
   resolveTags(),
   resolveIngredients(),
@@ -22,25 +23,30 @@ const [allTags, allIngredients, allEffects] = await Promise.all([
 
 <div class="recipes-table-container">
   <div class="recipes-table-filters">
-    <label for="tag-filter">Tag:</label>
-    <select id="tag-filter">
-      <option value="">All</option>
+    <select aria-label="Filter Effects" data-filter="effect">
+      <option value="">All Effects</option>
+      {allEffects.map((eff) => <option value={eff.id}>{eff.data.name}</option>)}
+    </select>
+    <select aria-label="Filter Tags" data-filter="tag">
+      <option value="">All Tags</option>
       {allTags.map((tag) => <option value={tag.id}>{tag.data.name}</option>)}
     </select>
-    <label for="ingredient-filter">Ingredient:</label>
-    <select id="ingredient-filter">
-      <option value="">All</option>
+    <select aria-label="Filter Ingredients" data-filter="ingredient">
+      <option value="">All Ingredients</option>
       {
         allIngredients.map((ing) => (
           <option value={ing.id}>{ing.data.name}</option>
         ))
       }
     </select>
-    <label for="effect-filter">Effect:</label>
-    <select id="effect-filter">
-      <option value="">All</option>
-      {allEffects.map((eff) => <option value={eff.id}>{eff.data.name}</option>)}
-    </select>
+    {
+      allowSorting && (
+        <select aria-label="Sort By" data-filter="sort">
+          <option value="cost">Sort by Cost</option>
+          <option value="ingredient-count">Sort by Ingredient Count</option>
+        </select>
+      )
+    }
   </div>
   <table class="recipes-table">
     <thead>
@@ -48,12 +54,14 @@ const [allTags, allIngredients, allEffects] = await Promise.all([
         <th>Effects</th>
         <th>Tags</th>
         <th>Ingredients</th>
+        <th>Salts</th>
+        <th>Cost</th>
         <th>Link</th>
       </tr>
     </thead>
     <tbody>
       {
-        recipes.map(({ id, data: { effects, tags, ingredients } }) => (
+        recipes.map(({ id, data: { effects, tags, ingredients, cost } }) => (
           <tr
             data-tags={tags.join(" ")}
             data-ingredients={Object.keys(ingredients)
@@ -62,6 +70,11 @@ const [allTags, allIngredients, allEffects] = await Promise.all([
             data-effects={Object.keys(effects)
               .map((x) => x.toLowerCase())
               .join(" ")}
+            data-cost={cost}
+            data-ingredient-count={Object.values(ingredients).reduce(
+              (a, b) => a + b,
+              0,
+            )}
           >
             <td>
               <EffectList effects={effects} />
@@ -70,7 +83,11 @@ const [allTags, allIngredients, allEffects] = await Promise.all([
               <RecipeTagsList tags={tags} limit={3} />
             </td>
             <td>
-              <IngredientList ingredients={ingredients} />
+              <IngredientList ingredients={ingredients} count={true} />
+            </td>
+            <td />
+            <td>
+              <span title={String(cost)}>{cost.toFixed(2)}</span>
             </td>
             <td>
               <a href={getRecipeHref(id)}>View</a>
@@ -83,31 +100,59 @@ const [allTags, allIngredients, allEffects] = await Promise.all([
 </div>
 
 <script>
-  const tagSel = document.getElementById("tag-filter") as HTMLSelectElement;
-  const ingSel = document.getElementById(
-    "ingredient-filter",
-  ) as HTMLSelectElement;
-  const effSel = document.getElementById("effect-filter") as HTMLSelectElement;
+  document
+    .querySelectorAll<HTMLElement>(".recipes-table-container")
+    .forEach((container) => {
+      const tbody = container.querySelector<HTMLElement>(
+        ".recipes-table tbody",
+      )!;
+      const tagSel = container.querySelector<HTMLSelectElement>(
+        '[data-filter="tag"]',
+      );
+      const ingSel = container.querySelector<HTMLSelectElement>(
+        '[data-filter="ingredient"]',
+      );
+      const effSel = container.querySelector<HTMLSelectElement>(
+        '[data-filter="effect"]',
+      );
+      const sortSel = container.querySelector<HTMLSelectElement>(
+        '[data-filter="sort"]',
+      );
 
-  function applyFilters() {
-    document
-      .querySelectorAll<HTMLTableRowElement>(".recipes-table tbody tr")
-      .forEach((row) => {
-        const matchTag =
-          !tagSel.value || row.dataset.tags?.split(" ").includes(tagSel.value);
-        const matchIng =
-          !ingSel.value ||
-          row.dataset.ingredients?.split(" ").includes(ingSel.value);
-        const matchEff =
-          !effSel.value ||
-          row.dataset.effects?.split(" ").includes(effSel.value);
-        row.style.display = matchTag && matchIng && matchEff ? "" : "none";
+      function applyFilters() {
+        tbody.querySelectorAll<HTMLTableRowElement>("tr").forEach((row) => {
+          const matchTag =
+            !tagSel?.value ||
+            row.dataset.tags?.split(" ").includes(tagSel.value);
+          const matchIng =
+            !ingSel?.value ||
+            row.dataset.ingredients?.split(" ").includes(ingSel.value);
+          const matchEff =
+            !effSel?.value ||
+            row.dataset.effects?.split(" ").includes(effSel.value);
+          row.style.display = matchTag && matchIng && matchEff ? "" : "none";
+        });
+      }
+
+      tagSel?.addEventListener("change", applyFilters);
+      ingSel?.addEventListener("change", applyFilters);
+      effSel?.addEventListener("change", applyFilters);
+
+      sortSel?.addEventListener("change", () => {
+        const primaryKey =
+          sortSel.value === "cost" ? "cost" : "ingredientCount";
+        const secondaryKey = primaryKey === "cost" ? "ingredientCount" : "cost";
+        const rows = [...tbody.querySelectorAll<HTMLTableRowElement>("tr")];
+        rows.sort((a, b) => {
+          const primaryDiff =
+            Number(a.dataset[primaryKey]) - Number(b.dataset[primaryKey]);
+          return primaryDiff !== 0
+            ? primaryDiff
+            : Number(a.dataset[secondaryKey]) - Number(b.dataset[secondaryKey]);
+        });
+        rows.forEach((r) => tbody.appendChild(r));
       });
-  }
-
-  tagSel.addEventListener("change", applyFilters);
-  ingSel.addEventListener("change", applyFilters);
-  effSel.addEventListener("change", applyFilters);
+    });
 </script>
 
 <style>

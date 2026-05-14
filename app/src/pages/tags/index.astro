@@ -1,0 +1,171 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+import { base } from "astro:config/client";
+
+import ExpandableContent from "../../components/ExpandableContent.astro";
+---
+
+<StarlightPage
+  frontmatter={{
+    title: "Recipe Tags",
+    description: `Descriptions of recipe tags used by the PotionCraft community.`,
+  }}
+  headings={[
+    {
+      depth: 2,
+      slug: "recipe-ingredient-tags",
+      text: "Recipe Ingredient Tags",
+    },
+    {
+      depth: 3,
+      slug: "highlander",
+      text: "Highlander",
+    },
+    {
+      depth: 3,
+      slug: "lowlander",
+      text: "Lowlander",
+    },
+    {
+      depth: 2,
+      slug: "recipe-salt-tags",
+      text: "Recipe Salt Tags",
+    },
+    {
+      depth: 3,
+      slug: "dull",
+      text: "Dull",
+    },
+    {
+      depth: 3,
+      slug: "rich",
+      text: "Rich",
+    },
+    {
+      depth: 3,
+      slug: "desolate",
+      text: "Desolate",
+    },
+    {
+      depth: 3,
+      slug: "immortal",
+      text: "Immortal",
+    },
+    {
+      depth: 3,
+      slug: "gyroscopic",
+      text: "Gyroscopic",
+    },
+    {
+      depth: 3,
+      slug: "solar",
+      text: "Solar",
+    },
+    {
+      depth: 3,
+      slug: "lunar",
+      text: "Lunar",
+    },
+    {
+      depth: 3,
+      slug: "scholarly",
+      text: "Scholarly",
+    },
+  ]}
+>
+  The community has defined several tags to help categorize recipes. Recipes are
+  tagged based on their ingredient use, salt use, and methods of brewing.
+  Additionally, ingredients can be tagged by type.
+
+  <ExpandableContent
+    id="recipe-ingredient-tags"
+    title="Recipe Ingredient Tags"
+    h={2}
+    collapsed
+  >
+    <div id="highlander">
+      <h3>Highlander</h3>
+      <p>
+        Highlander recipes only use up to one of each ingredient. They cannot
+        have duplicate ingredients.
+      </p>
+      <a href={`${base}/tags/highlander`}>View Highlander recipes</a>
+    </div>
+    <div id="lowlander">
+      <h3>Lowlander</h3>
+      <p>
+        Lowlander recipes are recipes that restrict themselves to a single
+        ingredient, but can use any number of that ingredient.
+      </p>
+      <a href={`${base}/tags/lowlander`}>View Lowlander recipes</a>
+    </div>
+  </ExpandableContent>
+
+  <ExpandableContent
+    id="recipe-salt-tags"
+    title="Recipe Salt Tags"
+    h={2}
+    collapsed
+  >
+    <p>
+      Salt tags are based on what type of <a href={`${base}/salts`}>Salt</a> is used
+      in a recipe.
+    </p>
+    <div id="dull">
+      <h3>Dull</h3>
+      <p>Dull recipes do not use salt.</p>
+      <a href={`${base}/tags/dull`}>View Dull recipes</a>
+    </div>
+    <div id="rich">
+      <h3>Rich</h3>
+      <p>Rich recipes use at least one salt.</p>
+      <a href={`${base}/tags/rich`}>View Rich recipes</a>
+    </div>
+    <div id="desolate">
+      <h3>Desolate</h3>
+      <p>
+        Desolate recipes use only <a href={`${base}/salts/void`}>void salt</a>.
+      </p>
+      <a href={`${base}/tags/desolate`}>View Desolate recipes</a>
+    </div>
+    <div id="immortal">
+      <h3>Immortal</h3>
+      <p>
+        Immortal recipes use only <a href={`${base}/salts/life`}>life salt</a>.
+      </p>
+      <a href={`${base}/tags/immortal`}>View Immortal recipes</a>
+    </div>
+    <div id="gyroscopic">
+      <h3>Gyroscopic</h3>
+      <p>
+        Gyroscopic recipes use both <a href={`${base}/salts/sun`}>sun</a> and <a
+          href={`${base}/salts/moon`}>moon</a
+        > salt, but no others.
+      </p>
+      <a href={`${base}/tags/gyroscopic`}>View Gyroscopic recipes</a>
+    </div>
+    <div id="solar">
+      <h3>Solar</h3>
+      <p>
+        Solar recipes use only <a href={`${base}/salts/sun`}>sun</a> salt.
+      </p>
+      <a href={`${base}/tags/solar`}>View Solar recipes</a>
+    </div>
+    <div id="lunar">
+      <h3>Lunar</h3>
+      <p>
+        Lunar recipes use only <a href={`${base}/salts/moon`}>moon</a> salt.
+      </p>
+      <a href={`${base}/tags/lunar`}>View Lunar recipes</a>
+    </div>
+    <div id="scholarly">
+      <h3>Scholarly</h3>
+      <p>
+        Scholarly recipes use only <a href={`${base}/salts/philosophers`}
+          >philosopher's salt</a
+        >.
+      </p>
+      <a href={`${base}/tags/scholarly`}>View Scholarly recipes</a>
+    </div>
+  </ExpandableContent>
+</StarlightPage>

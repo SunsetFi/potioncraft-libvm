@@ -29,7 +29,10 @@ const [{ Content, headings }, recipes] = await Promise.all([
     title: name,
     description: name,
   }}
-  headings={[...headings, { depth: 2, slug: "tag-recipes", text: "Recipes" }]}
+  headings={[
+    ...headings,
+    { depth: 2, slug: "tag-recipes", text: `${name} recipes` },
+  ]}
 >
   <div class="tag-layout">
     <!-- TODO: Icon 

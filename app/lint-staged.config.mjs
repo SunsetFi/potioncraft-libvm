@@ -9,5 +9,7 @@ export default {
   "src/**/*.ts": lintTs,
   "astro.config.mjs": lintTs,
   "src/**/*.astro": [run("format"), check],
+  "src/**/*.mdx": [run("format"), check],
+  "src/**/*.md": [run("format")],
   "src/**/*.css": [run("format")],
 };

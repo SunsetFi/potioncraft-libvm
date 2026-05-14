@@ -22,7 +22,10 @@ export function filterRecipes(
   return recipes.filter((recipe) => filterRecipe(recipe, options));
 }
 
-function filterRecipe(recipe: RecipeEntry, options: FilterRecipesOptions): boolean {
+function filterRecipe(
+  recipe: RecipeEntry,
+  options: FilterRecipesOptions,
+): boolean {
   if (options.effects) {
     for (const [effectId, tier] of recordEntries(options.effects)) {
       if (!includesEffect(recipe.data.effects, effectId, tier)) {
@@ -39,10 +42,22 @@ function filterRecipe(recipe: RecipeEntry, options: FilterRecipesOptions): boole
     }
   }
 
+  if (options.salts) {
+    for (const salt of options.salts) {
+      if (!Object.keys(recipe.data.salts).includes(salt)) {
+        return false;
+      }
+    }
+  }
+
   return filterTags(recipe, options.includeTags, options.excludeTags);
 }
 
-function filterTags(recipe: RecipeEntry, includeTags?: TagId[], excludeTags?: TagId[]): boolean {
+function filterTags(
+  recipe: RecipeEntry,
+  includeTags?: TagId[],
+  excludeTags?: TagId[],
+): boolean {
   if (includeTags) {
     for (const tag of includeTags) {
       if (!recipe.data.tags.includes(tag)) {

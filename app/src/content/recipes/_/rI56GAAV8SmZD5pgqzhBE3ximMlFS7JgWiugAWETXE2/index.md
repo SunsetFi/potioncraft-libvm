@@ -1,0 +1,21 @@
+---
+name: rI56GAAV8SmZD5pgqzhBE3ximMlFS7JgWiugAWETXE2
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects: {}
+ingredients:
+  Marshroom: 14
+salts:
+  life: 146
+cost: 550.64
+stress: 14
+tags:
+  - lowlander
+  - immortal
+  - hot
+datastring: AXiczVdNb9swDP0vPjeEJPpLOW7DsB4G9FKsQLGDEwupgdQKZDVrUeS_j-2Azc4hIDUn2zEW-UI9Pn7oNWub2AwuXrfZMjN3N9XqY7e5dX4VzJdPcfXtNnzOrrKdj53vP5Dhu92PJrrw9nnr43V0j0O2vH_N4svO0WHTtouu3wTXdq6PZPXnx7vz1yYMD8H7RzrahK5vb1xYv1kuFWBVH65mQNIjlCF2YbFunrZt8D1Ztt0Qm35NRxasHRk-uCYu9j5E90xmexcGujNhjV10AZYHjqDrQooOpRm57PxTWAx-u_91-98-auyjoCiFf0N3KGan-X9CYRGnoeIlEqGy_ypEU7Bi1IA6l6MrHnoJ2ohjN6B5_B5dkif6BCbN2aIhn_qM4GiZ4DoBPM8v2HBLavApQuISkJS6c7J7xtQpqMwFU5cD1kY4ZxAMD_xIhrxRaXnc0nyUjuEjak9hGzl2jlxsMTTOowgFlpk4NRUuL0pms0whgNkpyFAOzUub1lCIWxyCxZkyp5lTt4BKyoHhSpfK2Uh3Uj2tOWYLRJ5MaYTkNmE0zJYUdh9MWIWmiTwl-losTAWKV1EGMIHfMoWVv0mEktemIEycdDbu6427JVs1zyskZXfm1n3KjsQGT6kN5OWOGoRKELDKubzII7eX3O6o-1biaYBc5SrpcofTffAUtnT9QGBrWbp-aBBPMN77W6xM4o-XGwM1Hr4ffgImc7PC
+hash: rI56GAAV8SmZD5pgqzhBE3ximMlFS7JgWiugAWETXE2
+tome:
+  sheet: Pre 2.0 Lowlander
+  cell: AP25
+---

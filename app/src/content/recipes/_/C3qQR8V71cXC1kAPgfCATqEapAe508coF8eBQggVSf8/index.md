@@ -1,0 +1,40 @@
+---
+name: C3qQR8V71cXC1kAPgfCATqEapAe508coF8eBQggVSf8
+dataset: PotionCraft 2.0.1.2 (Dataset v1)
+base: water
+effects:
+  Lightning: 1
+  Invisibility: 1
+  Levitation: 1
+  Slowness: 1
+  Rejuvenation: 1
+  Gluing: 1
+  LightningProtection: 1
+  Necromancy: 1
+ingredients:
+  Spellbloom: 1
+  Whirlweed: 2
+  CloudCrystal: 1
+  Boombloom: 1
+  RainbowCap: 1
+  Coldleaf: 2
+  EarthPyrite: 1
+  GraveTruffle: 4
+  HealersHeather: 1
+  Goldthorn: 1
+  FrostSapphire: 1
+  LifeCrystal: 2
+  BloodRuby: 1
+salts:
+  life: 8287
+cost: 13784.68
+stress: 6.082762530298219
+tags:
+  - immortal
+  - hot
+datastring: AXicxVlNU9swEP0vPocdfdmWOSbTpkx7YKAfh04PBivEMyZOFSXAMPz3KvRAKV2zK2cKFwi2tJL2vae3m_usqUO9ceGkyY6zcu6-6ptCf_xyWhVz_XP--fZMTbNJtu5D26-m8cXH927q4Pz-310fToK73mTH3--zcLd28WHdNEft6sq7pnWrEN96-vA4-Hztuu6i6_vr-OzKt6vm1PnL_avHcpLtnN_EUPHvhwl5ym_L1nc3zjVvOOMmtP7ost52jY-PJlnTbkK9uoyPlAarkVFLV4ejXe-Du302Jgep2IE0GGwQFsdAadhxJBhsEBZHAv_cLBQ5M4wGga1s3W_90abvdr_z_fTO82UKTdrNuDACCkoYBTYVv7Ou3zYzfxen6g5GimnkLI-4A1gVCfC2lomHAnQCX8FWbBoJfpwc8oItCwI7AiK-FQ3fFmMeMYwpSGEqvsiVoEt2dlD9JW5HGprGjUqOgJwWBUPna_w9q9vVRX8zq9cHILABg-VhCPKKC3kNJYZFPA47iMGhSMrdfjzxUpNcL1DiOjGUnpx7edqUjBrQ3P1YKBPuC9DcpMoKRqlYCRUR1KjtImLHahqqo3qzL0CVqhazvms6Vy_IWkHarILCkDYrFS6nqGESUI1KuYgoYxzRu9qH5emdb4N7cUoimjf-7WZHOsvoKSrGBua-3rnPfrtYdC93wCdpZAxGUqo9KYlM0FxsRKEa52kiNqinMMoGqP1KGTn84OouThR_heVjVf43Dku-qkfyCa4HlgZkyj0l2bWkxovWVwEfRS0se7_6F1_5q99fMdySW0VznFCTsF1v0oYUcMNIvFoiSq6lOgAUXujaCqhSkcK-_gZQoqHARqGmL3HZ732_Cef1er1sPV3SX5v1U7twh-4mpMw51JNiVxYSBF8ZLehRZm9Pl7e7oGUOJb_nkGP32SBZubIea0N-KzIyi--IU8IIrvMe1wuQUFniysbBUUBu3g6PA-dKWn4FtKo7KrAalQ8Nhla2mP9EsIHeMG48ypQ4aAGJd2wUv2MTAc91HipFvwUUfCOVcG4ixbDlfGUSYLjKJPBKaCiO4PaTFE6FUTITHWMlqj9_xjUkBE1pJY4cam-B1uaRA-13PKcoTYdyyuZ2jn6PR7tuSuppK7SIRuGm0upPy_86IU9pl-f8vi_qIQb3w71_LO7VDqrXBm9fEplqad0hOdqjU5kKepT2xKIlJwYa2dasSob6Tru-b862F3eHbf3G3dI8lMAJRv0yxjz8ePgFmgaYtg
+hash: C3qQR8V71cXC1kAPgfCATqEapAe508coF8eBQggVSf8
+tome:
+  sheet: Recipe Dump
+  cell: CF1576
+---

@@ -1,0 +1,25 @@
+---
+name: LdIj75XSgPRwrZLIr3hyU9KG0lDX8oisOkkb9bFuEbB
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  Fire: 1
+  FrostProtection: 1
+  Curse: 1
+  Stench: 1
+ingredients:
+  TerrorBud: 30
+salts:
+  life: 1
+cost: 985.2399999999999
+stress: 30
+tags:
+  - lowlander
+  - immortal
+  - hot
+datastring: AXic5VlNT9tAEP0vPiej_fTaOdKqKjcORa1U9eDEVmqJxmiz0FaI_96FSgUjvZXHjl2qcgN7mbdvvt6M77K6CtWxCed1tsnUpwu3fdPuL5tu69X7t2H78dK_y1bZdRfa7nAWX3x873sVGv_w56sunIfm2zHbfL7Lws_rJj6s6nrdHva-qdvmEOJbT788Hv7QeN_5s5s6Ptr79lBfNH738OZGUJ4Xq-y28cdoLdvI-9Wf_3oMrV_vqpur2sdHq6xuj6E67OIjaSlX4NTXpgrr286H5kf_DJUOHLnubvz62F3d_gb_dEZQyTUjyOlnR9QwMzoHZqYwqzQbe5kD7JNwGDnD7aQ2_LjJ4zEmKYZUOQMpQqLISsCPwYWSZQIWJiGWetAHRbgkgYDDfLUkzKLRmECfl3xnkUahligECgX1lCs7iypfAr7BLksQZflRLYhtR5FA3E7hyZaWz5Mmg-6c4KlAHkHpoMihMpSiFoUT7pLS8ZPboNtM8YYRqnz-M4cNIVAxwKQWY3qIQ40V21GYVmzHjjDDlTgx4vlmYjnk3kYmOs0kpzt-mhe4MmNnyDFKkM0Sack341BDw_WH7_PIwOl1LT9h44yBHI5DvEDaIzUsjBDcBd8Mv6YbFIgp0qBAxaTliLRUXTBsZUiGbydmFtdOjBu2mYLsDMqE7YhyjCNKfk0QSJMkpBs7rtSoClegQoHdXbDnGtEPxYF7iBHBa1EhxbfR6Dapgg0VcEL9KX5JVng4On2apCr2GOiwqSU4kvxlhY7zyN_nKM6-6LoYeklQV0NDL1TlvNfF0B1srxC5mWV9twxymACvHLklvVxyJHcX7KWy7O-1ZqNI4zl1YeciTyVEAtxYnR76kqOI44ss1xeugxs5V5cUfT8NnvC4MsuQ4guTmGfLlVisQyV7KIydn-tw2f9wM1CH5lx_4-lmzHcqzFnJjyr5Yl82sGbAD4lLlruR2OFK6h_ADkvNq8euKX8N-mckdig9_k_s_G5scNrhj58jdt-av-PKid8kNX_FZUnxxYUky202Dq8gU2MV0q8pbFCQQEM5uf59vtz_AjlPt88.
+hash: LdIj75XSgPRwrZLIr3hyU9KG0lDX8oisOkkb9bFuEbB
+tome:
+  sheet: Recipe Dump
+  cell: CF1162
+---

@@ -1,0 +1,24 @@
+---
+name: N7CL54N0Y507TKQ0n91yK2yjP9LVEErm7V3voDtqVqu
+dataset: PotionCraft 2.0.1.2 (Dataset v2)
+base: water
+effects:
+  Poison: 1
+  Light: 1
+  Rage: 1
+  Libido: 3
+ingredients:
+  GraveTruffle: 13
+salts: {}
+cost: 1638
+stress: 13
+tags:
+  - lowlander
+  - dull
+  - hot
+datastring: AXiczVjJbtswEP0Xne2BuImSj12RHooAKXopehAsOlXgSgZFu0uQfy-THmoVeISHrpH6JpOjx3mzPeq-6NrQTi5cdcWqeL3x1-7uldf1y_c_13dvbtS7jzfFotiNoR-HF3Hf07ZvbXD-8e_tGK6C-zoVq0_3Rfixc3Gx7bplP9x61_VuCHHXn4cn47e-PbgPfr_ZbF1cvfX90F07v37cvCpJGVke__SiODg_RfhiJR4W_w7mMu-tJDrwFHq_XLf7befj0qLo-im0wzouKUlNfWQlj6y-uDYsD6MP7vvMpibRAJMzPTCNYHsQ-VRMB4QkjWx2494vp3F7-H3-IyNq-Oxa0ojds4OtwHGQ15JqFLaEByQtk11Jlo8jMVEIR1GNgpjCKSXbn0pk4EiuP4IQ0xhGkERcYxht2Dgx37julDlpUJLm-hNNdAaOQkYJnBzeNModjKOqHH-QEcYRObyV_Pg0qOIu1gIv9uJEJTa4HSVmiuIPvFjzGThIc6RwBNshOQ_2M4sbiWovQdSsbZ9MFCo-CBTnKj8iMh4vwyV-MidqNoFj-B41VKGmivpJRQ1i-xnKXpPl6omaJL_xan7j1WRydIvhDpIY-Iw5woZJSJAkDn_Mo4CmYAR3zCcEIiwxSxdqrlZnjCHF1xwV7iupKwg7Vwy-36VwFBLgZ9KrDYobzg6og1NZCBU3rt0y6zLAF88mp6q4MJIUe279dRU4OflhE8dJaflc67lyO2m-ZIAILoiO0zIjoJI7LIXFU-z_vD7wO6m2fF4q4je4GGbuJd5QjoSw3A9yikq-O5EC1O4SItXOv-J9fvgFfEt6dw==
+hash: N7CL54N0Y507TKQ0n91yK2yjP9LVEErm7V3voDtqVqu
+tome:
+  sheet: Recipe Dump
+  cell: CF801
+---

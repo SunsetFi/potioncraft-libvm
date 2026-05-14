@@ -1,0 +1,24 @@
+---
+name: n9Sx3ox7mFRRZl7NLd71lkaHuLfydSiSXuS1XXe3ttd
+dataset: PotionCraft 2.0.1.2 (Dataset v1)
+base: oil
+effects:
+  Light: 1
+  Enlargement: 3
+ingredients:
+  PhantomSkirt: 2
+salts:
+  sun: 3
+  moon: 1
+  life: 1
+cost: 290.01000000000005
+stress: 2
+tags:
+  - lowlander
+  - hot
+datastring: AXic7dtLj6JAEAfw78JZKw3No_E4FzPZi9nXZbMHImSGrIILrTubyXz3bdxkZ5ykjP_WENfUySjgj4J-VsNzUBa26Ct7XwazIJtXX_WvVH_4ssjTuf45__z0MboLJsGmtXXb3Lkd9_u19Wr4cdXae1ut-2D27TmwvzeV21SU5bRuHrqqrKvGur1ev-wPXTwWjW3Xn37U3bD1oaubclF1y2HnmSIT5ZNgV3W944JZ-DL598e9rbvpstiuys5tmgRl3duiWbpNMSXMMZt22037drX7eyqvhyhKDXcQD2kWeqwKO921na2eDo5IycBKRimoRAqNPySj4RNTlOFOFvs4MXxHXUT4peYjGopx19piKPbTvlgN2P7D_d222Rfcom5cyU_w6xhRwl599hZT-vZCRqcV8jAPQUeRxhkVwYpHMB7KOLGIMoaC1phrVrg28X9UuBaUV3JGOdZOqxTtehVFPk6IXzU_Z6x40MHEtTt4efNzuNHEpR1uvMs7oZdzW8ytOXgfet0O3opet4O31oob4vKQIZ2hNyg_rHOnQSGxzTXb1Wu8q08pSZhzY5mY4DqX0jhKbIQRRhhhhBFGGGGuklHozDVzo0GvERSaLHNQBqeYHISOiccMSKBRIZVx0JEVm3Xbvl2yMVx5OmvtEq3cCeUZE_-xpU6UiSjG860hxfE42eNbWjvAM6A-Cp6J8FHw7Oc4ykHe4tRVULTOaDJ4nTGUxx4JErwJRKuMQ3J4udW1tGhiWhxxznHQxiClPPFw8OrDddOXRbjVI1FEuZBiPGaTHrH4TI3xnjPzqJY-jEQj0dxUNHCfqSlHpzbDGABnjPYYa2TwjMATgm-POOJcu5NQBk9B_eI5fBb51IbHoGkoBxk4FXGTEPzst0ACCSSQQAIJJJBAAgkkkEACnQlppRjm5BetNfeS-7EXNzweFnqnwmioKHn3psT3lz-yFpPz
+hash: n9Sx3ox7mFRRZl7NLd71lkaHuLfydSiSXuS1XXe3ttd
+tome:
+  sheet: Recipe Dump
+  cell: CF1288
+---

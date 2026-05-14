@@ -1,0 +1,25 @@
+---
+name: goRyRNGQPI6nWVULLyzLNjgV54H6mHWCcHY5gvJ8rTx
+dataset: PotionCraft 2.0.1.2 (Dataset v2)
+base: water
+effects:
+  Rage: 2
+  Enlargement: 3
+ingredients:
+  PhantomSkirt: 2
+salts:
+  moon: 1
+  sun: 16
+  life: 122
+cost: 442.39
+stress: 2
+tags:
+  - lowlander
+  - full-grind
+  - hot
+datastring: AXiczVfBbttGEP0XXmsRM7OzM7s6tk2A9BAYMNBL0QNhsY5SWzQo2kka5N_7VkUQGwkVkYyTSoYlm-TO25k3b96-rzbN0Ozb4cWmWlfP_urP29e_9pp-efnP5evnF-G33y-qs-q2G7bd7mfcd7jtTTO0ffn3dTe8GNqbfbX-4301vLttcbHZbFbb3VXfbrbtbsBdn_44PHz-qtkN3c3F39u-XL3qt7vNedtflpvXfFbdt_0ewfD9w9nTLroftv3qsrm73vS4dFZttvuh2V3iUqwlPnhIHjx02931q313ff8fjk_PcO3ZLQcOmkwCR29_CpSObKjvhqbkdbVvrstah491ddMd0Fz1zXaHzArNgJ8pCifK4pTwdWQvKPvqtttvCwgs8LZaI9Y7_P72-_081CrUSp6MEyc1NudDbK1jNnM3ziQU6eEir9pmWN13_dC-fQRF6zC9WmOsGAvy9f3KafXd3z0sL_vk8mqtGsxTCjGRk-elGGx6h1Bt-fCy5EQ5hsUg4ih1joAgdRYh1qgpUHAaa9vTYUxvN-QiEl7iQiGjLLwUxHROlFRkjRRNiXMW9cXMTDIDhZdEEAtlzTHH5e0RJoMIaNTgAcwgiEsgfwr1izXWxwZJsiLxNgrzc91LtaNnTEXc3JLoIapAkaCHmlhFo-X0zSXpyLyY_ATXKUoW9gyNxrDRxYWeSfkckEmMkSiUFve-zGF8AQE9FkXjS0qyXIJ4uhJybYujzgiK2T2ZOsgYLRZIseky7TX0SBltkikYL59YOtVCTHYpBB8as7IVhWFOozIzFpFqnR6TAmOsJ4vwFgYpsu8SVIuWxeCZId4xfZ-gscwoi1J-OOpY_48HDUEDMJt4Aql8JgaD8JtI8ig6GYKAIYnYpZhC1GsehHAoOiUMzUeG8kQMmAKJjdVDhgrmmXlw8YgkRA1Rp4NgVLF4waCC_raZiTCDicqFDNHHhPgIhmDoUnQsUWTAGZuLX6uGG2hV6pHS2GQ8AqLUAWaQQ8gMmzJDdwoI-FlVATmhQNM7g3JyQV_EAF8Djs4sR8w5ZZAqBejRVFEItT3N2Vdq7ItQZwFXsb1R9_KFY6_UQbO7i-DQmy1_tH8SiGGc0QEgoOlpI5hxiEaeWYoRFKz6vzzqa4BQMvIFg5QSMmcfNw2m46yAt-O84D_wGK5zDEUMP8B24biZxlh9uoGix4H__PAvZQRECA==
+hash: goRyRNGQPI6nWVULLyzLNjgV54H6mHWCcHY5gvJ8rTx
+tome:
+  sheet: Salty Skirt
+  cell: G78
+---

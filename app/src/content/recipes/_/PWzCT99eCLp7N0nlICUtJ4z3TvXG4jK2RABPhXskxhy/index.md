@@ -1,0 +1,22 @@
+---
+name: PWzCT99eCLp7N0nlICUtJ4z3TvXG4jK2RABPhXskxhy
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  FrostProtection: 2
+ingredients:
+  DragonPepper: 14
+salts:
+  life: 428
+cost: 1314.72
+stress: 14
+tags:
+  - lowlander
+  - immortal
+  - hot
+datastring: AXic5VhNT-MwEP0vPrej2PlsjwtaLbdeEEiIQ9pYJVI3iRzTBSH-O245QFd61s7QSEh7bJPxe_PxZsZ5UU3t69H6q0YtlbldleuLdntt-7Uzvy79-uba_VQzNfS-7bsf4cXje39qb93h713vr7z9Parl3Yvyz4MND-ummbfd1tmmtZ0Pb338OBpfunrbdys7DMcztq7tmpV1m8PLy4TyrJypvXVjAFRL_To718FpVU1zsM4NOHj0rZtv6sdd48KjmWra0dfdJjwygc8CWD3Y2s_3vfP26cQmpeRzaMzZPGCzX5DRTPIHhxH7oX9087Hf7d-5fxhpKlGQMLmMELdJogTJp1RlbPKaNPIYAiVU5XygDFt9UQ8mQUKLxKoopiCDKgHHJSWUNEjeUIVaVizRBnWNiBwyFNkoEMpzpKI0P3ILStLvkcPABFUTak8FVQXoTpEmThW7DdIiY-MkVKJaQTiaJDCwjhFMYJYLcDKkMYyD3ImIBc77c6vSiOSPjGKqZOMUeM2YRJR4d8n5BZkT6lyRFYkPowkOLCyvgl_33Jglsl7BjVnQViqAMdyY_dXF_g2npBL1iq9u7XC1xMVVSmYEdxSlpCtBDcMpj0dRLsl7yZ8RBfJnkoX8Pz8U5469lYeiktxgUvYGHRm7MaCcvdjq0_kwJRDahc9-JeAvBeGSKQGSpIh_FQw2Eo8kKSr4HoWZjPp5LHTIJpojgUfws0xUrwIgUTEY9qcNLVh5Nb5exOR6yu3-9Q1XDwwy
+hash: PWzCT99eCLp7N0nlICUtJ4z3TvXG4jK2RABPhXskxhy
+tome:
+  sheet: Recipe Dump
+  cell: CF1061
+---

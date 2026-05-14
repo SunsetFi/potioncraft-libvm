@@ -1,0 +1,22 @@
+---
+name: lnNX4WWlXF2OHGezy2CoUORHvS6A3UNIKMOoWmb5qd
+dataset: PotionCraft 2.0.1.2 (Dataset v1)
+base: water
+effects:
+  Mana: 1
+  Hallucinations: 1
+ingredients:
+  RainbowCap: 9
+salts: {}
+cost: 1569.6000000000001
+stress: 9
+tags:
+  - lowlander
+  - dull
+  - hot
+datastring: AXiczZZLa8MwDMe_i8-J8CNxHsfuUMoupWy7jB282nSBLskc9zFKv_vcDtZ24FGlBHZMLOkny3_J3hGtnOqMm2hSkmxsnsRGivvHaSHH4mP8sJ3xEYlI27iqqUfe8Gi3Uc7Yw-9l4ybOvHekfN4R99kav6i0jqt6YY2uTO281enj6DxTVf3abO5U69cWtqr11Nj5wbSkUOQ8ImtjO48jJdtHP2E7V9l4rlZLbf1SRHTVOVXP_ZLIIA15tc3Kxl2zXH-ncnJiAkQacLppB-lAYQeIytClLiSwUKnfjHLxurHObC98OOTyzIVfBWIgQ9mFOAxygeZQkBLNuSjBtZxUIDkU8rQHJ8nR-8nwnAJYSJBBHQjI0RwBFKsDr7fQ-dw2mnjoBMPpcwosweYvgeIFxvqQgCZoEIcEq2TRR8l-AmCVzKFH3UDgMaJP2RiWk4DE74dDhm0Y32P4xmQQbIc_BifrM9DQnCG6nw1zrbOg-v5j2KLI8K8zBil2MKWXt9j5IYYfdOH3XLiRe9x8tIfw6e9Oftl_AUc1zcU.
+hash: lnNX4WWlXF2OHGezy2CoUORHvS6A3UNIKMOoWmb5qd
+tome:
+  sheet: Recipe Dump
+  cell: CF1453
+---

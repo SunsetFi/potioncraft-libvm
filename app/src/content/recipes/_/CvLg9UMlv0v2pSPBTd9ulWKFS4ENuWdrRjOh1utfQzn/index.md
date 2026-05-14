@@ -1,0 +1,22 @@
+---
+name: CvLg9UMlv0v2pSPBTd9ulWKFS4ENuWdrRjOh1utfQzn
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  Necromancy: 3
+ingredients:
+  GoblinMushroom: 18
+salts:
+  life: 11
+cost: 388.04
+stress: 18
+tags:
+  - lowlander
+  - immortal
+  - hot
+datastring: AXicxVfBjtMwEP2XnLej2GM7To-AgD0g7WUFEuKQNlY3UjeuHLeAVv13psuBZA9ophg4th6_vs68mXl-qvoud1PIt321rvSnu2bzetjdh7hJ-v2bvPl4n95WN9Uh5iGOryjwOe5rl0O6fL2P-TaHx6laf36q8vdDoMOu71fDuEuhH8KYKerXh-fL7-JmP4wfjtNDivGRzndpGPu7kLaX8HUNvvHnm3JwzroZ3JSHtNp2x32f4kjR_TDlbtzSkQfUs8BDPKbVFPenn796CmmiFBDg_I4CJrgDr2aBD6HLq1NMOXybY6v5FQStWNgIzguxNXge7xpqK8WuwbQlC2jrhsXVgG2FXC14XZRq64rCYUk0VLw8KlDSPCowPK1SOxohNg0EZGGT8JwqmrBWPg-KKh_R8CrWgHNSrgTPQ_fQiMEN6OZ_ZMKDNlKuuBTYH3Ll9YGXK6vmdtiizZkZ4GUXQToYXujgd8NbiRcNmKLTVjM1hmBNUW07qTVQ4DRzlJsrlGaL7kS0PKqGjJ-cK_J2A9GQz8ey3sAjt2b2mpq1LHAH-gpwXl-Q7xMXkO7wwF8Q5xnosg8Jb5lKpj8lVpsBLEyWqzYUL0wyptxd1IjVRvuLx1xfkWV6zvDmRbPUJbOETBNMOS_qU5e15toJprVcTliuPnhZbkGLLbZZDoJ_2Chyrhf0vwhueNaK_K3UttXQ8rJCgdL3nFo6AmbRa14ikWykOX85_wDNT1TZ
+hash: CvLg9UMlv0v2pSPBTd9ulWKFS4ENuWdrRjOh1utfQzn
+tome:
+  sheet: Pre 2.0 Lowlander
+  cell: AO25
+---

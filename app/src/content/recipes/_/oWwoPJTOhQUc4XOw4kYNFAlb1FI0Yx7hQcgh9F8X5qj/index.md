@@ -1,0 +1,23 @@
+---
+name: oWwoPJTOhQUc4XOw4kYNFAlb1FI0Yx7hQcgh9F8X5qj
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  Strength: 2
+  Necromancy: 3
+ingredients:
+  RainbowCap: 17
+salts:
+  life: 601
+cost: 2241.24
+stress: 17
+tags:
+  - lowlander
+  - immortal
+  - hot
+datastring: AXicvVhda9swFP0vek4u-padx3WU9a0MygZjD04sMkNqB1lNN0r_-9QO1nhwha_crG-tLZ_7dc496hNrm9iMPt60bMPk11u3ver2d37YBvnpY9x-uQvXbMWOQ-yG_kN68fW9xyb68PLnwxBvor8f2ebbE4u_jj49bNp23fX74NvO9zG99fbL6-HPTddvh8er5pie7UPXt7c-7F5e3XCwlV6xkw9jgmMb8bz6-9kxdmG9ax4ObUiPVqztxtj0u_RIKqixU8fhIazH4XD6E8rbIXN2gJ8dWBS9k4IevQOLHPrhm7g-DSH6n9PYQRdUCaqKjGNlAQ41HY1HloPRhohTg8HKtqzrypr67Ieci1AgqEUTAiRWgAySBInFhyE5oGekgFOHzQGnk0eBVEQcC7woHyy4TNnoUy1AUeumgD4GPDGBmo8Ah83oMvYYTGMWfpbXM0i5kPj0QapBYf1CdxUHTu-xcqDcJbLm2hUQ1QHa50ze5pwN77amOWoyFn1WOVGgyEknCgbCYv4lp2EGY0Fu8uwlOiAk3cCICi5DY6Euo0C6wDxJPEfcpdH3DL408LU52UxyJoygrhkDxtJx6CUzZBCJKxi-m1UBjKBbgEmZ5-EIQOcTw5ElvUmWhupt5XRzzcahModP743zcDhIaj58qrzy3faYxVi87A6ONixT_XpKqXmSYujl14CuDhxHF0kXdZxsyTgp0PQbjCiQSPrFL93LS-heUSU_KV4BjKGOWxIIOg6nt0dMBWIujqLiJFXBtssi-ktLp7_E2Z_xlo5uXAygHjvnlulu0-H8z7ll7MaVI6YryMhg0_LfWy_SFsVOZRJAjWGuUhVW3gxQdYFK0WMXWOS4-ErMM6DJ6n__S_X9-TfjCerm
+hash: oWwoPJTOhQUc4XOw4kYNFAlb1FI0Yx7hQcgh9F8X5qj
+tome:
+  sheet: Recipe Dump
+  cell: CF908
+---

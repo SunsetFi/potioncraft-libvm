@@ -1,0 +1,22 @@
+---
+name: RVImbWQolUXyYh9R1GGvww6DRokDaDmxYgSkzLb5KSZ
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  Mana: 1
+  Fragrance: 1
+ingredients:
+  PhantomSkirt: 12
+salts: {}
+cost: 864
+stress: 12
+tags:
+  - lowlander
+  - dull
+  - hot
+datastring: AXic5VhNj9MwEP0vPrej-CtOegSE2FsltAIJcUgbqxvRTSrHW0Cr_e9MlwPNwVWete2FY2uPXzwz781LnkXbxGb08a4VK6G-rt3mfbe798MmqE8f4ubLffgoFuIwxG7o3_HG130_m-jD6e_9EO-ifxzF6tuziL8Pnhebtl12_S74tvN95F3_frwGrx-aPg6Pn3904bS6C13frn3YnjavCip0uRBHH0YGFCv5snijg__vQ2Xi0DF2YbltnvZt4KWFaLsxNv2Wl4wlY8-i1FnUg2_i8jiE6H9NYhzZCgaSpCWII6nCL1RSpUAcQ7aGcSqq0LwZwtOmJzHzUBSMoqhEa3NTUqSf3OFlKEnaqzw81cbgBCSH5l6Ry6iwRBtJk8FxpCGjQaCKSp1ReGlwnuPUMKRrGAeXE0UVWp-SClweJVlUhpXiaZ0BJF0C6DA8heU47I9_OXYeM5lFxVwgOHFViqc3nr6su2gTaypS6nVpKJYoKXUOKRXV-Lgq8fswDpo3RSaHlQa9j-Sa4kCymnJsFl0UqSpBlxv3saUaN0N4e2lcvNje4jNZk0bby5LDh6XGZ4uajr3ZHgOlP9Myx6yalOan85bhvTlvKM61LJ-rM0Yj9z7q-VyOfBkqcFORIcfMS5T-Ms9TwH3MeUvJ2Y01UjoqULZb0jkqaXCcrKrD6sU41_nsk8dDbkLcRtT4O4QsSaEEsdMXttklQQlyoSSXcJLm_sJ9cnAKNG9sivBBzPWRGZ8RJhHfX_4AVK0gHw==
+hash: RVImbWQolUXyYh9R1GGvww6DRokDaDmxYgSkzLb5KSZ
+tome:
+  sheet: Recipe Dump
+  cell: CF1377
+---

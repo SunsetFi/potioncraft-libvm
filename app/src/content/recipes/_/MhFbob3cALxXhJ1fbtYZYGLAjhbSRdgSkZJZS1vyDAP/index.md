@@ -1,0 +1,23 @@
+---
+name: MhFbob3cALxXhJ1fbtYZYGLAjhbSRdgSkZJZS1vyDAP
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  Slowness: 1
+  Gluing: 1
+ingredients:
+  Poopshroom: 14
+salts:
+  life: 30
+cost: 300.4
+stress: 14
+tags:
+  - lowlander
+  - immortal
+  - hot
+datastring: AXic1VfLbtswEPwXnu0FXxIlH9OiaG6-BC1Q9CBbhCPAEQ2KcVsE-ffS6aHxYYiunBjoUSKHsxrOPvQk-i51k0-3vVgJ_XXtNh-G3Z0Pm6g_f0ybL3fxk1iIQ0hDGG_yxpd9P7rk4-n1PqTb5B8msfr2JNKvg8-LXd8vh3EXfT_4MeVdfx9ewOsQDtN9DOEhr-3iMPZrH7enrStJTtYLcfRxynRipZ4Xb3Ns3Thw7JSGuNx2j_s-5qWF6IcpdeM2L6maKgC6911aHkNM_ucZREs-i2SzGMRykUTWvovyxlq2JjpfmOKKQvo1RP8TkaEKRYd4lKO2AkSH8BiXU9gf_8j0CkSmva64_9exBSsoapEvC3JXCFNgImu4RJqMZhPVJJsZX8QnytEhGZC7K9INO4s0OXahJG3ZPIoUEg5mKznNT1aLtC7QoM-BNKemxKTJkJpPY1DrwzRmBo1-n5ohUeHE0Wv2lVuyyMElO2oUW6kRoCJT9D2XJw8VCFPqhm4OERKhWAHZRIYUwlxiMHbsjiQ3n_LI4Byw5FVjbwiFXjCs4k_OuU6hdCoQNQhzZY3g_Zaymp9tkhr2vJFFQj3jyiLBZCw5iV9j5YySpPFtXNSKlOaPYA1BUKGktvwekVNuxvRq-bltqOV25DpLxx72kClhka3O2_FbFdn813IWyffn3w_ivzk.
+hash: MhFbob3cALxXhJ1fbtYZYGLAjhbSRdgSkZJZS1vyDAP
+tome:
+  sheet: Recipe Dump
+  cell: CF1077
+---

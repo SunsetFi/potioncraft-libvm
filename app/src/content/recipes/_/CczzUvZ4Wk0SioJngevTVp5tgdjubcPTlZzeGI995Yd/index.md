@@ -1,0 +1,22 @@
+---
+name: CczzUvZ4Wk0SioJngevTVp5tgdjubcPTlZzeGI995Yd
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  Necromancy: 3
+ingredients:
+  HairyBanana: 15
+salts:
+  life: 483
+cost: 1066.92
+stress: 15
+tags:
+  - lowlander
+  - immortal
+  - lukewarm
+datastring: AXic7VfBbsIwDP2XnNuoSVtKe2TTBDcuaJOmHQKJukisRWlgQ4h_X2AHxiRHi0GV0Kae2sR5sf387O6IFFZ0yk4kqQh_mhbzO13PVDs3fHxv548z80AismqtbpuR23jc9y6sMofPy9ZOrHrrSPW8I3a7Um5RSBnrpjZKatVYt-v0cjQeC222I9G4xy3WRjdyqszisLdKaJJHZKNM5-BIxfbRdY79y2fSPLuhqxbAuZ3VJl6I9VIatxQRqTsrmoVbSkvKOGC1atcm7trl5usuJyNG-SAYidGUhQMlQwRQnoYCefLsAxpCt_N4xMpeQpfQIQR0IctAkYEdyGkOGYEOZBTKoi9QDMGxNLxsGC2hCnhVwsab1lj1cV5ptPyeEH61hGTpv-rf7pkejjE6gEoAIllGkwFAMo9SFJgCAI18ah4uHU7NESXNUdoBCaZPzTGNMAsWQwfUFw4mcmlvfTC4szsuYHB6GolAo2sDMWi88WUIU60cAcQxQ15vQAxBbo4iHcYjTLmCYfCRATMfpxh694WD0R9M5DjUKC8b-0Ap9AYK0RFw1Yn5qcSMITzYo4SWGI5lkBE0i_0w-dUslsGt1PMPT4tg5XBD37k_L_tPDGNIKg..
+hash: CczzUvZ4Wk0SioJngevTVp5tgdjubcPTlZzeGI995Yd
+tome:
+  sheet: Recipe Dump
+  cell: CF904
+---

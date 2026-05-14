@@ -1,0 +1,22 @@
+---
+name: vkrFwjfJD7xY4WvqxawjR1xz3lsi7a0uiayIpBrxq9x
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  Necromancy: 1
+ingredients:
+  Marshroom: 14
+salts:
+  life: 594
+cost: 1106.1599999999999
+stress: 14
+tags:
+  - lowlander
+  - immortal
+  - hot
+datastring: AXic1VjLbtswEPwXnu0FH3r62AZBcyiQS9ACRQ-yRTgCHMmgGLdFkH8vkx5SBxhCSwtCe7TJ5SxnuC89ibbxzWj9TSs2Qn-9Lbcfu_2dHbZOf7ry2y937lqsxHHw3dB_CBtf9_1ovHUvfx8Gf-Ptwyg2356E_3W0YbFp23XX751tO9v7sOvtx6vx58aN924YHsLS3nV9e2vd7mXnRpIpq5U4WTcGNLFRz6sZTlXgxNF3br1rHg-tC0sr0Xajb_pdWKqproHRvW38-jQ4b3-emaicaj6QIVXlXCQqNDA5Do9uPQ6H0x-G3mwk5cVfNnICTLgP8mx-Kf6HEyG5ikrAbUR4QyV6You6rnO274qMyvhIko9UkNLsO2lSfD3eETEtqABKjG29iGfBploIyNQJQCoBKMsA0JKFoQgFKuVBLqWGXkqNhWSXVJp_QPaMTIVqLqqfhmDqinGUocyK2wHYq2Cc0A9wcYIUiIIYDnzFGCczKThsGINMLulf6wTRJQ4M7L1GffK8JKmUt4UoiMDwJVeKcnYqNlSjVHyJ6uqs45jmf06wkiCeNGV8OUJK0QU7p8BYj6Rqo9g1IZRGeKVYmZu_KMhIqzlz23gu_DSiJFXsxy5J8qu0JhSKMT3QcJnE3CUiSn5OSHTfwAwcm8JTJpNazj8pyhmDbu7eMgkoJQ4NX_eQsGRCgEg0vES549-oRvPlkt1yiA1EEa5shl9BJb9Zzinly4XhFursfOKbep2S2wZq0im0JTQeit0P5OcfO6b5pvHQFBmvE0gIoiZkpoQ2T-FJK_bi-M_HvPfu-_NvUGvyjQ..
+hash: vkrFwjfJD7xY4WvqxawjR1xz3lsi7a0uiayIpBrxq9x
+tome:
+  sheet: Recipe Dump
+  cell: CF903
+---

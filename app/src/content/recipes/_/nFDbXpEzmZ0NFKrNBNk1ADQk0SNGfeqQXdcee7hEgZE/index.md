@@ -1,0 +1,26 @@
+---
+name: nFDbXpEzmZ0NFKrNBNk1ADQk0SNGfeqQXdcee7hEgZE
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  Mana: 1
+  Hallucinations: 1
+  AntiMagic: 1
+  Luck: 1
+  Shrinking: 1
+ingredients:
+  Mageberry: 45
+salts:
+  moon: 1
+  life: 2
+cost: 3422.71
+stress: 45
+tags:
+  - lowlander
+  - hot
+datastring: AXic7VlNi9swEP0vPq8HS5Ysy8e2lO6hsJelhdKDEgvXkLWDrE27LPnvlVNorR6MxqsYt2wuIbH0_OaN5kPSc1IrqwZtb-ukSujnO7F72zb3ut8Z-uGd3X26N--Tm-TY27bv3riBl3HfldVm_PvQ21urH4ak-vKc2Kejdg9VXadt1xhdt7qzbtSfH5fJH1Wjd9qYJ_eoMW1X32mzH0dWGbDzzaZwMs4jIdEiz6YfMcEdbGvSvXo81Kbv3Ny6Hazq9u4RFSAnA79pZdNTb6z-4YadtBmcV5KKTKeQMgiZQYEFFiBIJDW4lEEsBZCpK4_9o0mH_nD69cLfPDOPJ9A8CDwDgZSAgoy1HrgsgkgSBlmBlSAHEobuwEssOIXVNfADOlACyQIlIAS_xKJFQu4hzWpAOJYnAxqoAaV4DfKwMKOQyUhiFQQbsQzCEg3xpXqRRwn1Mj02zwpgYZwliDIO542izLiLQy6xK7YEEsnHa1qaATo0i1hreV07GTrJly59_nOWcpDomlv4Rer6FAuBpciBxs9GcyVLLiiHXsNxfRUpWkUWrcMMVLFEB51LvauKiE8LHNYNlq0zZH4vHLoQV2VYvHAdziYzdAV1G6j4hWXOfIYuCc4sHgTu9sNrZr0SODoxuxBal-KS8rZ5in-dFGyRIocyfms6R5EsiKs1y9sShgzE1im61ifSEew1_bxmv_qfOvqV4ivFa1CUsCCgeZzaEnYg6163oGVlYfc-zN9TxLFlRDG9VeNVXjqowwh0-aqSh_5CoDGq7QY3S4Z5SQDHnm6WvmVz2IwgsXMIvFDIIaNIbBLKmwHPsdgCRJzOLfguIT9_Pf8ETe8fOQ..
+hash: nFDbXpEzmZ0NFKrNBNk1ADQk0SNGfeqQXdcee7hEgZE
+tome:
+  sheet: Pre 2.0 Lowlander
+  cell: Q35
+---

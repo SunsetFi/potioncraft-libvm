@@ -1,0 +1,30 @@
+---
+name: rvSDY7KMJLDFdpPhIFajgY0iBcq09joSdDSW5VWDhq7
+dataset: PotionCraft 2.0.1.2 (Dataset v1)
+base: oil
+effects:
+  AntiMagic: 1
+  Shrinking: 1
+  Rejuvenation: 1
+  AcidProtection: 1
+  PoisonProtection: 1
+  Healing: 2
+  Enlargement: 1
+ingredients:
+  PhantomSkirt: 4
+salts:
+  sun: 35
+  moon: 4
+cost: 583.2199999999999
+stress: 4
+tags:
+  - lowlander
+  - full-grind
+  - gyroscopic
+  - hot
+datastring: AXic7ZlLj9owEID_i8_ESuw8CMe9oFUvqK9L1UNErN2oENPEUFar_e916IHdlQaNZ6ARLRdQYOxvPPaMZybPoq5c1Rt3X4uZKObmq_6V6w9fFmU-1z_nn_cf1Z2YiI11jW3vvOBBzjar4ceVdffOrHsx-_Ys3NPG-L-quo4666pBPuqrlfOCh6-Z6Letf3joqqb1Q5I0noid6Xov6J9eJm-maNqHztSNaYfxx4cDffFYtc6uP_1oOneYsGnrhemWg_AsASbd2G0X9Xa1-zPlUWYi6qZ3Vbv0UlNZvB7Tu6aLltV2VXd2UP0oqGUKcB5N5aKd7ZzZvxmRxNByYUoipydMxLQyjI1lxsYW4diCC80gtWGmkiWXSlhpLAvFxZaQuS6LpRzjsbiJB3OiAcatM9BXUIgUgcil1iyGVPqG4WEuciVdz6T_1mbeMDfMDfO_Y07lK6HJPUuvRKY5poCQOYficyEEBE79kRCtMOaSaXiqnskEytVRuhXIvYc0AzPA4JWk4E5eOA0fJQvPZQxl4eG1Ml5THa7pECCutBq8prLMc08lr7jqdxxsBl0MMLbkdxhIi2WfZBKVf6AyQuMI9ls4lwgP2-FXA6sX-b78vJg_qjO0-0iHhY_NKU0hdhAgxR52J5eGHScM8LEJuE-X5abhEV7LjJWZJ7TjQEjE-LtCuu7Z2Ok5qag9UUg919a-VlSR3rZAoQF3eqY0TQmhU4M2hS5ABSYEyHIyQ1WTihBc39mDknfAFTmeS6gXUrA9gXYoQnEEv0sJr-JwLijVX_EfiW0M5KzWCG4xPhcL9TFWnIslpl9DuWvYVc9Yb67HqqQTSksMHGNctLF9M2D9kL3XcSKe_Gewe8TxyWkjVR4mTjBvMim2zc7QLCvfmun7y28ryJeE
+hash: rvSDY7KMJLDFdpPhIFajgY0iBcq09joSdDSW5VWDhq7
+tome:
+  sheet: Recipe Dump
+  cell: CF1658
+---

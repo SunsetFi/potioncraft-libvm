@@ -1,0 +1,23 @@
+---
+name: W3CLKzBeO52yuy7PTb7PhA7ik6pa6h5WuwQQ8aWMA4e
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  Explosion: 1
+  Fear: 3
+ingredients:
+  GraspingRoot: 55
+salts:
+  moon: 1
+  life: 2
+cost: 2092.71
+stress: 55
+tags:
+  - lowlander
+  - hot
+datastring: AXic1VpNj5swEP0vnDeWbWwwObZV272tKq1aqeqBDShFyuLIeNNWq_z3Oqm0i3tA48EthksUGA-PNx8e2_OcNbWth9beNtk241_uyoe33f6-1Q-Gf3xnHz7fm_fZTXbUttP9Gyd4lftR29Zcbh-0vbXt45Btvz5n9texdQ_rptl0_d60Tdf21km9_rkO_mDq4ejufdL68nRvur65a83uIrylRObyfPOibLCd2ezqp0NjdO-km26wdb9zj0pSsJHg97a2m5M2tv3pxE6tGRzgbMvGQ_KR_EyUpSriKVNUVa8Xj6kZRKUiYiR31E9mM-jD6c8LX6ik4yGMVAKkmzFShirn3pCZFBSSQ4GqYBpywmEUM06oCieZxeMhFyKiMhbRQpyVI_dXHqMzVdMqB5mHK6JUYDZx_lLAlJNgy-cxLQ8lQTgfQQCNmK4cUjq-GAh3TrwQh-KOOBtgcRfhfAM1Cwwj1fKMlAUiBfPlcVcyHLeEGrNChGWxOCmCyCoUt0ggLAWhCGMWJdSYwZHpSEnAmGWwEwrCI5YcaNzBxnR8xy1BULiDE6Hz2wRiJ3wqdnTHLXZwdCMmzCoB3JjSJwXc4Xyn4Sez-f6nTjilnCMYpwkwjvGUFHArBG6eAO618o1Z8pQJ4A6Py9zf-oytXCVAylqntXKlwZPP9ZPJ9dRcD1-RE6YQPGutrTC4U5gxZ695YmeUFIyJ2efIF8ctEckqDdyY8n75JCsRM49IoGyTiHJTJDA54PwkBb7X6t-YfAIs76W_MQxULlZKSgq418r37OCZPH0dH32ATs4pERF32IuqGFMCbMjwmysgsP_aYlgCNe6AVIZ-KSVyafMoQiMeHk1ggHXisKgtSRhGOPODJrhdAGJ4SWTEwIR9mPTLImCHmJeJQc1_JP_vjXUSEa6uSowYfODuNB7sW9xv_YHYQPkrpcndXBGou_CLiqkc6nWYgnSH59wcBob6zR0Xaxtt60u37WaoD5c3XH-22aO-Dt2buusH94aKnr-dfwMgul9y
+hash: W3CLKzBeO52yuy7PTb7PhA7ik6pa6h5WuwQQ8aWMA4e
+tome:
+  sheet: Pre 2.0 Lowlander
+  cell: BE40
+---

@@ -1,0 +1,24 @@
+---
+name: Rwe0GlHI9XjkmIRw2Rh6fGwdMof14tekfW0k5jkN2ef
+dataset: PotionCraft 1.0.2.1
+base: water
+effects:
+  Poison: 3
+  Healing: 2
+ingredients:
+  Mageberry: 900
+salts:
+  void: 898
+cost: 137240.82
+stress: 900
+tags:
+  - lowlander
+  - extreme
+  - desolate
+  - cold
+datastring: AXic7dAxb9NAGAbg_-LZiZzSVmk2OiBVKoiFCTEcPitYOHZ0vgSqqv-da5CgDJEQG9Kz2X6_93vu_FjFkMPc5btYbarr23fr4dU6fHjzJe120-vx4uv9921VV_sp99N4WwZPc99C7tLz52HKd7nbzdXm42OVH_ZdCUOMi37cpi723ZjL1O-XU_lt2Hafu5QeSrRN_Rjfd6l9ntys6urYpblI5fmp_rVxzn1atOEwxFSiuor9nMPYlmjVLK-vzrT20yEt5mk4_jzFi9LF8vIl1fwVdbNcn4H-_cLNmY3HqY-LOQz51Aj9WH7wVdMwmUwmk8lkMplMJpPJZDKZTCaTyWQymUwmk8lkMplMJpPJZDKZTCaTyWQymUwmk8lkMplMJpPJZDKZTCaTyWQymUwmk8lkMplMJpPJZDKZTCaTyWQymUwmk8lkMplMJpPJZDKZTCaTyWQymUwmk8lkMplMJpPJZDKZTCaTyWQymUwmk8lkMplMJpPJZDKZTCaTyWQymUwmk8lkMplMJpPJZDKZTCaTyWQymUwmk8lkMplMJpPJZDKZTCaTyWQymUwmk8lkMplMJpPJZDKZTCaTyWQymUwmk8lkMplMJpPJZDKZTCaTyWQymUwmk8lkMplMJpPJZDKZTCaTyWQymUwmk8lkMplMJpPJZDKZTCaTyWQymUwmk8lkMplMJpPJZDKZTCaTyWQymUwmk8lkMplMJpPJZDKZTCaTyWQymUwmk8lkMplMJpPJZDKZTCaTyWQymUwmk8lkMplMJpPJZDKZzP_InHOfFm04DDGVqK5iP-cwtiVarZY3f5Q-Pf0AaXv2zA..
+hash: Rwe0GlHI9XjkmIRw2Rh6fGwdMof14tekfW0k5jkN2ef
+tome:
+  sheet: Recipe Dump
+  cell: CF73
+---

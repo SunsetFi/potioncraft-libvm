@@ -1,0 +1,23 @@
+---
+name: PWH29qt4TAGuM110lCYBKySsQTvDoolo0SgUG15Pz5d
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  MagicalVision: 2
+  Shrinking: 1
+ingredients:
+  Watercap: 22
+salts:
+  life: 3
+cost: 1165.32
+stress: 22
+tags:
+  - lowlander
+  - immortal
+  - hot
+datastring: AXic1VdNb9swDP0vOieEJEv-yHEbhvXWS9EBww5OLGQGMjuQ1WxD0f8-pQPW-PAM0x_AdrQliuTjEx_1LKoylJ0Ld5XYCf35Ptu_r48Prt17_elD2D8--I9iI85tqNvmXdz4uu9HGZy__j614S64753YfXkW4dfZxcWyqrZ1c_Suql0T4q63j1fjx6vxoTzHlaOvm-o-fl037iSlKt2Ii_NddCZ26mXz99Au1H57KJ9OlY9LG1HVXSibQ1xKgMW5ffLbrj1d_gTxZqBvDOSNwYy4jclBFDMOVSizOWey4dUFWWD0zZVhe2l9cD97JpYMtyaKUFWQE0MIHpyLhKnMgTRD2U4_dPkopV6DTaZYIdIMkXROpDrjN5aUNAoFsVIbSm-B1gthIlfAJCn4zVYZgjVHmCSk7AqQJMu33P_2wIGCKYJl_vfzmsGPHPIDipAkjfQBAxwvBDIacJTzxcuQZcvqtfHxKZNQiigzTvL1OMlXKB_kRVGiuG7iUMl1I_v5j3RjuG4s6WL5vpgn_BmvP32N1Dk5oeI50o6B-ZPgmwDSJCWTcYPTZPnBRQ6zu4wiw7_8iiRCYYj5UzJi63scebhgZ5Bwg1izG23MZsptgE1zyBFfOqIjFN2AI8uf2izlEzQqQ9QeemDBGz6UER-6nBK2eKQ90ulx3WeFycSm_HwLXHbYovtDxiLywqarxMzD6pvn7DrFd0mKXngDwdl-Ql9ffgNuml3R
+hash: PWH29qt4TAGuM110lCYBKySsQTvDoolo0SgUG15Pz5d
+tome:
+  sheet: Recipe Dump
+  cell: CF1257
+---

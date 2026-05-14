@@ -18,6 +18,8 @@ You may still be able to clone this repo by disabling git-lfs on your system.  H
 
 ## Running Libvm locally
 
+This project requires the [PNPM](https://pnpm.io/) package manager.
+
 1. `pnpm install --frozen-lockfile`
 1. `pnpm dev`
 
@@ -58,7 +60,12 @@ tags:
 Your description here.  It may use Markdown
 ```
 
-Effects, ingredients, salts, and tags MUST match their corresponding folder names under `/app/src/content/*/_/*/index.md`
+Effects, ingredients, salts, and tags MUST match the IDs from their corresponding folder names:
+- Effects: `/app/src/content/effects/_/[effect id]/index.md`
+- Ingredients: `/app/src/content/ingredients/_/[ingredient id]/index.md`
+- Salts: `/app/src/content/salts/_/[salt id]/index.md`
+- Tags: `/app/src/content/tags/_/[tag id]/index.md`
+
 
 #### Auto-generating recipes from a datastring
 
@@ -87,11 +94,20 @@ The pages for the following topics are auto-generated:
 - salts
 - tags (challenge tags)
 
-To add content to any of them, find the corresponding markdown file under `/app/src/content/*/_/*/index.md`
+To add content to any of them, find the corresponding index.md markdown file under `/app/src/content/*/_/*/index.md`:
+- Effects: `/app/src/content/effects/_/[effect id]/index.md`
+- Ingredients: `/app/src/content/ingredients/_/[ingredient id]/index.md`
+- Salts: `/app/src/content/salts/_/[salt id]/index.md`
+- Tags: `/app/src/content/tags/_/[tag id]/index.md`
 
-If you want to add content that applies to all auto-generated pages, you can find the pages under /app/src/pages/*/:
-- `index.astro - Auto-generated page for the top-level collection.
-- `[slug].astro` - Auto-generated page for individual items
+If you want to add content that applies to all auto-generated pages, you can find the pages under `/app/src/pages/*/`:
+- Effect list: `/app/src/pages/effects/index.astro`
+- Individual effect pages: `/app/src/pages/effects/[slug].astro`
+- Ingredient list: `/app/src/pages/ingredients/index.astro`
+- Individual ingredient pages: `/app/src/pages/ingredients/[slug].astro`
+- Salt list: `/app/src/pages/salts/index.astro`
+- Individual salt pages: `/app/src/pages/salts/[slug].astro`
+- Individual tag pages: `/app/src/pages/tags/[slug].astro`
 
 ### Synchronizing with the Alchemist's Tome
 
@@ -101,10 +117,11 @@ TBD
 
 ### Now
 
-- [ ] Compute and add missing tags for ingredient types (organic, crystaline, ...)
-- [ ] Compute ingredient directions.
-  How does the game do this?
-  - [ ] Index pages for ingredients based on type and direction.
+- [ ] Rename tags to recipe-tags
+- [ ] Introduce ingredient tags (organic, crystaline, ...)
+  - [ ] Compute ingredient directions.
+        How does the game do this?
+      - [ ] Index pages for ingredients based on type and direction.
 - [ ] Tags and tag recipes for ingredient type tags (organic, crystaline, ...)
 - [ ] Auto-generate and save images for effects to indicate their position on the map.
   Auto-generate a large image of the local area, with a minimap in the corner

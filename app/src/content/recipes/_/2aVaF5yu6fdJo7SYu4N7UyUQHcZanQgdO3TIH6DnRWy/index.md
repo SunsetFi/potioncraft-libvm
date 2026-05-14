@@ -1,0 +1,28 @@
+---
+name: 2aVaF5yu6fdJo7SYu4N7UyUQHcZanQgdO3TIH6DnRWy
+dataset: PotionCraft 1.0.2.1
+base: water
+effects:
+  Mana: 1
+  Lightning: 1
+  Explosion: 1
+  Fire: 1
+  Poison: 1
+  WildGrowth: 1
+ingredients:
+  PhantomSkirt: 2
+salts:
+  sun: 27
+  life: 98
+cost: 414.38
+stress: 2
+tags:
+  - lowlander
+  - full-grind
+  - hot
+datastring: AXic5VjLitswFP0XrWNhvfzadRaFgWEYKF2VLkQsEjOOFWQlzTDMv1dOFzMp3HBlTepFV8axro7u45wj8kpa7fVo_H1LGlLcPVa9qPT3r1u329kvA39-OG3Iiuyt7-xwFxae1_3S3rjp5976e292I2l-vBL_sjfho27bzFmvp4hs1L0PC8-PhoyHIbxsnO6GEMIlX5GjcWNYSJr8bXWxRTdsnGk7M0zx7y9n_KetHrzdfXvunD9v2A3tk3HraXHD_vWmqGSZBHYYfeeytT70rbNTQNuNXg_r8EnSSqXCimjUnObJqMUiqNUiqAwajRvDLlNjni8CK6Adbgsrl-ntQkWu_yNUBlnPjWHjXeBTYJeRRh7vPoxR-VHZ2IeordE-O1rnzekihlNeAiF7e3DZaPvjH8d_P8xlqoIjYMLJZBoMkygYngjDCwRMTpUCYPDyGK9TjLLE7Go1y0DK6KOWtK6iJzE1O65QI1JDvUPBYFJhtIJ4eEv-B5LEF72sgRAYh9NcJM4hn1USiDJgHwTNoZm6VsaKpaRXBK2bZTRlvNPweJ4pypLSCypUI2AkrZM5oOIdv0hsXvDQvECOiYScM-JKA0nrFSP9RAu4gpLIcIX00UTFx1wKJmNIbtScy1gBtQpWYzAEVxBMNSA9ND7b27GbShECTqTJWLCGl-lJMYSfmAN5Cer0JS3mOWW8bCpaQUcF01M059FeIqiKHQJBZZKCBV1CUjyR4QLFPZl226K1QBWaUwHlgyf5jH9KOChhcH8TpRUlepxK6GKAnaISlUwZTwr1963s59tvBCWzzQ..
+hash: 2aVaF5yu6fdJo7SYu4N7UyUQHcZanQgdO3TIH6DnRWy
+tome:
+  sheet: Salty Skirt
+  cell: G388
+---

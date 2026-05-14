@@ -1,0 +1,29 @@
+---
+name: 5KoVek4yqAYFH5NMxsWYwh1SAxxCAQjP3RUetKZsmiG
+dataset: PotionCraft 2.0.1.2 (Dataset v1)
+base: water
+effects:
+  Charm: 1
+  Libido: 1
+  Fire: 1
+  Healing: 1
+  Fragrance: 1
+ingredients:
+  PhantomSkirt: 3
+  GraveTruffle: 1
+  FrostSapphire: 1
+salts:
+  sun: 15
+  moon: 5
+  life: 105
+cost: 1067.25
+stress: 3.3166247903554
+tags:
+  - full-grind
+  - hot
+datastring: AXic7VlNj9owEP0vORMrtvNBOO6haNUL6m57qXqwiHeJGuLUMSyr1f73GjhUgMbrcbJsK_UCCvHM83g8z_PMS1QJI3ppbqtoFhVz-Y0_5fzz10WZz_mv-f3uC7uJJlGnTK3aGzvwMO5JGKn3PzfK3Bq57qPZ95fIPHfSvhRVFWtlxN4i7kVj7MDD1yzqN619eNSibq0J59kk2krd24HRjL5OTlzU7aOWVS3bvf2fhwP-YiVao9Z3P2ttDg7rtlpIvdwPnlHAaac2Ou5Vsz26rOreiHZp3xR_xSxokgAmval1vBSbptKqPbHJCHPM3SsJBR41ITwfCkt5CG46FDYLipYDRispTLxV2sidI5XsWutDE1J8zAol06GwYLhvFeFci62815uHh0Z6F6H3tFLIA5R6BiQeLPuEUChnEMZpHXiiJNhNHIYC8dG_GMt18nIdFIiwx0WBTtJRUcYqSRehUYjQ8JE4eXO8jfwf5uNheAAMg2oGrABGynK0hsTZTUAwjuKEFs2_EQhpe6ZY4qHQckgTd6qv99O0Bjsb0iR6tp8-0UMce-k05ke3zMsvJVPsIUFJjk44OtvYAimwXB8iiTgoiUaFoXS49GIJpH9h3JQwbIvlViOjC1yXWk2hPeZYs7VSJ8IIJMy3ovmkVW_uRNetaj2KVDifGVj_4IoUJEA4ncOiURlJsAdIgKxhWM7iBGJlf7kWoJpHyQEUq4unAqT6OWzAlssIw_a273JYclKC7HfhNz06jpkfn5MUK3cYCdjhOV4koI9A21Fh6wivdwpQU_nfV6Uh90bDrxHBLt15dBfoBvo9SoCC1H3hNSuPBUDLQQe-oxpDGAzsXxylmUHtiyNh6MaU4Bsrq_kho6tuCssRUIPjyYtjisCUTLEkl58qZ0-xCWpNbyqYhhCQ6w8oP1Ro3k69enZf_uP1Nx9NILA.
+hash: 5KoVek4yqAYFH5NMxsWYwh1SAxxCAQjP3RUetKZsmiG
+tome:
+  sheet: Recipe Dump
+  cell: CF1616
+---

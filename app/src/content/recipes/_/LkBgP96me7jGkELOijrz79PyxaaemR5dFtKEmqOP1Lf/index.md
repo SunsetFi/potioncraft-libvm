@@ -1,0 +1,23 @@
+---
+name: LkBgP96me7jGkELOijrz79PyxaaemR5dFtKEmqOP1Lf
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  Healing: 1
+  FireProtection: 1
+ingredients:
+  Coldleaf: 16
+salts:
+  life: 29
+cost: 663.1600000000001
+stress: 16
+tags:
+  - lowlander
+  - immortal
+  - hot
+datastring: AXic7VfLbtswEPwXnu0FH3r62BRBc8slaIAgB9lkXQGKZFCM2yLIv4dJD7UPQ2RZN_ChR4lczmp3doZ6ErYL3ezClRUroW-v6_VFv71x09rrL5_D-uuNvxQLsZtCP42f4sa3fT-64Pzr62EKV8E9zGJ19yTCr52Li521y37cemd7N4a468_DW_DFNNjBdd_iytb3o712fvO6cSUXYu_8HIHESj0v_h94DgcqcOAcer_cdI-D9XFpIWw_h27cxCVVUGtA1HfXheV-8sH9PI5pTl4IKsuWn7ukAgTtpke_nKdh_zuPgxhS9UGM_JdV_8A21qRLbhepPqyefk_1JGnUewzTtgAGf05sLKpBIrcmg0JUoKAUUJ0BVKGgBFd1DlCh-V9Uo0HCQIbaigtkSPGB4sgi0qVKh4D-QqQqkyGweGRSIpUDpNiNVyT5DCupYQ-noQIBndw9ceYFlojUbJy97Z_DPYJaNs3jQKGYlDVk6KhC5picWxSUAsqRN8MGkthNUuyH2Z2cKOg2II9F6n23gYIk22kktTmtqDJ6LvnkKokt1YaaD-tekqwZJgO1Pzl-GUDQapO2meMJOfelkvujVVBZsafFkMywZ40mDOVmcG4pfURNxb8P0nBhJCYc1qVScWE0KVS0lJbVXM1UDVVINHGpo14c1_r--QWSdRhQ
+hash: LkBgP96me7jGkELOijrz79PyxaaemR5dFtKEmqOP1Lf
+tome:
+  sheet: Recipe Dump
+  cell: CF1010
+---

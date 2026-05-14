@@ -1,0 +1,21 @@
+---
+name: KkMQOgZ5Wu7Da5XyPGZkIzdgOxNrQCm8jXQNouAN8Z9
+dataset: PotionCraft 2.0.1.2 (Dataset v2)
+base: water
+effects:
+  Slipperiness: 1
+ingredients:
+  PhantomSkirt: 10
+salts: {}
+cost: 1440
+stress: 10
+tags:
+  - lowlander
+  - dull
+  - hot
+datastring: AXicxVfLbtswEPwXnu2F-NLDx76A9FAYMNBLkINgsYlSRzIoxk0a5N-zTg5xAozQFWL3aJOr2SVnZpcPqqlTPYR01qiF-vorLsP1l-jKzz_-rq-_rez3nys1U9s-tX33ifc9b_tTpxD3f2_6dJbCzaAW5w8q3W8DL9ZNM2-7yxiaNnSJd73-eA5eXtVd6m9Wv9u4X72MbdcsQ1zvNy8yMlk5U7sQBwZUC_04-6APH-OjGnx0SG2cr-vbTRN5aaaadkh1t-Ylm1NWHUSZg6irUKf5ro8p3L2J8aQdCMFAhrwQRlNhxDA5mVyIw5kVYhxLGiV3lBtEyXMe6Fxx8ppy6SFZ8laOw9mVQqCSDArBQBV5KbvcFHaVVGixWOTn5sgigWGYTH5sBgsZijKnEhV0FD_E2RdUSlnsyaOQE_uuxzTHfljJr1hzydI7rsihljDGWXEfKSibog2N3Brh5OTkHunIoOSwdVWIXWMatFLrmubFhOwO9kWNPWXb38b50G92L1o5hCm9WAzsQyeVJVQYJ4JIDCvm8aESV6wxu0aO1hViIEtOfIfvuva_ATnK5S3YygcvQ5XUZxx2_VEcqf7ZMqbMxeJ6sJRP3MQMT9toHhqhsbVCXTqq5LOaxV1sZFaTXyDjnKKReyqkfY8lOaWaCUPVlPcT1D48NveWOf-R-JwKJD6edpycxA4_M_G0o1FqozhyFsOBD-Nk-NWF64E4H3jrF49POx0nHQ==
+hash: KkMQOgZ5Wu7Da5XyPGZkIzdgOxNrQCm8jXQNouAN8Z9
+tome:
+  sheet: Recipe Dump
+  cell: CF1126
+---

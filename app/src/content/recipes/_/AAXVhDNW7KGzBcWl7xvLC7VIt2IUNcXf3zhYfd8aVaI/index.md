@@ -1,0 +1,21 @@
+---
+name: AAXVhDNW7KGzBcWl7xvLC7VIt2IUNcXf3zhYfd8aVaI
+dataset: PotionCraft 1.0.2.1
+base: water
+effects:
+  Necromancy: 3
+ingredients:
+  Goldthorn: 17
+salts: {}
+cost: 1305.6
+stress: 17
+tags:
+  - lowlander
+  - dull
+  - hot
+datastring: AXic5VjBbsIwDP2XnKnVpCUUbuOwCWmadtlp2iEiEVQrDUoDY0L8-wKThpjkas6gQ9qtbeI-58V5trNlWnnVGD_RbMTk-KGoskI93c7dYmFvavF6v5mxHltaX9p6HCYe5r0pb9z-c2X9xJtFw0bPW-bflyYMKq2Tsp45o0tT-zDr-HIwvrOV9nPr6jA0c2WtH42b7meOeI-tjWsCUnje9b7-2PjSJVO1qrSzeytdNl7V0zDEMxCI0dwon6yt82ZzYpJBQYbJqBhXiCBgQMVIySA59IkgOcgIFOpScL_ioxVj56r-CKnobuUtwSfRDVjalUsaW60_nTja9E-OdvpHnks01s7vBU4FQgTuNpntFAo6CibYHVKTAye7jWsOCsNBFHR6AJPpDgnKYBhBUB5BUAQ_3WnTmQOoI37yKxCfsFi6MvyvCMoi-MGk4cz8YErXbQBF8EPOYDziIHM0TDtVaHpqSdGypIUfSeeHDjKI2Gush_tN4UvmR0SEaQQ_EVUWiCGCg_U7Eob0Zjqj42Cnpw0EU6RzYpC70AgMag8qUMlva9qp1xt4m98mnFhQ4pcoF9BNEJK-DzxFXcGdv0DREHGNwbG9bckUMZUYOZMKkPRU2oeUrB6nPefPWCu-HYmX3QfOM_yv
+hash: AAXVhDNW7KGzBcWl7xvLC7VIt2IUNcXf3zhYfd8aVaI
+tome:
+  sheet: Recipe Dump
+  cell: CF901
+---

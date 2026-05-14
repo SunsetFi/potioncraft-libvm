@@ -1,0 +1,24 @@
+---
+name: QqP9CRxR5hoTrguVEAqX3XzqIizWHVo5FSVdXDcEnFL
+dataset: PotionCraft 1.0.2.1
+base: water
+effects:
+  Swiftness: 3
+  MagicalVision: 1
+  Dexterity: 3
+ingredients:
+  RainbowCap: 6
+salts:
+  life: 9
+cost: 1057.5600000000002
+stress: 6
+tags:
+  - lowlander
+  - immortal
+  - hot
+datastring: AXicvZZNb8IwDIb_S87FStImabmNSZOQpmmatNO0Q0YjqAZtlYaPCfHfF5i00YMRhm3cSuK8sf3YzpaVNtjOhXHJhkyPHvJ5mtvnu5lfLJqbWr7fb6YsYW0TqqYexY2HfWsbnN__PW_COLhFx4YvWxY-WhcXbVkOqnrqXVm5OsRdPx8H4ydb1W_N-ta2cW3qq7p8dH6y3zrkkCudsJXzXZRjQ7FLvo_tQuUHE7uclz4uJaysumDrSVwSGagCsWqbpR90zXz1dZUfI3VkwI8Mrrp9UaTk2ysB2OVnzobBqvHBbXomOeiMrINZ4CJFThaRkFOdMTFqZJ0UFNUfA0LS0QJliDpCAGaC6xRgsGCjBHPg-i8gVgIL7XXHas2PfuL3NbAj8bAbHb2lxj0yQecoBY7Rh4GUQnacX3kmsGjVosCCEWQdDlifxmRib5d0dzhQwyYNpAYROpFTSa1zKYEXiM6_QiwUcIxIvBlekHPVd_isIUIWidRTRRQILBGnJhWnEiz7w-DsQqH6Exs7GWANkj5FBQ4OKhQnPL39cciwMj5RkppeCxIEeY5KKOhvTg0Ce-phaS36ZJ-HT0afG_FBRW-0GUiqPxmYCxo6zik-n-hjMAJHH4O6361ed5-84Fkz
+hash: QqP9CRxR5hoTrguVEAqX3XzqIizWHVo5FSVdXDcEnFL
+tome:
+  sheet: Rainbowlander
+  cell: G11
+---

@@ -1,0 +1,22 @@
+---
+name: KfJRFSEzNbmoNVXZggJiTGxIqef0m7eobxPrDuQ8woK
+dataset: PotionCraft 1.0.2.1
+base: water
+effects:
+  Fire: 1
+  Enlargement: 1
+ingredients:
+  DragonPepper: 14
+salts: {}
+cost: 1579.2
+stress: 14
+tags:
+  - lowlander
+  - dull
+  - hot
+datastring: AXiczZZNb9swDIb_i84JYX3LubUYBhQohl52GnYQYiE1lliGrKYdivz3qRmwtQcazJQEO9om9ZLi81p6ZZ3Pfgr5rmMrZm6_uK10_uvnx7TbxZtB_Lh_2bAFG2Pu43BbAo9xzz6H9PZ6G_NdDruJrb69svxzDOWj77plP2xS6Pow5BL19-GY_Cn5TRwewjge19ikfugeQlq_Ba8asFIdFudaTAl-tsXOV5V28t1iU-7Tcu2ftl2KQ4nu-in7YV0-CQeWL9g-pKnsPlu97-Ux-Lzcx5TDy4ccLsA6JKeybCHk_7eZ52vPNYI0Fd6WAZ46FRASSRnjU1pOcbv_XfOfmOYDCSA1QcaAFYjMTD-g60oTjkYziEohbkhCEnhbudmW2JHDQCAJcWhpW8c1qMt42jpH4EqAwfSJjQrq6DCbYKVplN65udkTVRQoLGVOxpzaTQMthi6uY0CZa9AxN7amkg-iEQQ0VY4r-TRrc3DYwIkdWU0VqtEpx5YiQtJgMF4JEg7m1MuMAYlxNccI6tUZe_-DjMbO2pnfKGZUXMdCi-lcaXAKmqqDW4KhmU6CqnS3oP4x2wuZQWvaQVcgxZDD6JFgL3QJoBZdbr6otYgkKH34fvgFeTHWKg..
+hash: KfJRFSEzNbmoNVXZggJiTGxIqef0m7eobxPrDuQ8woK
+tome:
+  sheet: Recipe Dump
+  cell: CF1289
+---

@@ -1,0 +1,22 @@
+---
+name: HoyQr3OxgvMWu90RbPZ5YvSSVBJ19kCmc5WDUqoTLKQ
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  Lightning: 1
+  Invisibility: 3
+ingredients:
+  Fluffbloom: 5
+salts: {}
+cost: 250
+stress: 5
+tags:
+  - lowlander
+  - dull
+  - lukewarm
+datastring: AXicvZU9b8IwEIb_i-fEsh0HJxnbCpWNBbVS1SHBhkYKMXIMbYX47zV0KB6uyiHabMnd5Tm_9-ED0bWvB-NnmlREPM9Vc9-uF8Y2Tjw--OZp4aYkIVvrW9vfBcez33vtjTt97qyfebMZSPVyIP5za4Kx1jpt-7UzujW9D14_L-fgabdbrZrO2k2wrV3b67lxy5NrxWiWy4TsjRsCjlT8mNzot1Kxyyf7C4hQHPjt4FuXLutdp10wJUS3g6_7ZTBxygsgaGt3Lh1st__OJIq5ffr41KWiMgei3kzt07113nxEMXmoxEWIGAUSVEFNAXM4R3MyyiAVII6kcoLmcFpidROUFQDnX2vOaCGQqXPK8BIxKrGl4DRT-FKIOLtR85fREupHmFTQCbbokiqo6L8NSwEtFFg5ngMcUANGFbRDIQyLx3gkBjv5ccRIiMBLhq9MuIXQZynFFRhR4jXDb2UWd804jsBvZRavvnEcfs15wE0Acxj-POEKhHT7pUMn8Tp8PX4B9qA5Vw..
+hash: HoyQr3OxgvMWu90RbPZ5YvSSVBJ19kCmc5WDUqoTLKQ
+tome:
+  sheet: Recipe Dump
+  cell: CF837
+---

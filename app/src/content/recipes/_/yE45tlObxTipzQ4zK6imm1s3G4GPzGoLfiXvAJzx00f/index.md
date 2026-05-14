@@ -1,0 +1,23 @@
+---
+name: yE45tlObxTipzQ4zK6imm1s3G4GPzGoLfiXvAJzx00f
+dataset: PotionCraft 1.0.2.1
+base: water
+effects:
+  Healing: 2
+  WildGrowth: 1
+  MagicalVision: 3
+ingredients:
+  MossShroom: 20
+salts: {}
+cost: 1048
+stress: 20
+tags:
+  - lowlander
+  - dull
+  - hot
+datastring: AXic1VhNi9swEP0vPieDPizZzq17KCy0pVB6Kj2Y2CSmiR1sbZplyX-vvC1sXXgio8S79LZZaTxPM-_NjPSUVKUrh9rdV8kqsXef8p3Oy6_vt_1-371r1Y8Pp02ySA6da7r2zm983vezdHU__nvXuXtX74dk9e0pcY-H2i-WVbVs2k1fV03dOr_r5cez8cduGL5s-67b-7VN37TV57pfj1tXcpEc637wrvzf58UtPilIpnN8NZvlo6kBnx1c0y_X5cOu6v3SIqmawZXt2i-pnCyy2talWx673tWniU1OSvMdCTIzhBLlHAORmjJ04kP30C-Hbnf8DePFSJO2f9mIW6XMFPyUFWRQ-CF-SQWAj5KckrRzkDTN2QcWEQcWpCU4cYAa3oofWWn4jkiiChCg4CwMLARCEoKPlBzIR6EiwpTyE8_24ssZqiLQi6IMHefKehBR0FJcWZG6FYkISWVIu8iNmIZJXahcrhtJNgNuXj8bmhRbHSmucCF1aFShA8HNkU3IkY3Qe6rYjlIcuqvyaCXCghhlSCPiYvjeCGUR-bGYuYGOYxAtAwKJ0KFFnQHLfUKUS-XOLV5iGucL3cCZNeAG5SYw5hLSF6baZIC4kAKwZWEKqDyCAuyYGTafBa5jgdTYCAbwiaaQbK7rK7qYpcxpfrvSAlG8dstDNzTjzd1bnHytMuSJ-pislpaMfUvQigHajnftEbTX2Q0HA_7QzAGdjde1EbSfM2-GeV7IfwB7yfxXgOWbBthQyq5jSpNA5SPkCU4AuDGhvvSq7zWGCtRSAsjRHBJ6ZYB3FdxTs4LdurO4yThD3RuC08QexlKKKMYxI-w_zzMzPwaiEGVYFIGOSZabCo2pFUq5RPnDb3b8ciKnNpeNkjGTJPcKpqcXA3X-fv4FtyEgvw==
+hash: yE45tlObxTipzQ4zK6imm1s3G4GPzGoLfiXvAJzx00f
+tome:
+  sheet: Recipe Dump
+  cell: CF755
+---

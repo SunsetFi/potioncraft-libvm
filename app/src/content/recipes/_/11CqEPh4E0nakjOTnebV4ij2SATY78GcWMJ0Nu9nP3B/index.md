@@ -1,0 +1,22 @@
+---
+name: 11CqEPh4E0nakjOTnebV4ij2SATY78GcWMJ0Nu9nP3B
+dataset: PotionCraft 1.0.2.1
+base: water
+effects:
+  Necromancy: 3
+ingredients:
+  Goldthorn: 17
+salts:
+  life: 3
+cost: 1309.32
+stress: 17
+tags:
+  - lowlander
+  - immortal
+  - hot
+datastring: AXic3VexbsIwEP2XzMRK7BBctjK0QqqqLp2qDha2IGqIkWMoFeLfa6hE46V6jkxTdUx8fr53vnt3PiRSWNEqO5fJNClnj7xmXDzfrcx6rW8b-vawXyajZKNtpZuZMzzbvQurzOl3re3cqnWbTF8Oif3YKLcopEyrZmmUrFRjndX3x3nzva6lXWnTuKWlqRr5pMziZDnNj6MLSmsrky7EtpZGnyxl1VrRLNxSzgjtGK6UsOlOG6v2zmynTOs8dVbdLYxwCJqF4g6ISskkFDeDgAsyDgQuSAkih7rs-9I_s7K_hEIyGp_VD4lSekHc6K1JW13vvg67xD3r7hl7JXZtD0svL-KchtGE3AuOXkY4hpwPQ7sgmNL6dQ1B54RiUpsTNgx5Rm5A8kUP8iD3-PUf-eKvxj2-roDMC6wk_-e1YyOFbxeZeznYxfeYekDu4MDqufCrUodpceb1X5A7NvLl4cAT8L4iKUk4dwqmVA_u4NhAaDf6yCBdgl2PkdDXChYLRkI9RnGDHysgbuhThYIiS4Nfr7RPeeahcWGxVMolJ1gfmXck5mSkForKFw3XXHTOCO43aBPnoRVBOAbNCZ8cX4-f9bUpqg..
+hash: 11CqEPh4E0nakjOTnebV4ij2SATY78GcWMJ0Nu9nP3B
+tome:
+  sheet: Pre 2.0 Lowlander
+  cell: AK25
+---

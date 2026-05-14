@@ -1,0 +1,24 @@
+---
+name: sWzNTo4alnA72hSbAp7N0Q6AINakSSBSuYXvu0I5nn
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  Healing: 1
+  AcidProtection: 1
+  Rejuvenation: 1
+ingredients:
+  EvergreenFern: 21
+salts:
+  life: 1
+cost: 916.84
+stress: 21
+tags:
+  - lowlander
+  - immortal
+  - lukewarm
+datastring: AXic3VlNj9MwEP0vObeWP_LZ4wIr9raXFUiIQ9pYJVJJKsdbQKv977jLgQ3SszqThCKObe2-zMzzmzfOU9LUvh6sv2uSTaI_3hfbN-3-wfZbp9-_9dsPD-42WSXH3rd9dxMWvqz7Vnvrzl8fen_n7dch2Xx6SvyPow0_1k2zbru9s01rOx9W_f7wsvndybrwhe1urevCz3vXds29dbvz6o0U6SoJK4aAl2zU82q2_y0L8MeDb916Vz8eGtefNzbt4OtuF37SaMsXW_v1qXfefh9tKF-tlxdBGFEtjpEKTcRIyRhSUHOl_wKGAhhTuaSW4iidooaYkpxO0eURRLY4QVHJqNSZEWEU9Yz0XIacZGqmsKrH_tGth_5w-vUcUzQBKRuEwFmfEeR_j2OqzlUSPQp-eKT9kQwZeh0K6D-gFMGuFCkEuZOhozQnBoo8Inn0ri80MjyTjWO-VFvODCM19F5eiZIhAxWnbBAI8k-Y131dz5ZdVDMYcSpkzog4JQNhmxfByRg1DI0SnYloRKjwsZ5BZ6USitzHg_RygCTaFAGCdZ0bSNMluMBDJ-4moy36IhwzPpyX4BihKjKOFFQYPSaCviTVpSjpxyEL8r-U-iu6wuY4BqywJaciMGw8dhTZIkoeMpWiWTEWAbUVKZEbRqKg9CGcwPaUjKNKYchONRMF2jO9JHR3qgJ7GZIv6QIZ5JsMlAqzlIPk8Dd0_IpccM3pJhqeFIiDbxevlKqS7MKC_WAwWGhOh2eENJ4xpxrYq1Qlxyc3ZvA4Jhyyfl4nKUWF8hA5KgWq5LWqQo4hYmyjVWEMEnCKj1aFfCiDgC2mYBljcM6goMZGFE5j1IyrAMMRMChGkaLAGXfyHQ5HVgqWgOWcqmT0K23sBye_LYLvJyMhpEJTJ4ZgB-lG2OAWjHEyxcAhz765QANQFIZ-1VnR03buFvT3SMsMdPSbFcbTy3HfvTRLZHJJDrkklmGMk7JwyDCKnjbDGFUiVnpup8e71_13J9UAxBldOEB_XNF-fv4JyAv7hw..
+hash: sWzNTo4alnA72hSbAp7N0Q6AINakSSBSuYXvu0I5nn
+tome:
+  sheet: Recipe Dump
+  cell: CF1303
+---

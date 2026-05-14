@@ -1,0 +1,28 @@
+---
+name: uRekn9nGGnzw8pSXqapaq2aci6bISdl7eqwUloHnTda
+dataset: PotionCraft 2.0.1.2 (Dataset v1)
+base: oil
+effects:
+  AntiMagic: 1
+  Shrinking: 1
+  Slipperiness: 1
+  Gluing: 1
+  Enlargement: 1
+ingredients:
+  PhantomSkirt: 4
+salts:
+  sun: 37
+  moon: 2
+cost: 583.12
+stress: 4
+tags:
+  - lowlander
+  - full-grind
+  - gyroscopic
+  - hot
+datastring: AXic7VrJbtswEP0XnS2CixbLx1yMoJeg26XoQYiERKgjuRLtJgjy76WdQ6EGj-AMbeeSiw3ZJB9nOPNmoZ6Tprb11NrrJlkl5br9bv4U5tO3m6pYm9_rr4-f9VWySLaD7Yb-yg08jhu6zeHHzWCvbfswJasfz4l92rbur7pp0nGw9WF8OtUb6wYev1bJtOvdw91Yd72borRcJPt2nNxA9_SymC3R9Xdj23Rtf5j_7-GIfnNf93Z4-PKrG-1xwa5vbtrx9jB4pcCi22E3ptOw2b8u2XSTrftb94-SaB-T7cb0tt5tmnHoZ3OMMBWYdN_WNt0Po20fPTA6CEaJpUdFYVo2miydFFk0bE5XahEvbYZW8Ok4j0UtSwZqiQw1GLagq1gKtNXwk12-C6xB6vLoWEE7Rk6qkYu2Nt0OU3fYppvw6ERaJE_uM4RglkIiE_OpDPntWdjxspSrBWLPt4o2r5rWOmxhZGiQlkUBzhyCSKEQzWAUxUApiChSFPkFhJHz4BcKg3wAw-iMAWOoLi8qJA32zlxkBZIHbq6EkcZHA8ZQJUKmFkVinizpw2U_XPaiLpuLoiS7bBafXeZoo2cLyWHpJ4NVonNeldNT7VwYTTUpXDYRCk36VjORV9FFkOFkytHmAFXsQ4XRLBiWVRZECwspyitsNBFwUGU0_7DsqYiWtuTAwpInXMksaaNhDetso2FhQQRRl6JCzI-zuGoeOgML6ei2DF06hdMCKJ0RkPvC2TNDtO_rBipqDmsEI1E6YfD0deHicwMWUfmSqzBYRiP3BLBLTiIko2Fh9_yiZWHmCgtIKG8WPri0WznV5mwN8xy5r8-v0GFgIC1gXx2Tr8g5qTriTg9ORo9h0RxfsdrC0W7wTrAFvR2tndPTL6dgiuxzAnLkVJwWtcfOfPJwgAzi2BMrLiMfkCulOaZA11wByxZvdKOzB4yiHud4GIZ5EsW6UkWKRBEim-eIgc2B__bK4MpSSET-9GDmaYzSM1EpluT4pxiG5TJt6v03OqnI9AP3dt6sm6rXlZUJpERqXxKJ6CEPss1zmtLUo-I1pTX1slXOc6jztdg1R2nkWxdRQRP3FFs6uj3Dew3Ad7scl3iF12vqXd4kYOiroPsQp3qhbyz3viVwtjd1TnF_wGgJzTf68-Uvk9zSFg..
+hash: uRekn9nGGnzw8pSXqapaq2aci6bISdl7eqwUloHnTda
+tome:
+  sheet: Recipe Dump
+  cell: CF1563
+---

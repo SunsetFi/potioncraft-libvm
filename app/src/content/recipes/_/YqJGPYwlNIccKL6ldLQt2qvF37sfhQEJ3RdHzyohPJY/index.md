@@ -1,0 +1,22 @@
+---
+name: YqJGPYwlNIccKL6ldLQt2qvF37sfhQEJ3RdHzyohPJY
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  Fire: 1
+  FrostProtection: 2
+ingredients:
+  TerrorBud: 11
+salts: {}
+cost: 360.79999999999995
+stress: 11
+tags:
+  - lowlander
+  - dull
+  - hot
+datastring: AXictVVNb8IwDP0vObdRk-Zj7ZFN07hxGNqkaYdCIlaJNSgNbBPivy8wadCDK0yht9Z2nvvec7wlpgpVa8PYkJLw14me3deLqXUzz58ewuxl6h9JQlYu1K4ZxcRD3lcVrN9_XrowDvazJeXbloSflY3Bypi0bhbemto2IWYdXw7Fz9Z750drE0MLXzdmYv18n1lmVKm7hGysbyMaKdku-T-1DbVP59V6aXwMJcTUbaiaeQwxSRUHqj5sFdKN88F-d2tooYGSlVv7tHXLzV_zx5qMFliYjOr8pISfB5MrAGYIszxH914ooPdBfQh2g79jucD7RsUyJCmC8uLqpECE9LQejQUNCtw6u4me0EwMOVRLaDphTnKaY9WUlGmAkj6cDBIMxuESjRNZKJA4uuuK83AUldibkFEJUd3j2YLqW4y-lrI4fdCNcVpgBc2pEGiiGWX4NXWRcSSkKIyjIOMMkUZkvCMNNNSDbv5LrBilwFIkuhv0PCk4FdgZFhQ_whEGfSNl0B7rMxbDLp3ItIYm5VoL8333C_rOkvY.
+hash: YqJGPYwlNIccKL6ldLQt2qvF37sfhQEJ3RdHzyohPJY
+tome:
+  sheet: Recipe Dump
+  cell: CF1065
+---

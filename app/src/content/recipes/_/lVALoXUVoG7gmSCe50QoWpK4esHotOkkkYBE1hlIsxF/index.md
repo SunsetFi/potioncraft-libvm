@@ -1,0 +1,28 @@
+---
+name: lVALoXUVoG7gmSCe50QoWpK4esHotOkkkYBE1hlIsxF
+dataset: PotionCraft 2.0.1.2 (Dataset v1)
+base: water
+effects:
+  Charm: 1
+  Libido: 1
+  Fire: 1
+  Fragrance: 1
+  AcidProtection: 1
+  Rejuvenation: 1
+ingredients:
+  PhantomSkirt: 5
+  GraveTruffle: 2
+salts:
+  sun: 19
+  moon: 6
+  life: 4
+cost: 981.76
+stress: 5.385164807134504
+tags:
+  - hot
+datastring: AXicrVhNb5wwEP0vnHdH_sLGOeayinpZtWkvVQ8okAR1Ayl4N6mi_PearZQ2kQY9MKcVi80be97Me_ZLVpWhHOpwVWUXmdvV3_ST1Z--7r3d6V-76-fP6jLbZI9daLr2Mg48j3sqQ92Pfx-6cBXqhyG7-P6Shd-PdXxZVtW2ae_6umrqNsRR_x7Ok_f3ZRu6hy8_m358e9c3bbWv-5tx8IV83bx9aAhNv70pj4eq79o4smqGULY38VVO1myyU90PMar3kx67Y78dusPpL_bbGPH__IIMhGNJSQbnvi7D9tT1oX7-EJqwKaFJkg6AUZqkZnD49RgSBTNptayNH-q7UI6E2Q7lYRx9_omBHdvz1LJpI2NkLqCgJXlupTCWMhiWI5vPTnjOcYTH0ZTEX0HKYiQxXGx4muQCDnuzBEpraPM86WRCeLEW9wU5N-Nbu7481df98fb2UK9TRyC1peTJwBEove60n8_togBCG4ellZDxEIxJhFEYjOL6DgQT1UCBtVOoFCBFApEnSzYNxpH0i-raYcVgKOc6MLcmSTm3pqn9tnOLTik-RxMrSu7zpsCAYmaSsWyOYQnyXF3MELA5vR7uz1PiLrn8sdwSpDnbOJUKdhJYzBKyEWSSmpOIDgkRGxILiPXQde8shF1R2LWwUB4cFQvK70PkBVgSku8OuCwrKB-sJk1RkuXKBL0SJRY0DD5JkkAWr2AYkNVEFqxgzjCxdPG0kUxvi_HHkuZ0GccClSwnn74ujbnv2GqToaTC2pEn6ebfWnCsnZSfpFNs3JMc6g8s1dH-gBWu4-QHhNGIM9Zr3GYUy8p9mVTMOd2uf0ukwFuiuP1zhUfyU6ZwZhdXVJ4lMFxB8jD5fAtp-UnoMRr0LVRw-wbeKeUeAjJ8VsGu5BFTLPmDHbhxVmNdKfGmUGPmyCRlJ8IgltKs4VokpoLRKLv5F7M56eTTrcOI6vjUTri-tCxJ8_rj9Q96BJv9
+hash: lVALoXUVoG7gmSCe50QoWpK4esHotOkkkYBE1hlIsxF
+tome:
+  sheet: Salty Skirt
+  cell: G413
+---

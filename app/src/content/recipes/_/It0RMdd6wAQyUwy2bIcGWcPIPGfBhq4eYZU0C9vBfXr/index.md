@@ -1,0 +1,22 @@
+---
+name: It0RMdd6wAQyUwy2bIcGWcPIPGfBhq4eYZU0C9vBfXr
+dataset: PotionCraft 1.0.2.1
+base: water
+effects:
+  Libido: 3
+ingredients:
+  LustMushroom: 4
+  SulphurShelf: 2
+salts:
+  life: 342
+cost: 1007.28
+stress: 4.47213595499958
+tags:
+  - immortal
+  - hot
+datastring: AXictZbNTsMwEITfxedkZcdxkvYGB6RKBSEhTohD1JgmIo0rxymgqu-OCxJ_Yt1uCsfWnnxZz-w6W1aVruy1m1VsyrLzq6KVRXl7UdvVypx1yeP8eckitjauMd253_i276l02u7_bo2bOb3q2fRuy9zLWvvFsqripltaXTW6c37X54838Xzo3eXQ19aYlV9d2qarrrVd7DdPORRpxDba9p7HpmIXfTy3d42NF-XQVtYvRaxqeld2C7-UgUgQUa1LF2-Mdfr5mySBvEAkazPYuDft5v3tPzUCEvFFw4_A-HIyKuaH5hiMBIWd2iE3boZ2XQ_2ptbtwy9upMXkPx4syB4nCiaYCjsWkeManCQk5JhpGEmBxAwIxElS4-QlWNADcaKmiYMi9wYHmZMxckRvJCkRk-DV4BngILDc495g1QQxcmR7HZiiOTre8HPi-YgCJJUTkJxasxrjwAQzGhdJSMnJ9ZeHQpIbGEUj-j0wVoIgOocXZE4GHBvIKEgBlwjo1E8NRU_8Dx-PvdGxqRVKZkEGeU_oIfMtgB3D31YkQPzlwMdBCsSIj7uMDgrcLeiYFZCTey2FnN7TKXBstKGg5PvJ8d397hUb8wn0
+hash: It0RMdd6wAQyUwy2bIcGWcPIPGfBhq4eYZU0C9vBfXr
+tome:
+  sheet: Profitable
+  cell: G70
+---

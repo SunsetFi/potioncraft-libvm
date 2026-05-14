@@ -1,0 +1,30 @@
+---
+name: xXhMzrJhvnaNEAAd5GiBqaA9CjOyGCzbzWey6ztlPeF
+dataset: PotionCraft 2.0.1.2 (Dataset v1)
+base: oil
+effects:
+  AntiMagic: 1
+  Shrinking: 1
+  Rejuvenation: 1
+  AcidProtection: 1
+  PoisonProtection: 1
+  Healing: 2
+  Enlargement: 1
+ingredients:
+  PhantomSkirt: 4
+salts:
+  sun: 41
+  moon: 2
+  life: 141
+cost: 758.6800000000001
+stress: 4
+tags:
+  - lowlander
+  - full-grind
+  - hot
+datastring: AXic7VnJbtswEP0XnS1CIrX6mIsR9GJ0uxQ9CJGQCLVFV2LSBEH-vZRzKJziDUiOFwTIJYFtio8znDfL03PUNqaZOnPdRsuoXHXf1Z9Cffq2rouV-r36-vhZXkWLaKdNr4cru3C_Tveb-cuNNtem207R8sdzZJ52nf2padt41KaZ18dTszF24f7fMpruB_vhdmz6wT6SymQRPXTjZBfaTy-Lgy364Xbs2r4b5uf_fdijr--awejtl1_9aPYb9kO77sabefEyBZvu9P0YT3rz8Lpl20-mGW7sL2mCzjGZfoxvmvtNO-rh4BklVA0euusaEz_o0XSPBIx0gklFRbjIzctKeluXiIwNm_s7teBbm6EdKB_nXNSyDEAtUaA6wxb-Lk4EOqr7zVYXgVXIXYSPUxjHiKQSUbQz8U5P_XxM-8CjNWkRPdm_LgmmEgkKMcpliLfnzY5SoET3v0_Uq1OkdNsYxQTMoKIA1wNBEpGijIBR0gCUwhMlEUV-BmOSwzrlCoPCFcPILABG-bJT1MgaTKRcZAWyBx6uhEWBYqxSvhahUGPlG6Kh-aDsB2XPStlcFKU3ZTN-I5ijg7o3dQEJgN1Jprl_A5sLJX1vHw8jHoOFfx-YibxmjxYBuIlgN9vQxRQqLDzOsEHNNttYmE1IY9mcDUFN2KkiKJ4KtrVlCCwcJNydHGQtGzaIPnxr_Y2t-bWnDnExu15dBhWrAScZU6kqCBs6d2Ng43wSY45wLlLWqnzVj1J4t4Tsal77JwYlMr4-CcXn09IlqNjwYcMCKEfSDzEhoLNSQDAGjopTkoqaox9DyljJxg0gyTFgQ8LmGLiw3cCwUsDBAusk7IMGsNlGIewdsfCSwtilbqLy5hVdAYFPtloznaIgnVGpykRZgVrlftI0DXpJJb1VMDht44vAsjtx4TVss4lMiqKRuq7CX3G4tNIZz3R_mkuwo9SJ2jasQp5DUHvDalcYlD4wzHlQJGIxAQNHfgImAMWX5W8u81QwEkrq5DsQ9ih9obfNQXrF-219Mn_ZObcV6Xj6L4XD9ypsfYjx4PAifr78BccqI9A.
+hash: xXhMzrJhvnaNEAAd5GiBqaA9CjOyGCzbzWey6ztlPeF
+tome:
+  sheet: Recipe Dump
+  cell: CF1655
+---

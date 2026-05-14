@@ -1,0 +1,28 @@
+---
+name: ILq0emCkrhY0DZx5FwsmlV711O2hVchBsb2A5eueYYO
+dataset: PotionCraft 1.0.2.1
+base: water
+effects:
+  Charm: 1
+  Rage: 1
+  Fear: 1
+  Enlargement: 1
+  Curse: 1
+  Necromancy: 1
+ingredients:
+  PhantomSkirt: 6
+salts:
+  sun: 51
+  moon: 2
+  life: 79
+cost: 971.6
+stress: 6
+tags:
+  - lowlander
+  - hot
+datastring: AXic7VlNb9swDP0vPieELOvD6m09DCgwDAWGnYYdhNhojCZ2YCtZhyL_fXIGbHUHGrTppYftVKSW_ESKfI-kn5PCB9-V4a5IbhJz-zHfZbn__H7b7vfNu1o-fnh6SFbJoQlVU9_GhZd133wo2_7fuybchXLfJTdfnpPw_VDGh74o1lX90JZFVdYhrvr947L5fuvr0Ow_PVZt__Shrerivmw3_eKb9Lxa5kUCrM5evKwLVbve-OOuaJs6ri6qLvh6Ex9pUOkqOZVtF00cnuDQHNt11-xOP_F_rREv9zuwKQnIgJII0Lb0YX1q2lA-vTqb1JyzpXE_ASZVYDIEB7cnA4cdrr-6tgm-j5p153f9CS9_4vuO9eWyfFXHsFGCBCUA89w_jST_I10DyeZcKJ0ToZTiQhlFJCOHZTzKEmCw042RhGaTRCpoTJ6KRcDEUho0jz2IsRKNdewUcNQUyDGJpNvlZuUo8XyOTQbOkaA0CCxvrh8rA3EfCZUUBDtUBtUUqfiQkJtZVuWz8nYANuIMB9JOpjGM-DCulCkofkzmk32eAY09HBiMKTGTsljn8mpRmsgIzNcklCgBhgATl2FBQITJFAkmMxwYWkhHesaMmSl7OJbEOxLMCRbc9IQzIDDPjXQx05sYBRbDmeA7_aYyYGlXpyHF7gF1qYaMHVpyQOjEntrMEgGb07jZYHI4KvxsDU0NrZ7pazt2VGpaVMTiQLOxpHAEx2swTAUhkW5chkkvkdstidoNE0VRfCZBsEtvSYvwRap8Wqc2oovzCtLRnpptVUasswXIseaAyBHqTcWEWggsoQw5za8CrwVIqRbrAsu-9r-gxvzCQ9EcOKNoi9eLhfKyXM0bvothoTBC1ixrJPyRlUtylI2dMjsWqKMSPvNmtFGJQMtxuv-oRqFfVpZXLsnu6xV1GsxnWEOVfjTbJ0zQrif9VwwLKlTK_xZGJvOpwygBMw63b5oBvwwIhjrxoQ0wLFjWZ864nyjwr4ySs4bSmjpaYE2y4vbs_PX8Ax0eftQ.
+hash: ILq0emCkrhY0DZx5FwsmlV711O2hVchBsb2A5eueYYO
+tome:
+  sheet: Salty Skirt
+  cell: G406
+---

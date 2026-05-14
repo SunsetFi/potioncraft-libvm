@@ -1,0 +1,28 @@
+---
+name: FAd9vWsT2ve9v1nELuj3tHfcJtYRjcy1WqYOKHE99yJ
+dataset: PotionCraft 2.0.1.2 (Dataset v1)
+base: water
+effects:
+  Rage: 1
+  Fear: 1
+  Enlargement: 1
+  FrostProtection: 1
+  Curse: 1
+  Necromancy: 1
+ingredients:
+  PhantomSkirt: 5
+  CloudCrystal: 1
+salts:
+  sun: 30
+  moon: 4
+  life: 244
+cost: 1472.0800000000002
+stress: 5.0990195135927845
+tags:
+  - hot
+datastring: AXic7VlLT9wwEP4vOe-O4lcc7xEOK9QL6utS9RCRCKLuJjTx8hDiv9e7lQq0GnfsYYUq9YQgNt-8PN_n8UPRNr6ZO3_WFqvCrrvP6rZS7z6du2qtvq8_3r2XJ8WiuB59Pw4nYeFh3W3ju2n_583oz3y3nYvVl4fC31934WPTtst-uJy6tu8GH1Y9_XLYfH7VDH7cfvjWT_uvl1M_tOfddLFfvCqhtvWiuOmmOQAWK_G4-PWPZ99Py4tmt2mn8GlRtP3sm-EifDKgNbLpetxNy3nc3Py05WnN8_0Wak0CqkBZBOiqa_zyZpx8d_ebbdJwbBMgCSiyAqkQmH1CptE3-xQu52azxzr8CJ7uhkMKmn4IOXTJgVeAJYsMaspk1BKs4MLWbwNbZcHKt_GWDZvhrQKJwaK1H9lDNlWgtrL7WYZt23F8bpyS6YGsQaefZwMVO5BYt4uVmmC3EZFT4ezjjLb2GGrJdhaF_Vutnm7GXXs63QdjNn_UKj8aOTngR0PnJEFiPH78JEQbRiwJjC7kDDu7Kie7_DBX6dkVEkqs92EkUoHDWh9JpukXMo3e2mWN-YdZGmE7PCTBPMw9XLgq7GgShauoCTACF64kmBIMxZuwjIciKc5oMJgzkXItIaOFGRBYjVPTY4lAaKeL3Hmwasu6xKG1Y6FkndoaBLWTac2WRiaHqNgN1Kan4jW0v0CJ_ch3DqyIYrAO25TgLkaPaPE6cKwG66AylOtRYMOYVKHxlMbqMDYscbzJB2XwodAbS6Th4obh9KFs-nUqsEZqS9OAFjB1XOS42gyn6pJlmwJFzA9zYlZWRByFqWI0BIE2X6FXpLdGCyh7UOleE_wLPYmX4YoikxSuz4lqzCnSoUX7OhHGUmKmwPHZ0qXrRg3WpIp6UYHBQk8ngwwhY8Cy59N5w9M3GhX_qzPb14c9ymPQMf1RUKfSdo3TQvQ1iX0mhE0XZhYXnvh4BIMh8gLp-mxAMelHVzQYpo75D8OFiakypgBWFNKW-KSGqA1qCkxYxoKpQdOmNDJ9wOeYr-ZB91AKx4HImUBoNpOhzxGoOJJB8OV0U_TNi5jjkpZj8TIkXx9_AGCUKvw.
+hash: FAd9vWsT2ve9v1nELuj3tHfcJtYRjcy1WqYOKHE99yJ
+tome:
+  sheet: Recipe Dump
+  cell: CF1621
+---

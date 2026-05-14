@@ -1,0 +1,23 @@
+---
+name: Oc1AZgjp4L1jmoGggRexlEIDGsvZZToFXqYwf9k82L8
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  Mana: 1
+  Invisibility: 3
+ingredients:
+  ShadowChanterelle: 22
+salts:
+  life: 8
+cost: 933.92
+stress: 22
+tags:
+  - lowlander
+  - immortal
+  - hot
+datastring: AXic5VfBTsMwDP2XnjerSZqk3REQYjckNIGEOGRLtFUqzZSGDYT27wQ4sB4Y8dZSIY5t7Zen92zHfU208qoxfqqTSULvruX8vFzOjJ07enXh57czd5mMkrX1pa3PQuBH3FZ5495fV9ZPvXlsksn9a-Jf1iZ8VFqPy3rpjC5N7UPU18NH8s1Kabs9X6k6gJiqMiFk6cpaXxu3eM-YkN3on6ClIEmxh9j40o0X6qnSztYhWpeNV_UifGI5FHIvcm2f3Lix1ebz5I1xTXAoIO4nEWB0L2dllB9vrPPm-dsUnkbRydvIXSiRFTzqaAlc9Gbp98cSCgVSSwEk61okEScSDYWFZMuARkILLHSQrlvLUmAijm0GkmLbJnRlPhBdcgRdAjSuhIPDOR5cykihSdcTgcrs50IjrekFcdOUQh7RzC1oSiAlWPUY8FjfKcNbI2Svih80O8PS5cBZFHgKOfqmy6Dot_oOWZdxvHUkenyhwRl0Pb1ipRBABd45wYajiy_itOsNEMEWPSJ49xsIgi56XHJgw5UuOaIY-B9qNN6eU78s7hGlMNRAD-IWJ15uv0s3PbUWDq2MMu_vbytq72ovrYd2Oo7d6QiDI-6rInYvENnuYfcGcB3hCw..
+hash: Oc1AZgjp4L1jmoGggRexlEIDGsvZZToFXqYwf9k82L8
+tome:
+  sheet: Recipe Dump
+  cell: CF845
+---

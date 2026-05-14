@@ -1,0 +1,22 @@
+---
+name: Wo9x9h3shRUtYZR9OdFwuAub4SGXbRuyxxWN9iRigwm
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  Frost: 1
+  MagicalVision: 3
+ingredients:
+  KrakenMushroom: 4
+salts: {}
+cost: 160
+stress: 4
+tags:
+  - lowlander
+  - dull
+  - lukewarm
+datastring: AXictZFBi8IwEIX_S85tqdFuoUeVRVkWvBQF8ZA2Qw1bM2UydXeR_nejHtSDUEGPk_flvcfMQWjFygHPtciEXC3SYmKqHLAgOZtysczpUwSiQTZoxx48c7-KgU7PNfKcYedEtj4I_m_Ai0rr0NiKQBuw7KnrcP78ReoH7HfrtoS483pFxuoFUHnCszhKZNoFr7MbvdJMvquZY0NhqdpaE1rPauNY2dJLaZTccA22FDqs95fIKzboZTaMb7AtKA73SAx_d1C_XvLZVo_iPvqtoVfc3YEem8XRMOk23RG5PQcH
+hash: Wo9x9h3shRUtYZR9OdFwuAub4SGXbRuyxxWN9iRigwm
+tome:
+  sheet: Recipe Dump
+  cell: CF750
+---

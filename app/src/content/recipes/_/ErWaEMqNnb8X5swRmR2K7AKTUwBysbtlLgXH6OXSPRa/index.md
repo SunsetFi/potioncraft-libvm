@@ -1,0 +1,23 @@
+---
+name: ErWaEMqNnb8X5swRmR2K7AKTUwBysbtlLgXH6OXSPRa
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  MagicalVision: 2
+  AntiMagic: 1
+ingredients:
+  Watercap: 21
+salts:
+  life: 3
+cost: 1112.52
+stress: 21
+tags:
+  - lowlander
+  - immortal
+  - hot
+datastring: AXic1VZNa8MwDP0vPqfCdhwnzXEbY731UjoYO7i16QJdEhy32yj973M6WLuBSt0ksB0d6enjSZG0I1o51Rg30SQn_HGaLm6L1cxUC8sf7txiPrP3JCJ15YqqvPGKB7035YxtP68rN3HmtSH50464j9p4odJ6VJQra3RhSue1jo8DeN6Cl6r2kpUtSj31r1YxpyCZjMjW2MY7IznbR99GG1fY0VJt1tp6UUR00ThVLr0oRhB1tbGjplpvv4I4AvgJgJ4AOsQtRIZE0cEowzLrYjOYXj6GBAG9GOVG28o68_4DkoAIrQkDrCqYEwEYPXguFE2lC6Uplu31RvuPkvIhukmMB4g0xZq0S6Q8DR8sEjgWCtaVXIA8JZr3xAkdgJN4HD5smQC05hgnMbBkAEri_kfuvzV4pmAM0DL__bx6N4guIAoc2w04uf5nwEBnHGXhi0tAErxS26EX3i4xSKxdLlv3_LJ1z7B8MC8MYhbqxh-UoW7oz_wvdCOuyIb3PxMTEV5xDjJ0oHMKKbbkzrRWBnHvN0j4PRva3e1GT8M74op_T0AaWgkJMguNLYNft9Dz_hNSULJA
+hash: ErWaEMqNnb8X5swRmR2K7AKTUwBysbtlLgXH6OXSPRa
+tome:
+  sheet: Recipe Dump
+  cell: CF1226
+---

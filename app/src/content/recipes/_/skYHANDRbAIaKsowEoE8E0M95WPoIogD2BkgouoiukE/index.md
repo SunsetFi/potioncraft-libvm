@@ -1,0 +1,29 @@
+---
+name: skYHANDRbAIaKsowEoE8E0M95WPoIogD2BkgouoiukE
+dataset: PotionCraft 2.0.1.2 (Dataset v1)
+base: oil
+effects:
+  AntiMagic: 1
+  Shrinking: 1
+  Slipperiness: 1
+  Gluing: 1
+  StoneSkin: 1
+  Enlargement: 2
+ingredients:
+  PhantomSkirt: 5
+salts:
+  sun: 25
+  moon: 1
+cost: 724.73
+stress: 5
+tags:
+  - lowlander
+  - full-grind
+  - gyroscopic
+  - hot
+datastring: AXic7VlNj5swEP0vnIOFMR8hx71Eq16ifl2qHlCwdlEJTsFJs1rtf6-hhzaqnpuxg9i2uSQi8cwbj2fGb4bnoCp12Ut9XwWrIF_Lj-JbJt582BTZWnxdvz-9je-CRbBXulbtnVk4rlN1M_zYKH2v5a4PVp-eA_20l-avsqrCTulyWB_2ZaPNwvFrFfSH1jw8dGXdGhGeRIvgKLveLDRPL4szFXX70Mmqlu0g__NhRN88lq1Wu3df6k6PCuu22shuOyxecaB0rw5d2Kvm-ENlVfe6bLfmnyXLkUyv6y7cloem6lR7JiRYAmQeZanDo-q0PJ1J8AhtF6NwtrS4yNPLGDZiqTdsTofNfUFTZDbGjFnhi-qw04jlsS9sgdw1LaxLGM-Fyw0wtRqgUoDSOoW5AiGolSNjQpAxWIxkbjAOMJNcSZMo_bf8foO5wdxg_ncYG7Wg3qZkuzhLMirXZ0gComCqgkAwS7eACETEoLtYQmfVKeOIVkPbXOgssgySNTJGAk9yYsY8C2HOWESNQgxzuaWCbukfqNprbtz-pg4qwrORyxvVeWBTdDFg2ILeLsb00dEVpiuZi0u98yV2ylNyQaEeAZWbuORBCmnGxOnnfWhzwTrECo_guBOdJSqKtpEqrAtSh3vV18PejMjJ-GERPJnPi0gisgRL4IP5zZBBu7EkjIX3jTzJEAOExE6pX2NC2EatV7fLNvN1YOdIxDLOhpFGHj5a6iv5wrpmyrgEt6XqoOy3wDiciiB3jPT9R6yg9iYO23dq51AS2roC-K7hui-7vG-dmaimEx3zh0XxYnExZ96ofEmvUhwzChRB9HEANa3pCNRko3cg5DmbQ5bB4_PiP5drDeNi1MsTh0Ly-eU7Px3a-Q..
+hash: skYHANDRbAIaKsowEoE8E0M95WPoIogD2BkgouoiukE
+tome:
+  sheet: Salty Skirt
+  cell: G399
+---

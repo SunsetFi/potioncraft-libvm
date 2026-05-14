@@ -1,0 +1,24 @@
+---
+name: yY7lcB4GXV7KXKz1KmiLaENX8zju1YQC1PdMQY7Z9mV
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  Mana: 1
+  Hallucinations: 1
+  Slipperiness: 3
+ingredients:
+  PhantomSkirt: 13
+salts:
+  sun: 1
+cost: 936.18
+stress: 13
+tags:
+  - lowlander
+  - solar
+  - hot
+datastring: AXic3VhBbtswEPyLztFCFElR8jEtiuZmoAhaoOiBtghHqCMaFO20CPz3Uu4hUoAWs4nSQ30xLC2Hq9nZWcqPWWujHVy8abNVVn5Zm827bnfr_CaUH9_Hzefb8CG7yg4-dr6_ToGXuAcbXRgv7328ie5-yFZfH7P48-DSTdu2edfvgms718cU9fTjsnh9Z_vo7z9978J4dxe6vl27sB2DVwUVsjpfLQT2_wKJCdAQu5Bv7XHfBt-nyLYbou236ZbSpPQk8s7ZmJ98iO5Hiju5MKSqJrDpGkO6hsAFScHEFlRjiVdUl0xsRbqBsGuquZwowiiRszgMuYSQS6q4XL-JaP-coeHTWpHQiyWZttdYU5DhclmSAaskuAKQpDBsoUhJJnhNFcaJmVcCU26D8s3G1iQVSHjNJVzPOu61mpO6ePoIrJdFWmfYbIsKZZst7hJzt4YaftoG40RRwTa4xbwDnUnckSQJVETFLlriS4Id0jRsbNBJy_k4hygBgeULfHSxvsb0IKbPcvDHkA9-f_q92-RRQP-V3ColOTYLGhmoVD0_ZYEegFmXJMkdcAodcJI_mTEVaCq4pijJYNMtaZpriokQ9KjKNtzUleCLgVJcrpOVYJwISSXXh818yV-HJ7eYGj0GyfkoxF6XwLzF3Pww-1D1YvaBJVmR4bMLyuLZPMTYnS35Bwwk83y2YfDRjv-s5IPdj6iXrwRx7C9b2K4fUt_p4vzt_Atyveof
+hash: yY7lcB4GXV7KXKz1KmiLaENX8zju1YQC1PdMQY7Z9mV
+tome:
+  sheet: Pre 2.0 Lowlander
+  cell: J31
+---

@@ -1,0 +1,23 @@
+---
+name: OWYpjxrcR3x1wlftEkrAfA0HyzyXDMXyBBqV9nd5yoN
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  Mana: 1
+  AntiMagic: 1
+ingredients:
+  WitchMushroom: 23
+salts:
+  life: 348
+cost: 919.1199999999999
+stress: 23
+tags:
+  - lowlander
+  - immortal
+  - hot
+datastring: AXic7VjLbtswEPwXnW2CIvWyj21RNIcCuQQpUPQgW4QtwLEMinZbBPn3btJDrQCz0LLxo0BvcaTVcHdmh1w-Jk0d6t6FmyaZJ-bLbbl4367uXLfw5tOHsLi_8x-TSbLrQttt39GLL-99r4Pzz__edOEmuIc-mX99TMLPnaOHddNM2-3Ku6Z120Bv_fnxEnzfhuX6875f-657oMcr326bW-eXz2_P00lycL4nNPr7afL_q2_0Va1y8N0-tH66rPebxtOjSdK0fai3S3pkcpWWIGrt6jA9dD64H8OYTJmjEHPZBNRMunyryvxE6y9yRC2XAYrZdXs_7bvN4fdajkMsyhrjlCqzwlJlytqTVEpepUzNkDhOsxRY_FSVWQTJtpACaZUaMRCJu5ICZao8r8_h5aeqQMpm6pTL60QehvTE1MmeV4NcnZAGGd1quWkQjrhMpFtkNJxujbhBrJohrbMZRbR8isp9AeLFyydC5MxbHMQQUl1PneR60sqgsxAGoiCx4VKM3LG0ylAQ1_NR1vhPE2-R-3ANEkW8uE4anlY5OsT5kDFeDx0mxq_kvq6VjfB1jUyC4yMX770Z7sML9EeMMcqBdMQJK64_YnwRCezcdBhVyR3a4BMWGuXIEo5pNyMphEMX4z0Z0hdaWzXs99OPmdf4VZpioEcwOs6RkFGxacJCQmDaspByqqNgkLHiZAaz-FhVw50C4eTDvX5UNrTzSZs0Vei6haNGivIqZCw1csfRqGaYmwKePfEdlUES4PZ9edto5FFc0aSXk69CRsIYKYwd3viM7Rs4HuF0qlKMkzLzKk5I3J9RpjaLYAfeTmGYHLHDwFgpTD7cPMaKAN4_4NaBIvjrLTPuXCrNgKQitzLmKhPjwPv2qHM2IzB5W0bhZGLTTE92lxAnFxr3xPO3wdby1il8e_oFH8cCTg..
+hash: OWYpjxrcR3x1wlftEkrAfA0HyzyXDMXyBBqV9nd5yoN
+tome:
+  sheet: Recipe Dump
+  cell: CF1225
+---

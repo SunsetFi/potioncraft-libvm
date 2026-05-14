@@ -1,0 +1,23 @@
+---
+name: 39HYvdIpe5T27oTmxgQVZMDpegurySgG6zqkTMWfHQm
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  Mana: 1
+  Luck: 3
+ingredients:
+  WitchMushroom: 26
+salts:
+  sun: 3
+cost: 551.7399999999999
+stress: 26
+tags:
+  - lowlander
+  - solar
+  - hot
+datastring: AXic7Vhda8IwFP0vfbahn-v0cRtjPgx8EQdjD7EJGqiNJKnbEP_70g42s6Hci61U8Elqbk5uzz33o9l6jBqquRkzb-RFL5Nsfi8WUy7nKnp6MPPZVD16A28tjZDlnTVs7N6p4ar-u5BmbPhKe6PXrWc-19wuUsZ8US4UZ4KXxlr9PjSbZ8Lky-dKL5WUK7u8UKJkE67y2noU7gZXJABSQOJ4D0wbofycVgVTsrTGTGhDy9wuRSmJ9gyXnBp_I5XhH9Zsw5W2gbWOOVsCEHJ6Cmyrb99fsMPshWSfv7WslK9lsfk-8ofAwCHQ2XIY-paEWGjXm_ZEfkSXJEbqJwHymiBxU5Lh6cLmlOvWMfextIRk2MP61A3SYd4yfDrBgAMncCDg2BEUrIC26DE6-WHKTBzNt-lvr0IXXWwKJE7paDVA-H4CDNDNaQE6RgY69h1lF5QKdBOKSXtjy_m12lV4utMqukrBtdpVJ-gtGZemVnSdgvI47E2AYMAp6YZ8yKSLbm8p-lsANgpF6PEfHw30ETDXs54n4RXp3EggbZ02-0OO-CtMJQ2tLx19TYv6lObHKrsqm7ehotQWIYZdVf27egKhRwGsf4d_P8BB6Em8e9t9AWCJWWk.
+hash: 39HYvdIpe5T27oTmxgQVZMDpegurySgG6zqkTMWfHQm
+tome:
+  sheet: Pre 2.0 Lowlander
+  cell: L42
+---

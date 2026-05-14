@@ -27,7 +27,7 @@ const [{ Content, headings }, preview] = await Promise.all([
   render(recipe),
   resolveRecipePreview(id),
 ]);
-const { name, cost, effects, ingredients, tags } = recipe.data;
+const { name, cost, effects, ingredients, tags, datastring } = recipe.data;
 
 const primaryIngredientTag = getPrimaryIngredientTag(tags);
 const primarySaltTag = getPrimarySaltTag(tags);
@@ -82,19 +82,25 @@ if (primaryIngredientTagData) {
         </dd>
       </dl>
     </aside>
-    {
-      preview && (
-        <Image
-          class="recipe-preview"
-          src={preview}
-          alt={name}
-          width={600}
-          height={600}
-        />
-      )
-    }
     <div class="recipe-body">
       <Content />
+      <span class="edit-in-potionous"
+        ><a
+          href={`https://potionous.app/plotter?data=${encodeURIComponent(datastring)}`}
+          >Edit in Potionous</a
+        ></span
+      >
+      {
+        preview && (
+          <Image
+            class="recipe-preview"
+            src={preview}
+            alt={name}
+            width={600}
+            height={600}
+          />
+        )
+      }
     </div>
   </div>
 </StarlightPage>

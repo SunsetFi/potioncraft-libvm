@@ -1,0 +1,24 @@
+---
+name: M4VgNoIbOMWsCrELJbe7JlLFQtZ462Jh9dIRmALAFSL
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  Necromancy: 3
+ingredients:
+  Terraria: 2
+  DryadsSaddle: 2
+  StinkMushroom: 6
+  Firebell: 2
+salts:
+  life: 1
+cost: 186.04000000000002
+stress: 6.928203230275509
+tags:
+  - immortal
+  - hot
+datastring: AXicvVZNT8MwDP0vPW9RvtaUHQEhdkCaBAgkxCFbohFRmsnNBgjtv-PBgSFU5C6MYxPbz362X_NWOJts69PEFeNC3k7N7CQsrn2cgTw_TbObazgrBsUyphCbYzT8sHu2ycP2uI5pkvxTW4zv3or0uvR4aZ0bhmYB3gXfJLT6-vhwvvIAFoLFmwWExk09zLeGY7EZkIOcwqt17SWa1f5HIM5KLXsEu0yhebxYtQ8Q49OvabUpwHBuV7WD2KClC22yzRyvBIKaQbH20CJTmMOO14O3abiOkPzLd5-SKb3jQ0MyzIi-QEyrDpxlXMGwjfX6k5mvsLv-WFtFgNma5cEoSYBRrJQdMH_X6f-YGaxX9e7kqOw9MZzpvqPJ2UgchGPOOK96RDsL4Ge-rrOaRQrSzZ_UrJIdBJIGWzBlaCrCdJUDxFEbiEBZOFiQIuKIrtEjAkkqc6pLFalAFRFo1HOXFONHB9olxY-ICiD7K0B1qKzLipa1wOkp89ahMoRSNeNmz1IP_5jZ52dNo1d-f33swy5NbFA-s9oomaDtpmYyU6dpYqOZyWJuhGJFVbW8eoTZ3G_eAdpQ_hg.
+hash: M4VgNoIbOMWsCrELJbe7JlLFQtZ462Jh9dIRmALAFSL
+tome:
+  sheet: Profitable
+  cell: G84
+---

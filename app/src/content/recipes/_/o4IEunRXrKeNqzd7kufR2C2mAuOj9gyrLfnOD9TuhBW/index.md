@@ -1,0 +1,22 @@
+---
+name: o4IEunRXrKeNqzd7kufR2C2mAuOj9gyrLfnOD9TuhBW
+dataset: PotionCraft 2.0.1.2 (Dataset v1)
+base: wine
+effects:
+  Swiftness: 1
+  Inspiration: 3
+ingredients:
+  Whirlweed: 14
+salts: {}
+cost: 1456
+stress: 14
+tags:
+  - lowlander
+  - dull
+  - cold
+datastring: AXic7VdNb8IwDP0vOUOUj7ahHLkgtAua9nGYdqhIxCp1LWsDbEL89wUmDXZwJLvAaUdo7OfYfs_OjtnCF53zM8vGzEzdk95m-u5xnmdT_TF9-LxXEzZgq8aXTT0JB4_ntmXtDv9WjZ95996x8cuO-a-VC98Ka4dlvWydLV3tw6nTj6Pt81vZVlvnbPi0bMvazl27OJwcC54M2Ma1XYBiY7kf_PrsfNkOF8W6sm34NGC27HxRL9zBZgTYrJp1O-yaavMTxclEc52d2Ygzmx6xoyOXoxBHig1ecQnZ9Eq8gbzGUm8UOn7BFZD7GFCW43GgXuqVpuzyTtF5T7hShHRIQoETNLkE1xpPBZ5CiY0QAQzu8sX493jtphY8J2iJoAwMiAgxzYIId2EcCdEAxjE8QwMF7uBJqjhBhA2lQJBNTHQoBUoIMppCohMDwqub5AJ_IwnzIXYjqBX6DEqR5oQxkJMmm8EjGUJJAjspTUa4kMKrAAmHoDYkHHGNjRV0CgevuUBLmOQjyuIEtWRMwkg4hHLcDIjEFwqQMIRppiCjPl2pQF3p4zXP8UwNjQtdMNLshtQbBC0FbaIbFXpFDFnAAyVcE949NxoOCb7XaUPoRjgkNbrV-5eyjeA33jCX0Cu85BqaZdF3NgFIUd4KaAIpLv_ivO6_Afs74Z0.
+hash: o4IEunRXrKeNqzd7kufR2C2mAuOj9gyrLfnOD9TuhBW
+tome:
+  sheet: Recipe Dump
+  cell: CF1361
+---

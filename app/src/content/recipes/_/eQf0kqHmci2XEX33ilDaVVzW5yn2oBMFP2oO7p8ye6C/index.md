@@ -1,0 +1,24 @@
+---
+name: eQf0kqHmci2XEX33ilDaVVzW5yn2oBMFP2oO7p8ye6C
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  Mana: 1
+  Hallucinations: 1
+  Inspiration: 3
+ingredients:
+  ShadowChanterelle: 23
+salts:
+  sun: 1
+  life: 5
+cost: 972.38
+stress: 23
+tags:
+  - lowlander
+  - hot
+datastring: AXic5VjBbtswDP0Xn2vCki3JynEdivZWoCg2oNhBiYXEgGcFspJ2KPLvY9LDogIxxMGLDzsZscnHhyeSIvOeNSaYwYaHJltk_PujWt6262frlp7ffw3Lb8_-LrvJti60rv-Chie7VxOsP77uXHgI9ueQLV7es_Bra_GjaZq87dfeNq3tA1r9-XFyftqYxr3ebkyPILbrLJqsfds3j9avjh4Ldrj5T9AKUEyfIQ6h9fnK7LrGux6tm3YIpl_hp7IGrc4st27n88F1-4_Ie-sHPCFEPHdiUPIzn401Id87H-zbRRdRJNGpY-QplKi0SAqtQMh_dqSXwzIOmqilBFZNLZJME4ljYhHZlsAToSUVGqWb9sgKKGUa2wpqTS2bAnRiToCs6DUZJcUYeMXp4DwVnE99IlWd1sk4kDUrYilG074iF6mSiZIVkoitQamJVeZs6r4bI461_DpBWxa3FF3OxBbrXlDTTMTlfE26EkpyVcxIV0AtqXTxNtSz0VV_o-7UHZKgbkmnG41PV6ZLLrX5pFU1XVo1VxfDwSlhgGdxmUlyaeKeUBLDoAtZyAIE9Qb55JIUpoyb08hOBYw8YeH0O1cyCCBPsiK-Vq5caeR9VUy_VRLoknNBwLRs05YODRW53RaxsJfB0TBhuYs7gY5v17EJmnFyCuMgV32W2btgjn9I5YPpjp6nB0be9SdNTdsPWKlCH34cfgNc42CE
+hash: eQf0kqHmci2XEX33ilDaVVzW5yn2oBMFP2oO7p8ye6C
+tome:
+  sheet: Pre 2.0 Lowlander
+  cell: O38
+---

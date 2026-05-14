@@ -1,0 +1,28 @@
+---
+name: NrozKh8aM8KJH4Jt7dCAKp6yeYEy3TwLnO7PlxpycM1
+dataset: PotionCraft 1.0.2.1
+base: water
+effects:
+  Charm: 1
+  Rage: 1
+  Fear: 1
+  Enlargement: 1
+  Curse: 1
+  Necromancy: 1
+ingredients:
+  PhantomSkirt: 6
+salts:
+  sun: 51
+  moon: 2
+  life: 76
+cost: 967.88
+stress: 6
+tags:
+  - lowlander
+  - hot
+datastring: AXic7VlNi9swEP0vPieDPmzZzq17KCyUZaH0VHoQsUnMJnaQleyWJf-9cgptt3SEpHFID3vaD8t60mj03pvxa9Zoq8fW3jfZKlN3D9VOVvrLx63Z74cPvXj69LLJFtlhsN3Q37mBl3HP2rZm-vdusPe23Y_Z6utrZr8fWvdQN82y6zembbq2t27U7z8uLz9udW-H_eenzkxPN6brm8fWrKfBK77ITq0ZHZj7_byYZ1IGZSGRiUfbmeVaH3eNcY8WWdONVvdr96iAHFvNYTia5TjsTj_X8msM-_P9GsowIAW5QIC2rbbL02Bs-_LX2kRBWRt37wfA8BxUfOAk1NjipmM0g9VTNi1HvZtWePnh5jv2l4PTXe_SKWfRsAywKL6j_gNVvKP-j6hlRYUtsBl8sHlOhVXYDD7iqzF2QRkJEnAkFGRC4iyeCDmbBRhLo6sJbRhrJeSZC0hNvlZ1yrWq6PutyXyQsG46aI1N4XM-aLLfNudQ0-NJOQ6MnHKoewwyWwIqlbRbshTwSsUHrAZRRr-FkTLG44LDDBeqIp2LhCpobzUoLO-w7Unn_Wn-PEwMGRb3IBQnTyoAxg3DEiIQRuZBMBLL1iAYFSoF2GZmkGQcV-AVGxaQEur4i6iAYVH0VHnx3iaHEsOJiKPPHd1OZsr44y2AY2eFhr0ASU5FgYpEYI9CVUkRwlA9fK_i_U8xg3bzBNzJp5Kzu4jPImdWCjKuYJiw4t0kRVSrIIJ3w7CVBepIGSQjioiS1yEJDYxuZ7EZrlzJxLO9R5vpJtrblyDvVibUDAyErwAK5B1fS-V24pZiXuZQqir-HBjuZYKusvM15awpc2UHQTdUeXyQE4ypSwdS4RWsF7QPMOytufEIBrG8V0nlfQIfloAW9OE5ktKGorM_Kv1eWLLmpGwW_Rp3XYUV5H5IntL5pzM7ah69sOSzReN1ZRtzo5RKgeX077BJghJbHDJIWOh-GN7wGkpsoR23sAZS6eoLkl5U7qYn7ZBOEEX8TXW2hCTCEiQ_fzv_AEHxZB8.
+hash: NrozKh8aM8KJH4Jt7dCAKp6yeYEy3TwLnO7PlxpycM1
+tome:
+  sheet: Recipe Dump
+  cell: CF1622
+---

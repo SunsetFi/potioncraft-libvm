@@ -1,0 +1,22 @@
+---
+name: rOXXNgYSKoc4G4HVj2SsnH9zTMN3ElnDk56cFxurm1H
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  Curse: 1
+ingredients:
+  GraveTruffle: 19
+salts:
+  life: 6
+cost: 1200.64
+stress: 19
+tags:
+  - lowlander
+  - immortal
+  - hot
+datastring: AXic3VhNj9MwEP0vPreW7TiJ2yMgYG97YAUS4pA23hKpJJXjFtBq_zvuciBBelHHSUpFbq09fp6vN-N5YmXhi9b6u5Ktmfp0n29eV7sH22ycev_Gbz4-uLdswQ6Nr5r6Vdj4su974a07_71v_J2331q2_vzE_M-DDYtFWS6reudsWdnah11_frwIv3PFyX5wx8fHvQ2rO1fV5b112_PmtViwk3VtAGNr-byY5lAJDm195Zbb4rgvXVhasLJqfVFvw1LGDZD5agu_PDXO2x89iRXPySg5z1dEmIzTldFcULXJof4YJuGKChNEyDASyiAUwZMY11BhZDpH7AoupRbdD8EMmEyHQ-a5XKJN925Um2mw_9Ac3bJt9qffd-p6v6u-uEj9FU-R9hBH8AzgXJmJco4oAt496VHRZTYKIZJSnZfyFN1tYjJKUZwMsZFBQpiNEIWPTBJtVr2PrIzhMqNGQdYLnMuiIOFkGAlhRhot1fQSJA3XZErRvfIwpQY5naqV4JBEBxLezKVB3mV3OnsFdUwEf80VUkmUBjkKxIGQ0nQGhl3KQJFCxXCsoVREk2G4IpfZOEOhyw2QlIqAITOJmI1JMnrgyiyCC6NaB3rgSmioiWGQ20f6I1NJlxcjClV4X5Cdo_ot2qVmI5eTuGy5VRgxV3EMQRBDkrBnHsoWeisXlS4xZBzh95jkj_D7XMXRxDWmdC6WV0rDq-DM9KI--0PQR2_BIbA7vwGP_NvqOLHfkdFG-n0FpzqDdZdsJ8UTVEFuwO3_FYyiD8TpNVjDIQec7M4zPKVHr4Rj-StPJWUSHhdIDM_XkOGHJl_pX8_vL8-_AAi35mo
+hash: rOXXNgYSKoc4G4HVj2SsnH9zTMN3ElnDk56cFxurm1H
+tome:
+  sheet: Recipe Dump
+  cell: CF1492
+---

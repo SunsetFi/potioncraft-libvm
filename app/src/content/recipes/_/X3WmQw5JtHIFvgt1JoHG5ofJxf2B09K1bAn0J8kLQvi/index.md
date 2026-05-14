@@ -1,0 +1,26 @@
+---
+name: X3WmQw5JtHIFvgt1JoHG5ofJxf2B09K1bAn0J8kLQvi
+dataset: PotionCraft 2.0.1.2 (Dataset v1)
+base: water
+effects:
+  Invisibility: 2
+  Lightning: 1
+  Levitation: 3
+ingredients:
+  PhantomSkirt: 2
+salts:
+  sun: 10
+  moon: 1
+  life: 187
+cost: 521.9100000000001
+stress: 2
+tags:
+  - lowlander
+  - full-grind
+  - hot
+datastring: AXiczVhNb9swDP0vOseCJdnyx7GXoNglaLddhh2EWGiNJVYmK2mKov99snuYs4KGqWZCLwlsi3wiTT0-84U0yqleu9uG1KRY6-_iSYov3zaVXIvf66_nO35DVuRgXGu6G79wXPeknLbD7Z1xt07ve1L_eCHu-aD9Q9U0iTVODRZJr3bOLxz_atIfO3_xYFXbeRMuihU5adv7haRmr6sLF233YHXT6m6w_3sx4m8eVefM_v5Xa93osO2ajbbbYXHNAKe9a22yVcddY82wjabtneq2_lFOIZvFsWRpzFCWp5hn6GwwRivI6lErl5yMdfp8YTNdz6co2iUH07fDRr3BmdQ-T8_-d7LmYI426c3u9JafiVMK1cd7t0yOfuUSv5xm2PgYEB-IkdK0RGKktMijwOQyCkwWJ2m8jAMjIsBAGYMPq6Qyh1hiptACYpF4lDgwMqQAsDCCVhX65fDrVcBcLBBLwimrQogGD1OEvBk8TAid4VEyqMddF0bEgeFxKoBfEQW0CVBJe2OmMqmE1Bt8tgVlskLm47-oJJaCm3-vksTolxdLHAvK-adkLxnSV_AwOUT4V-aVEGERwCtxYKLwCqMZxPnwgS1oDql-cG855dAZX_4JJvHkwigr8DTopSAaKaVlLvBIKf4j2x-oDEomXBzIyijx0tbXBVqkXVAuD6kKxiBunakKDuvWxcABrS4Fv8OXh5uGlOaHYQW-TH1tQ1uN29b5ZQOab-xJ9dbYBc2XTUDEJ52AxBlNyBCRHTABiTEz8K090qAlRMwHwERBYTFGbTk8NYIJqKLsw5qDgbJljm5FAQW4HBgNm9HqH6nz8_UPr6Uf4A..
+hash: X3WmQw5JtHIFvgt1JoHG5ofJxf2B09K1bAn0J8kLQvi
+tome:
+  sheet: Salty Skirt
+  cell: G245
+---

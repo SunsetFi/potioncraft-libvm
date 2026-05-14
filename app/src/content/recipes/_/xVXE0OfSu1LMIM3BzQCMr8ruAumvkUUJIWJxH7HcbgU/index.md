@@ -1,0 +1,25 @@
+---
+name: xVXE0OfSu1LMIM3BzQCMr8ruAumvkUUJIWJxH7HcbgU
+dataset: PotionCraft 1.0.2.1
+base: water
+effects:
+  Healing: 2
+  WildGrowth: 1
+  AcidProtection: 1
+  Rejuvenation: 1
+ingredients:
+  MossShroom: 32
+salts:
+  life: 1
+cost: 1678.04
+stress: 32
+tags:
+  - lowlander
+  - immortal
+  - lukewarm
+datastring: AXic1Vlda9swFP0vfk4ulmTZct_ah0FhG4Oxp7EHE5vELLGDrGYdpf99avfQpnBErhKb-K2pLZ37pXPPlZ-SunLV0Lj7OrlJ8ruvZqtM9ePTxu52_W0nf39-XCeLZN-7tu_u_Iuv7_2pXGNf_r3t3b1rdkNy8_MpcX_3jX9Y1fWy7da2qdumc_6ttx-vi7_0w_B9Y_t-55-tbdvV3xq7enn1RiySQ2MHD-X_fl5cYsuURDbGrsUom2YabDu41i5X1cO2tv7RIqnbwVXdyj-ShnK0atNUbnnorWsej9YYkooPlJIeIZQo59gQoahAHu_7B7sc-u3hvxlvixSp_N2a9FIp0yU_ZSVpFH5ov6ASmI-SnJHIxyjSzLAdTiMcTkkJ4HGgNPwqfmSF5gORQAwQKMFRKrBMkSUh89FJDuSjlBFhyviJZ6N4OkMsAlEkFcid87IhSn42Msys6HRrUiiy59g_iy35LUNJUijCAdpi5kRR-p5J5IlHBPEpgpHER0kpR3WJYARJE4HD1SL-yOQx7kg2jikjcGC3wzh5jD-Sj3NEevK0DlSOIbFj2g9bwKXHAu5UIBMBlMU01JKtB3wU-L2iJDEh7wcqqeBPEF40IYcDQeLjGJxBiONbMDqBkx4NT1NsLSNIIzbEQPmxvh65NQfiXowxpfAVApzo8XylEQFjGE0FF-eDdDm5D3Mbsa-iIgaH648_0TE4OVche7aJ0S9sHC9gooQFV495Zoipg4wvlIqY_EB9jXE00rGB3gy7X_C-yCBuDzQ4qBwm5aWCNOLHUHNGxTUD22Evu3rbx7honijoaoz77KmK_SpmmshinzPJzDju5XxJhtIZ84yZcHgNTusR1wJpxKcqHfWdAFp39RnOxvnceknbz7rezyP0Z2DExTMfvHud9lOrH27Y0ll-vGv-9fwPIfLeQg..
+hash: xVXE0OfSu1LMIM3BzQCMr8ruAumvkUUJIWJxH7HcbgU
+tome:
+  sheet: Recipe Dump
+  cell: CF1304
+---

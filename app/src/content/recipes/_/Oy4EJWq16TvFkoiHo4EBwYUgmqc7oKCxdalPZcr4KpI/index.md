@@ -1,0 +1,28 @@
+---
+name: Oy4EJWq16TvFkoiHo4EBwYUgmqc7oKCxdalPZcr4KpI
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  Frost: 1
+  Luck: 2
+ingredients:
+  Waterbloom: 1
+  Tangleweed: 2
+  WitchMushroom: 3
+  Windbloom: 1
+  Goodberry: 1
+  Whirlweed: 1
+  Lifeleaf: 4
+salts:
+  sun: 1
+  life: 3
+cost: 273.1
+stress: 5.744562646538029
+tags:
+  - hot
+datastring: AXiczVhNb9swDP0vPteC9eWPHLdhW4EN6GFFBgw7yJGaCHClQFbSFUX---TssNhoXDLtgJ2CROQjRT49SnnKtIqqN_FaZ4uMfb-p2vd2fWt8G9jnD7Fd3oaP2VW29dF69y4ZHu0eVDRh-Lnz8Tqa-z5b_HjK4uPWpEWldW7dOhhtjYvJ6u-Xo_NycG477-_T2jpYp29MWA2mC3q4AsN8U27dmQdj9KtgljauNl93_Sa8lFAfbchXatfp4F2y1LaPyq3SUkGqU8Ot34W8993-T8C9CX0qXjI79SmJLEHgnBIqTyw3RsV870M0v07B6amPJDU2H0qKEhkluaDDFIRzZJiJCzAMLVEkcPr1jJynUkFKUb0lGseyYtKv85SrCUVCs4JICcJmpG6w4JQwTOU-ea9bE8LjM1XjrAGlWY5OEKy6lcS0d2ND96J6nU-QctJgCdAQykHgkjCGxBYXiQF6C2idLYjAknk4W0DdF1guJzFnQGwp8EIJhC4qNLSEjkKKTxs2CAuC5WTqD0zwJuMCWBGY4CVsrJT847yhLKmx9ebjvIHns8JvYeQCDMOwUpNcBD5MgVWESQ-hlzUYQRq8-qVRLjB3J-A9fGaSlePdgGS0IiXmavbF3pnOqLvZFEGlF-PAM9si9QXDisFEhY9PMfDFIaBCW0ssOB8_Ut6kH_8PyPlaCfxLa6Irc3dQXuGVgcKaTIm4RN1gmV_0_hRQ7IZP-ht8VMP_E3mvuiHC8SNh7Nyxq8q6PjFUsMPPw28-6apr
+hash: Oy4EJWq16TvFkoiHo4EBwYUgmqc7oKCxdalPZcr4KpI
+tome:
+  sheet: Recipe Dump
+  cell: CF1460
+---

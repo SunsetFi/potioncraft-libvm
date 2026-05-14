@@ -1,0 +1,21 @@
+---
+name: wcB568EwJWXW2CyC9wQL88LwdhUWcLzjxHu9vgdMEuK
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  Mana: 3
+ingredients:
+  CloudCrystal: 37
+salts: {}
+cost: 8140
+stress: 37
+tags:
+  - lowlander
+  - dull
+  - hot
+datastring: AXic7ZhNa4NAEIb_y55V_NZ4rKU0t1xCC6WHNbvYBevKOtqGkP_eTQpNcthASpJGO9505p153nVcYVeEUaAthykjGfGfZ0mRi3LOZaH8x3sonubqgVikkSBkfacTt3kfFLjaPK4kTIG_tyR7WRFYNlwHKWO2qEvFmeA16KzdzVacV7JjuVq2QCsdLZWo2YyrxSY5cx0vCi3Sc9XqhiTz1tZP4RaEshe0q5jSIYswoUvUCx3yUoPkYiy3WjiNk2sXPvJaEicJDKpGdspuZdV_w-xEvuPvSdwzrnkcTPYv08wc8XO6l3BEXrwReYku5OU3m9d_o4-R_u_og2HjD5o-GTT9sNcet0ykR3qkR3r8WyE90o-VHr9apMfJuf2DWix83QnxnNg0Im-cgt1LBfzzQBK5pzcxnV2benhOajJv7DJxwsNj5df1F2ZNsGk.
+hash: wcB568EwJWXW2CyC9wQL88LwdhUWcLzjxHu9vgdMEuK
+tome:
+  sheet: Recipe Dump
+  cell: CF504
+---

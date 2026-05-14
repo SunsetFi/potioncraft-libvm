@@ -1,0 +1,22 @@
+---
+name: 7DyxkXsl2Fo8AbwEUKmd2OThhr695UaqXCRsD5x7Z7e
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  Levitation: 3
+ingredients:
+  Goldthorn: 2
+  Windbloom: 4
+  Tangleweed: 1
+salts: {}
+cost: 180.39999999999998
+stress: 4.58257569495584
+tags:
+  - dull
+  - hot
+datastring: AXicvVTBbsIwDP2XnGnUpGmactymbdw4DDFp2iElVolUGpQG2IT49wUmbWhbIBVox8Tv-Vn2s7dISSc7cCOFhog-j4vqVtcTMJWlj3eumk7sPRqgpXHatDceeMBtpAO7_26MGzlYdGj4skXufQk-KJVKdFtbUBpa51HfjwP5wTTKzY1tfai2ulVjsLM9cpjikue7wVemzmmbzOSqUdbs0Up3TrYzHyIMUz5Aa7Cdr8szj1hLs7JJZ5r1p_o35jiBwDmNUhK4LAJCc5AuWRvr4O0HpcgClLBOhllPGYJL0VuGYhoihXSKYGXnJj31w60aYxa_Jk3-Pcsp1_FUxLmOYpEf9YJEsUrMWYAUannaE59j1r8uhjPSU8ebtAxQoraOYEKjnE34JTJ-ojEyKc5DDYiUybKopnERkDln2ifZ1g1sANQfrqWCX2WLfCYurr6PJ04QxezC8ZLY2y1Cm3fyQtJLqmPevLvX3QcCe3Uh
+hash: 7DyxkXsl2Fo8AbwEUKmd2OThhr695UaqXCRsD5x7Z7e
+tome:
+  sheet: Profitable
+  cell: G199
+---

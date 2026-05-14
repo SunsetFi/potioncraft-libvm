@@ -1,0 +1,23 @@
+---
+name: BzfPs0MX43MgFjRSON91BSkMBFYZn5dr72cNuzmka2M
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  Healing: 2
+  Fragrance: 2
+ingredients:
+  RainbowCap: 21
+salts:
+  moon: 1
+  life: 7
+cost: 1856.91
+stress: 21
+tags:
+  - lowlander
+  - hot
+datastring: AXiczZdda9swFIb_i6_rg74l53ItZb0rg7JC2YUSi8yQWkFW05aS_z4lg9UdtJzTqmO-CbFePz4-Ol96anqf_RTyRd8sGnF9aZenw_oqxGUSX8_y8vtVOm9Omm3MQxy_FOFRd-9zSIfbm5gvcridmsXNU5Mft6Es-r5vh3GdQj-EMRfV85_jw9_8MC7j_anflrV1Gsb-MqTVQbpgYKTan_xBTXlI7crfbfoUx6Luhyn7cVWWBC_SmXIb71I7xc3u9yufhXom-phlwtRCCWPZ7OL_N5ejNsTNHf0z-NzuYsrhoYh2IU0legpp_oACaVFk7oA5IrwDa1BwCV1HZFvocC5RwBWRzTUYjfMKCEmEy2pxJuuhuOlml6uWrbyeicbWQnVCvva1b2QWdZ8NIENIACfnlcElrQIl6GxsWhHJDhTOIxLIzrYgcB2rsMloHFkBs_QQwXqEGyJbvNz6DyUMt3re0Spy3ZzLqk0JQrjuUwqaMPUKWqc_YUxgwNQ_nTgstXEb4LiKWwojNVc1WIliC6CbzXBm09EaOyYVh1DLuQaFHOXfw9a4GHkfG-tuRy27GgSufZatpNst0T6htwvsrE5OHAmy3tBXr45rVw9lq32gfhHNbxWw4ta59NXjcZlJ_-4rKWZ_OO23k98cxMefRXMbjy9Zp2JgOe9LzfY_9r8ATKJiRA
+hash: BzfPs0MX43MgFjRSON91BSkMBFYZn5dr72cNuzmka2M
+tome:
+  sheet: Pre 2.0 Lowlander
+  cell: BI39
+---

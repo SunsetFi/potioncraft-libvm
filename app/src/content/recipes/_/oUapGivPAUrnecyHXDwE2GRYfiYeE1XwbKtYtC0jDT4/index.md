@@ -1,0 +1,23 @@
+---
+name: oUapGivPAUrnecyHXDwE2GRYfiYeE1XwbKtYtC0jDT4
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  Mana: 3
+  Inspiration: 1
+ingredients:
+  Fluffbloom: 12
+salts:
+  life: 270
+cost: 934.8
+stress: 12
+tags:
+  - lowlander
+  - immortal
+  - hot
+datastring: AXic1ZdLT-MwEMe_i8_tyM88egSE4MYFgbTaQ9qYbqQQV45bdoX47uvCAYI0kcc8tHts7cnP8_jP2I-sbUIz2nDZshWTt1fl-rTbXlu39vLiLKxvrv05W7CdC50bTuLG530PTbD--HfvwmWw9yNb_Xhk4c_OxsWmbZfdsPW27ewQ4q7XH8_G5_3-7m7dO3cf17a-G9or6zfHrSsOSizYwfox0thKPC0-6avVf_TV8vO_igV1DJ1fbpp93_q4tGBtN4Zm2MQlBbVBjHZu75ej6w8vp3i10SDf2vAkUKGAFwWC-mWbsDw4H-zviVEJBjPBSQYPLcYxYOihE6AkkSNAajJHghQ1FSSg_IL64qB5To2VmNfY-TXotxyZxNFQYbWMF9iklNM4ArCGgGGkACERzsfSITB9zKi3wCoDd7mCmlrrZhKltMjKDEnVoEt6CgVwapM46vArcihqek9QU6fTJFXTJfXO57QeV2coSlM7hMA7xIeywTXWa791LovYAalSKKFSOUqoqGM5NnS6tiOH6pDMkTaHilxLGRBywfJpQlM5gjrSoklB5mjcn28tewP0MWNybgoFNX1xAtLFFW_KVH-q6dGSOfReQa_GODTJ0qpAYfMAvaIIKLAb1txINFgQcBCHf-IVJvA35kyQdA6IZ4DQx_ocCH2zzHmUw6FnHRTWVGdBWKnMgCQdJOlzspjeztPEbPC0ovNYQY0N_pn3hlETzs-nv3WIK_U.
+hash: oUapGivPAUrnecyHXDwE2GRYfiYeE1XwbKtYtC0jDT4
+tome:
+  sheet: Recipe Dump
+  cell: CF1337
+---

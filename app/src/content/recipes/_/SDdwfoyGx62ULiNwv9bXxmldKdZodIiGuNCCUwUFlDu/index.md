@@ -1,0 +1,25 @@
+---
+name: SDdwfoyGx62ULiNwv9bXxmldKdZodIiGuNCCUwUFlDu
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  Healing: 1
+  AcidProtection: 1
+  Gluing: 1
+  LightningProtection: 1
+ingredients:
+  EvergreenFern: 22
+salts:
+  life: 1
+cost: 960.44
+stress: 22
+tags:
+  - lowlander
+  - immortal
+  - hot
+datastring: AXic3VnLbtswEPwXnW1CfOjlY9oGzS2XoAWKHuSIcAWkUiAzbosg_146PTQ8DMFdSTXQo23So91Zzs5Sz1nXuvZo3U2X7TL1-bbav-sPd3bcT-rje7f_dDddZ5vscXT9OFz5ha_rfrTOTuevH0Z34-z3Y7b78py5X4_W_9h23bYfDpPtejs4v-rvh9fNH0528l_Y4dpOg__5MPVDd2un-_PqXS7MJvMrjh4v28mXzWL_W1fgj4-un7b37dNDN43njV1_dO1w739SaMs327rtaZyc_RlsqN-sz5MgtGhWxzBCETEMGSMX1Fypf4AhAcbcWpJr1Si9RDUxJSW9RNdHEMXqBYooo5bOgghB1AuW5zrFSS5NA1l9HJ-m7XF8OP15jjmagJQNQuCsLwjyv8cxV-eaHD0Kfnik_ZEMaToPFfQfUIpgV4oQQe5k6CgtiYEij0gevesLhQzPbONYrtWWC81IDb2XN6JmyEDDoQ0CwfoT-m1fV4tlF3EGIzYiLxkRGzIQtnkRnILBoW-U6ExEI0LEx3oGvSqlkOQ-7qWXA5SjTREgyOvSQIouwRUeOnE3CbaoJBwdHs4UHC1kQ8bJBRVGhYWgUlJdi5p-HAov_2upv6QrbIljwApbcxiBYeOxoypWUXKfKYNmxVgE1FYkRakZiYLSh3B8tRsyjqyFJjvVQlRoz3xK6O5U-uplSH5OF0gv32QgI_RaDpJTv77jN2TCFaebKHhSIA6-XbxQqmqyC_P2g1HBQnE6PCOkcMaca2AvwkqJT27M4HFMOKz6ZZ1kLhqUh8hRqRCTl2KFHEPE2EZZYQwScIqPskI-lF7AVlOwgjE4F1BQYyMKpzEqxlWA5ggYFKMIKXDGnX2Hw5GViiVgJYeVgn6ljf3g3GRV0PtHQjCC_FazDPlONMICqh409jokMmlaVJy2bURFrnop1xsxS824xfAlTB1pTEhKGpNK1FQmTWiLknGorwGLsOElVyY1b5JzjxFpkrPfE8MzHAnbny7qK8oybEOpt1E19U6iDClJwzFCUutSCzoM_dJLhtYtFYZ6D5KHxi2xJqEzjh4YshmJmL0YUEm2op6ekJ-vL78BV51Okg..
+hash: SDdwfoyGx62ULiNwv9bXxmldKdZodIiGuNCCUwUFlDu
+tome:
+  sheet: Recipe Dump
+  cell: CF983
+---

@@ -1,0 +1,24 @@
+---
+name: X8TXNnIokq3gollmdXOExuiEb3soRg00Yb6lsOCURxg
+dataset: PotionCraft 1.0.2.1
+base: water
+effects:
+  Healing: 1
+  WildGrowth: 2
+  Slipperiness: 1
+ingredients:
+  Goodberry: 26
+salts:
+  life: 2
+cost: 938.48
+stress: 26
+tags:
+  - lowlander
+  - immortal
+  - hot
+datastring: AXic7Vg7b9swEP4vnO0DxYcoeUuGBgGCokunooNqEY5QWzIoxk0Q5L-XSYfEBT4hJ0tOh442effd47sH9SjqKla9j9e1WIn88nOx1UX19dNt2O26i1b9vLnfiIXYd7Hp2st08eXeryr68Pz3tovX0e96sfr2KOLD3qfDqq6XTbsJvm58G9Ot1x8vwlddV__wITyko01o2vqLD-vnmytJuc0X4uBDn9DEKntaTKA1m1yjJOfcDFpVqYDWPjZhua7utnVIRwtRN32s2nU6Uo40ELr1VVweuhD9_ZFIRkUBRPbdXVj23fbwx_ZXGUlvReT7UOYIkZte6xwEUTkiyEAqDTuVmuwMxusMVSE2PhEEeTxAKpMDVmEgQwZVCQRSZEoANE-c_ms9N_8sSXZT08Snn6WcTT8Nm-cQTmlG4GRnAsrsCCCY1oHCLVCKTiKYRDmcfooM9HsyE85hjJMh0wbCjtJ70nJXjqjqkh2iFFY-OQuao5Epx2eFm8USLdFqgS3RJFHGBoJfoo1kqBAKBHSaz3zCpc42or1bvs_2mKUf7POI0Vnwqf1P-TwizY6_lmCcD_B4jMv8Z8xMLvPpNsZjRYrfKDMyKEzo4WZJva05NVWU-MYbUuz9IHU8VArIYXXcWNV7YNLKwH0QS3KaD6PRBoxhtOXDZKhqMQw7ZgoP7aEBDCNwzoXY4G0PfmVyx7vDNIXELgj59-vz-9Nvzu8l_w..
+hash: X8TXNnIokq3gollmdXOExuiEb3soRg00Yb6lsOCURxg
+tome:
+  sheet: Recipe Dump
+  cell: CF1128
+---

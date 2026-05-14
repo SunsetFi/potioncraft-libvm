@@ -1,0 +1,23 @@
+---
+name: db8vjW4UzQS4ncDQf8KAFpArtn4FvjFxoCPU4cOcTmv
+dataset: PotionCraft 2.0.1.2 (Dataset v1)
+base: water
+effects:
+  Mana: 1
+  FireProtection: 2
+ingredients:
+  RainbowCap: 10
+salts:
+  life: 3
+cost: 1747.72
+stress: 10
+tags:
+  - lowlander
+  - immortal
+  - hot
+datastring: AXiczVfLbtswEPwXnu2F-JZ8TA9G0EsQtL0UPagWkQpwJVdi7BRB_r1MCjRhgQ00DFz0KJHL4S5nhst70bWxnUO87MRG-G34pE9Ov_941bit_rH9cHetLsRKHMbYj8NFmvg079TGMD3-3o_xMobvs9h8vhfx5yGkwbbr1v1wM4WuD0NMs54_noKv2374Op7etYc0djP1Q3cVpt3j1E1FTa1W4himOcGJjXxY_Vl2jv203rW3-25KQyvR9XNsh10a0p4sF3UYb6f1PO6Pv7fyHCQ1acsEvSkDe6Zlz7CqhEvdOJJcqb-FNq6P4xTDXRajqHYvQtQiIEmO2x2HI6nWME5FzsE4WQmW4lgN4lRU2wIcU8P5eBynIckRkuWBphrG0VShPEh8487nbdakuBPkt68qkgbdv6MKJ5gsQaLKwECKDMpkXcLk5AAokxUV1I00DqNLyiZRHEMOz0eRRwWTNIYLUxIrh1eMU5YYGoxzDvXL81zrkmXf_7isbWqPt2eSLOpMNu_oXp4i39HhSk4k5oyJhSm4yUvaEsUVmlcxLq5UMjQXZXLhLwWC3S8ZGd42mvxGW0a1ApeVZND2x1PlcUpz2fBb89TAFfAl9wwKY_IGZWmhPSoElbfAiwmK45QIDr41q7wPWsQbS4o7nX_6XJSWDPe8esVgFc56QwYVvsmptfQ94lHhuxIj0_yDn5dx0xTIuIbbK5u3mMuAks1ylGSZoP-yvy8PvwCS_TF_
+hash: db8vjW4UzQS4ncDQf8KAFpArtn4FvjFxoCPU4cOcTmv
+tome:
+  sheet: Recipe Dump
+  cell: CF1008
+---

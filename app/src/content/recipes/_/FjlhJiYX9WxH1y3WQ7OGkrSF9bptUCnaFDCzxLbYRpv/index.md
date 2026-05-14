@@ -1,0 +1,22 @@
+---
+name: FjlhJiYX9WxH1y3WQ7OGkrSF9bptUCnaFDCzxLbYRpv
+dataset: PotionCraft 1.0.2.1
+base: oil
+effects:
+  FireProtection: 1
+  Shrinking: 3
+ingredients:
+  Watercap: 17
+salts: {}
+cost: 1795.1999999999998
+stress: 17
+tags:
+  - lowlander
+  - dull
+  - cold
+datastring: AXiczVhNa9tAEP0vOsfLfu_Kt-ZQCJSQS-ih9CAs4YrKkpE2ISH4v2ecHmobGt4OsuhR1mg8O_PezJt9K-oqVVOT7upiXfjb-9iZWD1-_TXudsOXXv_-9rItbor9kNqhvyXDD7uh7Y4_dkO6S81uKtY_3or0um_oVVXXq7bfjk3dNn0iq78PH59-r1Izbqo9vdmObV8_0NPRcC1FtOpw8x85OnUypXZcbaqnrh6HnizrdkpVv6FXXkh9YrgfnsbVNHTPf_7ruRknyhxFdfqNE8FAznUQ0i53FhWFDnP_HZQRKcqIhSi8y3eusPMb4TRoGMvcKPR55J8dMeb6VkKWGKCEZaSvxNCqhM0uPNUTxKbQJj9yt2AnCCIychsC5FwycE8pw-CshGJAzqKMtT4_LQbFs8kmIvELxbNm5Fzp5SBH8MkunBQWyy3hOXuyKeEsigpG4YwHnRvLcI76Zkw3iwbO6CAR8y0Z5aTAZ9cD_44wsshs4DbEGE4omA2jfyqMhpzmDMspLSQHcRhVyJAReVwQcbwIwS4Uzg3R_omO7MDgisPEBhlyIgcRFxk8lKh0lgznapYVizjn0E7MEEQKy0AQLlsmkwZHQec4igCtnWcgWqOocwwpJ-E-x1mq_EyoswsKTm2EZ4w6g85RDn3NgjvexS6MDgzs9JKz-INXG0ecXE_-qJDrW5-XenbdhjY0wyinXfJKTjLuFy-W0E8Jd83KBY5zFHOcnqvhxZ8xoQM2isgwm4lyJo2C7mH5fCbKwZeEjEbk0V3JM8jiUVWcf3d68c31m4XmVA4-P0daos2CtXLMoqHQCPP1qQT5Fmx5-Hl4B2SVOYA.
+hash: FjlhJiYX9WxH1y3WQ7OGkrSF9bptUCnaFDCzxLbYRpv
+tome:
+  sheet: Recipe Dump
+  cell: CF1242
+---

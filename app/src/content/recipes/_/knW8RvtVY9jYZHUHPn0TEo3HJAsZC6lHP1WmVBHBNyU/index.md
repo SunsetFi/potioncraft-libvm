@@ -1,0 +1,28 @@
+---
+name: knW8RvtVY9jYZHUHPn0TEo3HJAsZC6lHP1WmVBHBNyU
+dataset: PotionCraft 1.0.2.1
+base: oil
+effects:
+  Light: 1
+  FrostProtection: 1
+  Fire: 1
+  FireProtection: 1
+  AcidProtection: 1
+  PoisonProtection: 1
+ingredients:
+  PhantomSkirt: 3
+  GraveTruffle: 1
+salts:
+  sun: 5
+  moon: 4
+  life: 2
+cost: 562.3
+stress: 3.1622776601683795
+tags:
+  - hot
+datastring: AXicpVbBjpswEP0Xn8PI2NhAbt1Dq5WqaqW2p6oHK3gTtIAj40Rbrfbfa1KpXbYaNGAuEfGYN34z741fWGOCGW24b9ie6bsvVScr8_3jyfe9-zCIp8_PR7ZjZxdaN9zFwFuca7vpz86F-2D7ke1_vLDw62zjkmmarB2O3jatHUKM-vdy2_pwMkNw_den1k-rR98OzYP1hyl4z6GsVf322bGr9WPEZvv8dUdG-eTN1X7zl8fHzv6HkiMfHUPrs4O5dI2PSzvWtGMwwyEulYAlcrImZFfng32e7SiQ-LO7-Gx03fVP2n9j-NvNJADYcgwhscQwHMFTTiJASVJqOXocGmNQk2CKyEC5kgEFJa_SkhOCgBPDVAoMn3ONwcSwNBRRkVAEJhkqDA0lDSTXJJSk3uTASxIK14kw6p1DehfM5NvZaLpp4-0nyuMy3DzRtEO0brXW2jjUmIngwptIwI6HC0JKTHg4UgUSK9eCwjFTWKCxd47EI1a9_J3_1SRKUJgFb-Wg1-pkllxRQLmltfT6EVUAXz2hNGisfEtAJdZb9Jrr9e0pocD8l44rUAUmX7_k-vYSUKUfSUqsRZe45Gl9DaUiAcX7H1Zp_H4mNnjKXD95jVlmUpnXTrN8znlNmf8qsTQScsrQLECtvWnPbZfiuTXkm1SRxDMnoShAJyS5y4Rar7w4UkQa8QKE3pKt0hsuH7MdP19_Ax3H9e4.
+hash: knW8RvtVY9jYZHUHPn0TEo3HJAsZC6lHP1WmVBHBNyU
+tome:
+  sheet: Salty Skirt
+  cell: G382
+---

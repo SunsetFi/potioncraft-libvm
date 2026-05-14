@@ -1,0 +1,22 @@
+---
+name: EOwVuHFdPe9qMKInQzgel0D8EoUeaIrH3requCAGvaB
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  Healing: 1
+  AcidProtection: 1
+ingredients:
+  EvergreenFern: 11
+salts: {}
+cost: 479.6
+stress: 11
+tags:
+  - lowlander
+  - dull
+  - lukewarm
+datastring: AXic3VfLboMwEPwXn4MF5s2xj6i55RK1UtUDia0UKYXIOGmrKP9eJz20HAaxPHroEbzLeHfGs-bEZG7yWpmFZBkTT8t4fVtsV6paa_FwZ9aPKz1nM7avTFGVNzbwGveeG6Uvr3eVWRj1VrPs-cTM517ZxVxKpyi3WslClcZG_Txck--PStsXqpwrXdrlrS5KuVR6c4nOXB7MmI2oLR7LvPNstO8mMfhwbQrtbPLDTurqkiiL2uTlxi4JlPKqcuMcK23URyMh-RXvdoLweTo5RsAFESMgY7ic2ivxBxgewBiqJW8qjdIl6hNbEtElOj0CDycXKKKMKp0RERpVjyjPacRJlmYAWd1XB-3U1e74vY8hnoCcDULgro8I8t_rGOpzqYu2gjePvL-lQz6dhxjeP6AVwanUQgR5kqGjNCYGqrzF8uhTnwt04Rl8cYymGsuh36M19Fme8qSHDaR9aINAUH_c_z3XxWjdRZzBigPuRj0qDshA-JrXghP24NAOSnQmWitCxLfNDLoqPe6R57i13j5ALkpqAYK8jg0k6BYc459OPE0aKaITjt88nF1wfO6lZByXU2FEUwiiS6sTntCPQ2jtfxL3p8srwvvH7pp6PdiAJSMc-4fZpOPl_AWZPAyA
+hash: EOwVuHFdPe9qMKInQzgel0D8EoUeaIrH3requCAGvaB
+tome:
+  sheet: Recipe Dump
+  cell: CF1168
+---

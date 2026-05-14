@@ -1,0 +1,23 @@
+---
+name: N5z44GAUBVOWhP3mP1b7KYqP8oBoQp343T7ISxxia2G
+dataset: PotionCraft 1.0.2.1
+base: water
+effects:
+  Mana: 2
+  Inspiration: 1
+ingredients:
+  ThunderThistle: 19
+salts:
+  life: 34
+cost: 1372.16
+stress: 19
+tags:
+  - lowlander
+  - immortal
+  - hot
+datastring: AXic7VjLahsxFP0Xre2LHvOSd82iECili3RVuhgsYQ8dzxiN7KaE_HuVdFG7cERuU9shjXdj6erc97nSnXBtbCcfr51YiOrqY9Obpv38fh02m_HdoL99uF2JmdiOsRuHq7Txcd_3Nvrw8Hc_xuvoN5NYfLkT8cfWp8XWuXk3rIJ3nR9i2vX741H4Zr0bnA83626KvU_rq9AN7pMPy4ftCzkTex-mBCcW6n72fx6rznvsFLswX7a73oW0NBMuibfDMi3pmqwBUmvfxvl-DNHfHsmohlTBRjJkSyZQQRKJ5HAqrj0l2ea86YPVr0mheGzHXZhPY7__pcmBAXSovryk-poMcuVrVV9TUQL9Xx_QW0ReGtBbRI57iUJAqP1rkvWJuj8ZiYjy2UcXpraHvxMB8UcKSZpLwCQPOVs_MTtqNlFKUijUGKihvyBkjYaQnN8aJJQxqEYlkhsxGpQsOYv4o1hJpWWPfGUNUiFX88genHGKiyKp5OZ1EjF8GINKDsNoy4fhFykKTLYVcBOgIoNwztYys6XDdZslzU4CTeWJboj_wgmpIaKoQosKKi7OhLk8tagcoEWW-NRYU4H4B-Lg--wLcJwyx9R9EfUyXKLZLctQwy3xFCFU4Vm259tz9ILyRG6suK8uqdGzKVhSxW30EvJJjhu5sUkiaLTMcSN_nkAoZx-_lcavWfAKlO5nXC8Vf864X-9_AvnGfIE.
+hash: N5z44GAUBVOWhP3mP1b7KYqP8oBoQp343T7ISxxia2G
+tome:
+  sheet: Recipe Dump
+  cell: CF1336
+---

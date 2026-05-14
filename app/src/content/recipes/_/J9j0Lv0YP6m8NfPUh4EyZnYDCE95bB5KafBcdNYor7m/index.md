@@ -1,0 +1,24 @@
+---
+name: J9j0Lv0YP6m8NfPUh4EyZnYDCE95bB5KafBcdNYor7m
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  Mana: 1
+  Hallucinations: 1
+  Shrinking: 3
+ingredients:
+  PhantomSkirt: 12
+salts:
+  moon: 1
+cost: 864.23
+stress: 12
+tags:
+  - lowlander
+  - lunar
+  - hot
+datastring: AXic3VdNj9MwEP0vOW9G8Vec9AgIsbdKaAUS4uA2VjeijSvHW0Cr_necctjkAHoD4UIuVerxs_PmzRv7uehccqNP912xKeTHrd297g8PPuyifPcm7T48xLfFXXEOqQ_Dqxx4i_vqko_T38eQ7pM_jcXm03ORvp99HnRdV_bDIfqu90PKUS8vt8nbRzekcHr_pY_T6CH2Q7f1cT8FbyqqVH29Wwns_wUSM6Ax9bHcu6djF8OQI7t-TG7Y5yFtSJtZ5KN3qbyEmPy3HHfxccxZzWDzOZZMA4ELUoKJLajBNl5TI5nYmkwLYTfUcDnRhFGiFnEYsoSQJdVcrv-JaH-9Q8untSZhVttkXt5gRUGWy6UkC2ZJcAWgSGPYQpNWTPCGaowTu8wEptwW5ZuNbUhpkPCGS7hZVNzfak6Z6uURWC2LPM-y2RY1yjZb3BJzt5Za_rYtxommim1wq3kH2pO4LUkRqIianbTMlwIrpG3Z2KCTymU7hygBgdUf-OhqdY3pQcy_5RyeYjmG4-XnarNPAf1XcbOU5diuZ2RSY_Zilqcs0AMwbEWK2-A02uAUvzNjKjBUcU1RkcW6W9Y01xQzIehRlW24uSrBi4HWXK6zlWCcCEWS68N2OeV3vqP5V5p6vfME2CwW1j-tGENy0wW9HN1xgr39bIpTuE09RNcP-YqubHX9fP0BgrJXOQ
+hash: J9j0Lv0YP6m8NfPUh4EyZnYDCE95bB5KafBcdNYor7m
+tome:
+  sheet: Pre 2.0 Lowlander
+  cell: J35
+---

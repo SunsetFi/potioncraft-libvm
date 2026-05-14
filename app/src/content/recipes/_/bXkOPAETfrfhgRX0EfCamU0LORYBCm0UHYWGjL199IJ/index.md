@@ -1,0 +1,23 @@
+---
+name: bXkOPAETfrfhgRX0EfCamU0LORYBCm0UHYWGjL199IJ
+dataset: PotionCraft 0.5.0 (Early Access)
+base: water
+effects:
+  Healing: 1
+  MagicalVision: 1
+ingredients:
+  EvergreenFern: 14
+salts:
+  life: 1
+cost: 611.64
+stress: 14
+tags:
+  - lowlander
+  - immortal
+  - hot
+datastring: AXic1VhNb5tAEP0vnOMR-wG7-Jg2UXLLJWqlqgdsVi6SC9aycVtF_u9dp4d6OVhvbIjaIzA85vO9YV-zpg714MJjky0z-fnJrD60m2fXr7x8-BhWn579fXaT7frQ9t1tNHyz-1EH54-3t314DO77kC2_vGbh187Fh3XTLNpu413Tui5Eq78Xby_f7Z2PN1x373wXH2982zVPzq-P1suc9OFmMixrTsCG0PrFun7ZNr4_GjftEOpuHR_JU7Nvrg6Lfe-D-xmN4geGGHoEO33BQrCKqllwNUkmroZwc-LmQc6EKybsgSmxsPpIxQy3xNppHlQqZmkmcUXJJ0RNoruy_LMgnRvzU993_YtfDP12_-d718yj5MKmWZwQ-F38vXroJTj280RfsqOHYC2blMEemA23nIWnJFtM44pS_bekEumezSogNSfbDjinSoHY8gJwgTou-ClJuuafaQEyZQXGfEHIAlR-yvUF-cTWlVFVUc8xjomGfLYlhfF4NLzAc4XVU5EE1jiRvqKwrGjSmoltSGG9En9lgLVWpMKVY62iSQD_Xwl2QSgfGWATFak3KNfF-ZlyfTESFUJjmTGV4F6o-FUu0gyfw1bcKpeksVIo0twyF4QSsOWmBJSziux0RyjYJyUJYIka1cBgtKlTZcDYx6LMxq2BoQqrr06lBKpv2m2QQFSksTTalH5A9dHALj8qq2Jrf0wV9oMlUsUCY7CYWuRUsbXfIgd8I3rI7TsPZ2wRbidakuhwsiXWEHYmCx2ejhYag_aR5CpdkS5v59xm87rGd1_FlSOBL2JFLg5fD78B8ZQYXA..
+hash: bXkOPAETfrfhgRX0EfCamU0LORYBCm0UHYWGjL199IJ
+tome:
+  sheet: Recipe Dump
+  cell: CF756
+---

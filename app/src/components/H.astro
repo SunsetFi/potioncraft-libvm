@@ -1,37 +1,25 @@
 ---
-interface Props {
-  id?: string;
-  class?: string;
+import type { HTMLAttributes } from "astro/types";
+
+interface Props extends HTMLAttributes<"h1"> {
   h: 1 | 2 | 3 | 4 | 5 | 6;
 }
 
-const { h, class: c, id } = Astro.props;
+const { h, ...rest } = Astro.props;
 ---
 
 {
   h === 1 ? (
-    <h1 class={c} id={id}>
-      <slot />
-    </h1>
+    <h1 {...rest}><slot /></h1>
   ) : h === 2 ? (
-    <h2 class={c} id={id}>
-      <slot />
-    </h2>
+    <h2 {...rest}><slot /></h2>
   ) : h === 3 ? (
-    <h3 class={c} id={id}>
-      <slot />
-    </h3>
+    <h3 {...rest}><slot /></h3>
   ) : h === 4 ? (
-    <h4 class={c} id={id}>
-      <slot />
-    </h4>
+    <h4 {...rest}><slot /></h4>
   ) : h === 5 ? (
-    <h5 class={c} id={id}>
-      <slot />
-    </h5>
+    <h5 {...rest}><slot /></h5>
   ) : h === 6 ? (
-    <h6 class={c} id={id}>
-      <slot />
-    </h6>
+    <h6 {...rest}><slot /></h6>
   ) : null
 }

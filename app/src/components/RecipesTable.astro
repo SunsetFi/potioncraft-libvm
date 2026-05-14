@@ -12,9 +12,10 @@ import type { RecipeEntry } from "../content/recipes/types/RecipeEntry";
 interface Props {
   recipes: RecipeEntry[];
   allowSorting?: boolean;
+  allowFilterEffects?: boolean;
 }
 
-const { recipes, allowSorting = true } = Astro.props;
+const { recipes, allowSorting = true, allowFilterEffects = true } = Astro.props;
 const [allTags, allIngredients, allEffects] = await Promise.all([
   resolveTags(),
   resolveIngredients(),
@@ -24,10 +25,16 @@ const [allTags, allIngredients, allEffects] = await Promise.all([
 
 <div class="recipes-table-container">
   <div class="recipes-table-filters">
-    <select aria-label="Filter Effects" data-filter="effect">
-      <option value="">All Effects</option>
-      {allEffects.map((eff) => <option value={eff.id}>{eff.data.name}</option>)}
-    </select>
+    {
+      allowFilterEffects && (
+        <select aria-label="Filter Effects" data-filter="effect">
+          <option value="">All Effects</option>
+          {allEffects.map((eff) => (
+            <option value={eff.id}>{eff.data.name}</option>
+          ))}
+        </select>
+      )
+    }
     <select aria-label="Filter Tags" data-filter="tag">
       <option value="">All Tags</option>
       {allTags.map((tag) => <option value={tag.id}>{tag.data.name}</option>)}

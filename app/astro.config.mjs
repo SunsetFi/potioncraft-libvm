@@ -3,8 +3,6 @@ import { defineConfig, fontProviders } from "astro/config";
 import starlight from "@astrojs/starlight";
 import { visit } from "unist-util-visit";
 
-import { getTagSidebarItems } from "./config/sidebar/tags";
-
 // https://astro.build/config
 export default defineConfig({
   site: "https://sunsetfi.github.io",
@@ -38,8 +36,7 @@ export default defineConfig({
         },
         {
           label: "Tags",
-          items: getTagSidebarItems(),
-          collapsed: true,
+          link: "/tags",
         },
         {
           label: "Effects",
@@ -92,7 +89,11 @@ export default defineConfig({
 function remarkRebaseLinks(base) {
   return () => (tree) => {
     visit(tree, "link", (node) => {
-      if (node.url.startsWith("/") && !node.url.startsWith("//") && !node.url.startsWith(base)) {
+      if (
+        node.url.startsWith("/") &&
+        !node.url.startsWith("//") &&
+        !node.url.startsWith(base)
+      ) {
         node.url = base + node.url;
       }
     });

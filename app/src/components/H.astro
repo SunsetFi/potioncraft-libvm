@@ -1,0 +1,37 @@
+---
+interface Props {
+  id?: string;
+  class?: string;
+  h: 1 | 2 | 3 | 4 | 5 | 6;
+}
+
+const { h, class: c, id } = Astro.props;
+---
+
+{
+  h === 1 ? (
+    <h1 class={c} id={id}>
+      <slot />
+    </h1>
+  ) : h === 2 ? (
+    <h2 class={c} id={id}>
+      <slot />
+    </h2>
+  ) : h === 3 ? (
+    <h3 class={c} id={id}>
+      <slot />
+    </h3>
+  ) : h === 4 ? (
+    <h4 class={c} id={id}>
+      <slot />
+    </h4>
+  ) : h === 5 ? (
+    <h5 class={c} id={id}>
+      <slot />
+    </h5>
+  ) : h === 6 ? (
+    <h6 class={c} id={id}>
+      <slot />
+    </h6>
+  ) : null
+}

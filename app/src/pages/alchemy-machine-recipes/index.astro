@@ -1,5 +1,16 @@
 ---
 import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+import { resolveAlchemyMachineRecipes } from "../../content/alchemy-machine-recipes/resolve-alchemy-machine-recipe";
+import { resolveAlchemyMachineRecipeIcon } from "../../content/alchemy-machine-recipes/resolve-alchemy-machine-recipe-icon";
+import ItemList from "../../components/ItemList/ItemList.astro";
+import ItemListItem from "../../components/ItemList/ItemListItem.astro";
+import { getAlchemyMachineRecipeHref } from "../../content/alchemy-machine-recipes/alchemy-machine-recipe-href";
+
+const recipes = await resolveAlchemyMachineRecipes();
+
+const recipeIcons = await Promise.all(
+  recipes.map((recipe) => resolveAlchemyMachineRecipeIcon(recipe.id)),
+);
 ---
 
 <StarlightPage
@@ -8,5 +19,15 @@ import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
     description: `Recipes for the Alchemy Machine.`,
   }}
 >
-  TODO: Index page for alchemy machine recipes
+  <ItemList itemHeight="175px">
+    {
+      recipes.map((recipe, index) => (
+        <ItemListItem
+          title={recipe.data.name}
+          href={getAlchemyMachineRecipeHref(recipe.id)}
+          icon={recipeIcons[index]}
+        />
+      ))
+    }
+  </ItemList>
 </StarlightPage>

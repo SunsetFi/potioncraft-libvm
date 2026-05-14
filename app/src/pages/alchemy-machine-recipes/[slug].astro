@@ -95,7 +95,11 @@ const recipesIngredientOptimal = requiredRecipes.map(
                 <EffectList effects={effects} link={false} />
               </span>
               {recipe ? (
-                <RecipesTable recipes={recipes} allowSorting={false} />
+                <RecipesTable
+                  recipes={recipes}
+                  allowSorting={false}
+                  allowFilterEffects={false}
+                />
               ) : (
                 <p>No recipes found for this combination of effects.</p>
               )}
@@ -115,7 +119,11 @@ const recipesIngredientOptimal = requiredRecipes.map(
                 <EffectList effects={effects} link={false} />
               </span>
               {recipe ? (
-                <RecipesTable recipes={recipes} allowSorting={false} />
+                <RecipesTable
+                  recipes={recipes}
+                  allowSorting={false}
+                  allowFilterEffects={false}
+                />
               ) : (
                 <p>No recipes found for this combination of effects.</p>
               )}
